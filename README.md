@@ -7,7 +7,6 @@ For example, you can edit characters, weapons, zombies, perks, teams, materials,
 I've created a link to the game's .xml files, and also created a mod myself to show you how its done.
 To download the .xml files, download the 'binaryData' folder.
 To download my mod, download the 'Reinfected' folder. Extract it, and place it in the game's 'assets/mods' folder. It's entirely made up of .xml files, which you can edit yourself, so if you don't like a certain thing, you can simply change it.
-https://drive.google.com/drive/folders/1zUKFpuVgxyt0PnzcOTKrWt4Ei1nGmZ6i?usp=sharing
 
 Notes
 
