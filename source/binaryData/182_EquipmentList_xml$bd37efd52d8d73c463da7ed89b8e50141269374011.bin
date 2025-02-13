@@ -1,0 +1,2756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipments>
+	<!--
+		Sides
+	
+		NW | N | NE
+		---+---+---
+		 W |   | E 
+		---+---+---
+		SW | S | SE
+	-->
+
+	<!-- Legs -->
+	<obj>
+		<objName>Pants01</objName> <!-- DEFAULTCHAR -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar01_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar01_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar01_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar01_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar01_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar01_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar01_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar01_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants02</objName> <!-- SYDNEY -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar02_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar02_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar02_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar02_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar02_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar02_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar02_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar02_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+
+	<obj>
+		<objName>Pants03</objName> <!-- JEROME -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar03_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar03_SW_mc" pivotX="14" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar03_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar03_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar03_N_mc" pivotX="14" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar03_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar03_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar03_SW_mc" pivotX="14" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants04</objName> <!-- ELDIABLO -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar04_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar04_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar04_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar04_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar04_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar04_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar04_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar04_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants05</objName> <!-- NERD -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar05_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar05_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar05_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar05_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar05_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar05_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar05_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar05_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants06</objName> <!-- BILL L4D -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar06_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar06_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar06_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar06_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar06_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar06_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar06_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar06_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants08</objName> <!-- LOUIS L4D -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar08_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar08_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar08_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar08_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar08_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar08_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar08_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar08_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants10</objName> <!-- WORKER -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar10_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar10_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar10_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar10_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar10_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar10_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar10_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar10_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants11</objName> <!-- SCIENTIST -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar11_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar11_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar11_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar11_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar11_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar11_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar11_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar11_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants12</objName> <!-- HILLBILLY-->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar12_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar12_SW_mc" pivotX="14" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar12_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar12_NW_mc" pivotX="14" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar12_N_mc" pivotX="14" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar12_NW_mc" pivotX="14" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar12_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar12_SW_mc" pivotX="14" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants13</objName> <!-- JULIET-->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar13_S_mc" pivotX="15" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar13_SW_mc" pivotX="13" pivotY="14" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar13_W_mc" pivotX="14" pivotY="14" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar13_NW_mc" pivotX="14" pivotY="14" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar13_N_mc" pivotX="13" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar13_NW_mc" pivotX="14" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar13_W_mc" pivotX="14" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar13_SW_mc" pivotX="13" pivotY="14" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants14</objName> <!-- SWAT-->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar14_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar14_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar14_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar14_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar14_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar14_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar14_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar14_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants17</objName> <!-- COP -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar17_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar17_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar17_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar17_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar17_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar17_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar17_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar17_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants21</objName> <!-- THUG --> 
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar21_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar21_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar21_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar21_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar21_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar21_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar21_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar21_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants22</objName> <!-- BOXER -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar22_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar22_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar22_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar22_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar22_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar22_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar22_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar22_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants27</objName> <!-- OUTDOORSMAN -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar27_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar27_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar27_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar27_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar27_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar27_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar27_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar27_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants28</objName> <!-- HUNTER -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar28_S_mc" pivotX="15" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="LegsChar28_SW_mc" pivotX="13" pivotY="12" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="LegsChar28_W_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="LegsChar28_NW_mc" pivotX="14" pivotY="13" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="LegsChar28_N_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="LegsChar28_NW_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsChar28_W_mc" pivotX="14" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="LegsChar28_SW_mc" pivotX="13" pivotY="12" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants32</objName> <!-- PWNISHER -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar32_S_mc" pivotX="15" pivotY="12" scaleX="1"scaleY="1"/>
+			<part side="SW" texture="LegsChar32_SW_mc" pivotX="13" pivotY="12" scaleX="-1"scaleY="1"/>
+			<part side="W" texture="LegsChar32_W_mc" pivotX="14" pivotY="13" scaleX="-1"scaleY="1"/>
+			<part side="NW" texture="LegsChar32_NW_mc" pivotX="14" pivotY="13" scaleX="-1"scaleY="1"/>
+			<part side="N" texture="LegsChar32_N_mc" pivotX="13" pivotY="12" scaleX="1"scaleY="1"/>
+			<part side="NE" texture="LegsChar32_NW_mc" pivotX="14" pivotY="13" scaleX="1"scaleY="1"/>
+			<part side="E" texture="LegsChar32_W_mc" pivotX="14" pivotY="13" scaleX="1"scaleY="1"/>
+			<part side="SE" texture="LegsChar32_SW_mc" pivotX="13" pivotY="12" scaleX="1"scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants33</objName> <!-- MARZIA -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar33_S_mc" pivotX="15" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="SW" texture="LegsChar33_SW_mc" pivotX="13" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="W" texture="LegsChar33_W_mc" pivotX="14" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="NW" texture="LegsChar33_NW_mc" pivotX="14" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="N" texture="LegsChar33_N_mc" pivotX="13" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="NE" texture="LegsChar33_NW_mc" pivotX="14" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="E" texture="LegsChar33_W_mc" pivotX="14" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="SE" texture="LegsChar33_SW_mc" pivotX="13" pivotY="14" scaleX="1"scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants36</objName> <!-- MUGGER -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar36_S_mc" pivotX="15" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="SW" texture="LegsChar36_SW_mc" pivotX="13" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="W" texture="LegsChar36_W_mc" pivotX="14" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="NW" texture="LegsChar36_NW_mc" pivotX="14" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="N" texture="LegsChar36_N_mc" pivotX="13" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="NE" texture="LegsChar36_NW_mc" pivotX="14" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="E" texture="LegsChar36_W_mc" pivotX="14" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="SE" texture="LegsChar36_SW_mc" pivotX="13" pivotY="14" scaleX="1"scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Pants39</objName> <!-- PRISONERS -->
+		<type>Legs</type>
+		<parts layer="Legs">			
+			<part side="S" texture="LegsChar39_S_mc" pivotX="15" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="SW" texture="LegsChar39_SW_mc" pivotX="13" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="W" texture="LegsChar39_W_mc" pivotX="14" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="NW" texture="LegsChar39_NW_mc" pivotX="14" pivotY="14" scaleX="-1"scaleY="1"/>
+			<part side="N" texture="LegsChar39_N_mc" pivotX="13" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="NE" texture="LegsChar39_NW_mc" pivotX="14" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="E" texture="LegsChar39_W_mc" pivotX="14" pivotY="14" scaleX="1"scaleY="1"/>
+			<part side="SE" texture="LegsChar39_SW_mc" pivotX="13" pivotY="14" scaleX="1"scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>Shirt01</objName> <!-- DEFAULTCHAR -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar01_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar01_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar01_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar01_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar01_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar01_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar01_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar01_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar01_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar01_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar01_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar01_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar01_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar01_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar01_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar01_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar01_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar01_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar01_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar01_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar01_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar01_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar01_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar01_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar01_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar01_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar01_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar01_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar01_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar01_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar01_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar01_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt02</objName> <!-- SYDNEY -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar02_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar02_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar02_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar02_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar02_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar02_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar02_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar02_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar02_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar02_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar02_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar02_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar02_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar02_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar02_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar02_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar02_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar02_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar02_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar02_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar02_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar02_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar02_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar02_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar02_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar02_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar02_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar02_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar02_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar02_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar02_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar02_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt03</objName> <!-- JEROME -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar03_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar03_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar03_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar03_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar03_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar03_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar03_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar03_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar03_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar03_SW_mc" pivotX="17" pivotY="30" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar03_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar03_NW_mc" pivotX="17" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar03_N_mc" pivotX="15" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar03_NW_mc" pivotX="17" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar03_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar03_SW_mc" pivotX="17" pivotY="30" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar03_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar03_SW_mc" pivotX="17" pivotY="30" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar03_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar03_NW_mc" pivotX="17" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar03_N_mc" pivotX="15" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar03_NW_mc" pivotX="17" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar03_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar03_SW_mc" pivotX="17" pivotY="30" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar03_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar03_SW_mc" pivotX="17" pivotY="30" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar03_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar03_NW_mc" pivotX="17" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar03_N_mc" pivotX="15" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar03_NW_mc" pivotX="17" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar03_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar03_SW_mc" pivotX="17" pivotY="30" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt04</objName> <!-- ELDIABLO -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar04_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar04_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar04_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar04_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar04_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar04_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar04_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar04_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar04_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar04_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar04_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar04_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar04_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar04_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar04_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar04_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar04_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar04_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar04_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar04_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar04_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar04_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar04_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar04_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar04_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar04_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar04_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar04_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar04_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar04_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar04_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar04_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+
+	<obj>
+		<objName>Shirt05</objName> <!-- NERD -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar05_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar05_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar05_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar05_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar05_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar05_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar05_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar05_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar05_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar05_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar05_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar05_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar05_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar05_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar05_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar05_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar05_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar05_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar05_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar05_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar05_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar05_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar05_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar05_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar05_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar05_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar05_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar05_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar05_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar05_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar05_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar05_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt06</objName> <!-- BILL L4D -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar06_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar06_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar06_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar06_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar06_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar06_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar06_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar06_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar06_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar06_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar06_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar06_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar06_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar06_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar06_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar06_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar06_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar06_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar06_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar06_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar06_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar06_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar06_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar06_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar06_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar06_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar06_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar06_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar06_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar06_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar06_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar06_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt07</objName> <!-- FRANCIS L4D -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar07_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar07_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar07_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar07_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar07_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar07_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar07_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar07_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar07_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar07_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar07_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar07_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar07_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar07_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar07_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar07_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar07_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar07_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar07_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar07_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar07_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar07_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar07_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar07_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar07_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar07_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar07_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar07_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar07_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar07_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar07_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar07_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt08</objName> <!-- LOUIS L4D -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar08_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar08_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar08_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar08_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar08_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar08_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar08_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar08_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar08_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar08_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar08_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar08_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar08_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar08_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar08_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar08_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar08_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar08_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar08_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar08_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar08_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar08_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar08_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar08_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar08_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar08_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar08_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar08_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar08_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar08_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar08_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar08_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt09</objName> <!-- ZOEY L4D -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar09_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar09_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar09_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar09_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar09_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar09_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar09_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar09_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar09_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar09_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar09_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar09_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar09_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar09_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar09_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar09_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar09_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar09_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar09_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar09_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar09_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar09_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar09_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar09_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar09_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar09_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar09_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar09_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar09_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar09_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar09_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar09_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt10</objName> <!-- WORKER -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar10_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar10_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar10_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar10_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar10_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar10_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar10_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar10_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar10_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar10_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar10_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar10_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar10_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar10_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar10_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar10_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar10_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar10_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar10_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar10_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar10_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar10_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar10_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar10_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar08_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar08_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar08_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar08_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar08_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar08_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar08_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar08_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt11</objName> <!-- SCIENTIST -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar11_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar11_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar11_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar11_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar11_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar11_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar11_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar11_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar11_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar11_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar11_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar11_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar11_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar11_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar11_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar11_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar11_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar11_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar11_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar11_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar11_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar11_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar11_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar11_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar11_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar11_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar11_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar11_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar11_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar11_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar11_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar11_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	 <obj>
+		<objName>Shirt12</objName> <!-- HILLBILLY-->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar12_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar12_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar12_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar12_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar12_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar12_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar12_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar12_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar12_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar12_SW_mc" pivotX="17" pivotY="30" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar12_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar12_NW_mc" pivotX="17" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar12_N_mc" pivotX="15" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar12_NW_mc" pivotX="17" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar12_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar12_SW_mc" pivotX="17" pivotY="30" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar12_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar12_SW_mc" pivotX="17" pivotY="30" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar12_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar12_NW_mc" pivotX="17" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar12_N_mc" pivotX="15" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar12_NW_mc" pivotX="17" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar12_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar12_SW_mc" pivotX="17" pivotY="30" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar12_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar12_SW_mc" pivotX="17" pivotY="30" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar12_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar12_NW_mc" pivotX="17" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar12_N_mc" pivotX="15" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar12_NW_mc" pivotX="17" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar12_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar12_SW_mc" pivotX="17" pivotY="30" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt13</objName> <!-- JULIET-->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar13_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar13_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar13_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar13_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar13_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar13_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar13_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar13_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar13_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar13_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar13_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar13_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar13_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar13_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar13_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar13_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar13_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar13_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar13_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar13_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar13_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar13_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar13_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar13_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar13_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar13_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar13_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar13_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar13_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar13_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar13_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar13_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt14</objName> <!-- SWAT-->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar14_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar14_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar14_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar14_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar14_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar14_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar14_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar14_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar14_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar14_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar14_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar14_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar14_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar14_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar14_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar14_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar14_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar14_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar14_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar14_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar14_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar14_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar14_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar14_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar14_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar14_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar14_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar14_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar14_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar14_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar14_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar14_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt17</objName> <!-- COP -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar17_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar17_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar17_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar17_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar17_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar17_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar17_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar17_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar17_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar17_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar17_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar17_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar17_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar17_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar17_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar17_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar17_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar17_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar17_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar17_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar17_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar17_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar17_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar17_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar17_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar17_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar17_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar17_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar17_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar17_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar17_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar17_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt19</objName> <!-- RESEARCHER -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar19_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar19_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar19_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar19_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar19_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar19_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar19_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar19_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar19_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar19_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar19_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar19_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar19_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar19_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar19_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar19_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar19_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar19_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar19_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar19_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar19_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar19_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar19_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar19_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar19_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar19_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar19_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar19_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar19_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar19_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar19_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar19_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt21</objName> <!-- THUG --> 
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar21_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar21_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar21_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar21_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar21_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar21_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar21_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar21_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar21_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar21_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar21_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar21_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar21_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar21_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar21_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar21_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar21_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar21_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar21_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar21_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar21_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar21_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar21_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar21_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar21_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar21_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar21_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar21_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar21_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar21_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar21_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar21_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt22</objName> <!-- BOXER -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar22_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar22_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar22_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar22_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar22_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar22_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar22_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar22_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar22_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar22_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar22_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar22_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar22_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar22_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar22_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar22_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar22_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar22_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar22_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar22_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar22_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar22_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar22_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar22_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar22_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar22_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar22_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar22_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar22_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar22_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar22_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar22_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt25</objName> <!-- DETECTIVE -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar25_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar25_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar25_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar25_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar25_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar25_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar25_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar25_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar25_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar25_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar25_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar25_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar25_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar25_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar25_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar25_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar25_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar25_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar25_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar25_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar25_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar25_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar25_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar25_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar25_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar25_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar25_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar25_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar25_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar25_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar25_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar25_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt27</objName> <!-- OUTDOORSMAN -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar27_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar27_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar27_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar27_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar27_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar27_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar27_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar27_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar27_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar27_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar27_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar27_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar27_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar27_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar27_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar27_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar27_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar27_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar27_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar27_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt28</objName> <!-- HUNTER -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar28_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar28_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar28_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar28_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar28_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar28_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar28_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar28_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar28_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar28_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar28_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar28_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar28_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar28_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar28_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar28_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar28_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar28_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar28_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar28_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar28_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar28_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar28_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar28_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar28_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar28_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar28_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar28_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar28_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar28_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar28_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar28_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt31</objName> <!-- FREDDIE WONG -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar31_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar31_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar31_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar31_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar31_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar31_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar31_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar31_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar27_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar27_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar27_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar27_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar27_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar27_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar27_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar27_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar27_S_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar27_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar27_N_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar27_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar27_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar27_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt32</objName> <!-- PWNISHER -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar32_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar32_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar32_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar32_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar32_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar32_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar32_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar32_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar32_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar32_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar32_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar32_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar32_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar32_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar32_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar32_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar32_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar32_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar32_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar32_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar32_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar32_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar32_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar32_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar32_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar32_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar32_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar32_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar32_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar32_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar32_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar32_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt33</objName> <!-- MARZIA -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar33_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar33_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar33_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar33_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar33_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar33_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar33_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar33_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar33_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar33_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar33_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar33_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar33_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar33_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar33_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar33_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar33_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar33_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar33_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar33_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar33_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar33_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar33_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar33_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar33_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar33_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar33_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar33_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar33_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar33_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar33_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar33_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt34</objName> <!-- POODS -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar34_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar34_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar34_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar34_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar34_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar34_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar34_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar34_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar34_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar34_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar34_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar34_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar34_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar34_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar34_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar34_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar34_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar34_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar34_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar34_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar34_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar34_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar34_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar34_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar34_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar34_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar34_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar34_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar34_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar34_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar34_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar34_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt36</objName> <!-- MUGGER -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar36_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar36_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar36_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar36_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar36_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar36_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar36_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar36_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar36_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar36_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar36_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar36_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar36_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar36_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar36_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar36_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar36_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar36_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar36_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar36_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar36_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar36_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar36_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar36_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar36_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar36_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar36_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar36_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar36_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar36_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar36_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar36_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Shirt39</objName> <!-- PRISONERS -->
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyChar39_S_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="BodyChar39_SW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="BodyChar39_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="BodyChar39_NW_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="BodyChar39_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="BodyChar39_NW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyChar39_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="BodyChar39_SW_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="Arm">
+			<part side="S" texture="ArmsRGChar39_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsRGChar39_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsRGChar39_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsRGChar39_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsRGChar39_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsRGChar39_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsRGChar39_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsRGChar39_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmHG">
+			<part side="S" texture="ArmsHGChar39_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsHGChar39_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsHGChar39_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsHGChar39_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsHGChar39_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsHGChar39_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsHGChar39_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsHGChar39_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmMG">
+			<part side="S" texture="ArmsMGChar39_S_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="ArmsMGChar39_SW_mc" pivotX="15" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="ArmsMGChar39_W_mc" pivotX="15" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="ArmsMGChar39_NW_mc" pivotX="14" pivotY="28" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="ArmsMGChar39_N_mc" pivotX="14" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="ArmsMGChar39_NW_mc" pivotX="14" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmsMGChar39_W_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="ArmsMGChar39_SW_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>Face01</objName> <!-- DEFAULTCHAR --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar01_S_mc" pivotX="10" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar01_SW_mc" pivotX="14" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar01_W_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar01_NW_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar01_N_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar01_NW_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar01_W_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar01_SW_mc" pivotX="14" pivotY="43" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face02</objName> <!-- SYDNEY --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar02_S_mc" pivotX="12" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar02_SW_mc" pivotX="15" pivotY="45" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar02_W_mc" pivotX="21" pivotY="45" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar02_NW_mc" pivotX="21" pivotY="46" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar02_N_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar02_NW_mc" pivotX="21" pivotY="46" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar02_W_mc" pivotX="21" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar02_SW_mc" pivotX="15" pivotY="45" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face03</objName> <!-- JEROME --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar03_S_mc" pivotX="10" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar03_SW_mc" pivotX="12" pivotY="41" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar03_W_mc" pivotX="14" pivotY="41" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar03_NW_mc" pivotX="14" pivotY="40" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar03_N_mc" pivotX="12" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar03_NW_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar03_W_mc" pivotX="14" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar03_SW_mc" pivotX="12" pivotY="41" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face04</objName> <!-- ELDIABLO --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar04_S_mc" pivotX="10" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar04_SW_mc" pivotX="12" pivotY="40" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar04_W_mc" pivotX="14" pivotY="40" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar04_NW_mc" pivotX="14" pivotY="40" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar04_N_mc" pivotX="12" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar04_NW_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar04_W_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar04_SW_mc" pivotX="12" pivotY="40" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+
+	<obj>
+		<objName>Face05</objName> <!-- NERD --> <!-- NERD -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar05_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar05_SW_mc" pivotX="13" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar05_W_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar05_NW_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar05_N_mc" pivotX="13" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar05_NW_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar05_W_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar05_SW_mc" pivotX="13" pivotY="43" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face06</objName> <!-- BILL L4D --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar06_S_mc" pivotX="12" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar06_SW_mc" pivotX="14" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar06_W_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar06_NW_mc" pivotX="16" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar06_N_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar06_NW_mc" pivotX="16" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar06_W_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar06_SW_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	
+	<obj>
+		<objName>Face07</objName> <!-- FRANCIS L4D --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar07_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar07_SW_mc" pivotX="12" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar07_W_mc" pivotX="14" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar07_NW_mc" pivotX="14" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar07_N_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar07_NW_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar07_W_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar07_SW_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face08</objName> <!-- LOUIS L4D --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar08_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar08_SW_mc" pivotX="12" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar08_W_mc" pivotX="14" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar08_NW_mc" pivotX="14" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar08_N_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar08_NW_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar08_W_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar08_SW_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face09</objName> <!-- ZOEY L4D --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar09_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar09_SW_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar09_W_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar09_NW_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar09_N_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar09_NW_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar09_W_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar09_SW_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face10</objName> <!-- WORKER --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar10_S_mc" pivotX="12" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar10_SW_mc" pivotX="14" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar10_W_mc" pivotX="16" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar10_NW_mc" pivotX="16" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar10_N_mc" pivotX="14" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar10_NW_mc" pivotX="16" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar10_W_mc" pivotX="16" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar10_SW_mc" pivotX="14" pivotY="44" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face11</objName> <!-- SCIENTIST --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar11_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar11_SW_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar11_W_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar11_NW_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar11_N_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar11_NW_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar11_W_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar11_SW_mc" pivotX="15" pivotY="40" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face12</objName> <!-- HILLBILLY--> 
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar12_S_mc" pivotX="15" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar12_SW_mc" pivotX="16" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar12_W_mc" pivotX="20" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar12_NW_mc" pivotX="20" pivotY="45" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar12_N_mc" pivotX="16" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar12_NW_mc" pivotX="20" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar12_W_mc" pivotX="20" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar12_SW_mc" pivotX="16" pivotY="44" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face13</objName> <!-- JULIET--> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar13_S_mc" pivotX="17" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar13_SW_mc" pivotX="21" pivotY="46" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar13_W_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar13_NW_mc" pivotX="20" pivotY="40" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar13_N_mc" pivotX="21" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar13_NW_mc" pivotX="20" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar13_W_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar13_SW_mc" pivotX="21" pivotY="46" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face14</objName> <!-- SWAT--> 
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar14_S_mc" pivotX="12" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar14_SW_mc" pivotX="14" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar14_W_mc" pivotX="16" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar14_NW_mc" pivotX="16" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar14_N_mc" pivotX="14" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar14_NW_mc" pivotX="16" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar14_W_mc" pivotX="16" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar14_SW_mc" pivotX="14" pivotY="44" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj> 
+	
+	<obj>
+		<objName>Face17</objName> <!-- COP --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar17_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar17_SW_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar17_W_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar17_NW_mc" pivotX="15" pivotY="45" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar17_N_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar17_NW_mc" pivotX="15" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar17_W_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar17_SW_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face19</objName> <!-- RESEARCHER -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar19_S_mc" pivotX="12" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar19_SW_mc" pivotX="14" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar19_W_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar19_NW_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar19_N_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar19_NW_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar19_W_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar19_SW_mc" pivotX="14" pivotY="43" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face21</objName> <!-- THUG --> 
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar21_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar21_SW_mc" pivotX="12" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar21_W_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar21_NW_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar21_N_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar21_NW_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar21_W_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar21_SW_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face22</objName> <!-- BOXER --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar22_S_mc" pivotX="12" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar22_SW_mc" pivotX="14" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar22_W_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar22_NW_mc" pivotX="16" pivotY="45" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar22_N_mc" pivotX="14" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar22_NW_mc" pivotX="16" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar22_W_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar22_SW_mc" pivotX="14" pivotY="43" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+
+	<obj>
+		<objName>Face25</objName> <!-- DETECTIVE --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar25_S_mc" pivotX="12" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar25_SW_mc" pivotX="14" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar25_W_mc" pivotX="15" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar25_NW_mc" pivotX="15" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar25_N_mc" pivotX="14" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar25_NW_mc" pivotX="15" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar25_W_mc" pivotX="15" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar25_SW_mc" pivotX="14" pivotY="44" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face27</objName> <!-- OUTDOORSMAN --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar27_S_mc" pivotX="12" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar27_SW_mc" pivotX="17" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar27_W_mc" pivotX="20" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar27_NW_mc" pivotX="20" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar27_N_mc" pivotX="17" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar27_NW_mc" pivotX="20" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar27_W_mc" pivotX="20" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar27_SW_mc" pivotX="17" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face28</objName> <!-- HUNTER --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar28_S_mc" pivotX="12" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar28_SW_mc" pivotX="17" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar28_W_mc" pivotX="20" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar28_NW_mc" pivotX="20" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar28_N_mc" pivotX="17" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar28_NW_mc" pivotX="20" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar28_W_mc" pivotX="20" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar28_SW_mc" pivotX="17" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face31</objName> <!-- FREDDIE WONG --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar31_S_mc" pivotX="12" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar31_SW_mc" pivotX="16" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar31_W_mc" pivotX="17" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar31_NW_mc" pivotX="17" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar31_N_mc" pivotX="16" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar31_NW_mc" pivotX="17" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar31_W_mc" pivotX="17" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar31_SW_mc" pivotX="16" pivotY="44" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face32</objName> <!-- PWNISHER --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar32_S_mc" pivotX="12" pivotY="46" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar32_SW_mc" pivotX="15" pivotY="46" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar32_W_mc" pivotX="17" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar32_NW_mc" pivotX="17" pivotY="48" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar32_N_mc" pivotX="15" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar32_NW_mc" pivotX="17" pivotY="48" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar32_W_mc" pivotX="17" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar32_SW_mc" pivotX="15" pivotY="46" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face33</objName> <!-- MARZIA --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar33_S_mc" pivotX="14" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar33_SW_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar33_W_mc" pivotX="18" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar33_NW_mc" pivotX="18" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar33_N_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar33_NW_mc" pivotX="18" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar33_W_mc" pivotX="18" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar33_SW_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face34</objName> <!-- POODS --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar34_S_mc" pivotX="12" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar34_SW_mc" pivotX="15" pivotY="45" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar34_W_mc" pivotX="17" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar34_NW_mc" pivotX="17" pivotY="44" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar34_N_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar34_NW_mc" pivotX="17" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar34_W_mc" pivotX="17" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar34_SW_mc" pivotX="15" pivotY="45" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face35</objName> <!-- BANDIT --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar35_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar35_SW_mc" pivotX="12" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar35_W_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar35_NW_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar35_N_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar35_NW_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar35_W_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar35_SW_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face36</objName> <!-- MUGGER --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar36_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar36_SW_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar36_W_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar36_NW_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar36_N_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar36_NW_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar36_W_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar36_SW_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face37</objName> <!-- BANDIT --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar37_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar37_SW_mc" pivotX="13" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar37_W_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar37_NW_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar37_N_mc" pivotX="13" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar37_NW_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar37_W_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar37_SW_mc" pivotX="13" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face38</objName> <!-- GANGSTER --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar38_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar38_SW_mc" pivotX="12" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar38_W_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar38_NW_mc" pivotX="16" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar38_N_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar38_NW_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar38_W_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar38_SW_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face39</objName> <!-- OUTLAW --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar39_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar39_SW_mc" pivotX="12" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar39_W_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar39_NW_mc" pivotX="15" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar39_N_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar39_NW_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar39_W_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar39_SW_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face40</objName> <!-- THIEF --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar40_S_mc" pivotX="12" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar40_SW_mc" pivotX="17" pivotY="45" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar40_W_mc" pivotX="18" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar40_NW_mc" pivotX="18" pivotY="43" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar40_N_mc" pivotX="17" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar40_NW_mc" pivotX="18" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar40_W_mc" pivotX="18" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar40_SW_mc" pivotX="17" pivotY="45" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Face41</objName> <!-- BIG DUDE --> <!-- Default Face -->
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadChar39_S_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="HeadChar39_SW_mc" pivotX="12" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="HeadChar39_W_mc" pivotX="14" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="HeadChar39_NW_mc" pivotX="14" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="HeadChar39_N_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="HeadChar39_NW_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadChar39_W_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="HeadChar39_SW_mc" pivotX="12" pivotY="42" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE *** -->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegs01</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombie01_S_mc" pivotX="15" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombie01_W_mc" pivotX="9" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombie01_N_mc" pivotX="8" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombie01_W_mc" pivotX="9" pivotY="15" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBody01</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombie01_S_mc" pivotX="6" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombie01_W_mc" pivotX="9" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombie01_N_mc" pivotX="7" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombie01_W_mc" pivotX="9" pivotY="24" scaleX="-1" scaleY="1"/>
+		
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombie01_S_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombie01_W_mc" pivotX="23" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombie01_N_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombie01_W_mc" pivotX="23" pivotY="23" scaleX="-1" scaleY="1"/>
+			
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombie01_S_mc" pivotX="-3" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombie01_W_mc" pivotX="21" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombie01_N_mc" pivotX="-4" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombie01_W_mc" pivotX="21" pivotY="27" scaleX="-1" scaleY="1"/>
+			
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFace01</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombie01_S_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombie01_W_mc" pivotX="20" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombie01_N_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombie01_W_mc" pivotX="20" pivotY="42" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE02 *** -->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegs02</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombie02_S_mc" pivotX="8" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombie02_W_mc" pivotX="9" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombie02_N_mc" pivotX="8" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombie02_W_mc" pivotX="9" pivotY="15" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBody02</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombie02_S_mc" pivotX="6" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombie02_W_mc" pivotX="9" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombie02_N_mc" pivotX="7" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombie02_W_mc" pivotX="9" pivotY="24" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombie02_S_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombie02_W_mc" pivotX="23" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombie02_N_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombie02_W_mc" pivotX="23" pivotY="23" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombie02_S_mc" pivotX="-3" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombie02_W_mc" pivotX="21" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombie02_N_mc" pivotX="-4" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombie02_W_mc" pivotX="21" pivotY="27" scaleX="-1" scaleY="1"/>
+			
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFace02</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombie02_S_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombie02_W_mc" pivotX="20" pivotY="46" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombie02_N_mc" pivotX="15" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombie02_W_mc" pivotX="20" pivotY="46" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE03 *** -->
+	<obj>
+		<objName>ZombieLegs03</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombie03_S_mc" pivotX="8" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombie03_W_mc" pivotX="9" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombie03_N_mc" pivotX="8" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombie03_W_mc" pivotX="9" pivotY="15" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBody03</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombie03_S_mc" pivotX="6" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombie03_W_mc" pivotX="12" pivotY="25" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombie03_N_mc" pivotX="7" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombie03_W_mc" pivotX="12" pivotY="25" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombie03_S_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombie03_W_mc" pivotX="23" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombie03_N_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombie03_W_mc" pivotX="23" pivotY="23" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombie03_S_mc" pivotX="-3" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombie03_W_mc" pivotX="21" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombie03_N_mc" pivotX="-4" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombie03_W_mc" pivotX="21" pivotY="27" scaleX="-1" scaleY="1"/>		
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFace03</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombie03_S_mc" pivotX="15" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombie03_W_mc" pivotX="20" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombie03_N_mc" pivotX="15" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombie03_W_mc" pivotX="20" pivotY="47" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE04 *** -->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegs04</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombie04_S_mc" pivotX="8" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombie04_W_mc" pivotX="9" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombie04_N_mc" pivotX="8" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombie04_W_mc" pivotX="9" pivotY="15" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBody04</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombie04_S_mc" pivotX="6" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombie04_W_mc" pivotX="9" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombie04_N_mc" pivotX="7" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombie04_W_mc" pivotX="9" pivotY="24" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombie04_S_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombie04_W_mc" pivotX="23" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombie04_N_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombie04_W_mc" pivotX="23" pivotY="23" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombie04_S_mc" pivotX="-3" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombie04_W_mc" pivotX="21" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombie04_N_mc" pivotX="-4" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombie04_W_mc" pivotX="21" pivotY="27" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFace04</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombie04_S_mc" pivotX="15" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombie04_W_mc" pivotX="20" pivotY="46" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombie04_N_mc" pivotX="15" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombie04_W_mc" pivotX="20" pivotY="46" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE Special MAMA *** -->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegsMama</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombieMama_S_mc" pivotX="11" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombieMama_W_mc" pivotX="13" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombieMama_N_mc" pivotX="9" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombieMama_W_mc" pivotX="13" pivotY="13" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBodyMama</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombieMama_S_mc" pivotX="12" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombieMama_W_mc" pivotX="21" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombieMama_N_mc" pivotX="9" pivotY="25" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombieMama_W_mc" pivotX="21" pivotY="24" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombieMama_S_mc" pivotX="23" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombieMama_W_mc" pivotX="16" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombieMama_N_mc" pivotX="21" pivotY="22" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombieMama_W_mc" pivotX="16" pivotY="24" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombieMama_S_mc" pivotX="-2" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombieMama_W_mc" pivotX="29" pivotY="33" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombieMama_N_mc" pivotX="-7" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombieMama_W_mc" pivotX="29" pivotY="33" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFaceMama</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombieMama_S_mc" pivotX="17" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombieMama_W_mc" pivotX="39" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombieMama_N_mc" pivotX="14" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombieMama_W_mc" pivotX="39" pivotY="42" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+		<!-- *** ZOMBIE Special CRAWLER *** -->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegsCrawler</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombieCrawler_S_mc" pivotX="0" pivotY="0" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombieCrawler_N_mc" pivotX="0" pivotY="0" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombieCrawler_W_mc" pivotX="0" pivotY="0" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombieCrawler_W_mc" pivotX="0" pivotY="0" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBodyCrawler</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombieCrawler_S_mc" pivotX="15" pivotY="9" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombieCrawler_W_mc" pivotX="14" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombieCrawler_N_mc" pivotX="6" pivotY="10" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombieCrawler_W_mc" pivotX="14" pivotY="12" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombieCrawler_S_mc" pivotX="17" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombieCrawler_W_mc" pivotX="24" pivotY="19" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombieCrawler_N_mc" pivotX="17" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombieCrawler_W_mc" pivotX="24" pivotY="19" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombieCrawler_S_mc" pivotX="-3" pivotY="7" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombieCrawler_W_mc" pivotX="17" pivotY="7" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombieCrawler_N_mc" pivotX="-4" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombieCrawler_W_mc" pivotX="17" pivotY="7" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFaceCrawler</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombieCrawler_S_mc" pivotX="15" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombieCrawler_W_mc" pivotX="20" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombieCrawler_N_mc" pivotX="15" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombieCrawler_W_mc" pivotX="20" pivotY="28" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE Special FAT01 *** -->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegsFat01</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombieFat01_S_mc" pivotX="10" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombieFat01_W_mc" pivotX="11" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombieFat01_N_mc" pivotX="10" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombieFat01_W_mc" pivotX="11" pivotY="14" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBodyFat01</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombieFat01_S_mc" pivotX="19" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombieFat01_W_mc" pivotX="27" pivotY="22" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombieFat01_N_mc" pivotX="19" pivotY="25" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombieFat01_W_mc" pivotX="27" pivotY="22" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombieFat01_S_mc" pivotX="20" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombieFat01_W_mc" pivotX="1" pivotY="2" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombieFat01_N_mc" pivotX="20" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombieFat01_W_mc" pivotX="1" pivotY="2" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombieFat01_S_mc" pivotX="-5" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombieFat01_W_mc" pivotX="16" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombieFat01_N_mc" pivotX="-5" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombieFat01_W_mc" pivotX="16" pivotY="24" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFaceFat01</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombieFat01_S_mc" pivotX="15" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombieFat01_W_mc" pivotX="18" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombieFat01_N_mc" pivotX="15" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombieFat01_W_mc" pivotX="18" pivotY="41" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+		<!-- *** ZOMBIE Special FAT02 *** -->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegsFat02</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombieFat01_S_mc" pivotX="10" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombieFat01_W_mc" pivotX="11" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombieFat01_N_mc" pivotX="10" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombieFat01_W_mc" pivotX="11" pivotY="14" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBodyFat02</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombieFat02_S_mc" pivotX="19" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombieFat02_W_mc" pivotX="27" pivotY="22" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombieFat02_N_mc" pivotX="19" pivotY="25" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombieFat02_W_mc" pivotX="27" pivotY="22" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombieFat02_S_mc" pivotX="20" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombieFat01_W_mc" pivotX="1" pivotY="2" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombieFat02_N_mc" pivotX="20" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombieFat01_W_mc" pivotX="1" pivotY="2" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombieFat02_S_mc" pivotX="-5" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombieFat02_W_mc" pivotX="16" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombieFat02_N_mc" pivotX="-5" pivotY="26" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombieFat02_W_mc" pivotX="16" pivotY="24" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFaceFat02</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombieFat02_S_mc" pivotX="16" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombieFat02_W_mc" pivotX="20" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombieFat02_N_mc" pivotX="16" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombieFat02_W_mc" pivotX="20" pivotY="43" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE Special Pumpkin *** -->
+	<obj>
+		<objName>ZombieFacePumpkin</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombiePumpkin01_S_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombiePumpkin01_W_mc" pivotX="20" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombiePumpkin01_N_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombiePumpkin01_W_mc" pivotX="20" pivotY="44" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE Special BRUTE01 *** -->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegsBrute01</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZBrute01_S_mc" pivotX="8" pivotY="16" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZBrute01_W_mc" pivotX="9" pivotY="16" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZBrute01_N_mc" pivotX="8" pivotY="16" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZBrute01_W_mc" pivotX="9" pivotY="16" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBodyBrute01</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZBrute01_S_mc" pivotX="26" pivotY="39" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZBrute01_W_mc" pivotX="26" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZBrute01_N_mc" pivotX="26" pivotY="49" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZBrute01_W_mc" pivotX="26" pivotY="43" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmRZBrute01_S_mc" pivotX="10" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZBrute01_W_mc" pivotX="14" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZBrute01_N_mc" pivotX="10" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZBrute01_W_mc" pivotX="14" pivotY="41" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmLZBrute01_S_mc" pivotX="27" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZBrute01_W_mc" pivotX="12" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZBrute01_N_mc" pivotX="27" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZBrute01_W_mc" pivotX="12" pivotY="40" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFaceBrute01</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZBrute01_S_mc" pivotX="21" pivotY="49" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZBrute01_W_mc" pivotX="21" pivotY="48" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZBrute01_N_mc" pivotX="21" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZBrute01_W_mc" pivotX="21" pivotY="48" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE 01 X-mas Head & Face *** -->
+	<obj>
+		<objName>ZombieFace01Xmas</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombie01Xmas_S_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombie01Xmas_W_mc" pivotX="20" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombie01Xmas_N_mc" pivotX="15" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombie01Xmas_W_mc" pivotX="20" pivotY="44" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE FAT X-mas Head, Face & Legs *** -->
+	
+	<obj>
+		<objName>ZombieFaceFat01Xmas</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombieFat01Xmas_S_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombieFat01Xmas_W_mc" pivotX="19" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombieFat01Xmas_N_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombieFat01Xmas_W_mc" pivotX="19" pivotY="45" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>ZombieLegsFat01Xmas</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombieFat01Xmas_S_mc" pivotX="10" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombieFat01Xmas_W_mc" pivotX="11" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombieFat01Xmas_N_mc" pivotX="10" pivotY="12" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombieFat01Xmas_W_mc" pivotX="11" pivotY="14" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- *** ZOMBIE Brute X-mas Head, Face & Legs *** -->
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBodyBrute01Xmas</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZBrute01Xmas_S_mc" pivotX="26" pivotY="39" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZBrute01_W_mc" pivotX="26" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZBrute01Xmas_N_mc" pivotX="26" pivotY="52" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZBrute01_W_mc" pivotX="26" pivotY="43" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmRZBrute01Xmas_S_mc" pivotX="10" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZBrute01Xmas_W_mc" pivotX="14" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZBrute01Xmas_N_mc" pivotX="10" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZBrute01Xmas_W_mc" pivotX="14" pivotY="41" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmLZBrute01Xmas_S_mc" pivotX="27" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZBrute01Xmas_W_mc" pivotX="12" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZBrute01Xmas_N_mc" pivotX="27" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZBrute01Xmas_W_mc" pivotX="12" pivotY="40" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFaceBrute01Xmas</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZBrute01Xmas_S_mc" pivotX="21" pivotY="52" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZBrute01Xmas_W_mc" pivotX="21" pivotY="50" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZBrute01Xmas_N_mc" pivotX="21" pivotY="49" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZBrute01Xmas_W_mc" pivotX="21" pivotY="50" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	
+	<!---------------------------- *** ZOMBIE SPECIAL PUNKSCREAMER *** ---------------------------->
+	<!-- Legs ZOMBIE PUNKSCREAMER-->
+	<obj>
+		<objName>ZombieLegsPunkS01</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZPunkS01_S_mc" pivotX="19" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZPunkS01_W_mc" pivotX="9" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZPunkS01_N_mc" pivotX="8" pivotY="16" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZPunkS01_W_mc" pivotX="9" pivotY="31" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body ZOMBIE PUNKSCREAMER-->
+	<obj>
+		<objName>ZombieBodyPunkS01</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZPunkS01_S_mc" pivotX="7" pivotY="30" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZPunkS01_W_mc" pivotX="10" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZPunkS01_N_mc" pivotX="15" pivotY="55" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZPunkS01_W_mc" pivotX="10" pivotY="31" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmRZPunkS01_S_mc" pivotX="-4" pivotY="38" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZPunkS01_W_mc" pivotX="20" pivotY="55" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZPunkS01_N_mc" pivotX="-5" pivotY="38" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZPunkS01_W_mc" pivotX="20" pivotY="55" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmLZPunkS01_S_mc" pivotX="21" pivotY="37" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZPunkS01_W_mc" pivotX="26" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZPunkS01_N_mc" pivotX="21" pivotY="39" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZPunkS01_W_mc" pivotX="26" pivotY="42" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head ZOMBIE PUNKSCREAMER -->
+	<obj>
+		<objName>ZombieFacePunkS01</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZPunkS01_S_mc" pivotX="19" pivotY="55" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZPunkS01_W_mc" pivotX="25" pivotY="38" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZPunkS01_N_mc" pivotX="16" pivotY="39" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZPunkS01_W_mc" pivotX="25" pivotY="38" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!---------------------------- *** ZOMBIE SPECIAL HAZMAT *** ---------------------------->
+	<!-- Legs ZOMBIE HAZMAT-->
+	<obj>
+		<objName>ZombieLegsHazmat</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZHazmat_S_mc" pivotX="14" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZHazmat_W_mc" pivotX="14" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZHazmat_N_mc" pivotX="8" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZHazmat_W_mc" pivotX="14" pivotY="45" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body ZOMBIE HAZMAT-->
+	<obj>
+		<objName>ZombieBodyHazmat</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZHazmat_S_mc" pivotX="21" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZHazmat_W_mc" pivotX="15" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZHazmat_N_mc" pivotX="14" pivotY="52" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZHazmat_W_mc" pivotX="15" pivotY="31" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmRZHazmat_S_mc" pivotX="15" pivotY="33" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZHazmat_W_mc" pivotX="20" pivotY="51" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZHazmat_N_mc" pivotX="21" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZHazmat_W_mc" pivotX="20" pivotY="51" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmLZHazmat_S_mc" pivotX="20" pivotY="49" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZHazmat_W_mc" pivotX="22" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZHazmat_N_mc" pivotX="15" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZHazmat_W_mc" pivotX="22" pivotY="31" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head ZOMBIE HAZMAT -->
+	<obj>
+		<objName>ZombieFaceHazmat</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZHazmat_S_mc" pivotX="17" pivotY="52" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZHazmat_W_mc" pivotX="19" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZHazmat_N_mc" pivotX="20" pivotY="49" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZHazmat_W_mc" pivotX="19" pivotY="28" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+
+<!----------------------------- *** ZOMBIE06*** ------------------------------------->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegs06</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZombie06_S_mc" pivotX="15" pivotY="14" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZombie06_W_mc" pivotX="9" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZombie06_N_mc" pivotX="15" pivotY="13" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZombie06_W_mc" pivotX="9" pivotY="15" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBody06</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZombie06_S_mc" pivotX="6" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZombie06_W_mc" pivotX="9" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZombie06_N_mc" pivotX="7" pivotY="24" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZombie06_W_mc" pivotX="9" pivotY="24" scaleX="-1" scaleY="1"/>
+		
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmLZombie06_S_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZombie06_W_mc" pivotX="23" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZombie06_N_mc" pivotX="18" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZombie06_W_mc" pivotX="23" pivotY="23" scaleX="-1" scaleY="1"/>
+			
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmRZombie06_S_mc" pivotX="-3" pivotY="28" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZombie06_W_mc" pivotX="21" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZombie06_N_mc" pivotX="-4" pivotY="27" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZombie06_W_mc" pivotX="21" pivotY="27" scaleX="-1" scaleY="1"/>
+			
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFace06</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZombie06_S_mc" pivotX="15" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZombie06_W_mc" pivotX="20" pivotY="44" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZombie06_N_mc" pivotX="15" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZombie06_W_mc" pivotX="20" pivotY="44" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-------------------------------------- *** ZOMBIE Special BRUTE02 *** -------------------------------------->
+	<!-- Legs -->
+	<obj>
+		<objName>ZombieLegsBrute02</objName>
+		<type>Legs</type>
+		<parts layer="Legs">
+			<part side="S" texture="LegsZBrute02_S_mc" pivotX="8" pivotY="16" scaleX="1" scaleY="1"/>
+			<part side="W" texture="LegsZBrute02_W_mc" pivotX="9" pivotY="16" scaleX="1" scaleY="1"/>
+			<part side="N" texture="LegsZBrute02_N_mc" pivotX="8" pivotY="16" scaleX="1" scaleY="1"/>
+			<part side="E" texture="LegsZBrute02_W_mc" pivotX="9" pivotY="16" scaleX="-1" scaleY="1"/>
+			</parts>
+	</obj>
+	
+	<!-- Body -->
+	<obj>
+		<objName>ZombieBodyBrute02</objName>
+		<type>Body</type>
+		<parts layer="Body">
+			<part side="S" texture="BodyZBrute02_S_mc" pivotX="26" pivotY="39" scaleX="1" scaleY="1"/>
+			<part side="W" texture="BodyZBrute02_W_mc" pivotX="26" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="N" texture="BodyZBrute02_N_mc" pivotX="26" pivotY="49" scaleX="1" scaleY="1"/>
+			<part side="E" texture="BodyZBrute02_W_mc" pivotX="26" pivotY="43" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmL">
+			<part side="S" texture="ArmRZBrute02_S_mc" pivotX="10" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmRZBrute02_W_mc" pivotX="14" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmRZBrute02_N_mc" pivotX="10" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmRZBrute02_W_mc" pivotX="14" pivotY="41" scaleX="-1" scaleY="1"/>
+		</parts>
+		<parts layer="ArmR">
+			<part side="S" texture="ArmLZBrute02_S_mc" pivotX="27" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="W" texture="ArmLZBrute02_W_mc" pivotX="12" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="N" texture="ArmLZBrute02_N_mc" pivotX="30" pivotY="39" scaleX="1" scaleY="1"/>
+			<part side="E" texture="ArmLZBrute02_W_mc" pivotX="12" pivotY="40" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<!-- Head & Face -->
+	<obj>
+		<objName>ZombieFaceBrute02</objName>
+		<type>Head</type>
+		<parts layer="Head">
+			<part side="S" texture="HeadZBrute02_S_mc" pivotX="21" pivotY="51" scaleX="1" scaleY="1"/>
+			<part side="W" texture="HeadZBrute02_W_mc" pivotX="21" pivotY="52" scaleX="1" scaleY="1"/>
+			<part side="N" texture="HeadZBrute02_N_mc" pivotX="21" pivotY="51" scaleX="1" scaleY="1"/>
+			<part side="E" texture="HeadZBrute02_W_mc" pivotX="21" pivotY="52" scaleX="-1" scaleY="1"/>
+		</parts>
+	</obj>
+</equipments>

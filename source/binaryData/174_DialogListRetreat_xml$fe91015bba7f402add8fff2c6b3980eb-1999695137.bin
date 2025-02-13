@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<obj>
+		<objName>leaveAreaNotOnSafeAreaDialog</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Not all of your expedition team members were inside the SAFE AREA when you leave.</en>
+					<jp>エリアを離れるとき、安全地帯の中にいたのは遠征チーム全員ではなかったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText></nameText>
+				<dialogText></dialogText>
+				<reward type="injureCharArrayNotOnSafeArea"></reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- RETREAT INJURY EVENT START -->
+	<obj>  
+		<objName>retreatInjuryEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to abandon the expedition and return to base immediately.</en>
+					<jp>遠征を中止し、すぐにHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>SNEAK&#xA;safer, takes more time</en>
+					<jp>足音を立てない&#xA;安全性は高いが、時間がかかる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="6">retreatAnswerSneakSuccessEvent</link>
+					<link chance="2">retreatAnswerSneakInjuryEvent1</link>
+					<link chance="2">retreatAnswerSneakInjuryEvent2</link>
+				</links>
+				<cost type="returnTime">120000</cost>
+			</option>
+			<option>
+				<name>
+					<en>RUN&#xA;risky, but faster</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">retreatAnswerRunSuccessEvent</link>
+					<link chance="3">retreatAnswerRunInjuryEvent1</link>
+					<link chance="3">retreatAnswerRunInjuryEvent2</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	<!-- RETREAT INJURY EVENT END -->
+	
+	<!-- RETREAT AMMO EVENT 1 START -->
+	<obj>
+		<objName>retreatAmmoEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>	
+				</nameText>
+				<dialogText>
+					<en>You decided to abandon the expedition and return to base immediately.</en>
+					<jp>遠征を中止し、すぐにHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>SNEAK&#xA;safer, takes more time</en>
+					<jp>足音を立てない&#xA;安全性は高いが、時間がかかる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="6">retreatAnswerSneakSuccessEvent</link>
+					<link chance="4">retreatAnswerSneakAmmoLostEvent1</link>
+				</links>
+				<cost type="returnTime">120000</cost>
+			</option>
+			<option>
+				<name>
+					<en>RUN&#xA;risky, but faster</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">retreatAnswerRunSuccessEvent</link>
+					<link chance="6">retreatAnswerRunAmmoLostEvent1</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	<!-- RETREAT AMMO EVENT 1 END -->
+	
+	<!-- RETREAT AMMO EVENT 2 START -->
+	<obj>
+		<objName>retreatAmmoEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to abandon the expedition and return to base immediately.</en>
+					<jp>遠征を中止し、すぐにHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>SNEAK&#xA;safer, takes more time</en>
+					<jp>足音を立てない&#xA;安全性は高いが、時間がかかる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="6">retreatAnswerSneakSuccessEvent</link>
+					<link chance="2">retreatAnswerSneakAmmoLostEvent1</link>
+					<link chance="2">retreatAnswerSneakAmmoLostEvent2</link>
+				</links>
+				<cost type="returnTime">120000</cost>
+			</option>
+			<option>
+				<name>
+					<en>RUN&#xA;risky, but faster</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">retreatAnswerRunSuccessEvent</link>
+					<link chance="3">retreatAnswerRunAmmoLostEvent1</link>
+					<link chance="3">retreatAnswerRunAmmoLostEvent2</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	<!-- RETREAT AMMO EVENT 2 END -->
+	
+	<!-- RETREAT SUPPLY EVENT 1 START -->
+	<obj>
+		<objName>retreatSupplyEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to abandon the expedition and return to base immediately.</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>SNEAK&#xA;safer, takes more time</en>
+					<jp>足音を立てない&#xA;安全性は高いが、時間がかかる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="6">retreatAnswerSneakSuccessEvent</link>
+					<link chance="4">retreatAnswerSneakSupplyLostEvent1</link>
+				</links>
+				<cost type="returnTime">120000</cost>
+			</option>
+			<option>
+				<name>
+					<en>RUN&#xA;risky, but faster</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">retreatAnswerRunSuccessEvent</link>
+					<link chance="6">retreatAnswerRunSupplyLostEvent1</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	<!-- RETREAT SUPPLY EVENT 1 END -->
+	
+	<!-- RETREAT SUPPLY EVENT 2 START -->
+	<obj>
+		<objName>retreatSupplyEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to abandon the expedition and return to base immediately.</en>
+					<jp>遠征を中止し、すぐにHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>SNEAK&#xA;safer, takes more time</en>
+					<jp>足音を立てない&#xA;安全性は高いが、時間がかかる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="6">retreatAnswerSneakSuccessEvent</link>
+					<link chance="2">retreatAnswerSneakSupplyLostEvent1</link>
+					<link chance="2">retreatAnswerSneakSupplyLostEvent2</link>
+				</links>
+				<cost type="returnTime">120000</cost>
+			</option>
+			<option>
+				<name>
+					<en>RUN&#xA;risky, but faster</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">retreatAnswerRunSuccessEvent</link>
+					<link chance="3">retreatAnswerRunSupplyLostEvent1</link>
+					<link chance="3">retreatAnswerRunSupplyLostEvent2</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	<!-- RETREAT SUPPLY EVENT 2 END -->
+	
+	<!-- RETREAT FUEL EVENT 1 START -->
+	<obj>
+		<objName>retreatFuelEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to abandon the expedition and return to base immediately.</en>
+					<jp>遠征を中止し、すぐにHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>SNEAK&#xA;safer, takes more time</en>
+					<jp>足音を立てない&#xA;安全性は高いが、時間がかかる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="6">retreatAnswerSneakSuccessEvent</link>
+					<link chance="4">retreatAnswerSneakFuelLostEvent1</link>
+				</links>
+				<cost type="returnTime">120000</cost>
+			</option>
+			<option>
+				<name>
+					<en>RUN&#xA;risky, but faster</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">retreatAnswerRunSuccessEvent</link>
+					<link chance="6">retreatAnswerRunFuelLostEvent1</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	<!-- RETREAT FUEL EVENT 1 END -->
+	
+	<!-- RETREAT FUEL EVENT 2 START -->
+	<obj>
+		<objName>retreatFuelEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to abandon the expedition and return to base immediately.</en>
+					<jp>遠征を中止し、すぐにHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>SNEAK&#xA;safer, takes more time</en>
+					<jp>足音を立てない&#xA;安全性は高いが、時間がかかる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="6">retreatAnswerSneakSuccessEvent</link>
+					<link chance="2">retreatAnswerSneakFuelLostEvent1</link>
+					<link chance="2">retreatAnswerSneakFuelLostEvent2</link>
+				</links>
+				<cost type="returnTime">120000</cost>
+			</option>
+			<option>
+				<name>
+					<en>RUN&#xA;risky, but faster</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">retreatAnswerRunSuccessEvent</link>
+					<link chance="3">retreatAnswerRunFuelLostEvent1</link>
+					<link chance="3">retreatAnswerRunFuelLostEvent2</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	<!-- RETREAT FUEL EVENT 2 END -->
+	
+	<!-- RETREAT SNEAK SUCCESS START -->
+	<obj>
+		<objName>retreatAnswerSneakSuccessEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Fortunately nothing happens, your team made it back alive!</en>
+					<jp>幸い、何も起こらなかった。チーム全員で無事に戻ることができた！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT SNEAK SUCCESS END -->
+	
+	<!-- RETREAT SNEAK DEATH START -->
+	<obj>
+		<objName>retreatAnswerSneakDeathEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately, somebody tripped and made a loud noise.</en>
+					<jp>誰かがつまづいて、大きな音を立ててしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The horde has been alerted of your presence. You fight your way, but not everyone made it out.</en>
+					<jp>ゾンビの群れがこちらに気づく。戦って道を切り開いたが、HQにたどりついたのは全員ではなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="death">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT SNEAK DEATH END -->
+	
+	<!-- RETREAT SNEAK INJURY START -->
+	<obj>
+		<objName>retreatAnswerSneakInjuryEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings,you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately, somebody tripped and made a loud noise.</en>
+					<jp>誰かがつまづいて、大きな音を立ててしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The horde has been alerted of your presence. You fight your way, but not everyone made it out unscathed.</en>
+					<jp>ゾンビの群れがこちらに気づく。戦って道を切り開いたが、無事にHQにたどりついたのは全員ではなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-15</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>retreatAnswerSneakInjuryEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately, somebody tripped and made a loud noise.</en>
+					<jp>誰かがつまづいて、大きな音を立ててしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The horde has been alerted of your presence. You fight your way, but not everyone made it out unscathed.</en>
+					<jp>ゾンビの群れがこちらに気づく。戦って道を切り開いたが、無事にHQにたどりついたのは全員ではなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-30</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT SNEAK INJURY END -->
+	
+	<!-- RETREAT RUN SUCCESS START -->
+	<obj>
+		<objName>retreatAnswerRunSuccessEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fight your way, and run as fast as you can...</en>
+					<jp>HQへの道をたどりながら戦いつつ、全力で走る。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText
+					><en>Fortunately, you outrun the horde. Everyone made it out.</en>
+					<jp>幸い、逃げ切れたようだ。全員が無事だ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT RUN SUCCESS END -->
+	
+	<!-- RETREAT RUN DEATH START -->
+	<obj>
+		<objName>retreatAnswerRunDeathEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fight your way, and run as fast as you can.</en>
+					<jp>HQへの道をたどりながら戦いつつ、全力で走る…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately, not everyone made it out alive.</en>
+					<jp>だが、無事に逃げ切れたのは全員ではなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="death">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT RUN DEATH END -->
+	
+	<!-- RETREAT RUN INJURY START -->
+	<obj>
+		<objName>retreatAnswerRunInjuryEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fight your way, and run as fast as you can.</en>
+					<jp>HQへの道をたどりながら戦いつつ、全力で走る。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately, not everyone made it out unscathed.</en>
+					<jp>だが、無事にHQにたどりついたのは全員ではなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-15</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>retreatAnswerRunInjuryEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fight your way, and run as fast as you can.</en>
+					<jp>HQへの道をたどりながら戦いつつ、全力で走る。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately, not everyone made it out unscathed.</en>
+					<jp>だが、無事にHQにたどりついたのは全員ではなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-30</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT RUN INJURY END -->
+	
+	<!-- RETREAT SNEAK AMMO LOST EVENT START -->
+	<obj>
+		<objName>retreatAnswerSneakAmmoLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">-250</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>retreatAnswerSneakAmmoLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">-500</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT SNEAK AMMO LOST EVENT END -->
+	
+	<!-- RETREAT RUN AMMO LOST EVENT START -->
+	<obj>
+		<objName>retreatAnswerRunAmmoLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">-250</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>retreatAnswerRunAmmoLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">-500</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT RUN AMMO LOST EVENT END -->
+	
+	<!-- RETREAT SNEAK SUPPLY LOST EVENT START -->
+	<obj>
+		<objName>retreatAnswerSneakSupplyLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-5</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>retreatAnswerSneakSupplyLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-10</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT SNEAK SUPPLY LOST EVENT END -->
+	
+	<!-- RETREAT RUN SUPPLY LOST EVENT START -->
+	<obj>
+		<objName>retreatAnswerRunSupplyLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-5</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>retreatAnswerRunSupplyLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-10</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT RUN SUPPLY LOST EVENT END -->
+	
+	<!-- RETREAT SNEAK FUEL LOST EVENT START -->
+	<obj>
+		<objName>retreatAnswerSneakFuelLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+					</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">-1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>retreatAnswerSneakFuelLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the buildings, you can hear frightening noises around you.</en>
+					<jp>建物の間をぬってゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">-2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT SNEAK FUEL LOST EVENT END -->
+	
+	<!-- RETREAT RUN FUEL LOST EVENT START -->
+	<obj>
+		<objName>retreatAnswerRunFuelLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">-1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>retreatAnswerRunFuelLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the buildings, they made a lot of noise.</en>
+					<jp>建物の間をぬって走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. A zombie horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">-2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RETREAT RUN FUEL LOST EVENT END -->
+	
+</dialogs>

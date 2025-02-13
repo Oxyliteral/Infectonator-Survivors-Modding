@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<!-- RADIO RECRUITMENT CALL -->
+	<!-- LOW SIGNAL START -->
+	<obj>
+		<objName>lowSignal</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>LOW SIGNAL</en>
+					<jp>かすかな信号</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>We picked up a weak signal, you can barely hear someone talking on the other side.</en>
+					<jp>弱い信号をキャッチした。電波にのって、見知らぬ声の呼びかけがかすかに聞こえる。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>All you can hear is static and a few words before the transmission got disconnected.</en>
+					<jp>その声は同じ言葉を繰り返しているが、接続はすぐに途切れてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- LOW SIGNAL END -->
+	
+	<!-- CALL TO COME TO HQ START -->
+	<obj>
+		<objName>radioRecruitment1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="radioReply">
+			<scene>
+				<nameText>
+					<en>A RESPONSE!</en>
+					<jp>応答あり！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A voice from your RADIO breaks the silence.
+						"Hey, it's great to hear another survivor!".
+					</en>
+					<jp>突然、無線機から声が聞こえた。&#xA;「やった！自分以外の生存者がいるなんて！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>radioRecruitment2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="radioReply">
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en>A RESPONSE!</en>
+					<jp>応答あり！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A voice from your RADIO breaks the silence.
+						"Who is this?! What do you want?!"
+					</en>
+					<jp>突然、無線機から声が聞こえた。&#xA;「誰だ？！何をしようとしている？！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>radioRecruitment3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="radioReply">
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en>A RESPONSE!</en>
+					<jp>応答あり！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A voice from your RADIO breaks the silence.
+						"Hello?! Is anyone there?!"
+					</en>
+					<jp>突然、無線機から声が聞こえた。&#xA;「おーい！誰か聞こえる？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- CALL TO COME TO HQ END -->
+	
+	<!-- RADIO RESPONSE START -->
+	<obj>
+		<objName>radioReply</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Someone seems to be answering our calls. How should we respond?</en>
+					<jp>呼びかけに応じてくれた人がいるようだ。どう応答すべきだろうか？</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Ignore it</en>
+					<jp>無視する</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">radioReplyIgnore</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Invite to HQ</en>
+					<jp>HQに来いと言う</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">radioReplyInvite</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Offer help</en>
+					<jp>助けを申し出る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">radioReplyHelp</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>radioReplyIgnore</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You ignored the response.</en>
+					<jp>応答を無視した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>radioReplyInvite</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You answer the radio and told them about your HQ.</en>
+					<jp>無線機に応答し、HQについて話した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You told them your location and invited them to come.</en>
+					<jp>HQの場所を伝え、こちらに来るように提案した。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="variable" action="newSurvivorEvent">1</trigger>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>When the transmission ended, you started to contemplate your actions. Perhaps giving your location to unknown strangers was not a good idea.</en>
+					<jp>交信を終えてから、はたして本当にこれでよかったのだろうかと考える。まったく知らない誰かにこちらの場所を教えてしまったのは、浅はかなことだったかもしれない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>radioReplyHelp</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You answer the radio and offer help.</en>
+					<jp>無線機に応答し、助けを申し出た。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The voice on the radio sounds rather suspicious.</en>
+					<jp>無線機から聞こえる声には、疑いの色が混じっている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Even so, you managed to get their location and mark it on your map.</en>
+					<jp>だが結局、相手の居場所を聞き出すことができた。マップに印をつけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">rescueSurvivor</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RADIO RESPONSE END -->
+
+	<!-- RADIO LOCATING SUPPLY -->
+	<obj>
+		<objName>supplyLocated</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SUPPLY LOCATED</en>
+					<jp>補給物資を発見</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>After a few attempts, you successfully gathered information that leads to location of some SUPPLIES.</en>
+					<jp>何度か試みた結果、補給物資の保管場所に関する情報を集めることができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SUPPLY LOCATED</en>
+					<jp>補給物資を発見</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You marked the location on the map.</en>
+					<jp>マップに印をつけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">obtainSupply</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>openingObtainSupply</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>RADIO</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is the place where some SUPPLIES are located. Find it!"</en>
+					<jp>「ここに補給物資があるはずだ。見つけて！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>supplyObtained</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You found an iron crate.</en>
+					<jp>金属製の箱を発見した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You open it and find some SUPPLIES.</en>
+					<jp>開けてみると、そこには補給物資があった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">5</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="endQuest">obtainSupply</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- RADIO LOCATING FUEL -->
+	<obj>
+		<objName>fuelLocated</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>FUEL LOCATED</en>
+					<jp>燃料を発見</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>After a few attempts, you successfully gathered information that leads to a FUEL location.</en>
+					<jp>何度か試みた結果、燃料の保管場所に関する情報を集めることができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>FUEL LOCATED</en>
+					<jp>燃料を発見</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You marked the location on the map.</en>
+					<jp>マップに印をつけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">obtainFuel</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>openingObtainFuel</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>RADIO</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is the place where some FUEL is located. Find it!"</en>
+					<jp>「ここに燃料があるはずだ。見つけて！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>fuelObtained</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>IRON CRATE</en>
+					<jp>鉄の箱</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You found an iron crate.</en>
+					<jp>金属製の箱を発見した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You open it and find a gallon of fuel.</en>
+					<jp>開けてみると、そこには燃料缶があった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">1</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="endQuest">obtainFuel</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+</dialogs>

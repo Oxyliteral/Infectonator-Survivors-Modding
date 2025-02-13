@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e5ff084874a687bf3ad2c4a879f70460:9f21f7bba2a7a23433f2f64efabdbc74:3959335ca71259b75924f3aa0a7278d5$ -->
+<TextureAtlas imagePath="eventTutorial.png" width="1010" height="1883">
+    <SubTexture name="TutorialGarage" x="2" y="2" width="334" height="207"/>
+    <SubTexture name="TutorialGarageJP" x="338" y="2" width="334" height="207"/>
+    <SubTexture name="TutorialGarden" x="674" y="2" width="334" height="207"/>
+    <SubTexture name="TutorialGardenJP" x="2" y="211" width="334" height="207"/>
+    <SubTexture name="TutorialInst1" x="338" y="211" width="334" height="207"/>
+    <SubTexture name="TutorialInst1JP" x="674" y="211" width="334" height="207"/>
+    <SubTexture name="TutorialInst2" x="2" y="420" width="334" height="207"/>
+    <SubTexture name="TutorialInst2JP" x="338" y="420" width="334" height="207"/>
+    <SubTexture name="TutorialInst3" x="674" y="420" width="334" height="207"/>
+    <SubTexture name="TutorialInst3JP" x="2" y="629" width="334" height="207"/>
+    <SubTexture name="TutorialInst4" x="338" y="629" width="334" height="207"/>
+    <SubTexture name="TutorialInst4JP" x="674" y="629" width="334" height="207"/>
+    <SubTexture name="TutorialInst5" x="2" y="838" width="334" height="207"/>
+    <SubTexture name="TutorialInst5JP" x="338" y="838" width="334" height="207"/>
+    <SubTexture name="TutorialInst6" x="674" y="838" width="334" height="207"/>
+    <SubTexture name="TutorialInst7" x="2" y="1047" width="334" height="207"/>
+    <SubTexture name="TutorialInst7JP" x="338" y="1047" width="334" height="207"/>
+    <SubTexture name="TutorialInst8" x="674" y="1047" width="334" height="207"/>
+    <SubTexture name="TutorialInst8JP" x="2" y="1256" width="334" height="207"/>
+    <SubTexture name="TutorialKitchen" x="338" y="1256" width="334" height="207"/>
+    <SubTexture name="TutorialKitchenJP" x="674" y="1256" width="334" height="207"/>
+    <SubTexture name="TutorialMission" x="2" y="1465" width="334" height="207"/>
+    <SubTexture name="TutorialMissionJP" x="2" y="1674" width="334" height="207"/>
+    <SubTexture name="TutorialWorkshop" x="338" y="1465" width="334" height="207"/>
+    <SubTexture name="TutorialWorkshopJP" x="674" y="1465" width="334" height="207"/>
+</TextureAtlas>

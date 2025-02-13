@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<characters>
+	<obj>
+		<objName>Hunter</objName>
+		<charPhoto>PortraitHunter</charPhoto>
+		<gender>Male</gender>
+		<screenName>
+			<en>Hunter</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>A Frequent hunter that always attends open hunting season to hunt deer and moose.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<viewRadius>160</viewRadius>
+		<maxHealth>6</maxHealth>
+		<speed>7</speed>
+		<searchSpeed>5</searchSpeed>
+		<buildSpeed>5</buildSpeed>
+		<accuracy>8</accuracy>
+		<melee>2</melee>
+		<idle>100</idle>
+		<stamina>180000</stamina> <!-- stamina in milliseconds -->
+		<scale>1</scale>
+		<equip part="head">Face28</equip>
+		<equip part="body">Shirt28</equip>
+		<equip part="legs">Pants28</equip>
+		<equip part="weapon">Glock</equip>
+		
+		<chat type="normal">
+			<en>It's easier than hunting ducks.</en>
+			<jp>アヒル狩りよりたやすいな</jp>
+			<cn>It's easier than hunting ducks.</cn>
+		</chat>
+		<chat type="normal">
+			<en>I got lot of headshots today.</en>
+			<jp>ヘッドショットなんて簡単だ</jp>
+			<cn>I got lot of headshots today.</cn>
+		</chat>
+		<chat type="normal">
+			<en>I'm bored.</en>
+			<jp>退屈だ</jp>
+			<cn>I'm bored.</cn>
+		</chat>
+		
+		<chat type="hurt">
+			<en>Argh! It hurts!</en>
+			<jp>うわ、痛い！</jp>
+			<cn>Argh! It hurts!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Get off me!</en>
+			<jp>くっそ、離れろ！</jp>
+			<cn>Get off me!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Ouch!</en>
+			<jp>痛っ！</jp>
+			<cn>Ouch!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Argh!</en>
+			<jp>ああっ！</jp>
+			<cn>Argh!3</cn>
+		</chat>
+		
+		<chat type="panic">
+			<en>Protect me!</en>
+			<jp>加勢して！</jp>
+			<cn>Protect me!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>HELP ME!</en>
+			<jp>ヘルプミー！</jp>
+			<cn>HELP ME!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>Over here!</en>
+			<jp>こっちだ！</jp>
+			<cn>Over here!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>Please HELP!</en>
+			<jp>助けてくれ！</jp>
+			<cn>Please HELP!3</cn>
+		</chat>
+		
+		<chat type="reload">
+			<en>Reloading!</en>
+			<jp>リロード中！</jp>
+			<cn>正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Cover me! I'm reloading!</en>
+			<jp>リロード中の援護を！</jp>
+			<cn>掩护我！我正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Wait! I'm reloading!</en>
+			<jp>待って、リロードする！</jp>
+			<cn>等等！我正在装弹！</cn>
+		</chat>
+		
+		<chat type="outOfAmmo">
+			<en>Out of ammo!</en>
+			<jp>弾切れ！</jp>
+			<cn>我没子弹了！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>I need to reload!</en>
+			<jp>リロードしないと！</jp>
+			<cn>我需要装弹！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>My weapon is empty!</en>
+			<jp>弾が空だ！</jp>
+			<cn>我没有武器！</cn>
+		</chat>
+		
+		<chat type="ammoLoaded">
+			<en>Ammo Full!</en>
+			<jp>弾薬満タン！</jp>
+			<cn>弹药满！</cn>
+		</chat>
+		
+		<chat type="searching">
+			<en>Searching!</en>
+			<jp>調査中！</jp>
+			<cn>正在搜索！</cn>
+		</chat>
+		<chat type="searching">
+			<en>I'm looking!</en>
+			<jp>探してる！</jp>
+			<cn>我正在看！</cn>
+		</chat>
+		<chat type="searching">
+			<en>Working on it!</en>
+			<jp>今やってる！</jp>
+			<cn>正在想办法！</cn>
+		</chat>
+		
+		<behavior state="idle">npcIdle</behavior>
+		<behavior state="move">playerAttackMove</behavior>
+		<behavior state="attack">playerAttack</behavior>
+		<behavior state="reload">npcReload</behavior>
+		<behavior state="useItem">playerHeal</behavior>
+		<behavior state="search">playerSearch</behavior>
+		<behavior state="build">playerBuild</behavior>
+		<behavior state="reloadTurret">playerReloadTurret</behavior>
+		<behavior state="salvageTurret">playerSalvageTurret</behavior>
+		<behavior state="die">playerDie</behavior>
+		<behavior state="sleep">playerSleep</behavior>
+	</obj>
+</characters>

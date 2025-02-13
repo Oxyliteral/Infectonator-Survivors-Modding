@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cityObjects>
+	<obj>
+		<objName type="String">TownHQ</objName>
+		<texture type="String">TownHQ</texture>
+		<screenName>
+			<en>HQ</en>
+			<jp>HQ</jp>
+			<cn>总部</cn>
+		</screenName>
+		<desc>
+			<en>This is your main base!</en>
+			<jp>ここが本拠地となる基地だ！</jp>
+			<cn>这是你的基地！</cn>
+		</desc>
+		<setting></setting>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	<obj>
+		<objName type="String">TownForest</objName>
+		<texture type="String">TownForest</texture>
+		<screenName>
+			<en>Woods</en>
+			<jp>林</jp>
+			<cn>树林</cn>
+		</screenName>
+		<desc>
+			<en>Trees everywhere. A perfect place for zombies to hide?</en>
+			<jp>木がたくさん生えている。ゾンビにとっては格好の隠れ家？</jp>
+			<cn>到处都是树。真是个藏僵尸的好地方，对吧？</cn>
+		</desc>
+		<setting>park</setting>
+		<pivotX type="Number">0</pivotX>
+		<pivotY type="Number">0</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownHouse1</objName>
+		<texture type="String">TownHouse1</texture>
+		<screenName>
+			<en>Houses</en>
+			<jp>住宅地</jp>
+			<cn>房屋</cn>
+		</screenName>
+		<desc>
+			<en>Just regular abandoned houses..</en>
+			<jp>一般的な住宅街だ。人けはない。</jp>
+			<cn>这只是一些废弃的房子。</cn>
+		</desc>
+		<setting>house</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownHouse2</objName>
+		<texture type="String">TownHouse2</texture>
+		<screenName>
+			<en>Houses</en>
+			<jp>住宅地</jp>
+			<cn>房屋</cn>
+		</screenName>
+		<desc>
+			<en>Just regular abandoned houses..</en>
+			<jp>一般的な住宅街だ。人けはない。</jp>
+			<cn>这只是一些废弃的房子。</cn>
+		</desc>
+		<setting>house</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownApartment</objName>
+		<texture type="String">TownApartment</texture>
+		<screenName>
+			<en>Apartment</en>
+			<jp>アパート</jp>
+			<cn>公寓</cn>
+		</screenName>
+		<desc>
+			<en>An abandoned apartment building.</en>
+			<jp>かつてはアパートだったが、今は使われていない。</jp>
+			<cn>一座废弃的公寓楼。</cn>
+		</desc>
+		<setting>house</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">79</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownOffice</objName>
+		<texture type="String">TownOffice</texture>
+		<screenName>
+			<en>Office</en>
+			<jp>オフィスビル</jp>
+			<cn>办公室</cn>
+		</screenName>
+		<desc>
+			<en>A lot of people used to work here. Not anymore.</en>
+			<jp>以前はたくさんの人が働いていた。今は誰ひとりいない。</jp>
+			<cn>曾经有许多人在这里工作。如今人去楼空。</cn>
+		</desc>
+		<setting>office</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">79</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownMart</objName>
+		<texture type="String">TownMart</texture>
+		<screenName>
+			<en>Mart</en>
+			<jp>スーパー</jp>
+			<cn>超市</cn>
+		</screenName>
+		<desc>
+			<en>A local mini mart that used to sell colourful slushies.</en>
+			<jp>地元の人が通う小さなスーパー。カラフルなソーダが懐かしい。</jp>
+			<cn>一座本地的小超市，曾经卖彩色的冰沙。</cn>
+		</desc>
+		<setting>mart</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownPharmacy</objName>
+		<texture type="String">TownPharmacy</texture>
+		<screenName>
+			<en>Pharmacy</en>
+			<jp>薬局</jp>
+			<cn>药店</cn>
+		</screenName>
+		<desc>
+			<en>Hope it still got a bunch of medical supplies.</en>
+			<jp>まだ医薬品が残っているかもしれない。</jp>
+			<cn>希望这里仍然有许多医疗供给。</cn>
+		</desc>
+		<setting>pharmacy</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownFastFood1</objName>
+		<texture type="String">TownFastFood1</texture>
+		<screenName>
+			<en>Fry Chick-Ken</en>
+			<jp>フライ・チキン軒</jp>
+			<cn>炸小鸡</cn>
+		</screenName>
+		<desc>
+			<en>A famous fast food restaurant chain. Maybe we can find some leftover food inside?</en>
+			<jp>全国チェーンのファストフード店。まだなにか食べ物が残っているかもしれない。</jp>
+			<cn>一家著名连锁快餐厅。也许还能在里面找到些残羹冷炙？</cn>
+		</desc>
+		<setting>fastfood</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownFastFood2</objName>
+		<texture type="String">TownFastFood2</texture>
+		<screenName>
+			<en>Mack's Burger</en>
+			<jp>バーガーマック亭</jp>
+			<cn>马克的汉堡店</cn>
+		</screenName>
+		<desc>
+			<en>Another famous fast food restaurant chain. Maybe we can find some leftover food inside?</en>
+			<jp>全国チェーンのファストフード店。まだなにか食べ物が残っているかもしれない。</jp>
+			<cn>另一家著名连锁快餐厅。也许还能在里面找到些残羹冷炙？</cn>
+		</desc>
+		<setting>fastfood</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">65</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownGasStation</objName>
+		<texture type="String">TownGasStation</texture>
+		<screenName>
+			<en>Gas Station</en>
+			<jp>ガソリンスタンド</jp>
+			<cn>加油站</cn>
+		</screenName>
+		<desc>
+			<en>Just an ordinary gas station. It's completely depleted, though.</en>
+			<jp>普通のガソリンスタンド。ガソリンはもう残ってないようだ。</jp>
+			<cn>只是一座普通的加油站。不过已经完全废弃了。</cn>
+		</desc>
+		<setting></setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownPark</objName>
+		<texture type="String">TownPark</texture>
+		<screenName>
+			<en>Park</en>
+			<jp>公園</jp>
+			<cn>公园</cn>
+		</screenName>
+		<desc>
+			<en>Really missed when people came here to sat down, relaxed, and read books.</en>
+			<jp>たくさんの人が、ベンチでおしゃべりや読書をして楽しんでいた頃が懐かしい。</jp>
+			<cn>真怀念人们坐在这里放松读书的日子。</cn>
+		</desc>
+		<setting>park</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownPolice</objName>
+		<texture type="String">TownPolice</texture>
+		<screenName>
+			<en>Police Station</en>
+			<jp>警察署</jp>
+			<cn>警察局</cn>
+		</screenName>
+		<desc>
+			<en>Hopefully they stocked a lot of firearms here.</en>
+			<jp>備品の銃器が残っているかもしれない。</jp>
+			<cn>希望他们还在这存放着大量武器。</cn>
+		</desc>
+		<setting>policeStation</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">71</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownPub</objName>
+		<texture type="String">TownPub</texture>
+		<screenName>
+			<en>Pub</en>
+			<jp>パブ</jp>
+			<cn>酒吧</cn>
+		</screenName>
+		<desc>
+			<en>The local drinking hole!</en>
+			<jp>みんなが大好きな酒場だ！</jp>
+			<cn>一家本地小酒吧！</cn>
+		</desc>
+		<setting></setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownCemetery</objName>
+		<texture type="String">TownCemetery</texture>
+		<screenName>
+			<en>Cemetery</en>
+			<jp>霊園</jp>
+			<cn>墓地</cn>
+		</screenName>
+		<desc>
+			<en>Creepy cemetery...</en>
+			<jp>不気味な墓場だ…</jp>
+			<cn>阴森的墓地。。。</cn>
+		</desc>
+		<setting>cemetery</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownChurch</objName>
+		<texture type="String">TownChurch</texture>
+		<screenName>
+			<en>Church</en>
+			<jp>教会</jp>
+			<cn>教堂</cn>
+		</screenName>
+		<desc>
+			<en>A place where people come to pray. The faith is all we need these days.</en>
+			<jp>祈りを捧げる場所。信仰こそ今必要なものではないだろうか。</jp>
+			<cn>人们祷告的地方。信仰正是我们现在最需要的。</cn>
+		</desc>
+		<setting>church</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">75</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownWeaponShop</objName>
+		<texture type="String">TownWeaponShop</texture>
+		<screenName>
+			<en>Weapon Shop</en>
+			<jp>武器屋</jp>
+			<cn>武器商店</cn>
+		</screenName>
+		<desc>
+			<en>This place is filled with firearms and explosives.</en>
+			<jp>ここには多くの銃器や爆弾が眠っている。</jp>
+			<cn>这里堆满了枪炮和炸药。</cn>
+		</desc>
+		<setting>gunShop</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">91</pivotX>
+		<pivotY type="Number">62</pivotY>
+		<offsetX type="Number">0</offsetX>
+		<offsetY type="Number">0</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1</gridArray>
+	</obj>
+	
+	<obj>
+		<objName type="String">TownMall</objName>
+		<texture type="String">TownMall</texture>
+		<screenName>
+			<en>Mall</en>
+			<jp>モール</jp>
+			<cn>商场</cn>
+		</screenName>
+		<desc>
+			<en>Shoes, bags, and clothes...not anymore</en>
+			<jp>靴、かばん、服…遠い昔のことのようだ。</jp>
+			<cn>鞋子、包包和衣服。。。都已经没了</cn>
+		</desc>
+		<setting>mall</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">136</pivotX>
+		<pivotY type="Number">95</pivotY>
+		<offsetX type="Number">-45</offsetX>
+		<offsetY type="Number">22</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">2</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1,
+								1</gridArray>
+	</obj>
+	<obj>
+		<objName type="String">TownHospital</objName>
+		<texture type="String">TownHospital</texture>
+		<screenName>
+			<en>Hospital</en>
+			<jp>病院</jp>
+			<cn>医院</cn>
+		</screenName>
+		<desc>
+			<en>A lot of medical supplies can be found here, and infected peoples.</en>
+			<jp>医薬品がたくさん残っているだろう。…それに感染者も。</jp>
+			<cn>这里有很多医疗补给，以及被感染人群。</cn>
+		</desc>
+		<setting>hospital</setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">136</pivotX>
+		<pivotY type="Number">91</pivotY>
+		<offsetX type="Number">45</offsetX>
+		<offsetY type="Number">22</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">2</gridWidth>
+		<gridHeight type="int">1</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1,1</gridArray>
+	</obj>
+	<obj>
+		<objName type="String">TownWarehouse</objName>
+		<texture type="String">TownWarehouse</texture>
+		<screenName>
+			<en>Warehouse</en>
+			<jp>倉庫</jp>
+			<cn>仓库</cn>
+		</screenName>
+		<desc>
+			<en>Just a local storage warehouse.</en>
+			<jp>保管用の倉庫。</jp>
+			<cn>只是一个本地的储存仓库。</cn>
+		</desc>
+		<setting></setting>
+		<animated type="Boolean">0</animated>
+		<pivotX type="Number">136</pivotX>
+		<pivotY type="Number">84</pivotY>
+		<offsetX type="Number">-45</offsetX>
+		<offsetY type="Number">22</offsetY>
+		<scaleX type="Number">1</scaleX>
+		<gridWidth type="int">1</gridWidth>
+		<gridHeight type="int">2</gridHeight>
+		<gridCenterX type="int">0</gridCenterX>
+		<gridCenterY type="int">0</gridCenterY>
+		<gridArray type="String">1,
+								1</gridArray>
+	</obj>
+	
+</cityObjects>

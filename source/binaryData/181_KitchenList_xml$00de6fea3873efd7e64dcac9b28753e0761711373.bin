@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kitchen>
+
+	<obj>
+		<objName>BetterRecipe1</objName>
+		<screenName>
+			<en>KITCHEN UPGRADE I</en>
+			<jp>キッチン&#xA;アップグレード1</jp>
+			<cn>厨房升级1</cn>
+		</screenName>
+		<iconThumb>IconJournal</iconThumb>
+		<desc>
+			<en>Learn new recipes. UNLOCKS MORE RECIPES and INCREASE SUPPLY RECEIVED FROM COOKING</en>
+			<jp>新しいレシピを覚えよう。レシピと、作れる補給物資の量が増える</jp>
+			<cn>学习新菜谱。解锁更多的菜谱并提升烹饪可获得的补给数量。</cn>
+		</desc>
+		<completedDesc>
+			<en>We learn new ways to cook our meals</en>
+			<jp>新しいレシピを覚えた。</jp>
+			<cn>我们学会了烹饪食物的新方法。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>250</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq>BetterRecipe2</postReq>
+		<postReq>FruitSalad</postReq>
+		<reward type="kitchenCookingUpgrade">1</reward>
+		<unlocked>1</unlocked>
+	</obj>
+	
+	<obj>
+		<objName>ExpeditionRation1</objName>
+		<screenName>
+			<en>EXPEDITION RATION I</en>
+			<jp>遠征用糧食1</jp>
+			<cn>远征食品1</cn>
+		</screenName>
+		<iconThumb>IconJournal</iconThumb>
+		<desc>
+			<en>Learn to prepare rations for your expedition team. EXPEDITION STAMINA +2</en>
+			<jp>遠征に出かけるチームのために糧食を作る方法を覚えよう。遠征時のスタミナが2増える</jp>
+			<cn>学习为你的远征队烹饪食物。远征体力+2</cn>
+		</desc>
+		<completedDesc>
+			<en>We now prepare rations before expeditions.</en>
+			<jp>遠征前に糧食を作れるようになった。</jp>
+			<cn>我们现在在远征前都会准备食物。</cn>
+		</completedDesc>
+		<workPoints>750</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<reward type="expeditionStaminaUpgrade">2</reward>
+		<unlocked>1</unlocked>
+	</obj>
+	
+	<obj>
+		<objName>FruitCup</objName>
+		<screenName>
+			<en>FRUIT CUP</en>
+			<jp>フルーツカップ</jp>
+			<cn>水果杯</cn>
+		</screenName>
+		<iconThumb>IconFoodFruitCup</iconThumb>
+		<desc>
+			<en>Various fruits mixed together in a cup.</en>
+			<jp>色とりどりのフルーツをカップに盛ったもの</jp>
+			<cn>把不同水果混合放在一个杯子里。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished cooking fruit cup.</en>
+			<jp>フルーツカップが完成した。</jp>
+			<cn>我们完成了水果杯的制作。</cn>
+		</completedDesc>
+		<workPoints>50</workPoints>
+		<searchPoints>50</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="kitchenCooking">2</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Fruits</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>GrilledMeat</objName>
+		<screenName>
+			<en>GRILLED MEAT</en>
+			<jp>肉のグリル</jp>
+			<cn>烤肉</cn>
+		</screenName>
+		<iconThumb>IconFoodGrilledMeat</iconThumb>
+		<desc>
+			<en>A simple grilled meat</en>
+			<jp>簡単にグリルした肉</jp>
+			<cn>制作简单的烤肉。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished cooking grilled meat.</en>
+			<jp>肉のグリルが完成した。</jp>
+			<cn>我们完成了烤肉的制作。</cn>
+		</completedDesc>
+		<workPoints>50</workPoints>
+		<searchPoints>50</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="kitchenCooking">2</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Meat</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>VeggieSalad</objName>
+		<screenName>
+			<en>VEGGIE SALAD</en>
+			<jp>野菜サラダ</jp>
+			<cn>蔬菜沙拉</cn>
+		</screenName>
+		<iconThumb>IconFoodVeggieSalad</iconThumb>
+		<desc>
+			<en>Delicious green vegetables salad</en>
+			<jp>おいしい野菜のグリーンサラダ</jp>
+			<cn>美味的绿色蔬菜沙拉。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished cooking vegetable salad.</en>
+			<jp>野菜サラダが完成した。</jp>
+			<cn>我们完成了蔬菜沙拉的制作。</cn>
+		</completedDesc>
+		<workPoints>50</workPoints>
+		<searchPoints>50</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="kitchenCooking">2</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Vegetables</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>FruitSalad</objName>
+		<screenName>
+			<en>FRUIT SALAD</en>
+			<jp>フルーツサラダ</jp>
+			<cn>水果沙拉</cn>
+		</screenName>
+		<iconThumb>IconFoodFruitSalad</iconThumb>
+		<desc>
+			<en>A healthy fruit and veggie salad mix.</en>
+			<jp>果物＋野菜＝ヘルシーなサラダ</jp>
+			<cn>一种健康的水果蔬菜混合沙拉。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished cooking fruit salad.</en>
+			<jp>フルーツサラダが完成した。</jp>
+			<cn>我们完成了水果沙拉的制作。</cn>
+		</completedDesc>
+		<workPoints>100</workPoints>
+		<searchPoints>50</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="kitchenCooking">8</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Fruits</reqItem>
+		<reqItem num="1">Vegetables</reqItem>
+		<reqItem num="1">Water</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>BetterRecipe2</objName>
+		<screenName>
+			<en>KITCHEN UPGRADE II</en>
+			<jp>キッチン&#xA;アップグレード2</jp>
+			<cn>厨房升级2</cn>
+		</screenName>
+		<iconThumb>IconJournal</iconThumb>
+		<desc>
+			<en>Improve your kitchen equipment. UNLOCKS MORE RECIPES and INCREASE SUPPLY RECEIVED FROM COOKING</en>
+			<jp>キッチンの設備を改良しよう。レシピと、作れる補給物資の量が増える</jp>
+			<cn>升级你的厨房设备。解锁更多的菜谱并提升烹饪可获得的补给数量。</cn>
+		</desc>
+		<completedDesc>
+			<en>The kitchen is now improved.</en>
+			<jp>キッチンが改良された。</jp>
+			<cn>厨房现在升级了。</cn>
+		</completedDesc>
+		<workPoints>1000</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq>BetterRecipe3</postReq>
+		<postReq>MeatStew</postReq>
+		<reward type="kitchenCookingUpgrade">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="5">Pipes</reqItem>
+		<reqItem num="5">Metal</reqItem>
+		<reqItem num="5">Wood</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>ExpeditionRation2</objName>
+		<screenName>
+			<en>EXPEDITION RATION II</en>
+			<jp>遠征用糧食2</jp>
+			<cn>远征食品2</cn>
+		</screenName>
+		<iconThumb>IconJournal</iconThumb>
+		<desc>
+			<en>Learn to prepare rations for your expedition team. EXPEDITION STAMINA +2</en>
+			<jp>遠征に出かけるチームのために糧食を作る方法を覚えよう。遠征時のスタミナが2増える</jp>
+			<cn>学习为你的远征队烹饪食物。远征体力+2</cn>
+		</desc>
+		<completedDesc>
+			<en>We now prepare rations before expeditions.</en>
+			<jp>糧食を作れるようになった。</jp>
+			<cn>我们现在在远征前都会准备食物。</cn>
+		</completedDesc>
+		<workPoints>1000</workPoints>
+		<searchPoints>750</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq>ExpeditionRation1</preReq>
+		<preReq>BetterRecipe1</preReq>
+		<reward type="expeditionStaminaUpgrade">2</reward>
+		<unlocked>0</unlocked>
+	</obj>
+	
+	<obj>
+		<objName>MeatStew</objName>
+		<screenName>
+			<en>MEAT STEW</en>
+			<jp>ミートシチュー</jp>
+			<cn>炖肉</cn>
+		</screenName>
+		<iconThumb>IconFoodMeatStew</iconThumb>
+		<desc>
+			<en>Tender meat with vegetables and deeply flavored sauce.</en>
+			<jp>柔らかなお肉と野菜、そして香り高いソース</jp>
+			<cn>把蔬菜和肉一起炖，加上浓稠酱汁。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished cooking meat stew.</en>
+			<jp>ミートシチューが完成した。</jp>
+			<cn>我们完成了炖肉的制作。</cn>
+		</completedDesc>
+		<workPoints>100</workPoints>
+		<searchPoints>50</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="kitchenCooking">13</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Meat</reqItem>
+		<reqItem num="1">Vegetables</reqItem>
+		<reqItem num="1">Water</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>BetterRecipe3</objName>
+		<screenName>
+			<en>KITCHEN UPGRADE III</en>
+			<jp>キッチン&#xA;アップグレード3</jp>
+			<cn>厨房升级3</cn>
+		</screenName>
+		<iconThumb>IconJournal</iconThumb>
+		<desc>
+			<en>Improve your kitchen equipment and learn more recipes. UNLOCKS MORE RECIPES and INCREASE SUPPLY RECEIVED FROM COOKING</en>
+			<jp>キッチンの設備をさらに改良して、新しいレシピも覚えよう。レシピと、作れる補給物資の量が増える</jp>
+			<cn>升级你的厨房设备并学习更多菜谱。解锁更多的菜谱并提升烹饪可获得的补给数量。</cn>
+		</desc>
+		<completedDesc>
+			<en>We learn new ways to cook our meals</en>
+			<jp>新しいレシピを覚えた。</jp>
+			<cn>我们学会了烹饪食物的新方法。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<reward type="kitchenCookingUpgrade">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="5">Pipes</reqItem>
+		<reqItem num="10">Metal</reqItem>
+		<reqItem num="10">Wood</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>ExpeditionRation3</objName>
+		<screenName>
+			<en>EXPEDITION RATION III</en>
+			<jp>遠征用糧食3</jp>
+			<cn>远征食品3</cn>
+		</screenName>
+		<iconThumb>IconJournal</iconThumb>
+		<desc>
+			<en>Learn to prepare rations for your expedition team. EXPEDITION STAMINA +2</en>
+			<jp>遠征に出かけるチームのために糧食を作る方法を覚えよう。遠征時のスタミナが2増える</jp>
+			<cn>学习为你的远征队烹饪食物。远征体力+2</cn>
+		</desc>
+		<completedDesc>
+			<en>We now prepare rations before expeditions.</en>
+			<jp>糧食を作れるようになった。</jp>
+			<cn>我们现在在远征前都会准备食物。</cn>
+		</completedDesc>
+		<workPoints>750</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq>ExpeditionRation2</preReq>
+		<preReq>BetterRecipe2</preReq>
+		<reward type="expeditionStaminaUpgrade">2</reward>
+		<unlocked>0</unlocked>
+	</obj>
+</kitchen>

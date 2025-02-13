@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+
+	<!-- SYDNEY -->
+	<obj>
+		<objName>SydneyRecruitEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>SydneyLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>SdynedKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- SYDNEY END-->
+	
+	<!-- SCIENTIST -->
+	<obj>
+		<objName>ScientistRecruitEvents</objName>
+		<dialog chance="1">ScientistRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>ScientistLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>ScientistKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- SCIENTIST END-->
+	
+	<!-- WORKER -->
+	<obj>
+		<objName>MikeRecruitEvents</objName>
+		<dialog chance="1">WorkerRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>MikeLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>MikeKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- WORKER END-->
+	
+	<!-- COP -->
+	<obj>
+		<objName>CopRecruitEvents</objName>
+		<dialog chance="1">CopRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>CopLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>CopKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- COP END-->
+	
+	<!-- CHEERLEADER -->
+	<obj>
+		<objName>CheerleaderRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>CheerleaderLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>CheerleaderKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- CHEERLEADER END-->
+	
+	<!-- NERD -->
+	<obj>
+		<objName>NerdRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>NerdLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>NerdKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- NERD END-->
+	
+	<!-- HOBO -->
+	<obj>
+		<objName>HoboRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>HoboLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>HoboKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- HOBO END-->
+	
+	<!-- BILL -->
+	<obj>
+		<objName>BillRecruitEvents</objName>
+		<dialog chance="1">BillRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>BillLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>BillKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- BILL END-->
+	
+	<!-- FRANCIS -->
+	<obj>
+		<objName>FrancisRecruitEvents</objName>
+		<dialog chance="1">FrancisRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>FrancisLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>FrancisKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- FRANCIS END-->
+	
+	<!-- LOUIS -->
+	<obj>
+		<objName>LouisRecruitEvents</objName>
+		<dialog chance="1">LouisRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>LouisLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>LouisKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- LOUIS END-->
+	
+	<!-- ZOEY -->
+	<obj>
+		<objName>ZoeyRecruitEvents</objName>
+		<dialog chance="1">ZoeyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>ZoeyLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>ZoeyKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- ZOEY END-->
+	
+	<!-- RESEARCHER -->
+	<obj>
+		<objName>ResearcherRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>ResearcherLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>ResearcherKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- RESEARCHER END-->
+	
+	<!-- THUG -->
+	<obj>
+		<objName>RocoRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>RocoLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>RocoKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- THUG END-->
+	
+	<!-- SWAT -->
+	<obj>
+		<objName>VictorRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>VictorLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>VictorKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- SWAT END-->
+	
+	<!-- BOXER -->
+	<obj>
+		<objName>BoxerRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>BoxerLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>BoxerKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- BOXER END-->
+	
+	<!-- DETECTIVE -->
+	<obj>
+		<objName>DetectiveRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>DetectiveLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>DetectiveKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- DETECTIVE END-->
+	
+	<!-- OUTDOORSMAN -->
+	<obj>
+		<objName>OutdoorsmanRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>OutdoorsmanLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>OutdoorsmanKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- OUTDOORSMAN END-->
+	
+	<!-- HUNTER -->
+	<obj>
+		<objName>HunterRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>HunterLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>HunterKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- HUNTER END-->
+	
+	<!-- FREDDIEW -->
+	<obj>
+		<objName>FreddieRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>FreddieLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>FreddieKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- FREDDIEW END-->
+	
+	<!-- PWNISHER -->
+	<obj>
+		<objName>ClintonRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>ClintonLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>ClintonKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- PWNISHER END-->
+	
+	<!-- PEWDS -->
+	<obj>
+		<objName>FelixRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>FelixLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>FelixKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- PEWDS END-->
+	
+	<!-- MARZIA -->
+	<obj>
+		<objName>MarziaRecruitEvents</objName>
+		<dialog chance="1">GenericRecruit1</dialog>
+		<dialog chance="1">GenericRecruit2</dialog>
+		<dialog chance="1">GenericRecruit3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>MarziaLevelUpEvents</objName>
+		<dialog chance="1">SydneyRecruit1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>MarziaKickOutEvents</objName>
+		<dialog chance="1">GenericKickOut1</dialog>
+	</obj>
+	<!-- MARZIA END-->
+	
+	<obj>
+		<objName>RecruitFailEvents</objName>
+		<dialog chance="1">FailedRecruit1</dialog>
+		<dialog chance="1">FailedRecruit2</dialog>
+	</obj>
+</events>

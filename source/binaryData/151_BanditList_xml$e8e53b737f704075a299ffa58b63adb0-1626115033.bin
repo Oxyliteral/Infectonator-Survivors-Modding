@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+NOTES
+
+OLD
+Max Health : Min 75 - Max 200, 25/point
+Speed      : Min 50 - Max 100, 10/point
+Search     : Min 10 - Max 50, 10/point
+Build      : Min 10 - Max 50, 10/point
+Accuracy   : Min 50 - Max 100, 10/point
+
+NEW - 10 PTS MAX
+Max Health : Min 50 - Max 300, 25/point
+Speed      : Min 0 - Max 100, 10/point
+Search     : Min 0 - Max 50, 5/point
+Build      : Min 0 - Max 50, 5/point
+Accuracy   : Min 0 - Max 100, 10/point
+-->
+
+<bandits>
+	
+	<obj>
+		<objName>Bandit</objName>
+		<charPhoto>PortraitThug</charPhoto>
+		<gender>Male</gender>
+		<screenName>
+			<en>Bandit</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>"Gangsta' fo' lyfe!", he said.</en>
+			<jp>「ストリートがオレらのイノチ！」</jp>
+			<cn></cn>
+		</desc>
+		<viewRadius>160</viewRadius>
+		<maxHealth>1</maxHealth>
+		<speed>6</speed>
+		<searchSpeed>2</searchSpeed>
+		<buildSpeed>2</buildSpeed>
+		<accuracy>5</accuracy>
+		<melee>5</melee>
+		<idle>100</idle>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>10</coinReward>
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateWeapon>25</dropRateWeapon>
+		<equip part="head">Face35</equip>
+		<equip part="body">Shirt39</equip>
+		<equip part="legs">Pants39</equip>
+		<equip part="weapon">Glock</equip>
+		
+		<chat type="normal">
+			<en>I'm gonna kill you!</en>
+			<jp>死ねーーーー！</jp>
+			<cn>I'm gonna kill you!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>What's crackin'?</en>
+			<jp>ごきげんよう！</jp>
+			<cn>What's crackin'?3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Enough of this sh*t!</en>
+			<jp>もうたくさんだ！</jp>
+			<cn>Enough of this sh*t!3</cn>
+		</chat>
+		
+		<chat type="hurt">
+			<en>Argh! It hurts!</en>
+			<jp>うわ、痛い！</jp>
+			<cn>Argh! It hurts!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Help me!</en>
+			<jp>助けて！</jp>
+			<cn>Help me!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Ouch!</en>
+			<jp>痛っ！</jp>
+			<cn>Ouch!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Argh!</en>
+			<jp>ああっ！</jp>
+			<cn>Argh!3</cn>
+		</chat>
+		
+		<chat type="panic">
+			<en>Oh no!</en>
+			<jp>うわーっ！</jp>
+			<cn>Oh no!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>We are going to DIE!</en>
+			<jp>このままじゃダメだ！</jp>
+			<cn>We are going to DIE!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>AAAAAAAA!</en>
+			<jp>ああああああ！</jp>
+			<cn>AAAAAAAA!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>HELP!</en>
+			<jp>ヘルプ！</jp>
+			<cn>HELP!3</cn>
+		</chat>
+		
+		<chat type="reload">
+			<en>Reloading!</en>
+			<jp>リロード中！</jp>
+			<cn>正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Cover me! I'm reloading!</en>
+			<jp>リロード中の援護を！</jp>
+			<cn>掩护我！我正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Wait! I'm reloading!</en>
+			<jp>待って、リロードする！</jp>
+			<cn>等等！我正在装弹！</cn>
+		</chat>
+		
+		<chat type="outOfAmmo">
+			<en>Out of ammo!</en>
+			<jp>弾切れ！</jp>
+			<cn>我没子弹了！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>I need to reload!</en>
+			<jp>リロードしないと！</jp>
+			<cn>我需要装弹！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>My weapon is empty!</en>
+			<jp>弾が空だ！</jp>
+			<cn>我没有武器！</cn>
+		</chat>
+		
+		<chat type="ammoLoaded">
+			<en>Ammo Full!</en>
+			<jp>弾薬満タン！</jp>
+			<cn>弹药满！</cn>
+		</chat>
+		
+		<chat type="searching">
+			<en>Searching!</en>
+			<jp>調査中！</jp>
+			<cn>正在搜索！</cn>
+		</chat>
+		<chat type="searching">
+			<en>I'm looking!</en>
+			<jp>探してる！</jp>
+			<cn>我正在看！</cn>
+		</chat>
+		<chat type="searching">
+			<en>Working on it!</en>
+			<jp>今やってる！</jp>
+			<cn>正在想办法！</cn>
+		</chat>
+		
+		<behavior state="idle">banditIdle</behavior>
+		<behavior state="move">banditAttackMove</behavior>
+		<behavior state="attack">banditAttack</behavior>
+		<behavior state="reload">playerReload</behavior>
+		<behavior state="useItem">playerHeal</behavior>
+		<behavior state="search">playerSearch</behavior>
+		<behavior state="build">playerBuild</behavior>
+		<behavior state="reloadTurret">playerReloadTurret</behavior>
+		<behavior state="salvageTurret">playerSalvageTurret</behavior>
+		<behavior state="die">playerDie</behavior>
+	</obj>
+	
+	<obj>
+		<objName>Mugger</objName>
+		<charPhoto>PortraitThug</charPhoto>
+		<gender>Male</gender>
+		<screenName>
+			<en>Mugger</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>"Gangsta' fo' lyfe!", he said.</en>
+			<jp>「ストリートがオレらのイノチ！」</jp>
+			<cn></cn>
+		</desc>
+		<viewRadius>160</viewRadius>
+		<maxHealth>1</maxHealth>
+		<speed>8</speed>
+		<searchSpeed>2</searchSpeed>
+		<buildSpeed>2</buildSpeed>
+		<accuracy>3</accuracy>
+		<melee>7</melee>
+		<idle>100</idle>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>5</coinReward>
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateWeapon>25</dropRateWeapon>
+		<equip part="head">Face36</equip>
+		<equip part="body">Shirt36</equip>
+		<equip part="legs">Pants36</equip>
+		<equip part="weapon">Machete</equip>
+		
+		<chat type="normal">
+			<en>Shut up!</en>
+			<jp>黙れ！</jp>
+			<cn>Shut up!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Gimme yo money!</en>
+			<jp>金をよこせ！</jp>
+			<cn>Gimme yo money!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Enough of this sh*t!</en>
+			<jp>もうたくさんだ！</jp>
+			<cn>Enough of this sh*t!3</cn>
+		</chat>
+		
+		<chat type="hurt">
+			<en>Argh! It hurts!</en>
+			<jp>うわ、痛い！</jp>
+			<cn>Argh! It hurts!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Help me!</en>
+			<jp>助けて！</jp>
+			<cn>Help me!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Ouch!</en>
+			<jp>痛っ！</jp>
+			<cn>Ouch!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Argh!</en>
+			<jp>ああっ！</jp>
+			<cn>Argh!3</cn>
+		</chat>
+		
+		<chat type="panic">
+			<en>Oh no!</en>
+			<jp>うわーっ！</jp>
+			<cn>Oh no!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>We are going to DIE!</en>
+			<jp>このままじゃダメだ！</jp>
+			<cn>We are going to DIE!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>AAAAAAAA!</en>
+			<jp>ああああああ！</jp>
+			<cn>AAAAAAAA!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>HELP!</en>
+			<jp>ヘルプ！</jp>
+			<cn>HELP!3</cn>
+		</chat>
+		
+		<chat type="reload">
+			<en>Reloading!</en>
+			<jp>リロード中！</jp>
+			<cn>正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Cover me! I'm reloading!</en>
+			<jp>リロード中の援護を！</jp>
+			<cn>掩护我！我正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Wait! I'm reloading!</en>
+			<jp>待って、リロードする！</jp>
+			<cn>等等！我正在装弹！</cn>
+		</chat>
+		
+		<chat type="outOfAmmo">
+			<en>Out of ammo!</en>
+			<jp>弾切れ！</jp>
+			<cn>我没子弹了！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>I need to reload!</en>
+			<jp>リロードしないと！</jp>
+			<cn>我需要装弹！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>My weapon is empty!</en>
+			<jp>弾が空だ！</jp>
+			<cn>我没有武器！</cn>
+		</chat>
+		
+		<chat type="ammoLoaded">
+			<en>Ammo Full!</en>
+			<jp>弾薬満タン！</jp>
+			<cn>弹药满！</cn>
+		</chat>
+		
+		<chat type="searching">
+			<en>Searching!</en>
+			<jp>調査中！</jp>
+			<cn>正在搜索！</cn>
+		</chat>
+		<chat type="searching">
+			<en>I'm looking!</en>
+			<jp>探してる！</jp>
+			<cn>我正在看！</cn>
+		</chat>
+		<chat type="searching">
+			<en>Working on it!</en>
+			<jp>今やってる！</jp>
+			<cn>正在想办法！</cn>
+		</chat>
+		
+		<behavior state="idle">banditIdle</behavior>
+		<behavior state="move">banditAttackMove</behavior>
+		<behavior state="attack">banditAttack</behavior>
+		<behavior state="reload">playerReload</behavior>
+		<behavior state="useItem">playerHeal</behavior>
+		<behavior state="search">playerSearch</behavior>
+		<behavior state="build">playerBuild</behavior>
+		<behavior state="reloadTurret">playerReloadTurret</behavior>
+		<behavior state="salvageTurret">playerSalvageTurret</behavior>
+		<behavior state="die">playerDie</behavior>
+	</obj>
+	
+	<obj>
+		<objName>Gangster</objName>
+		<charPhoto>PortraitThug</charPhoto>
+		<gender>Male</gender>
+		<screenName>
+			<en>Gangster</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>"Gangsta' fo' lyfe!", he said.</en>
+			<jp>「ストリートがオレらのイノチ！」</jp>
+			<cn></cn>
+		</desc>
+		<viewRadius>160</viewRadius>
+		<maxHealth>1</maxHealth>
+		<speed>7</speed>
+		<searchSpeed>2</searchSpeed>
+		<buildSpeed>2</buildSpeed>
+		<accuracy>7</accuracy>
+		<melee>3</melee>
+		<idle>100</idle>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>5</coinReward>
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateWeapon>25</dropRateWeapon>
+		<equip part="head">Face38</equip>
+		<equip part="body">Shirt39</equip>
+		<equip part="legs">Pants36</equip>
+		<equip part="weapon">Tec9</equip>
+		
+		<chat type="normal">
+			<en>Shut up!</en>
+			<jp>黙れ！</jp>
+			<cn>Shut up!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Gimme yo money!</en>
+			<jp>金をよこせ！</jp>
+			<cn>Gimme yo money!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Enough of this sh*t!</en>
+			<jp>もうたくさんだ！</jp>
+			<cn>Enough of this sh*t!3</cn>
+		</chat>
+		
+		<chat type="hurt">
+			<en>Argh! It hurts!</en>
+			<jp>うわ、痛い！</jp>
+			<cn>Argh! It hurts!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Help me!</en>
+			<jp>助けて！</jp>
+			<cn>Help me!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Ouch!</en>
+			<jp>痛っ！</jp>
+			<cn>Ouch!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Argh!</en>
+			<jp>ああっ！</jp>
+			<cn>Argh!3</cn>
+		</chat>
+		
+		<chat type="panic">
+			<en>Oh no!</en>
+			<jp>うわーっ！</jp>
+			<cn>Oh no!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>We are going to DIE!</en>
+			<jp>このままじゃダメだ！</jp>
+			<cn>We are going to DIE!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>AAAAAAAA!</en>
+			<jp>ああああああ！</jp>
+			<cn>AAAAAAAA!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>HELP!</en>
+			<jp>ヘルプ！</jp>
+			<cn>HELP!3</cn>
+		</chat>
+		
+		<chat type="reload">
+			<en>Reloading!</en>
+			<jp>リロード中！</jp>
+			<cn>正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Cover me! I'm reloading!</en>
+			<jp>リロード中の援護を！</jp>
+			<cn>掩护我！我正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Wait! I'm reloading!</en>
+			<jp>待って、リロードする！</jp>
+			<cn>等等！我正在装弹！</cn>
+		</chat>
+		
+		<chat type="outOfAmmo">
+			<en>Out of ammo!</en>
+			<jp>弾切れ！</jp>
+			<cn>我没子弹了！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>I need to reload!</en>
+			<jp>リロードしないと！</jp>
+			<cn>我需要装弹！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>My weapon is empty!</en>
+			<jp>弾が空だ！</jp>
+			<cn>我没有武器！</cn>
+		</chat>
+		
+		<chat type="ammoLoaded">
+			<en>Ammo Full!</en>
+			<jp>弾薬満タン！</jp>
+			<cn>弹药满！</cn>
+		</chat>
+		
+		<chat type="searching">
+			<en>Searching!</en>
+			<jp>調査中！</jp>
+			<cn>正在搜索！</cn>
+		</chat>
+		<chat type="searching">
+			<en>I'm looking!</en>
+			<jp>探してる！</jp>
+			<cn>我正在看！</cn>
+		</chat>
+		<chat type="searching">
+			<en>Working on it!</en>
+			<jp>今やってる！</jp>
+			<cn>正在想办法！</cn>
+		</chat>
+		
+		<behavior state="idle">banditIdle</behavior>
+		<behavior state="move">banditAttackMove</behavior>
+		<behavior state="attack">banditAttack</behavior>
+		<behavior state="reload">playerReload</behavior>
+		<behavior state="useItem">playerHeal</behavior>
+		<behavior state="search">playerSearch</behavior>
+		<behavior state="build">playerBuild</behavior>
+		<behavior state="reloadTurret">playerReloadTurret</behavior>
+		<behavior state="salvageTurret">playerSalvageTurret</behavior>
+		<behavior state="die">playerDie</behavior>
+	</obj>
+	
+	<obj>
+		<objName>Outlaw</objName>
+		<charPhoto>PortraitThug</charPhoto>
+		<gender>Male</gender>
+		<screenName>
+			<en>Outlaw</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>"Gangsta' fo' lyfe!", he said.</en>
+			<jp>「ストリートがオレらのイノチ！」</jp>
+			<cn></cn>
+		</desc>
+		<viewRadius>160</viewRadius>
+		<maxHealth>1</maxHealth>
+		<speed>7</speed>
+		<searchSpeed>2</searchSpeed>
+		<buildSpeed>2</buildSpeed>
+		<accuracy>5</accuracy>
+		<melee>5</melee>
+		<idle>100</idle>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>5</coinReward>
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateWeapon>25</dropRateWeapon>
+		<equip part="head">Face39</equip>
+		<equip part="body">Shirt39</equip>
+		<equip part="legs">Pants39</equip>
+		<equip part="weapon">Glock</equip>
+		
+		<chat type="normal">
+			<en>Shut up!</en>
+			<jp>黙れ！</jp>
+			<cn>Shut up!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Gimme yo money!</en>
+			<jp>金をよこせ！</jp>
+			<cn>Gimme yo money!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Enough of this sh*t!</en>
+			<jp>もうたくさんだ！</jp>
+			<cn>Enough of this sh*t!3</cn>
+		</chat>
+		
+		<chat type="hurt">
+			<en>Argh! It hurts!</en>
+			<jp>うわ、痛い！</jp>
+			<cn>Argh! It hurts!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Help me!</en>
+			<jp>助けて！</jp>
+			<cn>Help me!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Ouch!</en>
+			<jp>痛っ！</jp>
+			<cn>Ouch!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Argh!</en>
+			<jp>ああっ！</jp>
+			<cn>Argh!3</cn>
+		</chat>
+		
+		<chat type="panic">
+			<en>Oh no!</en>
+			<jp>うわーっ！</jp>
+			<cn>Oh no!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>We are going to DIE!</en>
+			<jp>このままじゃダメだ！</jp>
+			<cn>We are going to DIE!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>AAAAAAAA!</en>
+			<jp>ああああああ！</jp>
+			<cn>AAAAAAAA!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>HELP!</en>
+			<jp>ヘルプ！</jp>
+			<cn>HELP!3</cn>
+		</chat>
+		
+		<chat type="reload">
+			<en>Reloading!</en>
+			<jp>リロード中！</jp>
+			<cn>正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Cover me! I'm reloading!</en>
+			<jp>リロード中の援護を！</jp>
+			<cn>掩护我！我正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Wait! I'm reloading!</en>
+			<jp>待って、リロードする！</jp>
+			<cn>等等！我正在装弹！</cn>
+		</chat>
+		
+		<chat type="outOfAmmo">
+			<en>Out of ammo!</en>
+			<jp>弾切れ！</jp>
+			<cn>我没子弹了！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>I need to reload!</en>
+			<jp>リロードしないと！</jp>
+			<cn>我需要装弹！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>My weapon is empty!</en>
+			<jp>弾が空だ！</jp>
+			<cn>我没有武器！</cn>
+		</chat>
+		
+		<chat type="ammoLoaded">
+			<en>Ammo Full!</en>
+			<jp>弾薬満タン！</jp>
+			<cn>弹药满！</cn>
+		</chat>
+		
+		<chat type="searching">
+			<en>Searching!</en>
+			<jp>調査中！</jp>
+			<cn>正在搜索！</cn>
+		</chat>
+		<chat type="searching">
+			<en>I'm looking!</en>
+			<jp>探してる！</jp>
+			<cn>我正在看！</cn>
+		</chat>
+		<chat type="searching">
+			<en>Working on it!</en>
+			<jp>今やってる！</jp>
+			<cn>正在想办法！</cn>
+		</chat>
+		
+		<behavior state="idle">banditIdle</behavior>
+		<behavior state="move">banditAttackMove</behavior>
+		<behavior state="attack">banditAttack</behavior>
+		<behavior state="reload">playerReload</behavior>
+		<behavior state="useItem">playerHeal</behavior>
+		<behavior state="search">playerSearch</behavior>
+		<behavior state="build">playerBuild</behavior>
+		<behavior state="reloadTurret">playerReloadTurret</behavior>
+		<behavior state="salvageTurret">playerSalvageTurret</behavior>
+		<behavior state="die">playerDie</behavior>
+	</obj>
+	
+	<obj>
+		<objName>Thief</objName>
+		<charPhoto>PortraitThug</charPhoto>
+		<gender>Male</gender>
+		<screenName>
+			<en>Thief</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>"Show me yo' money!", he said.</en>
+			<jp>「ストリートがオレらのイノチ！」</jp>
+			<cn></cn>
+		</desc>
+		<viewRadius>160</viewRadius>
+		<maxHealth>1</maxHealth>
+		<speed>8</speed>
+		<searchSpeed>2</searchSpeed>
+		<buildSpeed>2</buildSpeed>
+		<accuracy>5</accuracy>
+		<melee>5</melee>
+		<idle>100</idle>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>5</coinReward>
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateWeapon>25</dropRateWeapon>
+		<equip part="head">Face40</equip>
+		<equip part="body">Shirt36</equip>
+		<equip part="legs">Pants39</equip>
+		<equip part="weapon">Crowbar</equip>
+		
+		<chat type="normal">
+			<en>Shut up!</en>
+			<jp>黙れ！</jp>
+			<cn>Shut up!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Gimme yo money!</en>
+			<jp>金をよこせ！</jp>
+			<cn>Gimme yo money!3</cn>
+		</chat>
+		<chat type="normal">
+			<en>Enough of this sh*t!</en>
+			<jp>もうたくさんだ！</jp>
+			<cn>Enough of this sh*t!3</cn>
+		</chat>
+		
+		<chat type="hurt">
+			<en>Argh! It hurts!</en>
+			<jp>うわ、痛い！</jp>
+			<cn>Argh! It hurts!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Help me!</en>
+			<jp>助けて！</jp>
+			<cn>Help me!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Ouch!</en>
+			<jp>痛っ！</jp>
+			<cn>Ouch!3</cn>
+		</chat>
+		<chat type="hurt">
+			<en>Argh!</en>
+			<jp>ああっ！</jp>
+			<cn>Argh!3</cn>
+		</chat>
+		
+		<chat type="panic">
+			<en>Oh no!</en>
+			<jp>うわーっ！</jp>
+			<cn>Oh no!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>We are going to DIE!</en>
+			<jp>このままじゃダメだ！</jp>
+			<cn>We are going to DIE!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>AAAAAAAA!</en>
+			<jp>ああああああ！</jp>
+			<cn>AAAAAAAA!3</cn>
+		</chat>
+		<chat type="panic">
+			<en>HELP!</en>
+			<jp>ヘルプ！</jp>
+			<cn>HELP!3</cn>
+		</chat>
+		
+		<chat type="reload">
+			<en>Reloading!</en>
+			<jp>リロード中！</jp>
+			<cn>正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Cover me! I'm reloading!</en>
+			<jp>リロード中の援護を！</jp>
+			<cn>掩护我！我正在装弹！</cn>
+		</chat>
+		<chat type="reload">
+			<en>Wait! I'm reloading!</en>
+			<jp>待って、リロードする！</jp>
+			<cn>等等！我正在装弹！</cn>
+		</chat>
+		
+		<chat type="outOfAmmo">
+			<en>Out of ammo!</en>
+			<jp>弾切れ！</jp>
+			<cn>我没子弹了！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>I need to reload!</en>
+			<jp>リロードしないと！</jp>
+			<cn>我需要装弹！</cn>
+		</chat>
+		<chat type="outOfAmmo">
+			<en>My weapon is empty!</en>
+			<jp>弾が空だ！</jp>
+			<cn>我没有武器！</cn>
+		</chat>
+		
+		<chat type="ammoLoaded">
+			<en>Ammo Full!</en>
+			<jp>弾薬満タン！</jp>
+			<cn>弹药满！</cn>
+		</chat>
+		
+		<chat type="searching">
+			<en>Searching!</en>
+			<jp>調査中！</jp>
+			<cn>正在搜索！</cn>
+		</chat>
+		<chat type="searching">
+			<en>I'm looking!</en>
+			<jp>探してる！</jp>
+			<cn>我正在看！</cn>
+		</chat>
+		<chat type="searching">
+			<en>Working on it!</en>
+			<jp>今やってる！</jp>
+			<cn>正在想办法！</cn>
+		</chat>
+		
+		<behavior state="idle">banditIdle</behavior>
+		<behavior state="move">banditAttackMove</behavior>
+		<behavior state="attack">banditAttack</behavior>
+		<behavior state="reload">playerReload</behavior>
+		<behavior state="useItem">playerHeal</behavior>
+		<behavior state="search">playerSearch</behavior>
+		<behavior state="build">playerBuild</behavior>
+		<behavior state="reloadTurret">playerReloadTurret</behavior>
+		<behavior state="salvageTurret">playerSalvageTurret</behavior>
+		<behavior state="die">playerDie</behavior>
+	</obj>
+	
+</bandits>

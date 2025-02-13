@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<levelWaves>
+	<obj>
+		<objName>Difficulty0-0</objName>
+		<waves>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty0-1</objName>
+		<waves>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty0-2</objName>
+		<waves>
+		</waves>
+	</obj>
+
+	<obj>
+		<objName>Difficulty1-0</objName>
+		<waves>
+			<wave Default="2" ZombieOfficeman="1"/>
+			<wave Default="3" ZombieOfficeman="2"/>
+			<wave Default="4" ZombieOfficeman="3"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty1-1</objName>
+		<waves>
+			<wave Default="3"/>
+			<wave Default="2" ZombieOfficeman="3"/>
+			<wave Default="5" ZombieWorker="1"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty1-2</objName>
+		<waves>
+			<wave Default="2" ZombieOfficeman="1"/>
+			<wave Default="3" ZombieWorker="1"/>
+			<wave Default="4" ZombieOfficeman="3"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty2-0</objName>
+		<waves>
+			<wave Default="4" ZombieOfficeman="3"/>
+			<wave Default="5" ZombieOfficeman="4"/>
+			<wave Default="7" ZombieOfficeman="5"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty2-1</objName>
+		<waves>
+			<wave ZombieWorker="2" Default="4"/>
+			<wave Default="6" ZombieOfficeman="3"/>
+			<wave Default="5" ZombieCop="3"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty2-2</objName>
+		<waves>
+			<wave Default="4" ZombieCop="1" ZombieOfficeman="1"/>
+			<wave Default="6" ZombieWorker="2"/>
+			<wave Default="4" ZombieCop="2" ZombieOfficeman="3"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty3-0</objName>
+		<waves>
+			<wave Default="5" ZombieCop="1" ZombieWorker="1"/>
+			<wave Default="8"/>
+			<wave Default="5" ZombieWorker="1" ZombieCop="1"/>
+			<wave ZombieCop="2" ZombieWorker="1" Default="7"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty3-1</objName>
+		<waves>
+			<wave Default="6" ZombieCop="1"/>
+			<wave ZombieFatFemale="1" Default="2"/>
+			<wave Default="8" ZombieWorker="1"/>
+			<wave ZombieCop="2" ZombieWorker="1" Default="7"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty3-2</objName>
+		<waves>
+			<wave Default="8"/>
+			<wave ZombieCop="2" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieHazmat="1"/>
+			<wave ZombieFatFemale="1" Default="5"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty4-0</objName>
+		<waves>
+			<wave ZombieFatFemale="1" Default="5"/>
+			<wave Default="8"/>
+			<wave Default="5" ZombieWorker="1" ZombieCop="1"/>
+			<wave ZombieFatFemale="2" Default="7"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty4-1</objName>
+		<waves>
+			<wave Default="6" ZombieCop="1"/>
+			<wave ZombieFatFemale="1" Default="2"/>
+			<wave Default="8" ZombieWorker="1"/>
+			<wave ZombieFatFemale="2" Default="7"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty4-2</objName>
+		<waves>
+			<wave Default="8"/>
+			<wave ZombieFatFemale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10"/>
+			<wave ZombieFatFemale="2" Default="5" ZombieCop="1"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty5-0</objName>
+		<waves>
+			<wave ZombieFatFemale="1" Default="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" Default="8" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty5-1</objName>
+		<waves>
+			<wave ZombieFatFemale="3" ZombiePunkScreamer="1"/>
+			<wave Default="5" ZombieWorker="2" ZombieCop="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="1"/>
+			<wave ZombieFatFemale="2" Default="8" ZombieWorker="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty5-2</objName>
+		<waves>
+			<wave Default="5" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" Default="1" ZombieWorker="1" ZombieCop="2"/>
+			<wave Default="8" ZombieWorker="2" ZombieFatMale="1"/>
+			<wave Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty6-0</objName>
+		<waves>
+			<wave ZombieFatMale="1" Default="5" ZombiePunkScreamer="1"/>
+			<wave Default="8" ZombieHazmat="1" ZombieCop="1"/>
+			<wave Default="5" ZombieWorker="1" ZombieCop="1"/>
+			<wave ZombieFatMale="2" Default="7"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty6-1</objName>
+		<waves>
+			<wave Default="6" ZombieCop="1"/>
+			<wave ZombieFatMale="1" Default="2" ZombieCop="1"/>
+			<wave Default="8" ZombieWorker="1" ZombieCop="1"/>
+			<wave ZombieFatMale="2" Default="7"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty6-2</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1"/>
+			<wave ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieCop="1"/>
+			<wave ZombieFatMale="2" Default="5" ZombieCop="1" ZombieHazmat="1"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty7-0</objName>
+		<waves>
+			<wave ZombieFatFemale="1" Default="2" ZombieCop="2" ZombiePunkScreamer="1"/>
+			<wave ZombieFatFemale="2" ZombieHazmat="1" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty7-1</objName>
+		<waves>
+			<wave ZombieFatFemale="1" Default="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty7-2</objName>
+		<waves>
+			<wave ZombieFatFemale="1" ZombieHazmat="1" Default="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty8-0</objName>
+		<waves>
+			<wave ZombieMama="1" Default="5" ZombiePunkScreamer="1"/>
+			<wave Default="8" ZombieHazmat="1" ZombieCop="1"/>
+			<wave Default="5" ZombieWorker="1" ZombieCop="1"/>
+			<wave ZombieFatMale="2" Default="7"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty8-1</objName>
+		<waves>
+			<wave ZombieFatMale="1" Default="5"/>
+			<wave ZombieFatMale="1" Default="2" ZombieCop="1"/>
+			<wave Default="8" ZombieWorker="1" ZombieCop="1"/>
+			<wave ZombieFatMale="2" Default="7"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty8-2</objName>
+		<waves>
+			<wave ZombieFatMale="1" Default="5"/>
+			<wave ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieHazmat="1" ZombieCop="1"/>
+			<wave ZombieFatMale="2" Default="5" ZombieCop="1"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty9-0</objName>
+		<waves>
+			<wave ZombieFatFemale="1" ZombieHazmat="1" ZombieArmy="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" ZombieArmy="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2" ZombiePunkScreamer="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty9-1</objName>
+		<waves>
+			<wave ZombieFatFemale="2" Default="2"/>
+			<wave ZombieFatMale="2" ZombieArmy="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieArmy="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty9-2</objName>
+		<waves>
+			<wave ZombieFatMale="1" Default="2" ZombieWorker="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieArmy="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieArmy="4"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty10-0</objName>
+		<waves>
+			<wave ZombieFatFemale="1" ZombieHazmat="1" ZombieArmy="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2" ZombiePunkScreamer="1"/>
+			<wave ZombieHazmat="1" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty10-1</objName>
+		<waves>
+			<wave Default="2" ZombieArmy="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieHazmat="1" ZombieArmy="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieArmy="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty10-2</objName>
+		<waves>
+			<wave ZombieArmy="2" Default="4" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieArmy="4"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty11-0</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1" ZombiePunkScreamer="1"/>
+			<wave ZombieWorker="2" Default="2" ZombieArmy="4" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2" ZombieArmy ="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2" ZombieArmy="2" ZombieHazmat="1"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="4" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty11-1</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1"/>
+			<wave ZombieFatFemale="1" Default="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty11-2</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1"/>
+			<wave ZombieFatFemale="1" Default="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty12-0</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1" ZombiePunkScreamer="1"/>
+			<wave ZombieWorker="2" Default="2" ZombieArmy="4" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2" ZombieArmy ="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2" ZombieArmy="2"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="4" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty12-1</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1"/>
+			<wave ZombieFatFemale="1" Default="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2" ZombieHazmat="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty12-2</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1"/>
+			<wave ZombieFatFemale="1" Default="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty13-0</objName>
+		<waves>
+			<wave Default="8" ZombieBruteBiker="1"/>
+			<wave ZombieWorker="2" Default="2" ZombieArmy="4" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2" ZombieArmy="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2" ZombieArmy="2"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="4" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty13-1</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1" ZombieArmy="4" ZombiePunkScreamer="1"/>
+			<wave ZombieBruteBiker="1" Default="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2" ZombieHazmat="1"/>
+			<wave ZombieBruteBiker="1" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty13-2</objName>
+		<waves>
+			<wave Default="8" ZombieCop="1" ZombieArmy="4"/>
+			<wave ZombieFatFemale="1" ZombieArmy="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieBruteBiker="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" ZombieArmy="8" ZombieWorker="4" ZombieCop="4"/>
+		</waves>
+	</obj>
+	<!-- CHALLENGE MODE DIFFICULTY -->
+	<!-- Copy variation 0 if any changes -->
+	<obj>
+		<objName>Difficulty20-0</objName>
+		<waves>
+			<wave Default="6" ZombieCop="2" ZombieWorker="2"/>
+			<wave ZombieFatFemale="1" Default="6" ZombieWorker="2"/>
+			<wave Default="8" ZombieWorker="2" ZombieCop="2" ZombieArmy="2"/>
+			<wave ZombieFatFemale="2" Default="7" ZombieOfficeman="3"/>
+			<wave ZombieFatFemale="1" ZombieHazmat="1" ZombieArmy="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieHazmat="1" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave Default="10" ZombieWorker="2" ZombieArmy="5" ZombieBruteBiker="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="1" ZombieArmy="2" ZombieOfficeman="3" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" Default="2" ZombieCop="3" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="3" Default="5" ZombieOfficeman="3" ZombieWorker="2"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="10" ZombieWorker="5"/>
+			<wave Default="12" ZombieOfficeman="3" ZombieWorker="5" ZombieBruteBiker="1" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" ZombieArmy="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave ZombieFatFemale="5" ZombieFatMale="5" ZombieArmy="12" ZombieWorker="8" ZombieCop="8" ZombieBruteBiker="1" ZombieHazmat="1"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="10" ZombieWorker="5"/>
+			<wave Default="12" ZombieOfficeman="3" ZombieWorker="5" ZombieBruteBiker="1" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" ZombieArmy="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave ZombieFatFemale="5" ZombieFatMale="5" ZombieArmy="12" ZombieWorker="8" ZombieCop="8" ZombieBruteBiker="1" ZombieHazmat="1"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty20-1</objName>
+		<waves>
+			<wave Default="6" ZombieCop="2" ZombieWorker="2"/>
+			<wave ZombieFatFemale="1" Default="6" ZombieWorker="2"/>
+			<wave Default="8" ZombieWorker="2" ZombieCop="2" ZombieArmy="2"/>
+			<wave ZombieFatFemale="2" Default="7" ZombieOfficeman="3"/>
+			<wave ZombieFatFemale="1" ZombieHazmat="1" ZombieArmy="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieHazmat="1" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave Default="10" ZombieWorker="2" ZombieArmy="5" ZombieBruteBiker="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="1" ZombieArmy="2" ZombieOfficeman="3" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" Default="2" ZombieCop="3" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="3" Default="5" ZombieOfficeman="3" ZombieWorker="2"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="10" ZombieWorker="5"/>
+			<wave Default="12" ZombieOfficeman="3" ZombieWorker="5" ZombieBruteBiker="1" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" ZombieArmy="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave ZombieFatFemale="5" ZombieFatMale="5" ZombieArmy="12" ZombieWorker="8" ZombieCop="8" ZombieBruteBiker="1" ZombieHazmat="1"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="10" ZombieWorker="5"/>
+			<wave Default="12" ZombieOfficeman="3" ZombieWorker="5" ZombieBruteBiker="1" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" ZombieArmy="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave ZombieFatFemale="5" ZombieFatMale="5" ZombieArmy="12" ZombieWorker="8" ZombieCop="8" ZombieBruteBiker="1" ZombieHazmat="1"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty20-2</objName>
+		<waves>
+			<wave Default="6" ZombieCop="2" ZombieWorker="2"/>
+			<wave ZombieFatFemale="1" Default="6" ZombieWorker="2"/>
+			<wave Default="8" ZombieWorker="2" ZombieCop="2" ZombieArmy="2"/>
+			<wave ZombieFatFemale="2" Default="7" ZombieOfficeman="3"/>
+			<wave ZombieFatFemale="1" ZombieHazmat="1" ZombieArmy="2" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="1" Default="3" ZombieWorker="2"/>
+			<wave Default="10" ZombieWorker="2" ZombieFatMale="2"/>
+			<wave ZombieHazmat="1" ZombieFatMale="2" Default="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave Default="10" ZombieWorker="2" ZombieArmy="5" ZombieBruteBiker="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="1" ZombieArmy="2" ZombieOfficeman="3" ZombieCop="2"/>
+			<wave ZombieFatFemale="2" Default="2" ZombieCop="3" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="3" Default="5" ZombieOfficeman="3" ZombieWorker="2"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="10" ZombieWorker="5"/>
+			<wave Default="12" ZombieOfficeman="3" ZombieWorker="5" ZombieBruteBiker="1" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" ZombieArmy="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave ZombieFatFemale="5" ZombieFatMale="5" ZombieArmy="12" ZombieWorker="8" ZombieCop="8" ZombieBruteBiker="1" ZombieHazmat="1"/>
+			<wave ZombieFatFemale="2" ZombieBruteBiker="1" Default="10" ZombieWorker="5"/>
+			<wave Default="12" ZombieOfficeman="3" ZombieWorker="5" ZombieBruteBiker="1" ZombieHazmat="1" ZombieMama="1"/>
+			<wave ZombieFatFemale="2" ZombieFatMale="2" ZombieArmy="8" ZombieWorker="4" ZombieCop="4"/>
+			<wave ZombieFatFemale="5" ZombieFatMale="5" ZombieArmy="12" ZombieWorker="8" ZombieCop="8" ZombieBruteBiker="1" ZombieHazmat="1"/>
+		</waves>
+	</obj>
+</levelWaves>

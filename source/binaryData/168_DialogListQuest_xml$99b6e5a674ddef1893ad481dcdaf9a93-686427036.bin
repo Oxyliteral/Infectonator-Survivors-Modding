@@ -1,0 +1,4863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<obj>
+		<objName>genericOpening1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"There might be something interesting in this area, let's look around!"</en>
+					<jp>「このエリアには何かありそうだ。調べてみよう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>genericOpening2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I have a good feeling about this area, we might find something interesting!"</en>
+					<jp>「このエリアには何かある気がする。いいものが見つかるかもしれない！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>genericOpening3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Let's explore every room, we might find something useful!"</en>
+					<jp>「すべての部屋を見て回ろう。役立つものがあるかもしれない」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>genericOpening4</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I have a good feeling about this area. We should be able to find something useful!"</en>
+					<jp>「このエリアには何かある気がする。いいものが見つかるはずだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"What? You sent us here on a hunch?!"</en>
+					<jp>「えっ、ここに来たのは単なるカン？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.8" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Trust me on this, my hunch is usually right!"</en>
+					<jp>「そうだけど、僕のカンは当たるんだよ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Just explore the area, and search every room!"</en>
+					<jp>「さあエリアを調べてみて。部屋も全部だよ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>genericOpening5</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"OK guys, this building had been previously settled by bandits and other wanderers. So, be careful!"</en>
+					<jp>「聞いて。この建物には以前、野盗たちが陣取っていたんだ。気をつけて！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText><en>"They might left some stuff that we can use."</en>
+					<jp>「でも、何か使えるものを残していっているかもしれない」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Either that, or we are getting ourselves in trouble..."</en>
+					<jp>「どっちにしろ、大変なことにかわりないような…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.8" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I hope not! Stay frosty guys!"</en>
+					<jp>「なるべくそうでないといいんだけどね。気をつけて！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>genericOpening6</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I've been picking up some chatter from around this area."</en>
+					<jp>「このエリアのどこかから、何か音が聞こえてくるんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Go take a look around and see if you can find anything interesting."</en>
+					<jp>「何か見つかるか、調べてみてくれる？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>genericOpening7</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I hope we can find something here..."</en>
+					<jp>「ここなら何か見つかると思う…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I don't know about you, but I have a good feeling about this place."</en>
+					<jp>「何もわからないけど、いい予感はする」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.8" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I hope so! Good luck out there!"</en>
+					<jp>「よかった！がんばって！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+
+	<!-- TBELT QUEST DIALOG START -->
+	<!-- tBeltGenerator-->
+		<obj>
+			<objName>tBeltGenerator1Opening</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+				<portrait imageName="paper" texture="Paper2" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>There's a memo: "Please help".</en>
+						<jp>走り書きがある。「助けて」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="paper" fromX="1" fromY="0.7" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>tBeltGenerator1Dialog</objName>
+			<init>
+				<portrait imageName="npc" texture="PortraitNPCDying1" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+					<en>You found an injured survivor. His wounds are extensive.</en>
+					<jp>負傷した生存者を見つけた。かなり大きなケガをしているようだ。</jp>
+					<cn></cn>
+					</dialogText>
+					<tween imageName="npc" fromX="0.5" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"*Cough* I need you to listen to me very carefully. There's nothing you can do to help me."</en>
+						<jp>「ゴホッ、ゴホッ。耳を貸してくれるか。私を助けようとしても、ムダだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I'm done."</en>
+						<jp>「もう私は助からない」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"But I need you to do me a favor. There's a building near the area that has a working generator...*cough* urghh..."</en>
+						<jp>「でも、頼みを1つ聞いてほしい。このエリアに近い建物の中に、まだ使える発信機がある…う、うう…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Activating that generator...*cough*...will activate a wide-area beacon that sends special signal to the military. This is important for...ukhh...the huma...n..i...ty..."</en>
+						<jp>「その発信機を作動させてくれ…がふっ…そうすれば、広い範囲に届く特殊な信号を送ることができる。軍にも届くはずだ…大事なことなんだ…これで人…類…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>He's gone now.</en>
+						<jp>それが彼の最後の言葉となった。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>That military beacon could be our ticket out of here. We should find the generator.</en>
+						<jp>信号を軍に送ることができれば、ここから脱出できるかもしれない。発信機を見つけなければ。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="provokeUnexpectedEvent">deadRisen</trigger>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">tBeltGenerator1</trigger>
+					<trigger type="object" action="startQuest">tBeltGenerator2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>tBeltGenerator2Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The generator is out of fuel. You need to add some fuel to activate it.</en>
+						<jp>発信機には燃料がない。作動させるには燃料が必要だ。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Leave</en>
+						<jp>放っておく</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">tBeltGenerator2DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>Add fuel.</en>
+						<jp>燃料を入れる</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">tBeltGenerator2DialogOpt2</link>
+					</links>
+					<cost type="fuel">1</cost>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>tBeltGenerator2DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You need to find some fuel.</en>
+						<jp>燃料を見つけなければならない。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>tBeltGenerator2DialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You poured fuel into the tank and activated the generator.</en>
+						<jp>タンクに燃料を入れ、発信機を作動させた。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The generator was running for a short while before it catastrophically failed. Making a few loud bangs and goes to a screeching halt.</en>
+						<jp>発信機はほんの少しだけ作動すると、大きな音を立てて壊れてしまった。何かがぶつかるような音が何度かした後、甲高い音を上げて動作が止まる。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The generator is now broken and without any possibility of it being repaired. The only logical option is to salvage it for parts.</en>
+						<jp>発信機は完全に壊れてしまった。直せそうもない。あとは分解して部品を持っていくしかないだろう。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You found a TIMING BELT. This is very handy for our car.</en>
+						<jp>タイミングベルトを見つけた。これはHQにある車の修理に使える。</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="material" name="Timing Belt">1</reward>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The noises from the generator seems to have attracted some zombies.</en>
+						<jp>発信機が立てた音を聞きつけて、ゾンビが集まってきたようだ。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="provokeUnexpectedEvent">drawAttention</trigger>
+					<trigger type="object" action="endQuest">tBeltGenerator2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- tBeltGenerator END-->
+	
+	<!-- tBeltFriendship-->
+		<obj>
+			<objName>tBeltFriendship1Opening</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You heard someone calling
+						"Hey, is someone there?"</en>
+						<jp>誰かわからないが呼びかけの声が聞こえる。
+						「おい、誰かいるか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>tBeltFriendship1Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I need your help please. My friend is injured, could you spare a FIRST AID KIT? I can't leave him alone, so please help me."</en>
+						<jp>「助けてほしいんだ、頼む。仲間が1人、負傷した。応急手当キットを分けてくれないか？あいつを置いては行けないんだ。助けてくれ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"I'll be back"</en>
+						<jp>後で戻ってくると伝える</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">tBeltFriendship1DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"Give First Aid"</en>
+						<jp>応急手当キットを渡す</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">tBeltFriendship1DialogOpt2</link>
+					</links>
+					<cost type="requireEquipment" quantity="1">First Aid</cost>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>tBeltFriendship1DialogOpt1</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />                                                                                                                                               
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FULL-NAME%</en>
+						<jp>%MAIN-CHAR-FULL-NAME%</jp>
+						<cn>%MAIN-CHAR-FULL-NAME%</cn>
+					</nameText>
+					<dialogText>
+						<en>"Hold on, I'll be back"</en>
+						<jp>「待ってて、後で戻ってくる」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Please...hurry"</en>
+						<jp>「ああ…なるべく早く頼む」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>tBeltFriendship1DialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Thank you very much! I owe you one."</en>
+						<jp>「ありがたい！1つ借りができたな」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Here, take this key to my stash. I hid it inside a tool box. You can take whatever you want."</en>
+						<jp>「これを持っていけ。工具箱のカギだ。そこから好きなものを持っていくといい」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The survivor marked the location of his stash on your map</en>
+						<jp>兵士がマップに工具箱の場所を書きいれてくれた。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">tBeltFriendship1</trigger>
+					<trigger type="object" action="startQuest">tBeltFriendship2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>tBeltFriendship2Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You used the key to open the tool box. Inside you found a TIMING BELT.</en>
+						<jp>カギを使って工具箱を開けた。中からタイミングベルトを見つけた。</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="material" name="Timing Belt">1</reward>
+					<reward type="fuel">1</reward>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">tBeltFriendship2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- tBeltFriendship END-->
+	<!-- TBELT QUEST DIALOG END-->
+	
+	<!-- WINDSHIELD QUEST DIALOG START-->
+	<obj>
+		<objName>windshieldAcquiringA1</objName>
+		<init>
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You check and look through a pile of car body parts.</en>
+					<jp>車用のボディパーツの山を調べた。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>And you found a car part that you've been looking for!</en>
+					<jp>そして探していたものを見つけた！</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Protected Windshield">1</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="endQuest">repairBodySimpleQuest</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- WINDSHIELD QUEST DIALOG END-->
+	
+	<!--  VELG QUEST DIALOG -->
+	<!--  velgMillitary -->
+		<obj>
+			<objName>velgMillitaryOpening</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>This place has a small military presence. Are they stranded?</en>
+						<jp>ここには軍隊の気配がある。立ち往生しているのだろうか？</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgMillitaryDialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You saw a young soldier, he seems to be alone.</en>
+						<jp>若い兵士を見つけた。1人のようだ。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I'm so glad to see another living person!"</en>
+						<jp>「まだ生きている人に会えるなんてうれしいよ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Our transport vehicle was hit! It happened so fast! Next thing I know I'm separated from my platoon."</en>
+						<jp>「車で移動中に攻撃されたんだ！あっという間だった！気づいたら部隊のみんなとはぐれていた」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I need to find my squad. But the 9V BATTERY on my radio is busted!"</en>
+						<jp>「分隊長たちを探さなくちゃ。でも無線機の9V電池が切れてるんだ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"If you can help me, I'll let you take anything from our transport vehicle!"</en>
+						<jp>「もし助けてくれるなら、部隊の車から何でも持っていっていいよ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Leave</en>
+						<jp>放っておく</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgMillitaryDialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>Give 9V Battery</en>
+						<jp>9V電池を渡す</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgMillitaryDialogOpt2</link>
+					</links>
+					<cost type="requireMaterials" quantity="1">9V Battery</cost>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>velgMillitaryDialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Please, if you can give me a 9V BATTERIES I'll return the favor."</en>
+						<jp>「頼むよ。9V電池をくれたら、お返しはするから」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgMillitaryDialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Thanks! That's awesome. I appreciate your help."</en>
+						<jp>「ありがとう！本当に助かるよ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"As promised you can take anything from the transport vehicle. You can get them now."</en>
+						<jp>「約束どおり、部隊の車から何でも持っていって。カギは開いてるよ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>			
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The transport vehicle is totally busted. However, the wheels seems to be in good shape.</en>
+						<jp>軍の車は完全に壊れている。だが、ホイールはなんとか使えそうだ。</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="material" name="Alloy Wheel">1</reward>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">velgMillitary</trigger>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You also found a few crates of ammo</en>
+						<jp>さらに、弾薬箱をいくつか見つけた。</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="coin">500</reward>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- velgMilitary END-->
+	
+	<!--  velgPriest -->
+		<obj>
+			<objName>velgPriestDialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You see a drunk priest. He seems to have lost his mind.</en>
+						<jp>酔っ払いの神父に出会った。正気を失っているようにも見える。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Excuse me sir, do you have a moment to talk about our savior?"</en>
+						<jp>「少しよろしいですか。救世主についてお話したいんですが」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Ignore</en>
+						<jp>無視する</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgPriestDialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>Reply</en>
+						<jp>返事する</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgPriestDialogOpt2</link>
+					</links>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>velgPriestDialogOpt1</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes next="velgPriestDialogPrayForYou">
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Right now? No way."</en>
+						<jp>「今？そんな時間はない」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgPriestDialogOpt2</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Yeah, right. Only if God can tell me the location of decent ALLOY WHEELS, sure."</en>
+						<jp>「その救世主がアロイホイールのありかを教えてくれるなら、話につきあうけど」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I can easily tell you that, if you believe in God and..."</en>
+						<jp>「それなら簡単です。あなたに信仰があるなら、主と…」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>	
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"4 bottles of HOOCH"</en>
+						<jp>「4本の酒に」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>		
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What?"</en>
+						<jp>「ええっ？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>	
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Yes, HOOCH a.k.a wine! The blood of our saviour! to... err purify.. the soul!"</en>
+						<jp>「そう、お酒！しかもワイン、つまり救世主の血がいいですねぇ。ワインなら魂を…浄化できる！」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"If you can give me 4 bottles of HOOCH, God will tell you where you can find some ALLOY WHEELS."</en>
+						<jp>「もし酒を4本持ってきてくださったら、神がアロイホイールのありかを教えてくださるでしょう」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Give 4 Hooch</en>
+						<jp>酒を4本渡す</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgPriestDialogOpt2Opt1</link>
+					</links>
+					<cost type="requireMaterials" quantity="4">Hooch</cost>
+				</option>
+				<option>
+					<name>
+						<en>Are you serious?</en>
+						<jp>本気なのか？</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgPriestDialogPrayForYou</link>
+					</links>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>velgPriestDialogPrayForYou</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"God wants me to tell you the location of some ALLOY WHEELS..."</en>
+						<jp>「神がアロイホイールについてお告げくださいます…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"For 4 bottles of HOOCH."</en>
+						<jp>「酒4本と引き換えに」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Go and find the blood of our saviour! I'll pray for you!"</en>
+						<jp>「救世主の血を見つけなさい！私は祈りを捧げます！」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="changeInteractionDialog">velgPriestDialog</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgPriestDialogOpt2Opt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Here you go. I hope it would be enough to purify your soul."</en>
+						<jp>「はいどうぞ。魂の浄化に十分な量だと思う」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Thank you child, you have done God's work!"</en>
+						<jp>「おお息子よ。聖なる務めを果たしましたね！」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"God's work...Huh? All these years, I claim to be doing God's work."</en>
+						<jp>「聖なる務め…か…。これまでずっと、私も聖なる務めを行っていると言ってきました」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"The truth is I was only doing it for myself...for my own glory."</en>
+						<jp>「実際は自分のために…自分の栄誉のためにやっていたにすぎません」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I'm a fraud..."</en>
+						<jp>「私は嘘つきだ…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Priest</en>
+						<jp>神父</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"No need to look further. I want you to have this."</en>
+						<jp>「もうやめましょう。さあこれを持っていきなさい」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The Priest shows you a pile of ALLOY WHEELS. You have no idea where he got it. He then started drinking, trying to drawn his sins away.</en>
+						<jp>神父はアロイホイールを出してくれた。どこにあったのだろう。そして彼はまた、自らの罪を洗い流すかのように、酒を飲み始めた。</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="material" name="Alloy Wheel">1</reward>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">velgPriest</trigger>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>God works in mysterious ways</en>
+						<jp>神の力とは…計り知れない。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- velgPriest END-->
+	
+	<!--  velgUnfinishedBusiness -->
+		<obj>
+			<objName>velgUnfinishedBusiness1Opening</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Somebody put up a poster in the wall: "Need help!"</en>
+						<jp>誰かが壁に貼り紙をしたようだ。「手助けを求む！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgUnfinishedBusiness1Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hey, you just saw my poster? Yeah, this stupid outbreak had sickened me for days. Zeds always tried to eat me but my luck always saved the day!"</en>
+						<jp>「やあ、ポスターを見てくれたの？ゾンビの大発生なんて嫌になるよね。いつもゾンビに食べられそうになるんだけどさ、運がよいのかここまで生きてこられたんだよ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>He looks troubled and we decide to help him. But before we tell him about our own concern...</en>
+						<jp>何か困っているようだ。彼を手伝うことにした。代わりにこちらの探しているものを伝えようとしたが…</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Can you help me out? Look, my friend on millitary was a collector, he likes weird stuffs, dolls, pirate coins, weird paintings, even alloy wheels."</en>
+						<jp>「手伝ってくれるの？実は軍にいる友達のことなんだけど。その友達はコレクション好きでね、変なものとか人形とか、海賊のコイン、奇妙な絵…それにアロイホイールとか集めちゃうんだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"But he took my precious coffee maker! Well, in fact, I gave it to him because of something but I forgot what it was."</en>
+						<jp>「でもアイツってば、僕のコーヒーメーカーまで持っていっちゃって！ていうか何かのお礼にあげたんだけど、何だったか覚えてないんだよね」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Anyway, can you please take it back for me? He might be a little bit hard to talk with, but I really need that coffee machine to accompany me in my lonely time."</en>
+						<jp>「それで、そのコーヒーメーカーを取り戻してほしいんだけど。アイツ、話しづらいかもしれないけど、僕にはどうしてもコーヒーを作る機械が必要なんだよ。1人の時間が長いからね」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Hey, he mentions wheels! He marks the map. We should go now.</en>
+						<jp>ん？ホイール？マップに印もつけてくれたし、早速行ってみよう。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="changeInteractionDialog">velgUnfinishedBusiness3Dialog</trigger>
+					<trigger type="object" action="startQuest">velgUnfinishedBusiness2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgUnfinishedBusiness2Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Millitary Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What are you doing here? I don't know you, you might be bad guys! Well, but if you can give me a bottle of wine, I'll reconsider it..."</en>
+						<jp>「何をしている？見ない顔だ、何か企んでいるだろう！まあ、ワインをボトルでくれたら、話を聞いてやってもいいが…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"We got nothing."</en>
+						<jp>「持っていない」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgUnfinishedBusiness2DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"Here is the wine."</en>
+						<jp>「ワインならある」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgUnfinishedBusiness2DialogOpt2</link>
+					</links>	
+					<cost type="requireMaterials" quantity="1">Hooch</cost>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>velgUnfinishedBusiness2DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Millitary Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Ah, pity you, get lost!"</en>
+						<jp>「残念だったな！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgUnfinishedBusiness2DialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Millitary Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Ah, that's good! I love wine. Anyway, what was that again? Oh, you want to take my coffee machine? Why is that?"</en>
+						<jp>「すばらしい。ワインは最高だ。さて、話はなんだ？ふむ、コーヒーメーカーが欲しいのか。何か理由があるのか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We tell about the situation.</en>
+						<jp>彼にいきさつを説明した。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>	
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"This is not cool, this is mine! Of course I won't give this back to him, he owe me a lot of bucks!"</en>
+						<jp>「なんということだ。これは私のだ！これを奴に返すなんてとんでもない。借金のカタにもらったんだ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>				
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"But wait, I might have something else in mind. Ask him if I can have his riverboat. The fact is, screw this place, screw this all things I have right now!"</en>
+						<jp>「だが待てよ、考えがある。奴にボートをくれるか聞いてみてくれ。というかな、本当はどうでもいいんだ。この場所も、ここにあるものも全てな！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>				
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"You should make him give the key to use his boat, so I can get out of this city for good!"</en>
+						<jp>「ボートのカギを渡すよう、奴を説得してくれ。それでこんな場所とはお別れだ。永久にな！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>			
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>He need the boat's key, but apparently it's just a very small boat, we can't go with him.</en>
+						<jp>ボートのカギがいるらしい。話しぶりではとても小さなボートのようだ。一緒には乗れそうもない。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="variable" action="velgUnfinishedBusiness2">1</trigger>
+					<trigger type="object" action="changeInteractionDialog">velgUnfinishedBusiness4Dialog</trigger>
+				</scene>		
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgUnfinishedBusiness3Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Have you meet him?</en>
+						<jp>「アイツに会えた？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Yes</en>
+						<jp>はい</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgUnfinishedBusiness3DialogOpt1</link>
+					</links>
+					<cost type="variable" quantity="1">velgUnfinishedBusiness2</cost>
+				</option>
+				<option>
+					<name>
+						<en>No</en>
+						<jp>いいえ</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgUnfinishedBusiness3DialogOpt2</link>
+					</links>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>velgUnfinishedBusiness3DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We tell about the current, updated situation.</en>
+						<jp>彼に状況を説明した。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"He can take whatever he wants! Here's the key, go! I don't need it anymore, I don't need anything. Just go, I'll stay here 'til I face my death. So long..."</en>
+						<jp>「アイツにならなんでもあげるよ。さあこれがカギだ！僕はもう要らないんだ。ボートも何もかもね。行きなよ。僕はここでただ死を待つんだ…さようなら…」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="variable" action="velgUnfinishedBusiness3">1</trigger>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">velgUnfinishedBusiness1</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>velgUnfinishedBusiness3DialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Please get back my coffee maker.</en>
+						<jp>「コーヒーメーカーを取り戻してくれ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>velgUnfinishedBusiness4Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What did he say?"</en>
+						<jp>「アイツ、何か言ってた？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			
+			<options>
+				<option>
+					<name>
+						<en>Tell him.</en>
+						<jp>彼の言葉を伝える</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">velgUnfinishedBusiness4DialogOpt1</link>
+					</links>
+					<cost type="variable" quantity="1">velgUnfinishedBusiness3</cost>
+				</option>
+				<option>
+					<name>
+						<en>Haven't meet him.</en>
+						<jp>まだ彼に会っていない</jp>
+						<cn></cn>
+					</name>
+				</option>
+			</options>
+		</obj>
+		<obj>
+			<objName>velgUnfinishedBusiness4DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What happen to him? He give it all up? What a mess, that fool. Thanks for the key, I'll go now. I know you need wheels for your car right. Take them with you. Hope I got the chance to see you again."</en>
+						<jp>「奴はどうしたんだ？何もかも要らないなんて、あのバカ…。カギはありがたくいただく。もう行かねば。車につけるホイールが必要なんだろう？もって行くといい。また会えるといいな」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>[Found Velg]</dialogText>
+					<reward type="material" name="Alloy Wheel">1</reward>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">velgUnfinishedBusiness2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- velgUnfinishedBusiness END-->
+	
+	<!-- VELG QUEST DIALOG END-->
+	
+	<!-- DETERGENT QUEST DIALOG-->
+	<!-- detergentScientistTwins-->
+		<obj>
+			<objName>detergentScientistTwins1Dialog</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>				
+			<scenes>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hi there, are you alone? It's awfully dangerous out here."</en>
+						<jp>「こんばんは。1人でここに？危ないのでは…」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Not your problem. Get lost."</en>
+						<jp>「君には関係ない。放っておいてくれ」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Are you sure? You can join our group if you want."</en>
+						<jp>「本気で？もしよければ仲間に…」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hmmph, I don't need your silly protection. Those stupid Zombies won't attack me."</en>
+						<jp>「はーっ、君に守ってもらわなくとも結構。ゾンビはこちらを攻撃してこんからな」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"ah.. But, I think I can use your help."</en>
+						<jp>「ふむ…だが、手伝ってもらってもいいかもしれん」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Here, give this serum to my brother."</en>
+						<jp>「これだ。この血清を弟に渡してくれ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What, a serum?! You can cure the virus?"</en>
+						<jp>「血清？つまりこれがウイルスに効くと？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"You won't understand. Just deliver the item, and consider you have rendered a great service for humanity."</en>
+						<jp>「君には理解の及ばんことだ。言われたとおりにしてくれ。それが人類を救うことになる」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Wait wait, hold there. You can cure this world, that's awesome, you should get a Nobel!"</en>
+						<jp>「ちょっとちょっと！ゾンビをどうにかすることができるって、すごすぎる！ノーベル賞ものだ！」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"But, we're not doing charity here. Can't just run your task easily."</en>
+						<jp>「でもタダ働きするわけにはいかない。こちらにもメリットがないと」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...Sometimes I wonder why I'm still trying to do this job. Stupid."</en>
+						<jp>「…時々、なんでこんなことをしているんだろうかと思うよ。たわけ者め」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"How about this, I'll give you some liquid that can clean your item from those virus. That should be an acceptable exchange right?"</en>
+						<jp>「こうしよう。代わりに君にはウイルスをきれいにできる液体をやる。これなら公平ではないか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Yes</en>
+						<jp>はい</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistTwins1DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>No</en>
+						<jp>いいえ</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistTwins1DialogOpt2</link>
+					</links>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>detergentScientistTwins1DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Ok great, here take this serum and notes for my brother. He should recognize my handwriting and give you what I promised."</en>
+						<jp>「よろしい。ではこの血清と伝言を弟に持っていってくれ。この字を見れば私が書いたとわかるだろう。さっき言ったものを渡してくれるはずだ」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">detergentScientistTwins1</trigger>
+					<trigger type="object" action="startQuest">detergentScientistTwins2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>detergentScientistTwins1DialogOpt2</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>		
+			<scenes>
+				<scene>
+					<nameText><en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"No, I want a serum that can transform me to a super human"</en>
+						<jp>「いや、それよりも血清が欲しい。スーパーヒューマンになりたい」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...go away. I won't talk to a moron."</en>
+						<jp>「…黙れ。バカとは話さん主義なんだ」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>detergentScientistTwins2Opening</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>This should be the location of that Scientist brother, let's give him this serum.</en>
+						<jp>ここにあの科学者の弟がいるはずだ。血清を渡そう。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>	
+		</obj>
+		
+		<obj>
+			<objName>detergentScientistTwins2Dialog</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>		
+			<scenes>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hi, what are you doing here? I thought I should meet your brother"</en>
+						<jp>「ここで何を？弟さんがここにいるはずでは…」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"From your words, it seems you've encountered my twin brother. Did he send you here?"</en>
+						<jp>「その言葉から察するに、双子の片割れと会ったようだな。彼に頼まれてここに来たのか？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What!? You guys are twins Scientist? Wow! Who's smarter than who?"</en>
+						<jp>「えっ、双子の科学者？すごい！どっちが頭いい？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"..."</en>
+						<jp>「……」</jp>
+						<cn>"..."</cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I don't think he send you to tell a joke right?"</en>
+						<jp>「ジョークを伝えるためにここに来たわけではないだろう？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Right right. Here is serum and note that he asked us to give you."</en>
+						<jp>「そうだそうだ。これがお兄さんに頼まれた血清と伝言」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText><en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What?! He finally finished it?"</en>
+						<jp>「ほう！完成させたのか！」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"HAHAHAHA."</en>
+						<jp>「はっはっはっ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"GREAT, NOW THE WORLD IS OURS!"</en>
+						<jp>「これで世界は私たちのものだ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"errr.. isn't that words used by Villain? Are you guys Twin Evil Scientist?"</en>
+						<jp>「ええー…それって悪者みたい。2人は双子のマッドサイエンティストってこと？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hmmph, you won't understand. Just consider that you have rendered a great service for humanity."</en>
+						<jp>「うーむ、君にはわからんか。人類を救うんだよ」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Well okay.. not my problem. But I think you owe me something."</en>
+						<jp>「ふうん、まあいいか。関係ない。でも何か忘れてない？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What? Oh, yeah right. He told me to give you some detergent. Here you go."</en>
+						<jp>「うん？ああ、そうだった。洗浄剤を渡すようにというメモがあったな。これだ」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+					<reward type="material" name="Anti-Zombie Detergent">1</reward>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Awesome! Oh yeah, one question prof. Can you transform me to a super human?"</en>
+						<jp>「ありがとう！あっ、そうだ。ついでにスーパーヒューマンに変身させてくれる？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...did he told you? No, impossible. Go away. I won't talk to a moron."</en>
+						<jp>「兄がそう言ったのか？もういい、黙れ。バカとは話さん主義だ」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">detergentScientistTwins2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- detergentScientistTwins END-->
+	
+	<!-- detergentScientistHungry-->
+		<obj>
+			<objName>detergentScientistHungryOpening1</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We picked up a distress call from a scientist from this building, remember?</en>
+						<jp>この建物から救助を求める通信があった。科学者と言っていたが…</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>	
+		</obj>
+		<obj>
+			<objName>detergentScientistHungryOpening2</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Someone called from this place, remember?</en>
+						<jp>ここから誰かが通信をしてきたはずだ…</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>	
+		</obj>
+		<obj>
+			<objName>detergentScientistHungryOpening3</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>A noise signal is retrieved from this area on the other day, remember?</en>
+						<jp>この間のノイズだらけの通信は、ここから発せられていたはずだ…</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>	
+		</obj>
+		
+		<obj>
+			<objName>detergentScientistHungryDialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Wait, you are here to help me? No, I don't want to follow you, or go with you to safest place. I have some other things to do. But..."</en>
+						<jp>「おや、私を助けにきてくれたのか？いやいや、ついて行く気はない。安全な場所でもな。他にすることがあるんだ。だが…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We know this man looks very weak.</en>
+						<jp>見たところ、とても弱そうだ。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I need to eat, can you give me some food? I need some energy. Three portions are enough."</en>
+						<jp>「もう何日も食べていない。食料を分けてくれないか？エネルギーが必要なんだ。3食分でいい」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"We don't have food."</en>
+						<jp>「食料は持っていない」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistHungryOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"Here. Eat them"</en>
+						<jp>「どうぞ、食べて」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistHungryOpt2</link>
+					</links>
+					<cost type="supply">3</cost>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>detergentScientistHungryOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Bugger."</en>
+						<jp>「そうか」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>detergentScientistHungryOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I know that you can be trusted. Thank you. Oh, here, I made some quirky research and did some failed experiments that turned out to be a unique test product."</en>
+						<jp>「信用できると思っていたんだ、ありがとう。おおそうだ、いろいろと実験していたら、失敗したと思ったものが、実はつかえるとわかったんだ。まだ試作段階だが」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>It's like a super cleaning detergent. I know, you need it, don't you? That's for you. Then, I guess I'm leaving...</en>
+						<jp>「なんでもきれいにする洗浄剤のようなものだ。これが必要なんだろう？もって行くといい。さて、私は行くとするよ…」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">detergentScientistHungry</trigger>
+					<reward type="material" name="Anti-Zombie Detergent">1</reward>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- detergentScientistHungry END-->
+	
+	<!-- detergentScientistAnnoying-->
+		<obj>
+			<objName>detergentScientistAnnoying1Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hello..."</en>
+						<jp>「やあ…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>This man, he doesn't feel hopeless at all.</en>
+						<jp>この男、まったく絶望しているようには見えない。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"So, I know the world seem very broken right now..."</en>
+						<jp>「世界は滅亡に向かって進んでいるようだが…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Yeah, you think...</en>
+						<jp>そのとおりだ…</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"But I'm sure we will see a better day."</en>
+						<jp>「だが、また平穏な日々がやってくるぞ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Oh, come on...</en>
+						<jp>無責任なことを…</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What can I help you?"</en>
+						<jp>「私に手伝えることはあるか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>He offers help. Then we talk about our situation.</en>
+						<jp>手伝ってくれるらしい。こちらの状況を伝えてみることにした。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hmm, an anti-zombie cleaning agent? Surely I can make that, but I need some special ingredients for it. Can you bring me 3 zombie eyeballs?"</en>
+						<jp>「ふむふむ、抗ゾンビ洗浄剤とな？もちろん作ることはできる。だが特殊な材料が必要だな。ゾンビの目玉を3つ持ってきてくれるか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"Nope."</en>
+						<jp>いやだと言う</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistAnnoying1DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"We find them!"</en>
+						<jp>ゾンビの目玉を渡す</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistAnnoying1DialogOpt2</link>
+					</links>
+					<cost type="requireMaterials" quantity="3">Zombie Eyeball</cost>
+				</option>
+			</options>
+		</obj>
+		<obj>
+			<objName>detergentScientistAnnoying1DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Then find them."</en>
+						<jp>「では見つけてきてくれ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>detergentScientistAnnoying1DialogOpt2</objName>
+			<scenes next="detergentScientistAnnoying2Dialog">
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Good! But unfortunately, I didn't warn you about getting other compliment ingredients to mix it up a little bit."</en>
+						<jp>「ありがとう。だが、他にも必要なものがあるのを言い忘れていた。これも混ぜなければならないんだが」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="changeInteractionDialog">detergentScientistAnnoying2Dialog</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>detergentScientistAnnoying2Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Can you find 5 zombie fingers?"</en>
+						<jp>「ゾンビの指を5本持ってきてくれるか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"Not yet."</en>
+						<jp>「まだ見つからない」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistAnnoying2DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"Here you go."</en>
+						<jp>「はいどうぞ」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistAnnoying2DialogOpt2</link>
+					</links>
+					<cost type="requireMaterials" quantity="5">Zombie Finger</cost>
+				</option>
+			</options>
+		</obj>
+		<obj>
+			<objName>detergentScientistAnnoying2DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"So, make a try."</en>
+						<jp>「ではまた頼むぞ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>detergentScientistAnnoying2DialogOpt2</objName>
+			<scenes next="detergentScientistAnnoying3Dialog">
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Excellent. But something remind me about having another kind of ingredient, whoa don't be rude...I'm just trying to help."</en>
+						<jp>「すばらしい。だが、何か他にも材料が必要だった気がする…ああ、怒らんでくれ。手伝いたいだけなんだ」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="changeInteractionDialog">detergentScientistAnnoying3Dialog</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>detergentScientistAnnoying3Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Please, you have to find more, like 10 brains? We need its juicy liquid to complete the recipe."</en>
+						<jp>「そうだ、脳だ。脳を10個持ってきてくれるか？完成させるにはあの脳汁が必要なんだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"*Grunt* Haven't got it."</en>
+						<jp>持っていない、とため息をつく</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistAnnoying3DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"Here. Anything else?"</en>
+						<jp>脳を渡して、他にも材料が必要か聞く</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">detergentScientistAnnoying3DialogOpt2</link>
+					</links>
+					<cost type="requireMaterials" quantity="10">Zombie Brain</cost>
+				</option>
+			</options>
+		</obj>
+		<obj>
+			<objName>detergentScientistAnnoying3DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Please, find them."</en>
+						<jp>「では見つけてきてくれ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>detergentScientistAnnoying3DialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Great! This is what we need. Okay, stand back. I will just blend all of the stuffs we have here."</en>
+						<jp>「では見つけてきてくれ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"It goes here...That goes there...A little meld here and there..."</en>
+						<jp>「それをここに…あれをそこに…できたものをこことそこに…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"WALA! It works! Okay, this is for you."</en>
+						<jp>「どうだ！できたぞ！これは君のものだ」</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="material" name="Anti-Zombie Detergent">1</reward>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"And...um, I need to go, those zombie parts can be useful for my research, so...bye bye!"</en>
+						<jp>「では…そろそろ行かなければ。残ったゾンビのパーツは研究に役立ちそうだ。ではこれで」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">detergentScientistAnnoying1</trigger>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- detergentScientistAnnoying END-->
+	<!-- DETERGENT QUEST DIALOG END-->
+	
+	<!-- ECU QUEST DIALOG -->
+	<!-- eCUMillitary-->
+		<obj>
+			<objName>eCUMillitary1Opening</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+				<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Radio</en>
+						<jp>無線機</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I received a distress call from this location earlier."</en>
+						<jp>「この場所から救助を求める通信が入ったんだ」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Radio</en>
+						<jp>無線機</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Go check it out."</en>
+						<jp>「行って確かめて」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>eCUMillitary1Dialog</objName>
+			<init>
+				<blinds imageName="blinds" alpha="0.75" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You see a dead body. It looks like he was a scientist.</en>
+						<jp>死体を見つけた。科学者のようだ。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Next to the dead body is a suitcase that contained research papers. One of the documents is labeled CLASSIFIED.</en>
+						<jp>死体の横には研究論文の入ったスーツケースがある。表紙に「極秘」と書かれた論文を見つけた。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The classified document is filled with autopsy reports of "bite victims" and their blood tests. Inside you also found a FLASH DISK.</en>
+						<jp>極秘論文には、「咬傷被害者」の解剖と血液検査の結果報告が書かれている。スーツケースからは、USBフラッシュメモリーも見つかった。</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="material" name="USB Drive">1</reward>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>On the last page, reads
+							"EVACUATION NOTICE&#xA;ALL PERSONEL GO TO ECHO LOCATION&#xA;FOR EXTRACTION"
+							You mark the extraction point location on your map.
+						</en>
+						<jp>論文の最終ページにはメモが書かれている。
+「避難について&#xA;全職員は抽出のため&#xA;E地点に移動のこと」
+地図にE地点の場所を書き入れた。</jp>
+						<cn></cn>
+					
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We should check out the extraction point. The military may still be there.</en>
+						<jp>E地点を調べてみよう。そこになら軍もまだいるかもしれない。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">eCUMillitary1</trigger>
+					<trigger type="object" action="startQuest">eCUMillitary2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>eCUMillitary2Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Halt! This is a restricted military zone!"</en>
+						<jp>「動くな！ここは軍の制限区域だ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Please leave the area!"</en>
+						<jp>「ただちに離れてくれ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The soldier appears to be holding an Electronic Control Module.</en>
+						<jp>兵士は電子制御モジュールを持っているようだ。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Show USB</en>
+						<jp>USBドライブを見せる</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">eCUMillitary3DialogOpt1</link>
+					</links>
+					<cost type="requireMaterials" quantity="1">USB Drive</cost>
+				</option>
+				<option>
+					<name>
+						<en>Leave</en>
+						<jp>放っておく</jp>
+						<cn></cn>
+					</name>
+					<links>
+					</links>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>eCUMillitary3DialogOpt1</objName>
+			<scenes next="eCUMillitary4Dialog">
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Where did you get that?"</en>
+						<jp>「どこでそれを手に入れた？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You explain about the scientist and the research papers.</en>
+						<jp>科学者と研究論文について話した。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Damn, I think that was Dr. Halsey our lead researcher."</en>
+						<jp>「くっ、おそらく彼はホールジー博士だな。研究を指揮していたんだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Soldier</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"This USB Drive may hold the key to finding a cure."</en>
+						<jp>「このUSBドライブには、特効薬に関する重要な情報が入っているかもしれない」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>You ask to trade the USB Drive with the Electronic Control Module that he is holding</en>
+						<jp>USBドライブを、兵士の持つ電子制御モジュールと交換してくれないかとたずねた。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="changeInteractionDialog">eCUMillitary4Dialog</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>eCUMillitary4Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>兵士</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"If you bring me some electronic parts, I can transform it into car engine electronic module, if you like."</en>
+						<jp>「電子部品をいくつか持ってきてくれれば、組み立ててエンジンの電子制御モジュールを作れるぞ。どうする？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"We have them."</en>
+						<jp>「ここに部品がある」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">eCUMillitary4DialogOpt1</link>
+					</links>
+					<cost type="requireMaterials" quantity="2">E.Parts</cost>
+				</option>
+				<option>
+					<name>
+						<en>"Have to find them first."</en>
+						<jp>「部品を探してくる」</jp>
+						<cn></cn>
+					</name>
+					<links>
+					</links>
+				</option>
+			</options>
+		</obj>
+		<obj>
+			<objName>eCUMillitary4DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Alright. I should make this in no time. I need my tools and a laptop."</en>
+						<jp>「よし、すぐに作ってやる。工具とノートパソコンを持ってこよう」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Okay...right...here we go...here...Done! This is for you, take it.</en>
+						<jp>「さあ…ここを…どうだ…こうして…できた！持っていくといい」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">eCUMillitary2</trigger>
+					<reward type="material" name="Electronic Control Module">1</reward>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- eCUMillitary END-->
+		
+	<!-- eCUBandit-->
+		<obj>
+			<objName>eCUBanditOpening</objName>
+			<init>
+				<blinds imageName="blinds" alpha="1" />
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>I feel a dangerous person dwelling in. Should we go in?</en>
+						<jp>イヤな予感がする。どうしても行かなければならないだろうか？</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>eCUBanditDialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Bandit Chief</en>
+						<jp>野盗のリーダー</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hey, what's up? Don't worry, I don't feel like I want to threaten people now. Those whole accidents that caused these messes made me sick."</en>
+						<jp>「よう、どうした？大丈夫だ、人を襲うような気分でもない。こんなことになっちまって、どうもそんな気分にはなれないんだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Bandit Chief</en>
+						<jp>野盗のリーダー</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I just...I just want to eat now. Can you give me some food?"</en>
+						<jp>「今は…腹が空いてる。食料を分けてくれないか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>This bandit was utterly infamous for making a lot of mess. But today he looks so much famished, that's why he doesn't want to put up a fight with other survivors.</en>
+						<jp>かつてこの男はなんでも破壊する荒くれ者として悪名をとどろかせていた。だが今は、ただ空腹を訴えるだけで、他の生存者に戦いを挑む気も起きないようだ。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Bandit Chief</en>
+						<jp>野盗のリーダー</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hey, you hear me? Don't make me eat you! Oh, sorry, I got really emotional when hungry. Yeah, real emotional..."</en>
+						<jp>「おい、聞こえてるか？今にもお前にかぶりつきそうだ！ああ、いや、腹が空くと感情的になってな。そうだ、感情的になって…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Does he like to eat...people?</en>
+						<jp>食べるのか？人間を…？</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Bandit Chief</en>
+						<jp>野盗のリーダー</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"You hear?"</en>
+						<jp>「おーい？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"Wait, we can make it for you."</en>
+						<jp>「時間が欲しい。まず準備してくる」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">eCUBanditDialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"We have it."</en>
+						<jp>「ここにある」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">eCUBanditDialogOpt2</link>
+					</links>
+					<cost type="supply">1</cost>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>eCUBanditDialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Bandit Chief</en>
+						<jp>野盗のリーダー</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"So, make it fast!"</en>
+						<jp>「じゃあ、早くしてくれ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>eCUBanditDialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Bandit Chief</en>
+						<jp>野盗のリーダー</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Good, this is good for me. I will let you go. But I want you to take this with you."</en>
+						<jp>「いいねえ、いただくぜ。もう行っていいぞ。おっと、その前にこれをやろう」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Bandit Chief</en>
+						<jp>野盗のリーダー</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I got this thing several weeks ago, but since then anti-gang enforcers always got me wherever I was. I hate this thing."</en>
+						<jp>「何週間か前に見つけたんだ。でもそれ以来、どこにいても対ギャング部隊に見つかっちまうんだ。嫌になっちまった」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>This, is a special computer unit for car, but attached with a tracking device? Interesting. [Found ECU]</en>
+						<jp>これは、自動車用のコンピューター制御装置だが、追跡装置も付けられている？面白い。［電子制御モジュール発見］</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">eCUBandit</trigger>
+					<reward type="material" name="Electronic Control Module">1</reward>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- eCUBandit END-->
+	
+	<!-- eCUAgent-->
+		<obj>
+			<objName>eCUAgent1Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Who are you?"</en>
+						<jp>「何者だ？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We tell him we are just survivors.</en>
+						<jp>自分たちはただの生存者であると告げた。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Okay, make sense. You can make your way now."</en>
+						<jp>「ふむ、そうか。もう行っていいぞ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We are curious, so we offer a helping hand.</en>
+						<jp>面白そうなので、何か手伝うことはないかとたずねた。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Oh, no, thanks. If you lend a hand to strangers, they might harm you like you never expect it to happen."</en>
+						<jp>「いや、結構。こんな風に知らない人に手を貸すときは、それを利用して思いもよらない悪事を働く者もいることを覚えておくんだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We decide to go, but before we can move on...</en>
+						<jp>もう行こう。だがその前に…</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Wait, okay, I think I need your help, I admit it."</en>
+						<jp>「待ってくれ。やはり君の手が必要だ。認めるよ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I lost my partners, maybe had been lost for couple of hours because zombies are everywhere!"</en>
+						<jp>「相棒とはぐれたんだ。恐らくもう何時間も経っている。ゾンビはそこらじゅうにいるし！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"We are currently tracking down someone that we thought would be a mad scientist responsible for this mad outbreak."</en>
+						<jp>「ゾンビ大発生を作り出したと思われる、いかれた科学者を容疑者として追っているところなんだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Can you help me find some documents or information regarding the situation?"</en>
+						<jp>「ゾンビ大発生に関連する書類や情報がないか、見てきてくれないか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Why not.</en>
+						<jp>喜んで。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Secret Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Good, I give you a location. There, you can find some documents we need. I need to do something else, so don't expect me to come with you."</en>
+						<jp>「ありがとう。これが位置情報だ。探している書類はここで見つかるだろう。私は他にすることがあるから、一緒には行けないが…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Let's go.</en>
+						<jp>よし、出発だ。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="changeInteractionDialog">eCUAgent4Dialog</trigger>
+					<trigger type="object" action="startQuest">eCUAgent2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+			
+		<obj>
+			<objName>eCUAgent2Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We found a table filled with documents. Okay...not this, not this one. Not this as well. How about...? This?</en>
+						<jp>書類が山になっている机を見つけた。うーん…これではないし、これでもない。これも違う。これは…これだろうか？</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Aha!</en>
+						<jp>あった！</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We see a file with a brief documents about someone who previously worked as researcher in a disease center. He's a doctorate graduate.</en>
+						<jp>見つけたファイルには、疾病センターで働いていた研究者に関する報告書が入っていた。博士号を持っているようだ。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Hm, that's all? We need more information. Hm, according to this, the man used to use a research-purposed PC, somewhere around here.</en>
+						<jp>これだけだろうか？もっと情報が必要だ。報告書には研究用のパソコンを所持していると書かれている。このあたりにあるはずだ。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We should check it out, we might be able to dig some more of data we can retrieve from the computer. Let's go!</en>
+						<jp>確認したほうがいいだろう。パソコンを調べれば、もっと詳しいデータを取り出せるかもしれない。探してみよう。</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">eCUAgent2</trigger>
+					<trigger type="object" action="startQuest">eCUAgent3</trigger>
+				</scene>
+			</scenes>
+		</obj>	
+		<obj>
+			<objName>eCUAgent3Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Here we go. We should log onto the computer. Right. Look at these all files. We should read them through.</en>
+						<jp>あったぞ。まずはパソコンにログオンだ。よし。ファイルがたくさんある。目を通してみよう。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Hmm. Okay. It seems that he was not a bad person at all. He was trying to find a cure for many kind of particular diseases, like rabies.</en>
+						<jp>なるほど。彼は悪い人物ではなかったようだ。狂犬病など、さまざまな病気の治療法を探っていたと書かれている。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>But then somehow he was expelled from the laboratory center he used to work for.</en>
+						<jp>だが、以前所属していたラボからは追い出されたらしい。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>For many years, he discovered strange symptoms from infected people who suffered pain from unknown...virus.</en>
+						<jp>何年にもわたって、感染症患者の奇妙な症状を見ていたようだ。患者は謎のウイルスに苦しんでいた…ウイルス？</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>And he knew the day would come, so he created and recreated a special infection-resistant antidote and hid it somewhere.</en>
+						<jp>しかもその感染症が大流行するとわかっていたんだ。それで、その感染症に効果のある特別な解毒剤を作り出し、どこかに隠したらしい。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>If it's not to heal, at least it can still help people. Is this what the agent is looking for?</en>
+						<jp>感染症を治す薬ではないかもしれないが、役には立つ。軍の関係者はこれを探していたのだろうか？</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Now we know where it is hidden. Let's tell the Agent!</en>
+						<jp>隠し場所もわかった。軍関係者のところに戻ろう！</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">eCUAgent3</trigger>
+					<trigger type="variable" action="eCUAgent3">1</trigger>
+				</scene>
+			</scenes>
+		</obj>	
+		<obj>
+			<objName>eCUAgent4Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Have you found it?</en>
+						<jp>見つけたか？</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Yes</en>
+						<jp>はい</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">eCUAgent4DialogOpt1</link>
+					</links>
+					<cost type="variable" quantity="1">eCUAgent3</cost>
+				</option>
+				<option>
+					<name>
+						<en>No</en>
+						<jp>いいえ</jp>
+						<cn></cn>
+					</name>
+					<links>
+					</links>
+				</option>
+			</options>
+		</obj>
+		<obj>
+			<objName>eCUAgent4DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Oh, never know we would come together. But at least we know where it was concealed."</en>
+						<jp>「おお、共同作戦できるとは思わなかったな。だがこれで、少なくとも隠し場所がわかる」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"This, he called it 'antitoxin', is stored inside a big packet with a biohazard logo on it, and that's quite mischievous to think of it"</en>
+						<jp>「あの科学者は『抗血清』と呼んでいた。モノ自体はバイオハザードのマークが書かれた大きな箱に入っているんだ。ちょっと面白いだろ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"This scientist is perilous, we don't know what kind of remedy actually made. It could be a harmful stuff. I got to bring this thing away from this place."</en>
+						<jp>「彼は本当に危険な人物だったから、実際にどんなものが出来上がったのかわからないんだ。危険物の可能性もある。ここから離れた場所へ持っていかなければならなかった」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"But here, inside the package, I found an ECU. Wow, you're lucky that you can have it. Here"</en>
+						<jp>「でもこれだけは取っておいた。電子制御モジュールだ。運がよいな。持っていけ」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">eCUAgent1</trigger>
+					<reward type="material" name="Electronic Control Module">1</reward>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- eCUAgent END-->
+	<!-- ECU QUEST DIALOG END-->
+	
+	<!-- ALTERNATOR QUEST DIALOG -->
+	<!-- alternatorScientist-->
+		<obj>
+			<objName>alternatorScientistDialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hey, how you doin'? That was quite intense, the battle with the zombies. But I'm doing alright!"</en>
+						<jp>「やあ、君。今のゾンビとの戦いは激しかった。だが私はよくやったよな！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>A scientist loves to fight off zombies?</en>
+						<jp>ゾンビと戦うのが好きな…科学者？</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Well, actually I'm just an ordinary lab technician, chemist, or whatever you call it."</en>
+						<jp>「いや、私はただの研究室の技術補佐というか薬品管理係というか…まあ好きに呼んでくれ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I was doing this chemical experiment using extract from veggies. It's cheaper, and safer, obviously."</en>
+						<jp>「今、野菜から抽出した物質を使った実験をしていたんだ。お金はかからないし、何より安全だろう？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I was doing this just for nothing, but I think now I can use that as chemical weapon against zombies, and I love to fight back!"</en>
+						<jp>「意味もなく実験していたんだが、これはゾンビ用の化学兵器になりそうだ。これで反撃できる！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Scientist</en>
+						<jp>科学者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"So, how hard it is for you to bring me 5 packs of vegetables for my project?"</en>
+						<jp>「もう少し作りたいんだが、野菜をあと5袋ほど持ってきてもらえないだろうか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"Haven't had them yet."</en>
+						<jp>「今は持っていない」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">alternatorScientistDialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"Here it is!"</en>
+						<jp>「はいどうぞ！」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">alternatorScientistDialogOpt2</link>
+					</links>
+					<cost type="requireMaterials" quantity="3">Vegetables</cost>
+					<!--  <cost type="requireMaterials" quantity="5">Fruits</cost>-->
+				</option>
+			</options>
+		</obj>
+		<obj>
+			<objName>alternatorScientistDialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"You do really want to help me, right?"</en>
+						<jp>「手伝ってくれるはずだろう？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>alternatorScientistDialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText><en>"Nice! This is very helpful, my development project will be boosted significantly."</en>
+						<jp>「うれしいね！助かるよ。これで作成スピードも上がるだろう」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Ah anyway, I have this...uh, what you call this? Dynamo? Alternator?"</en>
+						<jp>「お礼にこれを…あー、なんと言うんだったかな？ダイナモ？オルタネーター？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I used this for the experiment, but I no longer need it as I have better equipment for my research, so, take it."</en>
+						<jp>「以前実験に使っていたんだが、もう要らないんだ。研究用のもっとよい設備を手に入れたんでな。持っていってくれ」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">alternatorScientist</trigger>
+					<reward type="material" name="Alternator">1</reward>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- alternatorScientist END-->
+	
+	<!-- alternatorLoveStory-->
+		<obj>
+			<objName>alternatorLoveStory1Dialog</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hey... Help me..."</en>
+						<jp>「ねえ…助けて…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>A woman with a terrible looking wound reaching out</en>
+						<jp>ひどいケガを負った女性が近づいてきた</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hi, you look terrible. Sorry, I don't think we can help you heal these wound."</en>
+						<jp>「ひどいケガのようですが、申し訳ない。傷の手当はできそうもない…」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Yeah.. I know I will die. There's no helping that."</en>
+						<jp>「ええ…もう死ぬんだってわかってる。仕方ないの」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I just... want you to help me with something else."</en>
+						<jp>「ただ…手伝ってもらえたらと思って」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>With shaky hand, the woman take out a messy pape.</en>
+						<jp>女性はふるえる手でしわくちゃの紙を取り出す。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I need you to deliver this letter to my husband. Please..."</en>
+						<jp>「この手紙を夫に届けてほしいの、お願い…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"We're separated when the evacuation started. But I know he will wait for me on our promised place."</en>
+						<jp>「逃げるときに、はぐれてしまって。でもまだきっと、待ち合わせの場所で私を待っているはず」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I know he'll wait for me."</en>
+						<jp>「きっと待っているはず」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I know.."</en>
+						<jp>「待っているはずなの」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>She start to cry..</en>
+						<jp>女性は涙をこぼす。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I don't want [XXXXX] to wait for me any longer."</en>
+						<jp>「[XXXXX]にはこれ以上、私のために待っていてほしくない」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Please... I'm sure he will reward you for this."</en>
+						<jp>「お願い…これを渡してくれたら、彼がお礼をくれると思うから」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"..."</en>
+						<jp>「……」</jp>
+						<cn>"..."</cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...Ok. Leave it to me, your letter will be delivered."</en>
+						<jp>「わかった。手紙を持っていく。彼に届けよう」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Thank you... I believe in you."</en>
+						<jp>「ありがとう…必ずよ」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"All right. Also..."</en>
+						<jp>「もちろん。それから…」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Do you maybe.. need help with your death?"</en>
+						<jp>「もしかしたら…死ぬのに手を貸したほうがいい？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"It might be better than become one of those walking dead."</en>
+						<jp>「そうすれば、ゾンビになるのを避けられる」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...you're right."</en>
+						<jp>「確かにそうね」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I must trouble you once more then"</en>
+						<jp>「もう1度手を借りなきゃいけないみたい」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"..."</en>
+						<jp>「……」</jp>
+						<cn>"..."</cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Dying Woman</en>
+						<jp>死にそうな女性</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Please tell him I was smiling."</en>
+						<jp>「彼に伝えて。最期まで笑ってた、って…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...Rest in peace"</en>
+						<jp>「安らかに…」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>BANG!</en>
+						<jp>パンッ！</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+					<en>The bullet shoot through her head.</en>
+					<jp>弾丸が彼女の頭を撃ちぬいた。</jp>
+					<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">alternatorLoveStory1</trigger>
+					<trigger type="object" action="startQuest">alternatorLoveStory2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+
+		<obj>
+			<objName>alternatorLoveStory2Dialog</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We meet a man and ask him if he know [XXXXX].</en>
+						<jp>男性に出会った。[XXXXX]を知っているかたずねる。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The man told us that he knows him, and asked  if there's something he can help.</en>
+						<jp>男性は、彼を知っていると答え、何か手伝うことはあるかと聞いてきた。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We told him that [XXXXX] wive has died, and we have letter from her.</en>
+						<jp>男性に[XXXXX]の妻が死んだが、彼女から手紙を預かっていると話す。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Oh god, that's awful."</en>
+						<jp>「なんてひどい話だ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>The man fell to his knees.</en>
+						<jp>男性がひざから崩れ落ちる。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hey, what's wrong?"</en>
+						<jp>「大丈夫か？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...I was friends with [XXXXX]. In fact, I owe my life to him. While trying to save me, he got bitten by those damn creatures!"</en>
+						<jp>「[XXXXX]は私の友達なんだ。実は、私が今生きているのは彼のおかげだ。あの化け物から私を守ろうとして、彼はかまれてしまったんだ！」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...even after that, he still fighting hard, killing so many Zombies. But the virus is strong, and in the end he asked me to end his misery.."</en>
+						<jp>「かまれてからも、懸命に戦っていたよ。ゾンビを倒してね。でもウイルスは強力すぎた。最後にはこれを終わらせてくれと頼まれたんだ…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"So he died huh.."</en>
+						<jp>「じゃあ、彼も死んだと…？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Yeah... On his last breath, he begged me to go here and wait for his wive that have been separated from him."</en>
+						<jp>「そういうことだ…彼が息を引き取る前、ここに来て彼の妻を待つように頼まれたんだ。途中ではぐれてしまったから、と」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I've been waiting for weeks now, until you come. I also have letter for her. "</en>
+						<jp>「もう何週間も待っていたが、やっと君に会えた。彼女への手紙を預かっているんだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Have you read it?"</en>
+						<jp>「手紙を読んだ？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"No. I guess you haven't read it too, right? What do you think we should do now?"</en>
+						<jp>「いいや、君も読んでいないだろう？どうすればいいだろうか？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>"Read the letters"</en>
+						<jp>「手紙を読もう」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">alternatorLoveStory2DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>"Burn Them"</en>
+						<jp>「手紙は燃やそう」</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">alternatorLoveStory2DialogOpt2</link>
+					</links>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>alternatorLoveStory2DialogOpt1</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes next="alternatorLoveStory3">
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Nah, I don't think that's approriate. Let's just burn them."</en>
+						<jp>「うーん、それは失礼な気がする。燃やしてしまうのはどうかな？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Ok, I guess that's for the best."</en>
+						<jp>「そうだな。それがいい」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>alternatorLoveStory2DialogOpt2</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes next="alternatorLoveStory3">
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Let's just burn the letters together. Think of it as proper goodbye for the two of them."</en>
+						<jp>「手紙は2つとも燃やそう。一緒に燃やせば、2人への弔いになるだろう」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Ok, I think that's good."</en>
+						<jp>「うん、それがいいと思う」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>alternatorLoveStory3</objName>
+			<init>
+				<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			</init>
+			<scenes>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>He take out a lighter and burn the two letters.</en>
+						<jp>生存者がライターを取り出し、2つの手紙に火をつけた。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Somehow, as the fire burns, image of a man and woman smiling emerge before slowly disappear.</en>
+						<jp>どういうわけか、手紙が燃えるにつれ、男性と女性が互いにほほ笑みあう姿が浮かび上がり、やがて消えていった。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hey, did the husband smile at the end of his life?"</en>
+						<jp>「夫のほうは、最期に笑って逝った？」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Yes.. He told me to say that to his wive."</en>
+						<jp>「ああ、それを妻にも伝えてくれと頼まれたよ」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"..That's good..."</en>
+						<jp>「よかった…」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>Our eyes glued to the fire until it burns out. Leaving the black ashes.</en>
+						<jp>手紙が燃え尽きるまで、目をそらすことができなかった。やがて手紙は灰のかけらとなった。</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"..."</en>
+						<jp>「……」</jp>
+						<cn>"..."</cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>%MAIN-CHAR-FIRST-NAME%</en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"So, where will you go now? You don't need to wait for anyone else right? How about come to my group."</en>
+						<jp>「それで、これからどこに？もう待ち人はいないんだし、仲間に入ってくれたら…」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Nah, that's okay. Thanks for the invitation, but I have another mission to do."</en>
+						<jp>「ああ、いや、誘いはありがたいが他にもしなければならないことがある」</jp>
+						<cn></cn>
+					</dialogText>
+					<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"By the way., [XXXXX] had left me some items that I don't need. You can take it if you want."</en>
+						<jp>「ところで、[XXXXX]がくれたものがあるんだけど、私には必要ないんだ。もし必要ならあげるよ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>He give us a backpack. After searching through it, we found an Alternator.</en>
+						<jp>バックパックを渡された。中を見ると、オルタネーターが入っていた。</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="material" name="Alternator">1</reward></scene>
+				<scene>
+					<nameText>
+						<en>Survivor</en>
+						<jp>生存者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"See you around then."</en>
+						<jp>「ではまたどこかで」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">alternatorLoveStory2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- alternatorLoveStory END-->
+	
+	<!-- alternatorParanoidNPC-->
+		<obj>
+			<objName>alternatorParanoid1Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Hey there, can you help me?"</en>
+						<jp>「やあ、少し手伝ってくれないか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Here's my problem. I need to give this document to someone, but I can't leave my pos yet."</en>
+						<jp>「困っているんだ。この書類を届けなければならないんだが、まだ持ち場を離れられなくて」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Could you please deliver it?"</en>
+						<jp>「代わりに届けてくれないか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Yes</en>
+						<jp>はい</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">alternatorParanoid1DialogOpt1</link>
+					</links>
+				</option>
+				<option>
+					<name>
+						<en>No</en>
+						<jp>いいえ</jp>
+						<cn></cn>
+					</name>
+					<links>
+					</links>
+				</option>
+			</options>
+		</obj>
+		<obj>
+			<objName>alternatorParanoid1DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Military Agent</en>
+						<jp>軍関係者</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Great. But, the guy is super paranoid and in this time of days? I don't blame him. You probably need to go alone to meet him"</en>
+						<jp>「ありがたい。届ける先なんだが、被害妄想の激しい男のところなんだ。こんな状況では仕方ないが。届けるときは1人の方がいいかもしれない」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="endQuest">alternatorParanoid1</trigger>
+					<trigger type="object" action="startQuest">alternatorParanoid2</trigger>
+					<trigger type="object" action="setInteractable">0</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		<obj>
+			<objName>alternatorParanoid2Dialog</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"....."</en>
+						<jp>「……」</jp>
+						<cn>"....."</cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Are you alooone?"</en>
+						<jp>「おマエはひとりか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+			</scenes>
+			<options>
+				<option>
+					<name>
+						<en>Yes</en>
+						<jp>はい</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">alternatorParanoid2DialogOpt1</link>
+					</links>
+					<cost type="numOfSurvivorOnMissionEqualTo">1</cost>
+				</option>
+				<option>
+					<name>
+						<en>No</en>
+						<jp>いいえ</jp>
+						<cn></cn>
+					</name>
+					<links>
+						<link chance="1">alternatorParanoid2DialogOpt2</link>
+					</links>
+				</option>
+			</options>
+		</obj>
+		
+		<obj>
+			<objName>alternatorParanoid2DialogOpt1</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Are you suuure??"</en>
+						<jp>「ホントウだろうな？？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"You are not lying are you???"</en>
+						<jp>「ウソをついているんじゃないよな？？？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"I know it, should bring my lie detector everywhere.."</en>
+						<jp>「そこらじゅうにウソはっけんきがあればワかるんだがな」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"So, did someone send you here to meet me?"</en>
+						<jp>「だれかにイわれてここにキたのか？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en></en>
+						<jp></jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>We give the document to him</en>
+						<jp>男に書類を渡した。</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Ah yessss, I need this."</en>
+						<jp>「ああこれがヒツヨウだったんだ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Thank you.."</en>
+						<jp>「ありがとう」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"..."</en>
+						<jp>「……」</jp>
+						<cn>"..."</cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Why are you still here? go away."</en>
+						<jp>「おいなんでまだいるんだ？デていけ」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Shuh shuh"</en>
+						<jp>「しっしっ！」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"What? you want something in return?"</en>
+						<jp>「んん？なにかおレイがいる？」</jp>
+						<cn></cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"...."</en>
+						<jp>「……」</jp>
+						<cn>"...."</cn>
+					</dialogText>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Here, i found an Alternator lying somewhere around here. Take it!"</en>
+						<jp>「おるたねーたーでどうだ。チカくでみつけた。モっていけ！」</jp>
+						<cn></cn>
+					</dialogText>
+					<reward type="material" name="Alternator">1</reward>
+				</scene>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"Go away!"</en>
+						<jp>「もういいだろ！」</jp>
+						<cn></cn>
+					</dialogText>
+					<trigger type="object" action="setInteractable">0</trigger>
+					<trigger type="object" action="endQuest">alternatorParanoid2</trigger>
+				</scene>
+			</scenes>
+		</obj>
+		
+		<obj>
+			<objName>alternatorParanoid2DialogOpt2</objName>
+			<scenes>
+				<scene>
+					<nameText>
+						<en>Weird Guy</en>
+						<jp>奇妙な男</jp>
+						<cn></cn>
+					</nameText>
+					<dialogText>
+						<en>"....."</en>
+						<jp>「……」</jp>
+						<cn>"....."</cn>
+					</dialogText>
+				</scene>
+			</scenes>
+		</obj>
+	<!-- alternatorParanoidNPC END-->
+	<!-- ALTERNATOR QUEST DIALOG END-->
+</dialogs>

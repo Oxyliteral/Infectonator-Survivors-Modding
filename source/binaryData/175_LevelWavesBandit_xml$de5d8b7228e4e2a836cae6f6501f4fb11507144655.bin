@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<levelWavesBandit>
+	<obj>
+		<objName>Difficulty0-0</objName>
+		<waves>
+			<wave Bandit="1" Mugger="1"/>
+			<wave Bandit="2" Mugger="2"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty0-1</objName>
+		<waves>
+			<wave Bandit="2" Mugger="2"/>
+			<wave Bandit="3" Mugger="3"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty0-2</objName>
+		<waves>
+			<wave Bandit="3" Mugger="3"/>
+			<wave Bandit="4" Mugger="4"/>
+		</waves>
+	</obj>
+
+	<obj>
+		<objName>Difficulty1-0</objName>
+		<waves>
+			<wave Bandit="1" Mugger="1"/>
+			<wave Bandit="2" Mugger="2"/>
+			<wave Bandit="3" Mugger="3" Outlaw="1"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty1-1</objName>
+		<waves>
+			<wave Bandit="2"/>
+			<wave Bandit="1" Mugger="2" Outlaw="1"/>
+			<wave Bandit="3" Mugger="1" Outlaw="1"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty1-2</objName>
+		<waves>
+			<wave Bandit="2" Mugger="1" Outlaw="1"/>
+			<wave Bandit="2" Mugger="1" Thief="2"/>
+			<wave Bandit="3" Mugger="2" Thief="3"/>
+		</waves>
+	</obj>
+	
+	<obj>
+		<objName>Difficulty2-0</objName>
+		<waves>
+			<wave Bandit="2" Mugger="2"/>
+			<wave Bandit="3" Mugger="2" Outlaw="1"/>
+			<wave Bandit="4" Mugger="3" Thief="2"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty2-1</objName>
+		<waves>
+			<wave Bandit="2" Mugger="3" Outlaw="1"/>
+			<wave Bandit="3" Mugger="3" Thief="2"/>
+			<wave Bandit="5" Mugger="4" Gangster="1"/>
+		</waves>
+	</obj>
+	<obj>
+		<objName>Difficulty2-2</objName>
+		<waves>
+			<wave Bandit="3" Mugger="4" Outlaw="2"/>
+			<wave Bandit="4" Mugger="4" Gangster="2"/>
+			<wave Bandit="5" Mugger="5" Gangster="3"/>
+		</waves>
+	</obj>
+</levelWavesBandit>

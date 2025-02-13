@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<radio>
+	<obj>
+		<objName>CallForRecruit</objName>
+		<screenName>
+			<en>RECRUITMENT CALL</en>
+			<jp>生存者への呼びかけ</jp>
+			<cn>征兵广播</cn>
+		</screenName>
+		<iconThumb>IconRadio</iconThumb>
+		<desc>
+			<en>Send out a radio broadcast to call survivors to join us.</en>
+			<jp>仲間に加わってくれる生存者を無線機で募る。</jp>
+			<cn>发送一则广播，号召幸存者们加入我们。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished the broadcast.</en>
+			<jp>無線機での呼びかけを終えた。</jp>
+			<cn>我们完成了广播。</cn>
+		</completedDesc>
+		<workPoints>250</workPoints>
+		<searchPoints>250</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="callResponse">1</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="3">9V Battery</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>LocateSupply</objName>
+		<screenName>
+			<en>LOCATING SUPPLY CACHE</en>
+			<jp>補給物資保管場所の探知</jp>
+			<cn>定位补给</cn>
+		</screenName>
+		<iconThumb>IconRadio</iconThumb>
+		<desc>
+			<en>Try to transmit messages and locate any available supplies out there.</en>
+			<jp>メッセージを送って、使える補給物資を見つける。</jp>
+			<cn>试着传输信息并定位任何可用的补给。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished gathering information regarding supply location.</en>
+			<jp>補給物資の保管場所に関する情報収集を終えた。</jp>
+			<cn>我们完成了有关补给地点的信息收集。</cn>
+		</completedDesc>
+		<workPoints>250</workPoints>
+		<searchPoints>250</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="supplyLocation">1</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="2">9V Battery</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>LocateFuel</objName>
+		<screenName>
+			<en>LOCATING FUEL CACHE</en>
+			<jp>燃料保管場所の探知</jp>
+			<cn>定位燃料</cn>
+		</screenName>
+		<iconThumb>IconRadio</iconThumb>
+		<desc>
+			<en>Try to transmit messages and locate any available fuels out there.</en>
+			<jp>メッセージを送って、使える燃料を見つける。</jp>
+			<cn>试着传输信息并定位任何可用的燃料。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished gathering information regarding fuel location.</en>
+			<jp>燃料の保管場所に関する情報収集を終えた。</jp>
+			<cn>我们完成了有关燃料地点的信息收集。</cn>
+		</completedDesc>
+		<workPoints>250</workPoints>
+		<searchPoints>250</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="fuelLocation">1</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="2">9V Battery</reqItem>
+	</obj>
+</radio>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+NOTES
+reward type: survivor,weapon,gear,material,coin,supply,fuel,mortar
+-->
+
+<perks>
+	<obj>
+		<objName>ExtraSupplies</objName>
+		<screenName>
+			<en>Extra Supplies</en>
+			<jp>補給物資追加</jp>
+			<cn>额外补给</cn>
+		</screenName>
+		<desc>
+			<en>Start with 5 extra supplies</en>
+			<jp>開始時の補給物資が5つ増加</jp>
+			<cn>开局拥有5份额外补给。</cn>
+		</desc>
+		<cost>1</cost>
+		<reward type="supply" quantity="5"></reward>
+	</obj>
+	<obj>
+		<objName>ExtraShotgun</objName>
+		<screenName>
+			<en>Extra Shotgun</en>
+			<jp>ショットガン追加</jp>
+			<cn>额外霰弹枪</cn>
+		</screenName>
+		<desc>
+			<en>Start with an extra shotgun in the inventory</en>
+			<jp>開始時にショットガンを1つ所持</jp>
+			<cn>开局拥有一把额外的霰弹枪。</cn>
+		</desc>
+		<cost>1</cost>
+		<reward type="weapon" quantity="1">Shotgun</reward>
+	</obj>
+	<obj>
+		<objName>ExtraSMG</objName>
+		<screenName>
+			<en>Extra SMG</en>
+			<jp>SMG追加</jp>
+			<cn>额外冲锋枪</cn>
+		</screenName>
+		<desc>
+			<en>Start with an extra SMG in your inventory</en>
+			<jp>開始時にSMGを1つ所持</jp>
+			<cn>开局拥有一把额外的冲锋枪。</cn>
+		</desc>
+		<cost>1</cost>
+		<reward type="weapon" quantity="1">MP5</reward>
+	</obj>
+	<obj>
+		<objName>ExtraArmor</objName>
+		<screenName>
+			<en>Extra Armor</en>
+			<jp>アーマー追加</jp>
+			<cn>额外装甲</cn>
+		</screenName>
+		<desc>
+			<en>Start with 2 Kevlar Armor in your inventory</en>
+			<jp>開始時にボディアーマーを2つ所持</jp>
+			<cn>开局拥有2件凯夫拉装甲。</cn>
+		</desc>
+		<cost>1</cost>
+		<reward type="gear" quantity="2">Kevlar</reward>
+	</obj>
+	<obj>
+		<objName>ExtraMortar</objName>
+		<screenName>
+			<en>Mortar Support</en>
+			<jp>迫撃砲支援</jp>
+			<cn>火力支援</cn>
+		</screenName>
+		<desc>
+			<en>Start with 4 additional artillery support</en>
+			<jp>開始時に迫撃砲を4基所持</jp>
+			<cn>开局拥有4次额外的炮火支援。</cn>
+		</desc>
+		<cost>1</cost>
+		<reward type="mortar"  quantity="4"></reward>
+	</obj>
+	<obj>
+		<objName>ExtraSurvivor</objName>
+		<screenName>
+			<en>Extra Survivors</en>
+			<jp>生存者追加</jp>
+			<cn>额外幸存者</cn>
+		</screenName>
+		<desc>
+			<en>Start with 2 additional survivors in the HQ</en>
+			<jp>開始時、HQに生存者が2人出現</jp>
+			<cn>开局在总部中拥有额外2名幸存者。</cn>
+		</desc>
+		<cost>2</cost>
+		<reward type="survivor" quantity="2"></reward>
+	</obj>
+	<obj>
+		<objName>LongerDays</objName>
+		<screenName>
+			<en>Longer Days</en>
+			<jp>執行猶予</jp>
+			<cn>漫长岁月</cn>
+		</screenName>
+		<desc>
+			<en>You now have 40 days to survive before the city gets nuked!</en>
+			<jp>核攻撃までの日数が30日に延びる</jp>
+			<cn>现在你在城市被炸平前有40天可以生存！</cn>
+		</desc>
+		<cost>2</cost>
+		<reward type="day" quantity="20"></reward>
+	</obj>
+	<obj>
+		<objName>ExtraCityDifficulty</objName>
+		<screenName>
+			<en>Infested City</en>
+			<jp>大々発生</jp>
+			<cn>诅咒之城</cn>
+		</screenName>
+		<desc>
+			<en>More zombies roam the city. For hardcore survivors only!</en>
+			<jp>ゾンビマシマシ。初心者厳禁！</jp>
+			<cn>更多僵尸会游荡在城市。只适合硬核玩家！</cn>
+		</desc>
+		<cost>2</cost>
+		<reward type="initCityDifficulty" quantity="1"></reward>
+		<reward type="zombieQuotaPerDifficulty" quantity="30"></reward>
+	</obj>
+	<obj>
+		<objName>TougherZombies</objName>
+		<screenName>
+			<en>Tougher Zombies</en>
+			<jp>ゾンビ強化</jp>
+			<cn>铁皮僵尸</cn>
+		</screenName>
+		<desc>
+			<en>Harder, better, stronger, faster zombies!</en>
+			<jp>ゾンビが硬い、賢い、強い、速い！</jp>
+			<cn>更难打、更厉害、更强壮、更敏捷的僵尸！</cn>
+		</desc>
+		<cost>2</cost>
+		<reward type="zombieHealthMultiplier" quantity="15"></reward>
+		<reward type="zombieSpeedIncrease" quantity="30"></reward>
+	</obj>
+</perks>

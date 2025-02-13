@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:46d298e87bae5b3db66747f6dfdb7335:b7d740b00fec366e646734f1443e9c2d:89a55bd4881c27fbc22099922cdb1c9d$ -->
+<TextureAtlas imagePath="InfectonatorSurvivorUI.png" width="1024" height="1024">
+    <SubTexture name="04B_03_0" x="1020" y="42" width="3" height="3" frameX="0" frameY="0" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="ammo-icon" x="62" y="713" width="32" height="32"/>
+    <SubTexture name="armorLogo" x="401" y="343" width="65" height="71"/>
+    <SubTexture name="ArrowSmallIdle" x="1014" y="126" width="9" height="13"/>
+    <SubTexture name="ArrowSmallOn" x="1014" y="140" width="9" height="13"/>
+    <SubTexture name="ArrowSmallOver" x="1014" y="374" width="9" height="13"/>
+    <SubTexture name="background-disabled-skin" x="1" y="730" width="32" height="32"/>
+    <SubTexture name="background-down-skin" x="731" y="554" width="30" height="30"/>
+    <SubTexture name="background-focused-skin" x="576" y="408" width="32" height="32"/>
+    <SubTexture name="background-popup-skin" x="609" y="408" width="32" height="32"/>
+    <SubTexture name="background-skin" x="642" y="408" width="32" height="32"/>
+    <SubTexture name="BarricadeIcon" x="269" y="732" width="20" height="15" frameX="0" frameY="-3" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="BarricadeIconDisabled" x="290" y="732" width="20" height="15" frameX="0" frameY="-3" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="box-container-bordered" x="144" y="446" width="60" height="60"/>
+    <SubTexture name="box-container-green-bordered" x="144" y="507" width="60" height="60"/>
+    <SubTexture name="box-container-green-light" x="253" y="507" width="60" height="60"/>
+    <SubTexture name="box-container-green" x="314" y="559" width="60" height="60"/>
+    <SubTexture name="box-container-grey-bordered" x="253" y="568" width="60" height="60"/>
+    <SubTexture name="box-container-grey-light" x="375" y="578" width="60" height="60"/>
+    <SubTexture name="box-container-grey" x="314" y="620" width="60" height="60"/>
+    <SubTexture name="box-container-light-bordered" x="1" y="547" width="60" height="60"/>
+    <SubTexture name="box-container-light" x="1" y="608" width="60" height="60"/>
+    <SubTexture name="box-container-red-bordered" x="136" y="568" width="60" height="60"/>
+    <SubTexture name="box-container-red-light" x="252" y="629" width="60" height="60"/>
+    <SubTexture name="box-container-red" x="132" y="629" width="60" height="60"/>
+    <SubTexture name="box-container" x="1" y="669" width="60" height="60"/>
+    <SubTexture name="button-back-disabled-skin" x="107" y="432" width="36" height="60"/>
+    <SubTexture name="button-back-down-skin" x="506" y="291" width="36" height="60"/>
+    <SubTexture name="button-back-up-skin" x="503" y="352" width="36" height="60"/>
+    <SubTexture name="button-call-to-action-up-skin" x="675" y="408" width="32" height="32"/>
+    <SubTexture name="button-danger-down-skin" x="576" y="441" width="32" height="32"/>
+    <SubTexture name="button-danger-up-skin" x="609" y="441" width="32" height="32"/>
+    <SubTexture name="button-disabled-skin" x="642" y="441" width="32" height="32"/>
+    <SubTexture name="button-down-skin" x="675" y="441" width="32" height="32"/>
+    <SubTexture name="button-forward-disabled-skin" x="500" y="413" width="36" height="60"/>
+    <SubTexture name="button-forward-down-skin" x="499" y="474" width="36" height="60"/>
+    <SubTexture name="button-forward-up-skin" x="454" y="493" width="36" height="60"/>
+    <SubTexture name="button-hover-skin" x="756" y="426" width="32" height="32"/>
+    <SubTexture name="button-selected-disabled-skin" x="642" y="441" width="32" height="32"/>
+    <SubTexture name="button-selected-skin" x="789" y="426" width="32" height="32"/>
+    <SubTexture name="button-up-skin" x="675" y="408" width="32" height="32"/>
+    <SubTexture name="ButtonArmorPixel" x="401" y="343" width="65" height="71"/>
+    <SubTexture name="ButtonArmorPixelDown" x="401" y="343" width="65" height="71"/>
+    <SubTexture name="ButtonArmorPixelUp" x="258" y="370" width="65" height="71"/>
+    <SubTexture name="ButtonCampaign" x="757" y="303" width="150" height="40"/>
+    <SubTexture name="ButtonCampaignOff" x="757" y="344" width="150" height="40"/>
+    <SubTexture name="ButtonCampaignOn" x="756" y="385" width="150" height="40"/>
+    <SubTexture name="ButtonCampaignOver" x="1" y="202" width="150" height="40"/>
+    <SubTexture name="ButtonGo_Disabled" x="932" y="292" width="68" height="40"/>
+    <SubTexture name="ButtonGo_Down" x="932" y="333" width="68" height="40"/>
+    <SubTexture name="ButtonGo_Hover" x="303" y="202" width="68" height="40"/>
+    <SubTexture name="ButtonGo_Normal" x="401" y="302" width="68" height="40"/>
+    <SubTexture name="ButtonMiniClip" x="324" y="370" width="64" height="64"/>
+    <SubTexture name="ButtonMiniClipDown" x="401" y="415" width="64" height="64"/>
+    <SubTexture name="ButtonMiniClipUp" x="324" y="435" width="64" height="64"/>
+    <SubTexture name="ButtonMinus_Disabled" x="448" y="651" width="24" height="10" frameX="-1" frameY="-8" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonMinus_Down" x="375" y="666" width="24" height="10" frameX="-1" frameY="-9" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonMinus_Hover" x="400" y="666" width="24" height="10" frameX="-1" frameY="-8" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonMinus_Normal" x="375" y="677" width="24" height="10" frameX="-1" frameY="-8" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonMissions_Hover" x="659" y="153" width="82" height="53"/>
+    <SubTexture name="ButtonMissions_Normal" x="933" y="185" width="82" height="53"/>
+    <SubTexture name="ButtonMissions_Pressed" x="932" y="239" width="82" height="52" frameX="0" frameY="-1" frameWidth="82" frameHeight="53"/>
+    <SubTexture name="ButtonNext_Disabled" x="357" y="710" width="17" height="24" frameX="-5" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonNext_Down" x="152" y="767" width="17" height="24" frameX="-5" frameY="-2" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonNext_Hover" x="100" y="770" width="17" height="24" frameX="-5" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonNext_Normal" x="77" y="774" width="17" height="24" frameX="-5" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonPlus_Disabled" x="515" y="595" width="24" height="24" frameX="-1" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonPlus_Down" x="642" y="614" width="24" height="24" frameX="-1" frameY="-2" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonPlus_Hover" x="696" y="605" width="24" height="24" frameX="-1" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonPlus_Normal" x="667" y="616" width="24" height="24" frameX="-1" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="ButtonStart" x="402" y="168" width="174" height="40"/>
+    <SubTexture name="ButtonStartOff" x="757" y="184" width="175" height="38"/>
+    <SubTexture name="ButtonStartOn" x="757" y="264" width="174" height="38"/>
+    <SubTexture name="ButtonStartOver" x="757" y="223" width="174" height="40"/>
+    <SubTexture name="ButtonSurvival" x="152" y="202" width="150" height="40"/>
+    <SubTexture name="ButtonSurvivalOff" x="402" y="209" width="150" height="40"/>
+    <SubTexture name="ButtonSurvivalOn" x="402" y="250" width="150" height="40"/>
+    <SubTexture name="ButtonSurvivalOver" x="1" y="243" width="150" height="40"/>
+    <SubTexture name="ButtonTogePixel" x="197" y="599" width="54" height="64"/>
+    <SubTexture name="ButtonTogePixelDown" x="197" y="599" width="54" height="64"/>
+    <SubTexture name="ButtonTogePixelUp" x="193" y="664" width="54" height="64"/>
+    <SubTexture name="callout-arrow-bottom" x="614" y="168" width="44" height="26"/>
+    <SubTexture name="callout-arrow-left" x="848" y="614" width="26" height="44"/>
+    <SubTexture name="callout-arrow-right" x="875" y="635" width="26" height="44"/>
+    <SubTexture name="callout-arrow-top" x="107" y="381" width="44" height="26"/>
+    <SubTexture name="callout-background-skin" x="822" y="426" width="32" height="32"/>
+    <SubTexture name="cash-icon" x="792" y="556" width="29" height="32"/>
+    <SubTexture name="ChatBaloonBox" x="470" y="328" width="32" height="32"/>
+    <SubTexture name="ChatPoint" x="1016" y="185" width="7" height="7"/>
+    <SubTexture name="check-disabled-icon" x="577" y="168" width="36" height="36"/>
+    <SubTexture name="check-icon" x="449" y="554" width="36" height="36"/>
+    <SubTexture name="check-selected-disabled-icon" x="855" y="426" width="32" height="32"/>
+    <SubTexture name="check-selected-down-icon" x="576" y="474" width="32" height="32"/>
+    <SubTexture name="check-selected-icon" x="107" y="493" width="36" height="36"/>
+    <SubTexture name="check-selected-up-icon" x="609" y="474" width="32" height="32"/>
+    <SubTexture name="continue0001" x="948" y="374" width="60" height="8"/>
+    <SubTexture name="continue0002" x="128" y="690" width="60" height="8"/>
+    <SubTexture name="day-icon" x="1001" y="292" width="22" height="32"/>
+    <SubTexture name="drop-down-arrow-icon-disabled" x="375" y="734" width="21" height="10"/>
+    <SubTexture name="drop-down-arrow-icon" x="248" y="690" width="21" height="10"/>
+    <SubTexture name="drop-down-arrow" x="956" y="684" width="12" height="7"/>
+    <SubTexture name="extraProvitionsBg" x="577" y="207" width="153" height="200"/>
+    <SubTexture name="FBIcon" x="929" y="687" width="26" height="26"/>
+    <SubTexture name="FBIconUp" x="982" y="679" width="26" height="26"/>
+    <SubTexture name="fuel-icon" x="675" y="562" width="29" height="32"/>
+    <SubTexture name="GameOverReport" x="773" y="1" width="248" height="40"/>
+    <SubTexture name="gears-icon" x="491" y="535" width="49" height="32" frameX="0" frameY="0" frameWidth="53" frameHeight="32"/>
+    <SubTexture name="HeadBill" x="731" y="496" width="24" height="26" frameX="-4" frameY="-1" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadBodyguard" x="335" y="681" width="21" height="22" frameX="-6" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadBouncer" x="335" y="681" width="21" height="22" frameX="-6" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadBoxer" x="908" y="303" width="23" height="26" frameX="-5" frameY="-1" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadCheerleader" x="470" y="302" width="34" height="25" frameX="0" frameY="-1" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadCop" x="553" y="261" width="23" height="24" frameX="-5" frameY="-2" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadCutiePie" x="760" y="587" width="29" height="30" frameX="-2" frameY="0" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadCyborg" x="731" y="324" width="25" height="22" frameX="-4" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadDetective" x="448" y="662" width="21" height="25" frameX="-6" frameY="-1" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadElDiablo" x="576" y="658" width="21" height="23" frameX="-6" frameY="-3" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadEliteSniper" x="400" y="677" width="23" height="23" frameX="-5" frameY="-3" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadEllis" x="424" y="681" width="21" height="25" frameX="-6" frameY="-1" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="header-skin" x="757" y="114" width="5" height="11"/>
+    <SubTexture name="HeadFrancis" x="335" y="704" width="21" height="22" frameX="-6" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadFreddieW" x="731" y="222" width="25" height="27" frameX="-4" frameY="-2" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadHobo" x="951" y="578" width="30" height="30" frameX="-1" frameY="0" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadHunter" x="554" y="639" width="21" height="25" frameX="-6" frameY="-1" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadJerome" x="375" y="688" width="21" height="22" frameX="-6" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadLouis" x="397" y="701" width="21" height="22" frameX="-6" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadMarksman" x="908" y="330" width="23" height="26" frameX="-5" frameY="0" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadMercenary" x="495" y="667" width="21" height="24" frameX="-6" frameY="-2" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadNerd" x="470" y="679" width="21" height="24" frameX="-6" frameY="-2" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadNick" x="547" y="665" width="21" height="23" frameX="-6" frameY="-3" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadOutdoorsman" x="130" y="313" width="21" height="26" frameX="-6" frameY="0" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadPewdiepie" x="705" y="578" width="24" height="26" frameX="-4" frameY="-1" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadPwnisher" x="731" y="380" width="24" height="30" frameX="-4" frameY="0" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadResearcher" x="525" y="663" width="21" height="25" frameX="-6" frameY="-1" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadRochelle" x="473" y="652" width="21" height="26" frameX="-6" frameY="0" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadScientist" x="731" y="300" width="25" height="23" frameX="-4" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadSpecOps" x="375" y="711" width="21" height="22" frameX="-6" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadSWAT" x="530" y="639" width="23" height="23" frameX="-5" frameY="-3" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadSydney" x="515" y="568" width="24" height="26" frameX="-6" frameY="0" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadThug" x="419" y="707" width="21" height="22" frameX="-6" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadWorker" x="908" y="357" width="23" height="26" frameX="-5" frameY="0" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="HeadZoey" x="313" y="681" width="21" height="23" frameX="-6" frameY="-4" frameWidth="34" frameHeight="30"/>
+    <SubTexture name="icon-banana" x="290" y="711" width="20" height="20"/>
+    <SubTexture name="icon-biohazard" x="982" y="653" width="27" height="25"/>
+    <SubTexture name="icon-bossbaloon0001" x="241" y="782" width="17" height="19" frameX="0" frameY="0" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0002" x="241" y="782" width="17" height="19" frameX="0" frameY="0" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0003" x="188" y="768" width="17" height="20" frameX="0" frameY="-1" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0004" x="188" y="768" width="17" height="20" frameX="0" frameY="-1" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0005" x="259" y="786" width="17" height="19" frameX="0" frameY="-2" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0006" x="259" y="786" width="17" height="19" frameX="0" frameY="-2" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0007" x="188" y="768" width="17" height="20" frameX="0" frameY="-1" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0008" x="188" y="768" width="17" height="20" frameX="0" frameY="-1" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0009" x="241" y="782" width="17" height="19" frameX="0" frameY="0" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-bossbaloon0010" x="241" y="782" width="17" height="19" frameX="0" frameY="0" frameWidth="17" frameHeight="21"/>
+    <SubTexture name="icon-build" x="107" y="364" width="16" height="16"/>
+    <SubTexture name="icon-cabbage" x="311" y="726" width="20" height="20"/>
+    <SubTexture name="icon-calendar" x="389" y="399" width="11" height="12"/>
+    <SubTexture name="icon-cancel" x="387" y="268" width="14" height="14"/>
+    <SubTexture name="icon-carbaloon0001" x="708" y="454" width="22" height="21" frameX="0" frameY="0" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0002" x="708" y="454" width="22" height="21" frameX="0" frameY="0" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0003" x="708" y="408" width="22" height="22" frameX="0" frameY="-1" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0004" x="708" y="408" width="22" height="22" frameX="0" frameY="-1" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0005" x="708" y="476" width="22" height="21" frameX="0" frameY="-2" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0006" x="708" y="476" width="22" height="21" frameX="0" frameY="-2" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0007" x="708" y="408" width="22" height="22" frameX="0" frameY="-1" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0008" x="708" y="408" width="22" height="22" frameX="0" frameY="-1" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0009" x="708" y="454" width="22" height="21" frameX="0" frameY="0" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carbaloon0010" x="708" y="454" width="22" height="21" frameX="0" frameY="0" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-carrot" x="397" y="724" width="21" height="21"/>
+    <SubTexture name="icon-chickenmeat" x="1" y="763" width="18" height="18"/>
+    <SubTexture name="icon-clock" x="436" y="620" width="12" height="12"/>
+    <SubTexture name="icon-coin" x="1014" y="388" width="9" height="12"/>
+    <SubTexture name="icon-confirm" x="311" y="747" width="20" height="14"/>
+    <SubTexture name="icon-dove" x="152" y="751" width="18" height="15"/>
+    <SubTexture name="icon-exclamation" x="1014" y="401" width="9" height="12"/>
+    <SubTexture name="icon-exclbaloon0001" x="223" y="782" width="17" height="20" frameX="0" frameY="0" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0002" x="223" y="782" width="17" height="20" frameX="0" frameY="0" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0003" x="118" y="770" width="17" height="21" frameX="0" frameY="-1" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0004" x="118" y="770" width="17" height="21" frameX="0" frameY="-1" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0005" x="188" y="789" width="17" height="20" frameX="0" frameY="-2" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0006" x="188" y="789" width="17" height="20" frameX="0" frameY="-2" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0007" x="118" y="770" width="17" height="21" frameX="0" frameY="-1" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0008" x="118" y="770" width="17" height="21" frameX="0" frameY="-1" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0009" x="223" y="782" width="17" height="20" frameX="0" frameY="0" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exclbaloon0010" x="223" y="782" width="17" height="20" frameX="0" frameY="0" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-exitbaloon0001" x="708" y="498" width="22" height="21" frameX="0" frameY="0" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0002" x="708" y="498" width="22" height="21" frameX="0" frameY="0" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0003" x="708" y="431" width="22" height="22" frameX="0" frameY="-1" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0004" x="708" y="431" width="22" height="22" frameX="0" frameY="-1" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0005" x="708" y="520" width="22" height="21" frameX="0" frameY="-2" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0006" x="708" y="520" width="22" height="21" frameX="0" frameY="-2" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0007" x="708" y="431" width="22" height="22" frameX="0" frameY="-1" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0008" x="708" y="431" width="22" height="22" frameX="0" frameY="-1" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0009" x="708" y="498" width="22" height="21" frameX="0" frameY="0" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exitbaloon0010" x="708" y="498" width="22" height="21" frameX="0" frameY="0" frameWidth="22" frameHeight="23"/>
+    <SubTexture name="icon-exp" x="124" y="373" width="15" height="7"/>
+    <SubTexture name="icon-flame" x="389" y="370" width="11" height="14"/>
+    <SubTexture name="icon-food" x="277" y="786" width="17" height="18"/>
+    <SubTexture name="icon-gear" x="969" y="609" width="12" height="12"/>
+    <SubTexture name="icon-go" x="932" y="374" width="15" height="9"/>
+    <SubTexture name="icon-heart" x="136" y="770" width="15" height="12"/>
+    <SubTexture name="icon-hourglass" x="1014" y="414" width="9" height="12"/>
+    <SubTexture name="icon-hq0001" x="731" y="440" width="24" height="27" frameX="0" frameY="0" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0002" x="731" y="440" width="24" height="27" frameX="0" frameY="0" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0003" x="731" y="411" width="24" height="28" frameX="0" frameY="-1" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0004" x="731" y="411" width="24" height="28" frameX="0" frameY="-1" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0005" x="731" y="468" width="24" height="27" frameX="0" frameY="-2" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0006" x="731" y="468" width="24" height="27" frameX="0" frameY="-2" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0007" x="731" y="411" width="24" height="28" frameX="0" frameY="-1" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0008" x="731" y="411" width="24" height="28" frameX="0" frameY="-1" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0009" x="731" y="440" width="24" height="27" frameX="0" frameY="0" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-hq0010" x="731" y="440" width="24" height="27" frameX="0" frameY="0" frameWidth="24" frameHeight="29"/>
+    <SubTexture name="icon-lab" x="389" y="385" width="11" height="13"/>
+    <SubTexture name="icon-lightning" x="969" y="622" width="12" height="12"/>
+    <SubTexture name="icon-meat" x="374" y="745" width="20" height="19"/>
+    <SubTexture name="icon-medal" x="1013" y="154" width="10" height="15"/>
+    <SubTexture name="icon-medic" x="969" y="635" width="12" height="12"/>
+    <SubTexture name="icon-menu" x="389" y="437" width="10" height="10"/>
+    <SubTexture name="icon-money" x="1009" y="682" width="13" height="13"/>
+    <SubTexture name="Icon-Parts-CarBattery" x="982" y="595" width="30" height="30" frameX="-1" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="Icon-Parts-DuctTape" x="853" y="583" width="28" height="30" frameX="-2" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="Icon-Parts-Fabric" x="161" y="699" width="31" height="32" frameX="-1" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="Icon-Parts-MetalScrap" x="793" y="523" width="28" height="32" frameX="-2" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="Icon-Parts-Paper" x="372" y="202" width="29" height="32" frameX="-1" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="Icon-Parts-WoodBoard" x="953" y="545" width="30" height="32" frameX="-1" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="icon-questbaloon0001" x="541" y="565" width="29" height="21" frameX="0" frameY="0" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0002" x="541" y="565" width="29" height="21" frameX="0" frameY="0" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0003" x="607" y="564" width="29" height="22" frameX="0" frameY="-1" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0004" x="607" y="564" width="29" height="22" frameX="0" frameY="-1" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0005" x="571" y="565" width="29" height="21" frameX="0" frameY="-2" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0006" x="571" y="565" width="29" height="21" frameX="0" frameY="-2" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0007" x="607" y="564" width="29" height="22" frameX="0" frameY="-1" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0008" x="607" y="564" width="29" height="22" frameX="0" frameY="-1" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0009" x="541" y="565" width="29" height="21" frameX="0" frameY="0" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-questbaloon0010" x="541" y="565" width="29" height="21" frameX="0" frameY="0" frameWidth="29" frameHeight="23"/>
+    <SubTexture name="icon-question" x="1013" y="170" width="10" height="14"/>
+    <SubTexture name="Icon-Rank" x="436" y="578" width="12" height="13"/>
+    <SubTexture name="Icon-ResearchFixCar" x="940" y="609" width="28" height="26" frameX="0" frameY="-1" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="Icon-ResearchSupplies" x="553" y="286" width="23" height="24" frameX="-3" frameY="-3" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="Icon-ResearchTurret" x="594" y="587" width="26" height="23" frameX="-1" frameY="-3" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="Icon-ResearchWeapon" x="956" y="692" width="24" height="25" frameX="-3" frameY="-1" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="icon-search" x="598" y="658" width="16" height="16"/>
+    <SubTexture name="icon-shield" x="436" y="592" width="12" height="13"/>
+    <SubTexture name="icon-shoe" x="436" y="606" width="12" height="13"/>
+    <SubTexture name="icon-shopbaloon0001" x="170" y="790" width="17" height="20" frameX="0" frameY="0" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0002" x="170" y="790" width="17" height="20" frameX="0" frameY="0" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0003" x="170" y="768" width="17" height="21" frameX="0" frameY="-1" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0004" x="170" y="768" width="17" height="21" frameX="0" frameY="-1" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0005" x="188" y="810" width="17" height="20" frameX="0" frameY="-2" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0006" x="188" y="810" width="17" height="20" frameX="0" frameY="-2" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0007" x="170" y="768" width="17" height="21" frameX="0" frameY="-1" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0008" x="170" y="768" width="17" height="21" frameX="0" frameY="-1" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0009" x="170" y="790" width="17" height="20" frameX="0" frameY="0" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-shopbaloon0010" x="170" y="790" width="17" height="20" frameX="0" frameY="0" frameWidth="17" frameHeight="22"/>
+    <SubTexture name="icon-skull" x="614" y="195" width="11" height="11"/>
+    <SubTexture name="icon-smallAmmo" x="1016" y="193" width="7" height="7"/>
+    <SubTexture name="icon-smallMedic" x="1016" y="201" width="7" height="7"/>
+    <SubTexture name="icon-smallShield" x="1016" y="209" width="7" height="7"/>
+    <SubTexture name="icon-smallSweat" x="1016" y="217" width="7" height="7"/>
+    <SubTexture name="icon-star" x="206" y="819" width="16" height="15"/>
+    <SubTexture name="icon-sword" x="1011" y="626" width="12" height="12"/>
+    <SubTexture name="icon-target" x="1011" y="639" width="12" height="12"/>
+    <SubTexture name="icon-time" x="1014" y="427" width="9" height="12"/>
+    <SubTexture name="icon-toggle-off" x="1011" y="652" width="12" height="12"/>
+    <SubTexture name="icon-toggle-on" x="969" y="648" width="12" height="12"/>
+    <SubTexture name="icon-tomato" x="888" y="451" width="19" height="15"/>
+    <SubTexture name="icon-unknownbaloon0001" x="1001" y="350" width="22" height="23" frameX="0" frameY="0" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0002" x="1001" y="350" width="22" height="23" frameX="0" frameY="0" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0003" x="1001" y="325" width="22" height="24" frameX="0" frameY="-1" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0004" x="1001" y="325" width="22" height="24" frameX="0" frameY="-1" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0005" x="258" y="346" width="22" height="23" frameX="0" frameY="-2" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0006" x="258" y="346" width="22" height="23" frameX="0" frameY="-2" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0007" x="1001" y="325" width="22" height="24" frameX="0" frameY="-1" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0008" x="1001" y="325" width="22" height="24" frameX="0" frameY="-1" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0009" x="1001" y="350" width="22" height="23" frameX="0" frameY="0" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-unknownbaloon0010" x="1001" y="350" width="22" height="23" frameX="0" frameY="0" frameWidth="22" frameHeight="25"/>
+    <SubTexture name="icon-zombie" x="389" y="412" width="11" height="12"/>
+    <SubTexture name="iconAim" x="20" y="763" width="18" height="18"/>
+    <SubTexture name="IconAlcohol" x="467" y="361" width="32" height="32"/>
+    <SubTexture name="IconAlloyWheel" x="855" y="491" width="32" height="29" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconAlternator" x="882" y="611" width="28" height="23" frameX="-2" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconAmmo" x="505" y="620" width="24" height="23"/>
+    <SubTexture name="IconAntiZombieDetergent" x="124" y="340" width="27" height="32" frameX="-2" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconAP" x="621" y="587" width="20" height="20"/>
+    <SubTexture name="IconAPBullets" x="541" y="536" width="32" height="28" frameX="0" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconAPDisabled" x="621" y="608" width="20" height="20"/>
+    <SubTexture name="IconBandage" x="756" y="492" width="32" height="30"/>
+    <SubTexture name="IconBarricadeConcrete" x="467" y="394" width="32" height="32"/>
+    <SubTexture name="IconBarricadeSandbag" x="953" y="517" width="31" height="27"/>
+    <SubTexture name="IconBarricadeWood" x="466" y="427" width="32" height="32"/>
+    <SubTexture name="IconBattery" x="130" y="284" width="21" height="28" frameX="-4" frameY="0" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="IconBiohazardPackage" x="984" y="563" width="30" height="31" frameX="-1" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconBolt" x="822" y="584" width="28" height="28" frameX="-2" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconBuild" x="267" y="748" width="18" height="18" frameX="-1" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="IconBuildDisabled" x="286" y="748" width="18" height="18" frameX="-1" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="iconBuildTurret" x="39" y="763" width="18" height="18"/>
+    <SubTexture name="IconCalendar" x="642" y="639" width="24" height="24" frameX="-1" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="IconCall" x="621" y="629" width="20" height="20"/>
+    <SubTexture name="IconCallDisabled" x="270" y="690" width="20" height="20"/>
+    <SubTexture name="IconCancel" x="305" y="762" width="18" height="18" frameX="-1" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="IconChar" x="742" y="186" width="14" height="17"/>
+    <SubTexture name="IconCharDisabled" x="742" y="204" width="14" height="17"/>
+    <SubTexture name="IconCheckPoint" x="107" y="347" width="16" height="16"/>
+    <SubTexture name="IconCook" x="248" y="701" width="20" height="20"/>
+    <SubTexture name="IconCookDisabled" x="291" y="690" width="20" height="20"/>
+    <SubTexture name="IconCopperWire" x="854" y="552" width="30" height="30" frameX="-1" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconCrew" x="731" y="250" width="25" height="24" frameX="-1" frameY="0" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconDefibrilator" x="921" y="517" width="31" height="32" frameX="-1" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconDIYArmor" x="609" y="536" width="32" height="27" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconECU" x="921" y="494" width="32" height="22" frameX="0" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconElectronicParts" x="855" y="521" width="31" height="30"/>
+    <SubTexture name="IconExhaustPipe" x="372" y="235" width="29" height="32"/>
+    <SubTexture name="IconFoodFruitCup" x="885" y="552" width="30" height="30" frameX="-1" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconFoodFruitSalad" x="731" y="523" width="30" height="30" frameX="-1" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconFoodGrilledMeat" x="987" y="516" width="32" height="20" frameX="0" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconFoodMeatStew" x="762" y="523" width="30" height="30" frameX="-1" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconFoodVeggieSalad" x="822" y="553" width="30" height="30" frameX="-1" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconFruits" x="466" y="460" width="32" height="32"/>
+    <SubTexture name="IconFuel00" x="241" y="802" width="17" height="18"/>
+    <SubTexture name="IconFuel01" x="223" y="803" width="17" height="18"/>
+    <SubTexture name="IconGardening" x="312" y="705" width="20" height="20"/>
+    <SubTexture name="IconGearCondition" x="324" y="767" width="18" height="18"/>
+    <SubTexture name="IconGearShield" x="128" y="732" width="18" height="18"/>
+    <SubTexture name="IconGem" x="357" y="681" width="17" height="28" frameX="-5" frameY="0" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="IconGoldBar" x="882" y="583" width="28" height="27" frameX="0" frameY="0" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="IconGunDamage" x="95" y="736" width="18" height="18"/>
+    <SubTexture name="IconGunFireRate" x="62" y="746" width="18" height="18"/>
+    <SubTexture name="IconGunMagz" x="147" y="732" width="18" height="18"/>
+    <SubTexture name="IconGunpowder" x="642" y="536" width="32" height="26" frameX="0" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconGunRange" x="166" y="732" width="18" height="18"/>
+    <SubTexture name="IconGunReload" x="185" y="749" width="18" height="18"/>
+    <SubTexture name="IconHeal" x="204" y="749" width="18" height="18" frameX="-1" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="IconHealDisabled" x="223" y="763" width="18" height="18" frameX="-1" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="iconHealth" x="114" y="751" width="18" height="18"/>
+    <SubTexture name="IconItem" x="242" y="763" width="18" height="18"/>
+    <SubTexture name="IconItemDisabled" x="261" y="767" width="18" height="18"/>
+    <SubTexture name="IconJournal" x="540" y="614" width="24" height="24" frameX="-1" frameY="0" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconJournalGreen" x="565" y="614" width="24" height="24" frameX="-1" frameY="0" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconJournalRed" x="590" y="633" width="24" height="24" frameX="-1" frameY="0" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconJumperCable" x="789" y="459" width="32" height="31" frameX="0" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconKevlarVest" x="790" y="589" width="28" height="28"/>
+    <SubTexture name="IconLandmine" x="708" y="542" width="22" height="17"/>
+    <SubTexture name="IconLandmineDisabled" x="708" y="560" width="22" height="17"/>
+    <SubTexture name="IconLandMineItem" x="281" y="243" width="30" height="24" frameX="-1" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconLargeMeat" x="911" y="583" width="28" height="27" frameX="-2" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconLeatherVest" x="929" y="658" width="26" height="28" frameX="-3" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconLens1" x="822" y="491" width="32" height="30" frameX="0" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconLens2" x="99" y="604" width="32" height="32"/>
+    <SubTexture name="IconMedKit" x="822" y="459" width="32" height="31" frameX="0" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconMedKit1" x="553" y="209" width="23" height="25" frameX="-4" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconMedKit2" x="476" y="628" width="24" height="23" frameX="-4" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconMedKit3" x="62" y="614" width="32" height="32"/>
+    <SubTexture name="iconMeleeWeapon" x="81" y="755" width="18" height="18"/>
+    <SubTexture name="IconMilitaryVest" x="609" y="507" width="32" height="28" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconMIssille" x="742" y="153" width="14" height="32"/>
+    <SubTexture name="IconMission" x="269" y="711" width="20" height="20"/>
+    <SubTexture name="IconMissionDisabled" x="248" y="722" width="20" height="20"/>
+    <SubTexture name="IconOil" x="731" y="347" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconPassTicket" x="888" y="520" width="31" height="31"/>
+    <SubTexture name="IconPills" x="819" y="613" width="28" height="28" frameX="-2" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconPipes" x="855" y="459" width="32" height="31" frameX="0" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconPistolBullets" x="669" y="595" width="26" height="20"/>
+    <SubTexture name="iconPlusDown" x="332" y="747" width="18" height="19"/>
+    <SubTexture name="iconPlusNormal" x="351" y="755" width="18" height="19"/>
+    <SubTexture name="iconPlusOver" x="193" y="729" width="18" height="19"/>
+    <SubTexture name="IconRadio" x="642" y="507" width="32" height="28"/>
+    <SubTexture name="IconRegroup" x="594" y="611" width="26" height="21" frameX="0" frameY="-3" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="IconReload" x="95" y="795" width="16" height="14"/>
+    <SubTexture name="IconReloadDisabled" x="136" y="792" width="16" height="14"/>
+    <SubTexture name="IconResearch" x="731" y="275" width="25" height="24" frameX="-1" frameY="0" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconRope" x="789" y="491" width="32" height="31" frameX="0" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="iconScavange" x="58" y="765" width="18" height="18"/>
+    <SubTexture name="IconScope1" x="642" y="591" width="26" height="22" frameX="-3" frameY="-7" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconScope2" x="985" y="537" width="31" height="25" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconScope3" x="675" y="507" width="32" height="28" frameX="0" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconSearch" x="280" y="767" width="18" height="18"/>
+    <SubTexture name="IconSearchDisabled" x="299" y="781" width="18" height="18"/>
+    <SubTexture name="IconSetting" x="981" y="706" width="26" height="26"/>
+    <SubTexture name="IconShopCart" x="615" y="650" width="24" height="24"/>
+    <SubTexture name="IconSparkPlug" x="822" y="522" width="31" height="30"/>
+    <SubTexture name="iconSpeed" x="133" y="751" width="18" height="18"/>
+    <SubTexture name="IconSpeedFast" x="118" y="792" width="17" height="13" frameX="-5" frameY="-7" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="IconSpeedNormal" x="731" y="207" width="10" height="13" frameX="-9" frameY="-7" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="IconSpring" x="920" y="550" width="30" height="32"/>
+    <SubTexture name="iconStopwatch" x="34" y="730" width="27" height="32" frameX="-2" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconStore" x="312" y="243" width="26" height="24" frameX="0" frameY="0" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconSupply" x="501" y="644" width="23" height="22"/>
+    <SubTexture name="IconSupressor" x="95" y="637" width="32" height="32"/>
+    <SubTexture name="IconTimingBelt" x="675" y="536" width="32" height="25" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconTire" x="339" y="243" width="32" height="23" frameX="0" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconTown" x="982" y="626" width="28" height="26" frameX="0" frameY="-1" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="IconTravel" x="911" y="611" width="28" height="21" frameX="0" frameY="-2" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconTravel_Disabled" x="911" y="633" width="28" height="21" frameX="0" frameY="-2" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconTravel_Pressed" x="940" y="636" width="28" height="21" frameX="0" frameY="-3" frameWidth="28" frameHeight="24"/>
+    <SubTexture name="IconTurret" x="332" y="727" width="20" height="19" frameX="0" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="IconTurretDisabled" x="353" y="735" width="20" height="19" frameX="0" frameY="-1" frameWidth="20" frameHeight="20"/>
+    <SubTexture name="IconUpgrade" x="1008" y="710" width="15" height="20"/>
+    <SubTexture name="IconUpgradeDisabled" x="1008" y="731" width="15" height="20"/>
+    <SubTexture name="IconUSBFlashDisk" x="987" y="494" width="32" height="21" frameX="0" frameY="-6" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconVeggies" x="62" y="647" width="32" height="32"/>
+    <SubTexture name="IconWalk" x="429" y="639" width="18" height="20"/>
+    <SubTexture name="IconWalkDisabled" x="429" y="660" width="18" height="20"/>
+    <SubTexture name="IconWaterBottle" x="95" y="670" width="32" height="32"/>
+    <SubTexture name="IconWeaponMag" x="486" y="568" width="28" height="32" frameX="-2" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconWeapons" x="553" y="235" width="23" height="25" frameX="-2" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="IconWindshield" x="574" y="537" width="32" height="27" frameX="0" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconWine" x="62" y="680" width="32" height="32"/>
+    <SubTexture name="IconWounded" x="888" y="426" width="19" height="24" frameX="-3" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="IconWpnBarrel" x="954" y="494" width="32" height="22" frameX="0" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconWpnBoltAssembly" x="576" y="507" width="32" height="29" frameX="0" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconWpnGrip" x="449" y="591" width="28" height="32"/>
+    <SubTexture name="IconWpnHandguard" x="888" y="494" width="32" height="25" frameX="0" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconWpnMagCase" x="902" y="655" width="26" height="32" frameX="-2" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconWpnStock" x="642" y="563" width="29" height="27" frameX="-2" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconWpnTriggerSystem" x="762" y="554" width="29" height="32" frameX="-2" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="IconZombiesKilled" x="446" y="688" width="21" height="24" frameX="-3" frameY="-1" frameWidth="26" frameHeight="26"/>
+    <SubTexture name="inset-background-disabled-skin" x="626" y="195" width="11" height="11"/>
+    <SubTexture name="inset-background-focus-skin" x="638" y="195" width="11" height="11"/>
+    <SubTexture name="inset-background-skin" x="389" y="425" width="11" height="11"/>
+    <SubTexture name="KickstarterIcon" x="540" y="587" width="26" height="26"/>
+    <SubTexture name="KickstarterIconUp" x="478" y="601" width="26" height="26"/>
+    <SubTexture name="list-accessory-drill-down-icon" x="888" y="467" width="18" height="26"/>
+    <SubTexture name="list-item-down" x="1016" y="225" width="6" height="11"/>
+    <SubTexture name="list-item-selected" x="1016" y="237" width="6" height="11"/>
+    <SubTexture name="list-item-up" x="650" y="195" width="6" height="11"/>
+    <SubTexture name="merchantBg" x="1" y="1" width="400" height="200"/>
+    <SubTexture name="miniClipLogo" x="1" y="326" width="122" height="20"/>
+    <SubTexture name="MissionReportText2" x="402" y="1" width="370" height="40"/>
+    <SubTexture name="mortar-icon" x="107" y="408" width="44" height="23"/>
+    <SubTexture name="MW_outlined_0" x="757" y="145" width="255" height="38" frameX="0" frameY="0" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="MW_PITHY_0" x="152" y="304" width="127" height="41" frameX="0" frameY="0" frameWidth="128" frameHeight="64"/>
+    <SubTexture name="NightDayBG" x="543" y="311" width="32" height="224"/>
+    <SubTexture name="NightDayMoonIcon" x="128" y="699" width="32" height="32"/>
+    <SubTexture name="NightDaySunIcon" x="95" y="703" width="32" height="32"/>
+    <SubTexture name="page-indicator-normal-disabled-skin" x="956" y="658" width="12" height="12"/>
+    <SubTexture name="page-indicator-normal-skin" x="969" y="661" width="12" height="12"/>
+    <SubTexture name="page-indicator-selected-disabled-skin" x="956" y="671" width="12" height="12"/>
+    <SubTexture name="page-indicator-selected-skin" x="969" y="674" width="12" height="12"/>
+    <SubTexture name="parts-icon" x="387" y="545" width="61" height="32"/>
+    <SubTexture name="pf_ronda_seven_0" x="757" y="126" width="256" height="18" frameX="0" frameY="0" frameWidth="256" frameHeight="32"/>
+    <SubTexture name="picker-list-item-selected-icon" x="62" y="584" width="36" height="29"/>
+    <SubTexture name="pixelFont_0" x="323" y="500" width="63" height="58" frameX="0" frameY="0" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="PixelFont_outlined_0" x="1" y="284" width="128" height="41" frameX="0" frameY="0" frameWidth="128" frameHeight="64"/>
+    <SubTexture name="PokeFont_0" x="402" y="114" width="256" height="53" frameX="0" frameY="0" frameWidth="256" frameHeight="128"/>
+    <SubTexture name="PokeFont_outlined_0" x="763" y="42" width="256" height="83" frameX="0" frameY="0" frameWidth="256" frameHeight="128"/>
+    <SubTexture name="ProgressPointsBar" x="401" y="291" width="104" height="10"/>
+    <SubTexture name="radio-disabled-icon" x="107" y="530" width="36" height="36"/>
+    <SubTexture name="radio-icon" x="62" y="547" width="36" height="36"/>
+    <SubTexture name="radio-selected-disabled-icon" x="642" y="474" width="32" height="32"/>
+    <SubTexture name="radio-selected-down-icon" x="675" y="474" width="32" height="32"/>
+    <SubTexture name="radio-selected-icon" x="99" y="567" width="36" height="36"/>
+    <SubTexture name="radio-selected-up-icon" x="756" y="459" width="32" height="32"/>
+    <SubTexture name="screenEdge" x="258" y="442" width="64" height="64"/>
+    <SubTexture name="screenEdgeRed" x="389" y="480" width="64" height="64"/>
+    <SubTexture name="scrollbar-thumb-skin" x="1015" y="249" width="4" height="4"/>
+    <SubTexture name="search-icon-disabled" x="212" y="729" width="18" height="19"/>
+    <SubTexture name="search-icon" x="248" y="743" width="18" height="19"/>
+    <SubTexture name="selectedCharLeaderPointer0001" x="387" y="319" width="13" height="16" frameX="0" frameY="0" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharLeaderPointer0002" x="387" y="283" width="13" height="17" frameX="0" frameY="-1" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharLeaderPointer0003" x="387" y="336" width="13" height="16" frameX="0" frameY="-2" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharLeaderPointer0004" x="387" y="336" width="13" height="16" frameX="0" frameY="-2" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharLeaderPointer0005" x="387" y="283" width="13" height="17" frameX="0" frameY="-1" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharLeaderPointer0006" x="387" y="319" width="13" height="16" frameX="0" frameY="0" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharPointer0001" x="387" y="353" width="13" height="16" frameX="0" frameY="0" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharPointer0002" x="387" y="301" width="13" height="17" frameX="0" frameY="-1" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharPointer0003" x="1010" y="665" width="13" height="16" frameX="0" frameY="-2" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharPointer0004" x="1010" y="665" width="13" height="16" frameX="0" frameY="-2" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharPointer0005" x="387" y="301" width="13" height="17" frameX="0" frameY="-1" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="selectedCharPointer0006" x="387" y="353" width="13" height="16" frameX="0" frameY="0" frameWidth="13" frameHeight="18"/>
+    <SubTexture name="spinner-list-selection-overlay-skin" x="1022" y="1" width="1" height="11"/>
+    <SubTexture name="StampA" x="1" y="347" width="105" height="99" frameX="-2" frameY="-5" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="StampB" x="152" y="346" width="105" height="99" frameX="-2" frameY="-5" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="StampC" x="1" y="447" width="105" height="99" frameX="-2" frameY="-5" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="StampF" x="908" y="384" width="105" height="109" frameX="-2" frameY="0" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="StampS" x="281" y="268" width="105" height="101" frameX="-2" frameY="-4" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="SteamIcon" x="449" y="624" width="26" height="26"/>
+    <SubTexture name="SteamIconUp" x="375" y="639" width="26" height="26"/>
+    <SubTexture name="supply-icon" x="730" y="585" width="29" height="32"/>
+    <SubTexture name="tab-down-skin" x="205" y="479" width="47" height="39"/>
+    <SubTexture name="tab-selected-disabled-skin" x="205" y="519" width="47" height="39"/>
+    <SubTexture name="tab-selected-skin" x="205" y="559" width="47" height="39"/>
+    <SubTexture name="tab-up-skin" x="231" y="729" width="16" height="16"/>
+    <SubTexture name="thumb-disabled-skin" x="1009" y="696" width="13" height="13" frameX="-3" frameY="-3" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="thumb-skin" x="576" y="639" width="13" height="13" frameX="-3" frameY="-3" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="TitleLogo" x="402" y="42" width="360" height="71"/>
+    <SubTexture name="togelogo" x="659" y="114" width="97" height="38"/>
+    <SubTexture name="toolbar-button-disabled-skin" x="231" y="746" width="16" height="16"/>
+    <SubTexture name="toolbar-button-down-skin" x="206" y="768" width="16" height="16"/>
+    <SubTexture name="toolbar-button-selected-skin" x="206" y="785" width="16" height="16"/>
+    <SubTexture name="toolbar-button-up-skin" x="206" y="802" width="16" height="16"/>
+    <SubTexture name="TwitterIcon" x="402" y="639" width="26" height="26"/>
+    <SubTexture name="TwitterIconUp" x="567" y="587" width="26" height="26"/>
+    <SubTexture name="Volter_0" x="152" y="243" width="128" height="60" frameX="0" frameY="0" frameWidth="128" frameHeight="64"/>
+    <SubTexture name="weapons-icon" x="205" y="446" width="52" height="32" frameX="0" frameY="0" frameWidth="53" frameHeight="32"/>
+</TextureAtlas>

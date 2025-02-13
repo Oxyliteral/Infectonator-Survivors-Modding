@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<!-- BASE DEFENSE FAIL EVENT START -->
+	<obj>
+		<objName>baseDefenseFail1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>HQ Attacked</en>
+					<jp>HQが攻撃された</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You failed to defend your HQ.</en>
+					<jp>HQを守りきれなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="healthAllSurvivor">-30</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- BASE DEFENSE FAIL EVENT START -->
+
+	<!-- FAIL EVENT START -->
+	<obj>
+		<objName>missionFailDialog1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Overwhelmed</en>
+					<jp>全滅</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Your team of survivors has been overwhelmed.</en>
+					<jp>チームの生存者は全滅してしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="death">4</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FAIL EVENT START -->
+	
+	<!-- ABORT SUCCESS EVENT START -->
+	<obj>
+		<objName>missionAbortSuccessEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You run as fast as you can to&#xA;escape from the horror...</en>
+					<jp>この地獄から逃げようと&#xA;力の限り走った…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It's a difficult escape. You fight your way,&#xA;fortunately everyone made it out unscathed.</en>
+					<jp>退路は厳しいものだったが、戦った。&#xA;幸い、全員が無事に帰還できた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- ABORT SUCCESS EVENT START -->
+
+	<!-- SUPPLY LOST EVENT START -->
+	<obj>
+		<objName>missionAbortSupplyLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText><en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText><en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-5</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>missionAbortSupplyLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-10</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- SUPPLY LOST EVENT END -->
+	
+	<!-- AMMO LOST EVENT START -->
+	<obj>
+		<objName>missionAbortAmmoLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">-250</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>missionAbortAmmoLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">-500</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- SUPPLY LOST EVENT END -->
+	
+	<!-- FUEL LOST EVENT START -->
+	<obj>
+		<objName>missionAbortFuelLostEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText><en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">-1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>missionAbortFuelLostEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText><en>In the chaos you dropped some of your loot.</en>
+					<jp>混乱の中で、戦利品をいくつか失くしてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">-2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FUEL LOST EVENT END -->
+	
+	<!-- INJURY EVENT START -->
+	<obj>
+		<objName>missionAbortInjuryEvent1</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You run as fast as you can to&#xA;escape from the horror...</en>
+					<jp>この地獄から逃げようと&#xA;力の限り走った…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It's a difficult escape. You fight your way,&#xA;but not everyone made it out unscathed.</en>
+					<jp>退路は厳しいものだった。戦ったが、&#xA;全員が無事に帰還することはできなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-15</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>missionAbortInjuryEvent2</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Retreat...</en>
+					<jp>撤退…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to cut your losses,&#xA;and run away from the fight.</en>
+					<jp>ムダなことはやめて&#xA;戦闘から逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You run as fast as you can to&#xA;escape from the horror...</en>
+					<jp>この地獄から逃げようと&#xA;力の限り走った…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It's a difficult escape. You fight your way,&#xA;but not everyone made it out unscathed.</en>
+					<jp>退路は厳しいものだった。戦ったが、&#xA;全員が無事に帰還することはできなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-30</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- INJURY EVENT END -->
+	
+</dialogs>

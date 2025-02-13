@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bullets>
+	<obj>
+		<objName>Normal</objName>
+		<bulletType>Normal</bulletType> // Normal, Mortar
+		<damage>10</damage>
+		<imageName initialDirectionX="0" initialDirectionY="0"></imageName>
+	</obj>
+	<obj>
+		<objName>Mortar</objName>
+		<bulletType>Mortar</bulletType> // Normal, Mortar
+		<damage>10</damage>
+		<imageName initialDirectionX="0" initialDirectionY="-1">mortar</imageName>
+	</obj>
+</bullets>

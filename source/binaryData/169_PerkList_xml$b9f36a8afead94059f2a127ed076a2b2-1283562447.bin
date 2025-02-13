@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perks>
+	<obj>
+		<objName>RunAndLoad</objName>
+		<screenName>
+			<en>Run &amp; Load</en>
+			<jp>ラン＆ロード</jp>
+			<cn>奔跑＆装弹</cn>
+		</screenName>
+		<desc>
+			<en>Able to reload while moving</en>
+			<jp>移動中にリロードできる</jp>
+			<cn>可以在移动中装弹</cn>
+		</desc>
+		
+		<behavior state="move">playerAttackMoveReload</behavior>
+		<behavior state="reload">playerAttackMoveReload</behavior>
+	</obj>
+	
+	<obj>
+		<objName>LightSleep</objName>
+		<screenName>
+			<en>Light Sleeper</en>
+			<jp>ショートスリーパー</jp>
+			<cn>浅睡者</cn>
+		</screenName>
+		<desc>
+			<en>Sleeps less than others</en>
+			<jp>睡眠時間が少なくなる</jp>
+			<cn>比其他人睡得少</cn>
+		</desc>
+		<attribute var="initStamina">15</attribute>
+	</obj>
+	
+	<obj>
+		<objName>StunBlow</objName>
+		<screenName>
+			<en>Stun Blow</en>
+			<jp>気絶の一撃</jp>
+			<cn>眩晕打击</cn>
+		</screenName>
+		<desc>
+			<en>Melee attacks have the chance to stun enemies</en>
+			<jp>近接攻撃時、敵を気絶させられることがある</jp>
+			<cn>近战攻击有几率击昏敌人</cn>
+		</desc>
+		<buff>BuffStunBlow</buff>
+	</obj>
+	
+	<obj>
+		<objName>Evade</objName>
+		<screenName>
+			<en>Evade</en>
+			<jp>回避</jp>
+			<cn>闪避</cn>
+		</screenName>
+		<desc>
+			<en>Have the chance to evade from attacks</en>
+			<jp>攻撃を回避できることがある</jp>
+			<cn>有几率闪避攻击</cn>
+		</desc>
+		<buff>BuffEvade</buff>
+	</obj>
+	
+	<obj>
+		<objName>QuickReload</objName>
+		<screenName>
+			<en>Quick Reload</en>
+			<jp>クイックリロード</jp>
+			<cn>快速装弹</cn>
+		</screenName>
+		<desc>
+			<en>Takes shorter time to reload and able to reload while moving</en>
+			<jp>リロードにかかる時間が短く、移動中でもリロードできる</jp>
+			<cn>装弹更快且能在移动中装弹</cn>
+		</desc>
+		<buff>BuffQuickReload</buff>
+		<behavior state="move">playerAttackMoveReload</behavior>
+		<behavior state="reload">playerAttackMoveReload</behavior>
+	</obj>
+	
+	<obj>
+		<objName>Resuscitation</objName>
+		<screenName>
+			<en>Resuscitation</en>
+			<jp>蘇生</jp>
+			<cn>复活</cn>
+		</screenName>
+		<desc>
+			<en>Expert in CPR, faster at reviving downed survivors</en>
+			<jp>心肺蘇生の達人で、倒れた生存者の蘇生が速い</jp>
+			<cn>心腹复苏术专精，能更快救活倒下的幸存者</cn>
+		</desc>
+		<buff>BuffResuscitation</buff>
+	</obj>
+	
+	<obj>
+		<objName>EasyMoney</objName>
+		<screenName>
+			<en>Easy Money</en>
+			<jp>濡れ手に粟</jp>
+			<cn>挣快钱</cn>
+		</screenName>
+		<desc>
+			<en>Has better chance of finding ammo</en>
+			<jp>より多くの弾薬を見つけることができる</jp>
+			<cn>有更高几率找到子弹</cn>
+		</desc>
+		<buff>BuffEasyMoney</buff>
+	</obj>
+	
+	<obj>
+		<objName>Cleave</objName>
+		<screenName>
+			<en>Cleave</en>
+			<jp>突撃</jp>
+			<cn>披荆斩棘</cn>
+		</screenName>
+		<desc>
+			<en>Slash multiple enemies at once when using melee weapon</en>
+			<jp>近接武器使用時、1度の攻撃で複数の敵を攻撃できる</jp>
+			<cn>用近战武器时能同时攻击多个敌人</cn>
+		</desc>
+		<buff>BuffCleave</buff>
+	</obj>
+	
+	<obj>
+		<objName>EagleEye</objName>
+		<screenName>
+			<en>Eagle Eye</en>
+			<jp>タカの目</jp>
+			<cn>鹰眼</cn>
+		</screenName>
+		<desc>
+			<en>Great eye sight, grants additional sight distance</en>
+			<jp>視界が広く、遠くまで見渡せる</jp>
+			<cn>很棒的视野，给予额外的可视距离</cn>
+		</desc>
+		<behavior state="attack">playerAttackSight</behavior>
+		<behavior state="idle">playerIdleSight</behavior>
+	</obj>
+	
+	<obj>
+		<objName>DamageResistance</objName>
+		<screenName>
+			<en>Damage Resistance</en>
+			<jp>ダメージ耐性</jp>
+			<cn>减伤</cn>
+		</screenName>
+		<desc>
+			<en>Have the chance of taking less damage</en>
+			<jp>受けるダメージが低くなることがある</jp>
+			<cn>有几率承受更少伤害</cn>
+		</desc>
+		<buff>BuffDamageResistance</buff>
+	</obj>
+	
+	<obj>
+		<objName>EurekaMoments</objName>
+		<screenName>
+			<en>Eureka Moments</en>
+			<jp>エウレカ！</jp>
+			<cn>恍然大悟</cn>
+		</screenName>
+		<desc>
+			<en>Discover elements of research by chance, receives random bonus search points when working</en>
+			<jp>調査エレメントを発見することがあり、作業時に調査ポイントにボーナスがつくことがある</jp>
+			<cn>偶然发现研究元素，在工作时接收随机奖励搜索点</cn>
+		</desc>
+		<buff>BuffEurekaMoments</buff> <!-- either it's buff or behavior -->
+	</obj>
+	
+	<obj>
+		<objName>ExperiencedEngineer</objName>
+		<screenName>
+			<en>Experienced Engineer</en>
+			<jp>熟練エンジニア</jp>
+			<cn>高级工程师</cn>
+		</screenName>
+		<desc>
+			<en>Expert in building things, receives random bonus build points when working</en>
+			<jp>組み立てが得意で、作業時に組立ポイントにボーナスがつくことがある</jp>
+			<cn>建筑专精，在工作时接收随机奖励建筑点</cn>
+		</desc>
+		<buff>BuffExperiencedEngineer</buff>
+	</obj>
+	
+	<obj>
+		<objName>Cheer</objName>
+		<screenName>
+			<en>Cheer</en>
+			<jp>チア</jp>
+			<cn>鼓舞</cn>
+		</screenName>
+		<desc>
+			<en>Motivating others</en>
+			<jp>仲間を元気付ける</jp>
+			<cn>鼓舞他人</cn>
+		</desc>
+		<buff>BuffCheer</buff>
+	</obj>
+	
+	<obj>
+		<objName>ToughToDie</objName>
+		<screenName>
+			<en>Tough To Die</en>
+			<jp>タフ人間</jp>
+			<cn>不死之身</cn>
+		</screenName>
+		<desc>
+			<en>Endure the pain when beaten down</en>
+			<jp>攻撃を受けたとき、痛みに対する耐性がある</jp>
+			<cn>在被击倒时忍受伤痛</cn>
+		</desc>
+		<behavior state="die">playerDiePersistent</behavior>
+	</obj>
+	
+	<obj>
+		<objName>FastCut</objName>
+		<screenName>
+			<en>Fast Cut</en>
+			<jp>早業</jp>
+			<cn>快速切割</cn>
+		</screenName>
+		<desc>
+			<en>Capable of making combo melee attacks</en>
+			<jp>近接攻撃時にコンボ攻撃を繰り出せる</jp>
+			<cn>能在近战中打出连击</cn>
+		</desc>
+		<buff>BuffFastCut</buff>
+	</obj>
+	
+	<obj>
+		<objName>GunBurst</objName>
+		<screenName>
+			<en>Gun Burst</en>
+			<jp>速射</jp>
+			<cn>疯狂扫射</cn>
+		</screenName>
+		<desc>
+			<en>Firing the gun in burst mode when standing still</en>
+			<jp>静止状態での射撃時、バースト射撃を行う</jp>
+			<cn>能在站立不动时疯狂扫射</cn>
+		</desc>
+		<behavior state="attack">playerAttackBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>AmmoReserve</objName>
+		<screenName>
+			<en>Ammo Reserve</en>
+			<jp>弾を節約</jp>
+			<cn>弹药回溯</cn>
+		</screenName>
+		<desc>
+			<en>Uses fewer ammo when reloading weapons</en>
+			<jp>リロード時に装填する弾数が少ない</jp>
+			<cn>重装武器时使用更少的弹药</cn>
+		</desc>
+		<behavior state="reload">playerReloadReserve</behavior>
+	</obj>
+</perks>

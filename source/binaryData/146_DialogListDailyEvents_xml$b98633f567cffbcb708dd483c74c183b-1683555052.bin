@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<!-- BASE UNDER ATTACK START -->
+	<obj>
+		<objName>baseUnderAttack1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>HQ UNDER ATTACK!</en>
+					<jp>HQが攻撃されている！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Zombies are attacking our base! Take cover and kill 'em all!"</en>
+					<jp>「基地がゾンビに襲われている！援護を頼む。退治するぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- BASE UNDER ATTACK END -->
+	
+	<!-- NEED BACKUP START -->
+	<obj>
+		<objName>needBackup</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en>WE NEED HELP!</en>
+					<jp>助けて！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A voice from your RADIO breaks the silence. "Is anyone out there? We need help!"</en>
+					<jp>突然、無線機から声が聞こえてきた。「誰かいる？助けて！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Ignore it</en>
+					<jp>無視する</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">needBackupIgnore</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Offer help</en>
+					<jp>助けを申し出る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">needBackupHelp</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>needBackupIgnore</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It could be a trap. You ignored the call and moved on.</en>
+					<jp>わなかもしれない。声を無視して先に進むことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>needBackupHelp</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You quickly answer the radio and offer help.</en>
+					<jp>素早く無線機に応答し、助けを申し出た。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The voice on the radio tells you that they're being attacked in a building nearby. You marked their location on your map.</en>
+					<jp>無線機の声は、近くの建物で攻撃を受けていることを告げる。その場所をマップに書きとめた。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">rescueSurvivor</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>openingSurvivorRescue</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The radio transmission came from this location. The one asking for help should be here somewhere. Let's look around.</en>
+					<jp>無線通信はこの場所から発せられていた。助けを求めていた人がこのあたりにいるはずだ。探してみよう。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="endQuest">rescueSurvivor</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- NEED BACKUP END -->
+	
+	<!-- SURVIVORS AT THE GATE START -->
+	<obj>
+		<objName>survivorsAtTheGate</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A group of survivors arrived at our HQ. There are 2 guys, one of them seems to be injured and holding a bloody rag to his neck and wouldn’t let us see the wound.</en>
+					<jp>生存者の一団がHQを訪ねてやって来た。2人のうち1人はケガをしているようで、首に血のついた布をあてている。だが、その傷を見せてくれようとはしない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They are asking if you could spare some SUPPLIES and let them stay for a minute to patch up their wounds. They are willing to give up one of their prized items to be allowed in.</en>
+					<jp>補給物資を少し分けてくれないかと頼まれた。傷の手当をする間、中に入れてほしい、とも。そうすれば、道中で手に入れたものを分けてくれるらしい。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Ignore</en>
+					<jp>無視する</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">survivorsAtTheGateIgnore</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Let Them In!&#xA;(-2 SUPPLIES)</en>
+					<jp>招き入れる&#xA;（補給物資を2消費）</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">survivorsAtTheGateZombie</link>
+					<link chance="1">survivorsAtTheGateBandit</link>
+					<link chance="1">survivorsAtTheGateReward</link>
+					<link chance="1">survivorsAtTheGateJoined1</link>
+					<link chance="1">survivorsAtTheGateJoined2</link>
+				</links>
+				<cost type="supply">2</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateIgnore</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You told them to stay away.</en>
+					<jp>ここに近づくなと告げた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateZombie</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText><en>You opened your gates and told them to come in. They thanked you.</en>
+					<jp>門を開き、中に入るよう伝えた。「ありがとう」と声を掛けられる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText><en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly there are screams. The one injured had turned into a mutant zombie and started attacking others, killing his friend in the process.</en>
+					<jp>突然、叫び声が聞こえた。ケガを負っている方がゾンビに変異し、攻撃し始めた。もう1人の訪問者は殺されてしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>We spent a lot of ammo trying to kill it.</en>
+					<jp>弾薬をかなり使ったが、ゾンビになった訪問者を倒すことができた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">-200</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateBandit</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You opened your gates and told them to come in. They thanked you.</en>
+					<jp>弾薬をかなり使ったが、ゾンビになった訪問者を倒すことができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A few hours later, both survivors have disappeared. Not only that, some of our supplies are missing as well.</en>
+					<jp>数時間後、訪問者はどちらもいなくなっていた。それだけでなく、たくわえていた補給物資も消えている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The survivors you brought in turns out to be bandits in disguise. They have stolen from you.</en>
+					<jp>招き入れた訪問者は、どうやら変装した野盗だったようだ。とんだ結果になってしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">-300</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateReward</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You opened your gates and told them to come in. They thanked you.</en>
+					<jp>門を開き、中に入るよう伝えた。「ありがとう」と声を掛けられる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They rest for a while and patched up their wounds. They are very grateful for your hospitality.</en>
+					<jp>中に入った訪問者は、傷を手当し休息をとっている。親切にされたことをとても喜んでいるようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A few hours later they decided to continue with their journey. They gave you a few tokens of appreciation.</en>
+					<jp>数時間後、訪問者から出発することを告げられ、お礼の品を渡された。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="equipment">1</reward>
+				<reward type="gun">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateJoined1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You opened your gates and told them to come in. They thanked you.</en>
+					<jp>門を開き、中に入るよう伝えた。「ありがとう」と声を掛けられる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The injured survivor was bleeding profusely. Despite all the efforts, it was too late. The injured survivor died from blood loss.</en>
+					<jp>訪問者のうちケガをしている方は出血が酷い。手を尽くしたが、遅すぎたようだ。大量出血により、命を落としてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The other survivor looks very upset and agitated. What should we do?</en>
+					<jp>もう1人の訪問者はひどく取り乱し、さわぎ始めた。どうしよう？</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Kick Out</en>
+					<jp>追い出す</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">survivorsAtTheGateKick1</link>
+					<link chance="1">survivorsAtTheGateKick2</link>
+					<link chance="1">survivorsAtTheGateKick3</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Comfort&#xA;(-2 SUPPLIES)</en>
+					<jp>なぐさめる&#xA;（補給物資を2消費）</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">survivorsAtTheGateComfort1</link>
+					<link chance="1">survivorsAtTheGateComfort2</link>
+					<link chance="1">survivorsAtTheGateComfort3</link>
+				</links>
+				<cost type="supply">2</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateKick1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing that the distraught survivor could be a potential danger to the group, you decided to kick him out.</en>
+					<jp>訪問者は錯乱していて、HQの仲間にとっては危険かもしれない。訪問者を追い出すことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>He seemed very disappointed but respected your decision. He immediately pack up his things and leave without a word.</en>
+					<jp>訪問者はうなだれているが、こちらの決断を受け入れると言ってくれた。素早く荷物をまとめると、黙ってHQを出て行った。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The survivor left his friend's body.</en>
+					<jp>死んだ仲間の遺体を残して。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="equipment">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateKick2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing that the distraught survivor could be a potential danger to the group, you decided to kick him out.</en>
+					<jp>訪問者は錯乱していて、HQの仲間にとっては危険かもしれない。訪問者を追い出すことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>He was offended by your decision and became very angry. He started blaming you for the death of his friend. He immediately pulled his gun and started shooting.</en>
+					<jp>この決断を伝えると、訪問者は怒り始めた。仲間の死について、こちらに責任があると大声をあげる。そして素早く銃をかまえると、発砲し始めた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>We managed to kill the distraught survivor, but we lost one of our own as well. The gun fight was short, but it was very costly.</en>
+					<jp>錯乱した訪問者をなんとか倒したが、仲間も1人失ってしまった。短い戦いではあったが、失ったものは大きい。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="survivor">-1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateKick3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing that the distraught survivor could be a potential danger to the group, you decided to kick him out.</en>
+					<jp>訪問者は錯乱していて、HQの仲間にとっては危険かもしれない。訪問者を追い出すことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>He was offended by your decision and became very angry. He started blaming you for the death of his friend. He immediately pulled his gun and points it to his head.</en>
+					<jp>この決断を伝えると、訪問者は怒り始めた。仲間の死について、こちらに責任があると大声をあげる。そして素早く銃をかまえると、自分の頭に銃口をあてた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>An ear shattering thunderclap filled the room followed by an eerie silence.</en>
+					<jp>耳をつんざくような銃声が鳴り響き、後には不気味なしずけさが広がった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateComfort1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing that the distraught survivor could be a potential danger to the group, you decided to give comfort.</en>
+					<jp>訪問者は錯乱していて、HQの仲間にとっては危険かもしれない。訪問者をなぐさめることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give the survivor some help to bury his friend's body. After a while the survivor calmed down.</en>
+					<jp>死んでしまった彼の仲間の埋葬を手伝う。しばらくすると、訪問者は落ち着きを取り戻した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Moments later, he pack up his things and decided to leave. He left his friends belongings with you.</en>
+					<jp>その後、訪問者は荷物をまとめると、ここを出て行くことを告げてきた。死んでしまった仲間の持ち物を受け取った。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="equipment">1</reward>
+				<reward type="gun">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateComfort2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing that the distraught survivor could be a potential danger to the group, you decided to give comfort.</en>
+					<jp>訪問者は錯乱していて、HQの仲間にとっては危険かもしれない。訪問者をなぐさめることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give the survivor some help to bury his friend's body. After a while the survivor calmed down.</en>
+					<jp>死んでしまった彼の仲間の埋葬を手伝う。しばらくすると、訪問者は落ち着きを取り戻した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>He stood by his friend's grave and said some words. Then immediately pulled his gun and points it to his head.</en>
+					<jp>彼は作ったばかりの墓の横に立って何かつぶやく。そして素早く銃をかまえると、自分の頭に銃口をあてた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>An ear shattering thunderclap echoes from a distance followed by an eerie silence.</en>
+					<jp>耳をつんざくような銃声が鳴り響き、後には不気味なしずけさが広がった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateComfort3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing that the distraught survivor could be a potential danger to the group, you decided to give comfort.</en>
+					<jp>訪問者は錯乱していて、HQの仲間にとっては危険かもしれない。訪問者をなぐさめることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give the survivor some help to bury his friend's body. After a while the survivor calmed down.</en>
+					<jp>死んでしまった彼の仲間の埋葬を手伝う。しばらくすると、訪問者は落ち着きを取り戻した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>He walked up to you and said that there is nothing left for him out there and asked if he could stay.</en>
+					<jp>彼はこちらに近寄ると、自分にはもう何もない、ここに残ってもいいかとたずねてきた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Decline</en>
+					<jp>断る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">survivorsAtTheGateDecline</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Accept</en>
+					<jp>受け入れる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">survivorsAtTheGateInvite</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateDecline</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You rejected his request and told him to go on with his journey.</en>
+					<jp>訪問者の頼みを断り、ここを出ていくように言った。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>He seemed disappointed but respected your decision. A few hours later he decided to continue with his journey.</en>
+					<jp>訪問者はうなだれているが、こちらの決断を受け入れると言ってくれた。数時間後、これまでどおり旅を続けることを決心したようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Before leaving he thanked you for the help and gave you a token of appreciation.</en>
+					<jp>出発前に訪問者は感謝の言葉を述べ、お礼の品を渡してくれた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="equipment">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateInvite</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You invited the survivor to join the group.</en>
+					<jp>訪問者をメンバーとして迎え入れた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="survivor">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateJoined2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You opened your gates and told them to come in. They thanked you.</en>
+					<jp>門を開き、中に入るよう伝えた。「ありがとう」と声を掛けられる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They rest for a while and patched up their wounds. They are very grateful for your hospitality.</en>
+					<jp>中に入った訪問者は、傷を手当し休息をとっている。親切にされたことをとても喜んでいるようだ。</jp>
+					<cn></cn>
+					</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They seemed very impressed with your leadership. They asked you if they could join your group.</en>
+					<jp>こちらのリーダーシップにとても感銘を受けたようで、仲間に入らせてくれと頼まれた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Reject</en>
+					<jp>断る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">survivorsAtTheGateReject1</link>
+					<link chance="1">survivorsAtTheGateReject2</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Accept</en>
+					<jp>受け入れる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">survivorsAtTheGateRecruit</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateReject1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You rejected their offer and told them to go on with their journey.</en>
+					<jp>訪問者の頼みを断り、ここを出ていくように言った。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They seemed disappointed but respected your decision. A few hours later they decided to continue with their journey.</en>
+					<jp>訪問者はうなだれているが、こちらの決断を受け入れると言ってくれた。数時間後、これまでどおり旅を続けることを決心したようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Before leaving they thanked you for the help and gave you a token of appreciation.</en>
+					<jp>出発前に訪問者は感謝の言葉を述べ、お礼の品を渡してくれた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="equipment">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateReject2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You rejected their offer and told them to go on with their journey.</en>
+					<jp>訪問者の頼みを断り、ここを出ていくように言った。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They were very disappointed and seem offended by your decision. They immediately pack up their things and leave without a word.</en>
+					<jp>訪問者はこちらの決断が気に入らなかったようだ。すぐに荷物をまとめると、黙ってHQから出て行った。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>survivorsAtTheGateRecruit</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You accepted their offer and welcome them to the group.</en>
+					<jp>訪問者の頼みを聞き入れ、メンバーとして迎え入れた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>SURVIVORS AT THE GATE</en>
+					<jp>生存者の訪問</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They looked very happy and thanked you.</en>
+					<jp>彼らはとても喜び、感謝の言葉を口にしている。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="survivor">2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- SURVIVORS AT THE GATE END -->
+	
+	<!-- ROTTING FOOD START -->
+	<obj>
+		<objName>rottingFoodSupplies</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Rotting Food Supplies</en>
+					<jp>食料がくさっている</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You wake up to a bad news. Some of the SUPPLIES had rotted and no longer safe for consumption. This is not a good morning.</en>
+					<jp>目覚めるとまずいことに気付いた。補給物資の食料の一部がくさっていて、もう食べられない。「おはよう」なんていっている場合ではない。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-3</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- ROTTING FOOD END -->
+	
+	<!-- PEST INFESTATION START -->
+	<obj>
+		<objName>pestInfestation</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Pest Infestation</en>
+					<jp>ネズミ発生</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You went to check the storage room. You opened the door and RATS come running out. Hundreds of them.</en>
+					<jp>確認のため、倉庫に入る。ドアを開けると、ネズミが飛び出してきた。1匹ではない。何百匹もいる。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-3</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- PEST INFESTATION END -->
+	
+	<!-- BURNT START -->
+	<obj>
+		<objName>burntSupplies</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Burnt Supplies</en>
+					<jp>補給物資焼失</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Our lantern fell down and we had been busy putting out fire burning in the supply room early in the morning. It was just too late to save some.</en>
+					<jp>ランタンが倒れて補給物資を入れている部屋に火がついたので、今朝は消火作業に追われた。火の手が回るのは早く、食料が少し燃えてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- BURNT END -->
+	
+	<!-- FLOODED START -->
+	<obj>
+		<objName>flooded</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Flooded</en>
+					<jp>水浸し</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seems that it was a heavy rain last night. It was so heavy that it started swamping our supply store and slightly washed away some of our supplies.</en>
+					<jp>昨夜の雨は相当酷かったようだ。倉庫に入った雨水で、補給物資がいくつか流されてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FLOODED END -->
+	
+	<!-- FUEL WASTED START -->
+	<obj>
+		<objName>fuelWasted</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Fuel Wasted</en>
+					<jp>燃料のムダづかい</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Someone forgot to turn off the generator last night. It was left running all night and wasted a lot of fuel.</en>
+					<jp>昨夜は誰かが発電機を消すのを忘れて寝てしまったらしい。夜の間もずっと動いていたため、燃料をかなり消費してしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">-2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FUEL WASTED END -->
+	
+	<!-- FUEL SPILLED START -->
+	<obj>
+		<objName>fuelSpilled</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Fuel Spilled</en>
+					<jp>燃料盆に返らず</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Someone just carelessly spilled gasoline. That was so reckless but at least it didn't cause mayhem.</en>
+					<jp>おっちょこちょいな誰かさんがガソリンをこぼしてしまった。もったいないが、さわぎにならなかっただけでもよしとしよう。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">-1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FUEL SPILLED END -->
+	
+	<!-- THIEFS IN THE NIGHT START -->
+	<obj>
+		<objName>thiefsInTheNight</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Thiefs In The Night</en>
+					<jp>夜盗被害</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Thiefs sneaked into our HQ last night and stole our stuff! Even so, we were quite lucky that they did not slit our throats while we were sleeping.</en>
+					<jp>夜の間に泥棒が入ったらしい。HQから物を盗まれてしまった！だが、幸いなことに体は無事だ。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">-2</reward>
+				<reward type="coin">-300</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- THIEFS IN THE NIGHT END -->
+	
+</dialogs>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<buffs>
+	<!-- GEAR BUFF -->
+	<obj>
+		<objName>BuffSupressorSilencing</objName>
+		<screenName>
+			<en>Silencing</en>
+			<jp>消音</jp>
+			<cn>消声</cn>
+		</screenName>
+		<desc>
+			<en>Reduces muzzle flash and sound of a gun</en>
+			<jp>銃の閃光と発射音をおさえる</jp>
+			<cn>消除枪械的火焰和声音</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">-1</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">-224</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffScopeSighting1</objName>
+		<screenName>
+			<en>Quick Aim</en>
+			<jp>クイックエイム</jp>
+			<cn>快速瞄准</cn>
+		</screenName>
+		<desc>
+			<en>Faster aim, slightly increases attack speed of firearms</en>
+			<jp>銃器使用時、素早く照準を合わせられ、攻撃速度も少し速くなる</jp>
+			<cn>更快瞄准，轻微提升射击速度</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">-50</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffScopeSighting2</objName>
+		<screenName>
+			<en>Scope Sight</en>
+			<jp>スコープサイト</jp>
+			<cn>瞄准镜</cn>
+		</screenName>
+		<desc>
+			<en>Increases attack range of firearms, but slightly reduces attack speed</en>
+			<jp>銃器の射程距離が広がるが、攻撃速度は少し遅くなる</jp>
+			<cn>提升攻击范围，但会轻微减少攻击速度</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">50</buffAttribute>
+		<buffAttribute type="atkRange">64</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffScopeSighting3</objName>
+		<screenName>
+			<en>Optronic Sight</en>
+			<jp>オプトロニックサイト</jp>
+			<cn>光电瞄准镜</cn>
+		</screenName>
+		<desc>
+			<en>Faster aim and increases attack range</en>
+			<jp>素早く照準を合わせられ、攻撃範囲も広がる</jp>
+			<cn>更快瞄准并提升攻击范围</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">-50</buffAttribute>
+		<buffAttribute type="atkRange">80</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffArmorPiercing</objName>
+		<screenName>
+			<en>Armor Piercing</en>
+			<jp>アーマー貫通</jp>
+			<cn>穿甲</cn>
+		</screenName>
+		<desc>
+			<en>Ability to penetrate thick objects</en>
+			<jp>分厚いものも貫通することができる</jp>
+			<cn>能穿透厚物体</cn>
+		</desc>
+		<mode>active</mode>
+		<buffAttribute type="atkDamage">10</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">2</buffAttribute>
+		<buffAttribute type="noise">64</buffAttribute>
+		<buffAttribute type="duration">30000</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj>
+	
+	<!-- SKILL BUFF -->
+	<obj>
+		<objName>BuffStunBlow</objName>
+		<screenName>
+			<en>Stun Blow</en>
+			<jp>スタンブロウ</jp>
+			<cn>眩晕打击</cn>
+		</screenName>
+		<desc>
+			<en>Shocking enemies</en>
+			<jp>敵に衝撃を与えることができる</jp>
+			<cn>震慑敌人</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="duration">0</buffAttribute>
+		<buffAttribute type="chance">75</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffEvade</objName>
+		<screenName>
+			<en>Evade</en>
+			<jp>回避</jp>
+			<cn>闪避</cn>
+		</screenName>
+		<desc>
+			<en>Ability in avoiding hit</en>
+			<jp>攻撃を回避することができる</jp>
+			<cn>能躲避攻击</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="duration">0</buffAttribute>
+		<buffAttribute type="chance">15</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffQuickReload</objName>
+		<screenName>
+			<en>Quick Reload</en>
+			<jp>クイックリロード</jp>
+			<cn>快速装弹</cn>
+		</screenName>
+		<desc>
+			<en>Reloading faster</en>
+			<jp>リロード速度が上がる</jp>
+			<cn>装弹更快</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">5</buffAttribute>
+		<buffAttribute type="reloadTime">-500</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffResuscitation</objName>
+		<screenName>
+			<en>Resuscitate</en>
+			<jp>蘇生</jp>
+			<cn>复苏</cn>
+		</screenName>
+		<desc>
+			<en>Restoring health faster</en>
+			<jp>体力の回復速度が上がる</jp>
+			<cn>回复生命更快</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="reviveTime">-3000</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffDefibrillating</objName>
+		<screenName>
+			<en>Defib</en>
+			<jp>心肺蘇生</jp>
+			<cn>除颤</cn>
+		</screenName>
+		<desc>
+			<en>Restoring health instantly</en>
+			<jp>体力を即座に回復できる</jp>
+			<cn>立刻回复生命</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="reviveTime">-4500</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffEasyMoney</objName>
+		<screenName>
+			<en>Easy Money</en>
+			<jp>濡れ手に粟</jp>
+			<cn>挣快钱</cn>
+		</screenName>
+		<desc>
+			<en>Ability in getting more cash</en>
+			<jp>お金がより多く見つかる</jp>
+			<cn>能获得更多金钱</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">0</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="duration">0</buffAttribute>
+		<buffAttribute type="chance">95</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffCleave</objName>
+		<screenName>
+			<en>Cleave</en>
+			<jp>突撃</jp>
+			<cn>披荆斩棘</cn>
+		</screenName>
+		<desc>
+			<en>Slash multiple enemies at once when using melee weapon</en>
+			<jp>近接武器使用時、1度の攻撃で複数の敵を攻撃できる</jp>
+			 <cn>在使用近战武器时能攻击多个敌人</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">5</buffAttribute>
+		<buffAttribute type="atkDelay">100</buffAttribute>
+		<!-- <buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="duration">0</buffAttribute> -->
+		<buffAttribute type="chance">90</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffDamageResistance</objName>
+		<screenName>
+			<en>Damage Resistance</en>
+			<jp>ダメージ耐性</jp>
+			<cn>减伤</cn>
+		</screenName>	
+		<desc>
+			<en>Taking less hit and returning portion of the damage</en>
+			<jp>攻撃を受けにくく、受けたダメージの一部を返すことができる</jp>
+			<cn>承受更少伤害并反射一部分伤害</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">5</buffAttribute>
+		<buffAttribute type="atkDelay">0</buffAttribute>
+		<buffAttribute type="noise">64</buffAttribute>
+		<!-- <buffAttribute type="atkRange">0</buffAttribute>
+		<buffAttribute type="penetration">0</buffAttribute>
+		<buffAttribute type="duration">0</buffAttribute> -->
+		<buffAttribute type="chance">50</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffEurekaMoments</objName>
+		<screenName>
+			<en>Eureka Moments</en>
+			<jp>ラッキー</jp>
+			<cn>侥幸研究</cn>
+		</screenName>
+		<desc>
+			<en>Coming across new things accidentally</en>
+			<jp>新しいものを偶然見つけることがある</jp>
+			<cn>能偶然发现新物品</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="chance">30</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffExperiencedEngineer</objName>
+		<screenName>
+			<en>Experienced Engineer</en>
+			<jp>熟練エンジニア</jp>
+			<cn>高级工程师</cn>
+		</screenName>
+		<desc>
+			<en>Profound in workshop and stuffs</en>
+			<jp>作業台での仕事に慣れている</jp>
+			<cn>专精于工场和工程活</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="chance">30</buffAttribute>
+	</obj>
+	
+	<obj>
+		<objName>BuffFastCut</objName>
+		<screenName>
+			<en>Fast Cut</en>
+			<jp>早業</jp>
+			<cn>快速切割</cn>
+		</screenName>
+		<desc>
+			<en>Capable of making combo melee attacks</en>
+			<jp>近接攻撃時にコンボ攻撃を繰り出せる</jp>
+			<cn>能打出近战连击</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">5</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="duration">0</buffAttribute>
+		<buffAttribute type="chance">50</buffAttribute>
+	</obj>
+	
+	<!-- <obj>
+		<objName>GunBursting</objName>
+		<screenName>Gun Burst</screenName>
+		<desc>Bursting the gunfire in one shoot</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">5</buffAttribute>
+		<buffAttribute type="noise">50</buffAttribute>
+		<buffAttribute type="duration">0</buffAttribute>
+		<buffAttribute type="chance">100</buffAttribute>
+	</obj> -->
+	
+	<obj>
+		<objName>BuffCheer</objName>
+		<screenName>
+			<en>Cheer</en>
+			<jp>チア</jp>
+			<cn>鼓舞</cn>
+		</screenName>
+		<desc>
+			<en>Giving the spirit to everyone</en>
+			<jp>みんなを元気付けることができる</jp>
+			<cn>鼓舞每个人</cn>
+		</desc>
+		<mode>passive</mode>
+		<buffAttribute type="atkDamage">5</buffAttribute>
+		<buffAttribute type="atkDelay">-55</buffAttribute><!-- -50 -->
+		<buffAttribute type="atkRange">96</buffAttribute>
+		<buffAttribute type="noise">0</buffAttribute>
+		<buffAttribute type="duration">0</buffAttribute>
+		<buffAttribute type="chance">50</buffAttribute>
+		<buffAttribute type="areaRadius">50</buffAttribute>
+	</obj>
+</buffs>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+	<obj>
+		<objName>Mission0</objName>
+		<setting>outdoor</setting>
+		<levels>
+			<level>TestLevel0</level>
+			<level>TestLevel1</level>
+			<level>TestLevel2</level>
+		</levels>
+	</obj>
+	<obj>
+		<objName>Mission1</objName>
+		<setting>outdoor</setting>
+		<levels>
+			<level>TestLevel3</level>
+			<level>TestLevel4</level>
+			<level>TestLevel5</level>
+		</levels>
+	</obj>
+	<obj>
+		<objName>Mission2</objName>
+		<setting>outdoor</setting>
+		<levels>
+			<level>TestLevel6</level>
+			<level>TestLevel5</level>
+			<level>TestLevel7</level>
+		</levels>
+	</obj>
+	<obj>
+		<objName>Mission3</objName>
+		<setting>outdoor</setting>
+		<levels>
+			<level>TestLevel1</level>
+			<level>TestLevel3</level>
+			<level>TestLevel7</level>
+		</levels>
+	</obj>
+</missions>

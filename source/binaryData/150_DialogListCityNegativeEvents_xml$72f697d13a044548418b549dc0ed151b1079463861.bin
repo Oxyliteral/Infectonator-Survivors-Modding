@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<obj>
+		<objName>fatigueWarning</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>LOW STAMINA</en>
+					<jp>スタミナ低下</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You are running out of STAMINA. Everyone is getting tired.</en>
+					<jp>スタミナが低下している。みんな疲れてきているようだ。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>LOW STAMINA</en>
+					<jp>スタミナ低下</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The expedition will get more dangerous if your STAMINA runs out.</en>
+					<jp>スタミナが切れると遠征の危険度は大きくなる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>LOW STAMINA</en>
+					<jp>スタミナ低下</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You should return to HQ as soon as possible.</en>
+					<jp>できるだけ早くHQに戻ったほうがいい。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+
+	<obj>
+		<objName>chasedByZombies</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>	
+				</nameText>
+				<dialogText>
+					<en>Everything was quiet when suddenly you hear moans and screams.</en>
+					<jp>静まり返った中で、突然うめき声と金切り声が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Without realizing you have walked into an ambush.</en>
+					<jp>知らぬ間にゾンビが待ち伏せしているところに踏み込んでしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Due to fatigue, not everyone manage to escape.</en>
+					<jp>疲労により、全員は脱出できなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="death">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>expeditionStress</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You are out of STAMINA. The stress of the expedition is starting to take a toll on the team.</en>
+					<jp>スタミナが切れた。遠征によるストレスで、チームのメンバーに負担がかかっている。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-20</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>expeditionHunger</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You are out of STAMINA. One of your team member is getting hungry and starting to annoy the others.</en>
+					<jp>スタミナが切れた。メンバーの1人が空腹に耐えかねて八つ当たりし始めた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Tell to cool it</en>
+					<jp>落ち着けと言う</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="2">expeditionInsanityResponseCool</link>
+					<link chance="1">expeditionInsanityResponsePanic</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Punch</en>
+					<jp>殴る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="2">expeditionInsanityResponsePanic</link>
+					<link chance="1">expeditionInsanityResponsePunch</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Give Supply</en>
+					<jp>補給物資を渡す</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">expeditionInsanityResponseSupply</link>
+				</links>
+				<cost type="supply">1</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>expeditionInsanityResponseCool</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You told your team member to cool it.</en>
+					<jp>メンバーに落ち着くように言った。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Apparently that was enough to snap him out of it.</en>
+					<jp>それで十分だったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>expeditionInsanityResponsePunch</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You punch your team member.</en>
+					<jp>メンバーを殴った。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Apparently that was enough to snap him out of it.</en>
+					<jp>それで十分だったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>expeditionInsanityResponseSupply</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give your team member a little bit of food.</en>
+					<jp>メンバーに食料を渡した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Apparently that was enough to snap him out of it.</en>
+					<jp>それで十分だったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>expeditionInsanityResponsePanic</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly, your team member starts to panic and started a commotion.</en>
+					<jp>突然、メンバーはパニックを起こしてさわぎ始めた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It took some effort to calm him down.</en>
+					<jp>落ち着けるために少し時間を要した。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-20</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+</dialogs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4039a4a90460761b416431d2903b04c0:0d509e6cee9faa7013360c3f46b3cf39:89f4c5e11960aead3767ffdc4b3a6470$ -->
+<TextureAtlas imagePath="eventDefault.png" width="1920" height="753">
+    <SubTexture name="EndingBoom" x="2" y="2" width="668" height="384"/>
+    <SubTexture name="FeatureA" x="1702" y="587" width="215" height="60"/>
+    <SubTexture name="FeatureB" x="1697" y="525" width="216" height="60"/>
+    <SubTexture name="FeatureC" x="1702" y="649" width="214" height="60"/>
+    <SubTexture name="FeatureD" x="1701" y="459" width="213" height="64"/>
+    <SubTexture name="FeatureE" x="1482" y="471" width="213" height="62"/>
+    <SubTexture name="FeatureF" x="1702" y="388" width="213" height="69"/>
+    <SubTexture name="FeatureG" x="1482" y="388" width="217" height="81"/>
+    <SubTexture name="FeatureH" x="1470" y="630" width="230" height="79"/>
+    <SubTexture name="FeatureKS" x="1260" y="630" width="208" height="117"/>
+    <SubTexture name="GameOverAllDied" x="1342" y="2" width="576" height="384"/>
+    <SubTexture name="GameOverLoseA" x="2" y="388" width="323" height="363"/>
+    <SubTexture name="GameOverLoseB" x="652" y="388" width="302" height="363"/>
+    <SubTexture name="GameOverTravel" x="672" y="2" width="668" height="384"/>
+    <SubTexture name="GameOverWinA" x="327" y="388" width="323" height="363"/>
+    <SubTexture name="GameOverWinB" x="956" y="388" width="302" height="363"/>
+    <SubTexture name="polaroid" x="1260" y="388" width="220" height="240"/>
+</TextureAtlas>

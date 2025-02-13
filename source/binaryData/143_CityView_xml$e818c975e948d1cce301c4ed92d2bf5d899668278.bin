@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:73ed03eaba957d721587965faa89be4e:2dbb9f7b6c68e26c5bcabbe505a6de67:901b1d93f6b502336f5b601d853c8efc$ -->
+<TextureAtlas imagePath="CityView.png">
+    <SubTexture name="SnowTownApartment" x="547" y="1" width="182" height="108"/>
+    <SubTexture name="SnowTownCemetery" x="274" y="419" width="182" height="91"/>
+    <SubTexture name="SnowTownChurch" x="823" y="328" width="182" height="104"/>
+    <SubTexture name="SnowTownFastFood1" x="457" y="419" width="182" height="91"/>
+    <SubTexture name="SnowTownFastFood2" x="1006" y="412" width="182" height="94"/>
+    <SubTexture name="SnowTownForest" x="547" y="110" width="182" height="108"/>
+    <SubTexture name="SnowTownGasStation" x="640" y="418" width="182" height="91"/>
+    <SubTexture name="SnowTownHQ" x="1096" y="96" width="182" height="91"/>
+    <SubTexture name="SnowTownHospital" x="1" y="297" width="272" height="143"/>
+    <SubTexture name="SnowTownHouse1" x="1096" y="188" width="182" height="91"/>
+    <SubTexture name="SnowTownHouse2" x="1189" y="280" width="182" height="91"/>
+    <SubTexture name="SnowTownHouse3" x="1189" y="372" width="182" height="91"/>
+    <SubTexture name="SnowTownMall" x="1" y="1" width="272" height="147"/>
+    <SubTexture name="SnowTownMart" x="1279" y="1" width="182" height="91"/>
+    <SubTexture name="SnowTownOffice" x="547" y="219" width="182" height="108"/>
+    <SubTexture name="SnowTownPark" x="1279" y="93" width="182" height="91"/>
+    <SubTexture name="SnowTownPharmacy" x="1279" y="185" width="182" height="91"/>
+    <SubTexture name="SnowTownPolice" x="913" y="210" width="182" height="100"/>
+    <SubTexture name="SnowTownPub" x="1372" y="277" width="182" height="91"/>
+    <SubTexture name="SnowTownWarehouse" x="274" y="145" width="272" height="136"/>
+    <SubTexture name="SnowTownWeaponShop" x="1372" y="369" width="182" height="91"/>
+    <SubTexture name="TownApartment" x="730" y="1" width="182" height="108"/>
+    <SubTexture name="TownBanditHQ" x="547" y="328" width="176" height="89"/>
+    <SubTexture name="TownCDCQuarantineSite" x="1462" y="1" width="182" height="91"/>
+    <SubTexture name="TownCemetery" x="1462" y="93" width="182" height="91"/>
+    <SubTexture name="TownChurch" x="913" y="1" width="182" height="104"/>
+    <SubTexture name="TownFastFood1" x="1462" y="185" width="182" height="91"/>
+    <SubTexture name="TownFastFood2" x="1096" y="1" width="182" height="94"/>
+    <SubTexture name="TownForest" x="730" y="110" width="182" height="108"/>
+    <SubTexture name="TownGasStation" x="1555" y="277" width="182" height="91"/>
+    <SubTexture name="TownHQ" x="1555" y="369" width="182" height="91"/>
+    <SubTexture name="TownHospital" x="274" y="1" width="272" height="143"/>
+    <SubTexture name="TownHouse1" x="1645" y="1" width="182" height="91"/>
+    <SubTexture name="TownHouse2" x="1645" y="93" width="182" height="91"/>
+    <SubTexture name="TownHouse3" x="1645" y="185" width="182" height="91"/>
+    <SubTexture name="TownMall" x="1" y="149" width="272" height="147"/>
+    <SubTexture name="TownMart" x="1738" y="277" width="182" height="91"/>
+    <SubTexture name="TownNewsStation" x="913" y="106" width="182" height="103"/>
+    <SubTexture name="TownOffice" x="730" y="219" width="182" height="108"/>
+    <SubTexture name="TownPark" x="1738" y="369" width="182" height="91"/>
+    <SubTexture name="TownPharmacy" x="1828" y="1" width="182" height="91"/>
+    <SubTexture name="TownPolice" x="1006" y="311" width="182" height="100"/>
+    <SubTexture name="TownPub" x="1828" y="93" width="182" height="91"/>
+    <SubTexture name="TownQuarantineSite" x="1462" y="1" width="182" height="91"/>
+    <SubTexture name="TownWarehouse" x="274" y="282" width="272" height="136"/>
+    <SubTexture name="TownWeaponShop" x="1828" y="185" width="182" height="91"/>
+</TextureAtlas>

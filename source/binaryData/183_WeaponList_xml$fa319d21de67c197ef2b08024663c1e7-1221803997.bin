@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+<!--------------------------------------------------------------------- HANDGUNS -------------------------------------------->
+	
+	<obj>
+		<objName>Glock</objName>
+		<atkDamage>10</atkDamage>
+		<atkDelay>400</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>15</ammoSize>
+		<ammoCost>10</ammoCost>
+		<noise>160</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>1</knockBack>
+		<type>Handgun</type>
+		<desc>
+			<en>Low-powered but accurate, Glocks are very popular amongst law enforcement agencies as well as civilians.</en>
+			<jp>威力は低いが精度が高く、警察や軍隊、民間人にも愛用されている。</jp>
+			<cn>火力低但精准，格洛克在执法机构和平民中非常受欢迎。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>200</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapHG_Glock</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponHG02_S_mc" pivotX="5" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponHG02_SW_mc" pivotX="5" pivotY="21" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponHG02_W_mc" pivotX="2" pivotY="23" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponHG02_NW_mc" pivotX="0" pivotY="35" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponHG02_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponHG02_NW_mc" pivotX="0" pivotY="35" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponHG02_W_mc" pivotX="2" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponHG02_SW_mc" pivotX="5" pivotY="21" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Desert Eagle</objName>
+		<atkDamage>50</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>9</ammoSize>
+		<ammoCost>15</ammoCost> <!-- 10 -->
+		<noise>192</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>3</knockBack>
+		<type>Handgun</type>
+		<desc>
+			<en>One of the most powerful semi-automatic pistols in the world.</en>
+			<jp>世界一強力なセミオート拳銃のひとつ。</jp>
+			<cn>世界上火力最猛的半自动手枪之一。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>400</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapHG_DEagle</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponHG01_S_mc" pivotX="5" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponHG01_SW_mc" pivotX="5" pivotY="21" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponHG01_W_mc" pivotX="2" pivotY="25" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponHG01_NW_mc" pivotX="4" pivotY="35" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponHG01_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponHG01_NW_mc" pivotX="4" pivotY="35" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponHG01_W_mc" pivotX="2" pivotY="25" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponHG01_SW_mc" pivotX="5" pivotY="21" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Phyton</objName>
+		<atkDamage>40</atkDamage>
+		<atkDelay>400</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>6</ammoSize>
+		<ammoCost>12</ammoCost> <!-- 10 / 15 -->
+		<noise>192</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>3</knockBack>
+		<type>Handgun</type>
+		<desc>
+			<en>Fires .357 caliber bullet. Has a reputation for accuracy and stopping power.</en>
+			<jp>.357マグナム弾を撃つことができる。精度の高さと威力に定評がある。</jp>
+			<cn>使用点357口径的子弹。在精准度和阻滞力方面都享有盛名。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>350</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapHG_ColtPhyton</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponHG03_S_mc" pivotX="5" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponHG03_SW_mc" pivotX="5" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponHG03_W_mc" pivotX="2" pivotY="25" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponHG03_NW_mc" pivotX="0" pivotY="35" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponHG03_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponHG03_NW_mc" pivotX="0" pivotY="35" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponHG03_W_mc" pivotX="2" pivotY="25" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponHG03_SW_mc" pivotX="5" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Tec9</objName>
+		<atkDamage>10</atkDamage>
+		<atkDelay>250</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>20</ammoSize>
+		<ammoCost>20</ammoCost> <!-- 15 -->
+		<noise>160</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>1</knockBack>
+		<type>Handgun</type>
+		<desc>
+			<en>A blowback-operated semi-automatic handgun.</en>
+			<jp>ブローバック方式のセミオートハンドガン。</jp>
+			<cn>一种反吹式半自动手枪。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>400</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapHG_Tec9</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponHG04_S_mc" pivotX="5" pivotY="15" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponHG04_SW_mc" pivotX="5" pivotY="22" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponHG04_W_mc" pivotX="1" pivotY="23" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponHG04_NW_mc" pivotX="-3" pivotY="37" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponHG04_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponHG04_NW_mc" pivotX="-3" pivotY="37" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponHG04_W_mc" pivotX="1" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponHG04_SW_mc" pivotX="5" pivotY="22" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	
+	<!--------------------------------------------------------------------- MELEE -------------------------------------------->
+	
+	<obj>
+		<objName>Machete</objName>
+		<atkDamage>25</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>8</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>Machete kills!</en>
+			<jp>マチェーテキルズ！</jp>
+			<cn>大砍刀威力无穷！</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>100</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_Machete</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG01_S_mc" pivotX="14" pivotY="48" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG01_SW_mc" pivotX="18" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG01_W_mc" pivotX="28" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG01_NW_mc" pivotX="20" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG01_N_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG01_NW_mc" pivotX="20" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG01_W_mc" pivotX="28" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG01_SW_mc" pivotX="18" pivotY="32" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>BaseballBat</objName>
+		<atkDamage>15</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>10</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>12</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>Let's knock them out of the park!</en>
+			<jp>ヤツらを場外ホームランにしてやる！</jp>
+			<cn>让我们把他们赶出公园！</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>30</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_BaseballBat</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG02_S_mc" pivotX="12" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG02_SW_mc" pivotX="15" pivotY="33" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG02_W_mc" pivotX="25" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG02_NW_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG02_N_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG02_NW_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG02_W_mc" pivotX="25" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG02_SW_mc" pivotX="15" pivotY="33" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Axe</objName>
+		<atkDamage>40</atkDamage><!-- 40 -->
+		<atkDelay>750</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>16</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>Lumberjack-approved zombie killing axe.</en>
+			<jp>森林クミアイ公認の対ゾンビ用斧。</jp>
+			<cn>伐木工认证的砍僵尸斧头。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>150</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_Axe</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG03_S_mc" pivotX="14" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG03_SW_mc" pivotX="14" pivotY="36" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG03_W_mc" pivotX="23" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG03_NW_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG03_N_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG03_NW_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG03_W_mc" pivotX="23" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG03_SW_mc" pivotX="14" pivotY="36" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+
+	<obj>
+		<objName>Spiked Bat</objName>
+		<atkDamage>20</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>12</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>Spiked baseball bat.</en>
+			<jp>釘を打ち込んだ野球用バット。以上。</jp>
+			<cn>削尖的棒球棒。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>50</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_SpikedBat</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG06_S_mc" pivotX="14" pivotY="47" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG06_SW_mc" pivotX="19" pivotY="35" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG06_W_mc" pivotX="27" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG06_NW_mc" pivotX="21" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG06_N_mc" pivotX="14" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG06_NW_mc" pivotX="21" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG06_W_mc" pivotX="27" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG06_SW_mc" pivotX="19" pivotY="35" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Crowbar</objName>
+		<atkDamage>25</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>12</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>‘Property of G. Freeman’ is written on the side.</en>
+			<jp>横に「G・フリーマン」と書かれている。名前だろうか。</jp>
+			<cn>一侧写有“G.弗里曼的财产”</cn>	
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>150</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_Crowbar</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG07_S_mc" pivotX="13" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG07_SW_mc" pivotX="14" pivotY="33" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG07_W_mc" pivotX="21" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG07_NW_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG07_N_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG07_NW_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG07_W_mc" pivotX="21" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG07_SW_mc" pivotX="14" pivotY="33" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Hammer</objName>
+		<atkDamage>25</atkDamage>
+		<atkDelay>700</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>12</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>A hammer made of stainless steel.</en>
+			<jp>ステンレス鋼でできたハンマー。</jp>
+			<cn>一把不锈钢制成的锤子。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>150</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_Hammer</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG08_S_mc" pivotX="13" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG08_SW_mc" pivotX="13" pivotY="34" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG08_W_mc" pivotX="21" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG08_NW_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG08_N_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG08_NW_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG08_W_mc" pivotX="21" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG08_SW_mc" pivotX="13" pivotY="34" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Frying Pan</objName>
+		<atkDamage>15</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>12</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>A regular frying pan. Effective for cooking and bashing heads.</en>
+			<jp>普通のフライパン。料理にも使えるし、頭を殴ってもいい。</jp>
+			<cn>一口普通的平底锅。烹饪和敲头两不误。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>50</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_FryingPan</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG09_S_mc" pivotX="13" pivotY="41" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG09_SW_mc" pivotX="13" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG09_W_mc" pivotX="21" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG09_NW_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG09_N_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG09_NW_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG09_W_mc" pivotX="21" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG09_SW_mc" pivotX="13" pivotY="32" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Morning Star</objName>
+		<atkDamage>60</atkDamage>
+		<atkDelay>900</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>20</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>A medieval weapon consisting of a spiked club resembling a mace.</en>
+			<jp>メイスに似た中世の武器で、頭部にスパイクが付いている。</jp>
+			<cn>一种由削尖的棍棒组成的原始武器，类似狼牙棒</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>1</tier>
+		<price>500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_Morningstar</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG05_S_mc" pivotX="16" pivotY="43" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG05_SW_mc" pivotX="19" pivotY="35" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG05_W_mc" pivotX="23" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG05_NW_mc" pivotX="21" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG05_N_mc" pivotX="15" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG05_NW_mc" pivotX="21" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG05_W_mc" pivotX="23" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG05_SW_mc" pivotX="19" pivotY="35" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Lightsaber</objName>
+		<atkDamage>100</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>48</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>0</ammoCost>
+		<criticalChance>100</criticalChance>
+		<knockBack>4</knockBack>
+		<type>Melee</type>
+		<desc>
+			<en>May the force be with you!</en>
+			<jp>フォースのご加護を！</jp>
+			<cn>愿原力伴你左右！</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>2</tier>
+		<price>2250</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_Lightsaber</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponMG10_S_mc" pivotX="13" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponMG10_SW_mc" pivotX="15" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponMG10_W_mc" pivotX="22" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponMG10_NW_mc" pivotX="19" pivotY="42" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponMG10_N_mc" pivotX="14" pivotY="40" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponMG10_NW_mc" pivotX="19" pivotY="42" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponMG10_W_mc" pivotX="22" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponMG10_SW_mc" pivotX="15" pivotY="32" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+
+<!--------------------------------------------------------------------- RIFLES -------------------------------------------->
+	<obj>
+		<objName>MP5</objName>
+		<atkDamage>10</atkDamage>
+		<atkDelay>150</atkDelay>
+		<atkRange>112</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1500</reloadTime>
+		<ammoSize>30</ammoSize>
+		<ammoCost>20</ammoCost> <!-- 20 -->
+		<noise>160</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>1</knockBack>
+		<type>SMG</type>
+		<desc>
+			<en>A submachine gun with high rate of fire, good accuracy, and decent power.</en>
+			<jp>発射速度と精度が高く、威力もそこそこのサブマシンガン。</jp>
+			<cn>一种火力猛，精度高，威力大的冲锋枪。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_MP5</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG02_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG02_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG02_W_mc" pivotX="7" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG02_NW_mc" pivotX="3" pivotY="31" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG02_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG02_NW_mc" pivotX="3" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG02_W_mc" pivotX="7" pivotY="20" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG02_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>UMP</objName>
+		<atkDamage>13</atkDamage>
+		<atkDelay>200</atkDelay>
+		<atkRange>112</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>1500</reloadTime>
+		<ammoSize>25</ammoSize>
+		<ammoCost>25</ammoCost> <!-- 20 -->
+		<noise>192</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>2</knockBack>
+		<type>SMG</type>
+		<desc>
+			<en>A light and cheap submachine gun designed to be a successor to the MP5.</en>
+			<jp>軽量かつ安価なサブマシンガン。MP5後継機として設計された。</jp>
+			<cn>一种轻型廉价的冲锋枪，被设计用来代替MP5。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_UMP</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG07_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG07_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG07_W_mc" pivotX="10" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG07_NW_mc" pivotX="3" pivotY="31" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG07_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG07_NW_mc" pivotX="3" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG07_W_mc" pivotX="10" pivotY="20" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG07_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>AK47</objName>
+		<atkDamage>25</atkDamage>
+		<atkDelay>200</atkDelay>
+		<atkRange>128</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>2000</reloadTime>
+		<ammoSize>30</ammoSize>
+		<ammoCost>45</ammoCost> <!-- 30 -->
+		<noise>256</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>3</knockBack>
+		<type>MG</type>
+		<desc>
+			<en>What this Soviet-made assault rifle lacks in accuracy, it makes up for in firepower.</en>
+			<jp>このソビエト製のアサルトライフルは、精度こそ低いものの、火力は十分だ。</jp>
+			<cn>这款苏联产的突击步枪在精准度上的缺失，全部用火力补上了。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>1</tier>
+		<price>1500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_AK47</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG01_S_mc" pivotX="7" pivotY="19" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG01_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG01_W_mc" pivotX="7" pivotY="19" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG01_NW_mc" pivotX="3" pivotY="31" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG01_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG01_NW_mc" pivotX="3" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG01_W_mc" pivotX="7" pivotY="19" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG01_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>M4A1</objName>
+		<atkDamage>20</atkDamage>
+		<atkDelay>150</atkDelay>
+		<atkRange>144</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>2000</reloadTime>
+		<ammoSize>30</ammoSize>
+		<ammoCost>40</ammoCost> <!-- 30 -->
+		<noise>256</noise>
+		<criticalChance>120</criticalChance>
+		<knockBack>1</knockBack>
+		<type>MG</type>
+		<desc>
+			<en>The successor of the famous M16, this assault rifle is heavily used by the military in many countries.</en>
+			<jp>M16の後継機として登場したアサルトライフルで、多くの国で軍用銃に採用されている。</jp>
+			<cn>作为大名鼎鼎的M16的继承者，这把自动步枪在许多国家的军队中都大范围使用。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>1</tier>
+		<price>1650</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_M4A1</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG06_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG06_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG06_W_mc" pivotX="9" pivotY="21" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG06_NW_mc" pivotX="3" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG06_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG06_NW_mc" pivotX="3" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG06_W_mc" pivotX="9" pivotY="21" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG06_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>SCAR-H</objName>
+		<atkDamage>40</atkDamage>
+		<atkDelay>200</atkDelay>
+		<atkRange>128</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>2000</reloadTime>
+		<ammoSize>25</ammoSize>
+		<ammoCost>50</ammoCost> <!-- 40 -->
+		<noise>256</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>2</knockBack>
+		<type>MG</type>
+		<desc>
+			<en>A heavy battle rifle that delivers great power at the expense of low capacity and strong recoil.</en>
+			<jp>戦闘用重ライフルで、装弾数は少なく反動は大きいが、威力が高い。</jp>
+			<cn>一把拥有强大火力的战斗步枪，以低容量和强后坐力为代价。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<penetration>0</penetration>
+		<tier>2</tier>
+		<price>2500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_SCAR</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG04_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG04_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG04_W_mc" pivotX="11" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG04_NW_mc" pivotX="4" pivotY="33" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG04_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG04_NW_mc" pivotX="4" pivotY="33" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG04_W_mc" pivotX="11" pivotY="20" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG04_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>G36C</objName>
+		<atkDamage>20</atkDamage>
+		<atkDelay>150</atkDelay>
+		<atkRange>128</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>2000</reloadTime>
+		<ammoSize>30</ammoSize>
+		<ammoCost>40</ammoCost> <!-- 40 -->
+		<noise>256</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>1</knockBack>
+		<type>MG</type>
+		<desc>
+			<en>German compact assault rifle developed for special tactical applications by police and military special forces.</en>
+			<jp>ドイツ製の小型アサルトライフルで、警察や軍の特殊部隊による特殊戦術用に開発された。</jp>
+			<cn>这把德式紧凑型突击步枪是为警察的特殊战术应用和军事特种部队开发的。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>2</tier>
+		<price>2500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_G36C</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG05_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG05_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG05_W_mc" pivotX="10" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG05_NW_mc" pivotX="3" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG05_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG05_NW_mc" pivotX="3" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG05_W_mc" pivotX="10" pivotY="20" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG05_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>SAW</objName>
+		<atkDamage>25</atkDamage>
+		<atkDelay>150</atkDelay>
+		<atkRange>128</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>5000</reloadTime>
+		<ammoSize>100</ammoSize>
+		<ammoCost>75</ammoCost> <!-- 50 -->
+		<noise>256</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>1</knockBack>
+		<type>MG</type>
+		<desc>
+			<en>Carrying large amount of rounds, this light machine gun is a great tool to slaughter zombies.</en>
+			<jp>弾薬を多く持ち運ぶことができるこの軽機関銃は、ゾンビ退治にぴったりだ。</jp>
+			<cn>这种轻型机枪携带大量的弹药，是屠杀僵尸的好工具。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>3</tier>
+		<price>6250</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_SAW</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG03_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG03_SW_mc" pivotX="8" pivotY="21" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG03_W_mc" pivotX="9" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG03_NW_mc" pivotX="2" pivotY="31" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG03_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG03_NW_mc" pivotX="2" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG03_W_mc" pivotX="9" pivotY="20" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG03_SW_mc" pivotX="8" pivotY="21" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+<!--------------------------------------------------------------------- SHOTGUNS -------------------------------------------->	
+	<obj>
+		<objName>Shotgun</objName>
+		<atkDamage>8</atkDamage>
+		<atkDelay>600</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>5</numOfAttack>
+		<reloadTime>2000</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>20</ammoCost>
+		<noise>256</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>2</knockBack>
+		<type>Shotgun</type>
+		<desc>
+			<en>Your everyday pump-action shotgun.</en>
+			<jp>いつも側に置いておきたい、ポンプアクション方式のショットガン。</jp>
+			<cn>这把霰弹枪是你的日常伴侣。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapSG_Winchester</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponSG01_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponSG01_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponSG01_W_mc" pivotX="7" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponSG01_NW_mc" pivotX="2" pivotY="31" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponSG01_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponSG01_NW_mc" pivotX="2" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponSG01_W_mc" pivotX="7" pivotY="20" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponSG01_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>SawedOff</objName>
+		<atkDamage>8</atkDamage>
+		<atkDelay>200</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>5</numOfAttack>
+		<reloadTime>1250</reloadTime>
+		<ammoSize>2</ammoSize>
+		<ammoCost>5</ammoCost> <!-- 10 -->
+		<noise>256</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>2</knockBack>
+		<type>Shotgun</type>
+		<desc>
+			<en>A short-barreled shotgun, which despite the name does not actually have to be shortened with a saw.</en>
+			<jp>銃身の短いショットガンだが、叩き切られたわけではない。</jp>
+			<cn>一把短管霰弹枪，尽管名称如此但实际上不必用锯缩短。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>0</tier>
+		<price>500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapSG_SawedOff</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponSG02_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponSG02_SW_mc" pivotX="7" pivotY="19" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponSG02_W_mc" pivotX="5" pivotY="22" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponSG02_NW_mc" pivotX="2" pivotY="31" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponSG02_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponSG02_NW_mc" pivotX="2" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponSG02_W_mc" pivotX="5" pivotY="22" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponSG02_SW_mc" pivotX="7" pivotY="19" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>SPAS-12</objName>
+		<atkDamage>13</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>5</numOfAttack>
+		<reloadTime>2000</reloadTime>
+		<ammoSize>12</ammoSize>
+		<ammoCost>50</ammoCost> <!-- 30 -->
+		<noise>256</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>2</knockBack>
+		<type>Shotgun</type>
+		<desc>
+			<en>A powerful, heavy combat shotgun used among military forces in many countries.</en>
+			<jp>パワフルで重量のある戦闘用ショットガンで、さまざまな国で軍用に採用されている。</jp>
+			<cn>一把在许多国家军队中使用的强火力重型战斗霰弹枪。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>1</tier>
+		<price>1500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapSG_SPAS12</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponSG03_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponSG03_SW_mc" pivotX="9" pivotY="22" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponSG03_W_mc" pivotX="5" pivotY="23" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponSG03_NW_mc" pivotX="2" pivotY="31" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponSG03_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponSG03_NW_mc" pivotX="2" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponSG03_W_mc" pivotX="5" pivotY="23" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponSG03_SW_mc" pivotX="9" pivotY="22" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Benelli</objName>
+		<atkDamage>15</atkDamage>
+		<atkDelay>400</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>5</numOfAttack>
+		<reloadTime>2000</reloadTime>
+		<ammoSize>12</ammoSize>
+		<ammoCost>55</ammoCost> <!-- 40 -->
+		<noise>256</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>2</knockBack>
+		<type>Shotgun</type>
+		<desc>
+			<en>A light, mobile combat shotgun used among military forces in many countries.</en>
+			<jp>軽量で持ち運びの簡単な戦闘用ショットガンで、さまざまな国で軍用に採用されている。</jp>
+			<cn>在许多国家军队中使用的轻型移动战斗霰弹枪。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>2</tier>
+		<price>2500</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapSG_Benelli</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponSG05_S_mc" pivotX="6" pivotY="20" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponSG05_SW_mc" pivotX="9" pivotY="21" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponSG05_W_mc" pivotX="10" pivotY="21" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponSG05_NW_mc" pivotX="2" pivotY="31" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponSG05_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponSG05_NW_mc" pivotX="2" pivotY="31" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponSG05_W_mc" pivotX="10" pivotY="21" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponSG05_SW_mc" pivotX="9" pivotY="21" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>AA12</objName>
+		<atkDamage>20</atkDamage>
+		<atkDelay>200</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>5</numOfAttack>
+		<reloadTime>2000</reloadTime>
+		<ammoSize>20</ammoSize>
+		<ammoCost>80</ammoCost> <!-- 50 -->
+		<noise>256</noise>
+		<criticalChance>150</criticalChance>
+		<knockBack>2</knockBack>
+		<type>Shotgun</type>
+		<desc>
+			<en>Fast, stable, and deadly are three words that precisely describe this fully-automatic assault shotgun.</en>
+			<jp>速発射、低反動、高威力が売りのフルオートアサルトショットガン。</jp>
+			<cn>快速、稳定和致命三个词可以精准描述这把全自动突击霰弹枪。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>0</penetration>
+		<tier>3</tier>
+		<price>6250</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapSG_AA12</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponSG04_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponSG04_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponSG04_W_mc" pivotX="11" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponSG04_NW_mc" pivotX="4" pivotY="32" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponSG04_N_mc" pivotX="4" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponSG04_NW_mc" pivotX="4" pivotY="32" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponSG04_W_mc" pivotX="11" pivotY="20" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponSG04_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+
+	<!--------------------------------------------------------------------- SNIPER -------------------------------------------->
+	
+	<obj>
+		<objName>Hunting Rifle</objName>
+		<atkDamage>50</atkDamage>
+		<atkDelay>800</atkDelay>
+		<atkRange>160</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>3000</reloadTime>
+		<ammoSize>6</ammoSize>
+		<ammoCost>25</ammoCost> <!-- 20 -->
+		<noise>256</noise>
+		<criticalChance>200</criticalChance>
+		<knockBack>5</knockBack>
+		<type>Sniper</type>
+		<desc>
+			<en>A common bolt-action hunting rifle.</en>
+			<jp>ありふれたボルトアクション方式の狩猟用ライフル。</jp>
+			<cn>一把常见的栓式猎枪。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>2</penetration>
+		<tier>1</tier>
+		<price>750</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_HuntingRifle</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG10_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG10_SW_mc" pivotX="8" pivotY="19" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG10_W_mc" pivotX="9" pivotY="22" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG10_NW_mc" pivotX="2" pivotY="33" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG10_N_mc" pivotX="0" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG10_NW_mc" pivotX="2" pivotY="33" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG10_W_mc" pivotX="9" pivotY="22" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG10_SW_mc" pivotX="8" pivotY="19" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Dragunov</objName>
+		<atkDamage>50</atkDamage>
+		<atkDelay>700</atkDelay>
+		<atkRange>176</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>2500</reloadTime>
+		<ammoSize>8</ammoSize>
+		<ammoCost>35</ammoCost> <!-- 30 -->
+		<noise>256</noise>
+		<criticalChance>200</criticalChance>
+		<knockBack>5</knockBack>
+		<type>Sniper</type>
+		<desc>
+			<en>Soviet-designed semi-automatic sniper rifle.</en>
+			<jp>ソビエト製のセミオートで動作するスナイパーライフル。</jp>
+			<cn>苏联设计的半自动狙击步枪。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<penetration>3</penetration>
+		<tier>2</tier>
+		<price>2750</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_Dragunov</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG09_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG09_SW_mc" pivotX="8" pivotY="21" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG09_W_mc" pivotX="10" pivotY="21" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG09_NW_mc" pivotX="2" pivotY="33" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG09_N_mc" pivotX="0" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG09_NW_mc" pivotX="2" pivotY="33" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG09_W_mc" pivotX="10" pivotY="21" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG09_SW_mc" pivotX="8" pivotY="21" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Barrett .50 Cal</objName>
+		<atkDamage>100</atkDamage>
+		<atkDelay>800</atkDelay>
+		<atkRange>176</atkRange>
+		<numOfAttack>1</numOfAttack>
+		<reloadTime>3000</reloadTime>
+		<ammoSize>10</ammoSize>
+		<ammoCost>65</ammoCost> <!-- 50 -->
+		<noise>256</noise>
+		<criticalChance>200</criticalChance>
+		<knockBack>10</knockBack>
+		<type>Sniper</type>
+		<desc>
+			<en>A rifle so powerful it can shoot through walls.</en>
+			<jp>壁を打ち抜けるほど威力の高いライフル。</jp>
+			<cn>一把火力足以射穿墙壁的步枪。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<penetration>5</penetration>
+		<tier>3</tier>
+		<price>6250</price>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+			<actionState state="move">TG_CharStateAttackMove</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapRG_50Cal</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="WeaponRG08_S_mc" pivotX="7" pivotY="18" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="WeaponRG08_SW_mc" pivotX="8" pivotY="20" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="WeaponRG08_W_mc" pivotX="9" pivotY="22" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="WeaponRG08_NW_mc" pivotX="3" pivotY="34" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="WeaponRG08_N_mc" pivotX="0" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="WeaponRG08_NW_mc" pivotX="3" pivotY="34" scaleX="1" scaleY="1"/>
+			<part side="E" texture="WeaponRG08_W_mc" pivotX="9" pivotY="22" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="WeaponRG08_SW_mc" pivotX="8" pivotY="20" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	
+	<!--------------------------------------------------------------------- TURRET -------------------------------------------->
+	
+	<obj>
+		<objName>Gun Turret</objName>
+		<atkDamage>10</atkDamage>
+		<atkDelay>125</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>5</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>50</ammoSize>
+		<ammoCost>25</ammoCost>
+		<noise>64</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>1</knockBack>
+		<type>MG</type>
+		<desc>
+			<en>A static mounted gun that automatically fires at nearby enemies without needing an operator.</en>
+			<jp>台座に取り付けられた銃で、近くの敵に自動で発砲するため無人運用できる。</jp>
+			<cn>一种静态安装的枪，无需人工操作即可自动向附近的敌人发射。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<penetration>0</penetration>
+		<tier>-1</tier>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_Machete</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="Turret_S_mc" pivotX="13" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="Turret_SE_mc" pivotX="14" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="Turret_E_mc" pivotX="13" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="Turret_NE_mc" pivotX="13" pivotY="34" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="Turret_N_mc" pivotX="13" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="Turret_NE_mc" pivotX="13" pivotY="34" scaleX="1" scaleY="1"/>
+			<part side="E" texture="Turret_E_mc" pivotX="13" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="Turret_SE_mc" pivotX="14" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+	
+	<obj>
+		<objName>Gun Turret2</objName>
+		<atkDamage>10</atkDamage>
+		<atkDelay>125</atkDelay>
+		<atkRange>96</atkRange>
+		<numOfAttack>5</numOfAttack>
+		<reloadTime>1000</reloadTime>
+		<ammoSize>50</ammoSize>
+		<ammoCost>25</ammoCost>
+		<noise>64</noise>
+		<criticalChance>100</criticalChance>
+		<knockBack>1</knockBack>
+		<type>MG</type>
+		<desc>
+			<en>A static mounted gun that automatically fires at nearby enemies without needing an operator.</en>
+			<jp>台座に取り付けられた銃で、近くの敵に自動で発砲するため無人運用できる。</jp>
+			<cn>一种静态安装的枪，无需人工操作即可自动向附近的敌人发射。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<penetration>0</penetration>
+		<tier>-1</tier>
+		<actionStatesList>
+			<actionState state="attack">TG_CharStateAttack</actionState>
+		</actionStatesList>
+		<iconThumb>Thumb_WeapMG_Machete</iconThumb>
+		<parts layer="Weapon">
+			<part side="S" texture="Turret_S_mc" pivotX="13" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SW" texture="Turret_SE_mc" pivotX="14" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="W" texture="Turret_E_mc" pivotX="13" pivotY="29" scaleX="-1" scaleY="1"/>
+			<part side="NW" texture="Turret_NE_mc" pivotX="13" pivotY="34" scaleX="-1" scaleY="1"/>
+			<part side="N" texture="Turret_N_mc" pivotX="13" pivotY="45" scaleX="1" scaleY="1"/>
+			<part side="NE" texture="Turret_NE_mc" pivotX="13" pivotY="34" scaleX="1" scaleY="1"/>
+			<part side="E" texture="Turret_E_mc" pivotX="13" pivotY="29" scaleX="1" scaleY="1"/>
+			<part side="SE" texture="Turret_SE_mc" pivotX="14" pivotY="29" scaleX="1" scaleY="1"/>
+		</parts>
+	</obj>
+</weapons>

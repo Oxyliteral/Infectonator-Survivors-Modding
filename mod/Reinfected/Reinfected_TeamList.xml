@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teams>
+	<obj>
+		<objName>team1</objName>
+		<screenName>
+			<en>The Ragtag Trio</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Forced to band together after the apocalypse started, this starting trio will surely test your mettle to survive.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Hobo</member>
+		<member>Worker</member>
+		<member>Cheerleader</member>
+	</obj>
+	<obj>
+		<objName>team2</objName>
+		<screenName>
+			<en>VIP Escort</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Separated from the rest of their squad, this lone SWAT member will have to escort the VIPs.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium>0</premium>
+		<member>Researcher</member>
+		<member>Scientist</member>
+		<member>SWAT</member>
+	</obj>
+	<obj>
+		<objName>teamFredPwn</objName>
+		<screenName>
+			<en>Trio Tornado</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Like this team's namesake, anything that stands in their way will be blown away.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>2</gemCost>
+		<premium>0</premium>
+		<member>Scientist_Veteran</member>
+		<member>SWAT_Veteran</member>
+		<member>Sydney_Renowned</member>
+	</obj>
+	<obj>
+		<objName>Left4Dead</objName>
+		<screenName>
+			<en>The Survivors</en>
+			<jp>サバイバー</jp>
+			<cn>幸存者</cn>
+		</screenName>
+		<desc>
+			<en>A scientist, a worker, a cop, and a journalist must work together and find a way to survive.</en>
+			<jp>科学者、作業員、警官、ジャーナリストの4人がチームを組んで、生き延びる方法を探る。</jp>
+			<cn>一位科学家，一位工人，一位警察和一位记者必须团结协作并找到生存之路。</cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Scientist</member>
+		<member>Worker</member>
+		<member>Cop</member>
+		<member>Sydney</member>
+	</obj>
+	<obj>
+		<objName>team3</objName>
+		<screenName>
+			<en>The Veterans</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Having learned a thing or two about the apocalpyse, this band of veterans just might make it through alive.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Scientist_Veteran</member>
+		<member>Worker_Veteran</member>
+		<member>Cop_Veteran</member>
+		<member>Sydney_Veteran</member>
+	</obj>
+	<obj>
+		<objName>team4</objName>
+		<screenName>
+			<en>The Renowned</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>This elite team is gunning straight for the apocalypse. Zombies beware, it'd be almost shameful to lose with this squadron.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>2</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Scientist_Veteran</member>
+		<member>Worker_Renowned</member>
+		<member>Cop_Renowned</member>
+		<member>Sydney_Renowned</member>
+	</obj>
+	<obj>
+		<objName>team5</objName>
+		<screenName>
+			<en>Watson &amp; Holmes</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Elementary, my dear Watson!</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Detective_Veteran</member>
+		<member>Sydney_Veteran</member>
+	</obj>
+	<obj>
+		<objName>team6</objName>
+		<screenName>
+			<en>The Good &amp; The Bad</en>
+			<jp>正義と悪の利害一致</jp>
+			<cn>好人＆坏人</cn>
+		</screenName>
+		<desc>
+			<en>When a regular prison transport turns ugly, a cop and a convicted criminal are forced to join forces.</en>
+			<jp>それはいつもの囚人輸送となるはずだった。ゾンビのうごめく街で警官と受刑者がタッグを組んで立ち向かう。</jp>
+			<cn>当一次监狱运输失败后，一位警察和一位罪犯必须团结协作。</cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium>0</premium>
+		<member>Thug_Veteran</member>
+		<member>SWAT_Veteran</member>
+	</obj>
+	<obj>
+		<objName>team7</objName>
+		<screenName>
+			<en>Daring Duo</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Just the two of us, we can make it if we try.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>2</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Sydney_Renowned</member>
+		<member>Sydney_Renowned</member>
+	</obj>
+	<obj>
+		<objName>team8</objName>
+		<screenName>
+			<en>Casey's Revenge</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Nothing can happen until you swing the bat. Er, fists. Surviving with this team is extra impressive.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Boxer_Solo</member>
+	</obj>
+	<obj>
+		<objName>team9</objName>
+		<screenName>
+			<en>Cop 'n Zombies</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>One cop to rule them all. Surviving with this team is slightly less extra impressive.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Cop_Solo</member>
+	</obj>
+	<obj>
+		<objName>team10</objName>
+		<screenName>
+			<en>DOOM</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>May we never need you again. Surviving with this team is less extra impressive.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>SWAT_Solo</member>
+	</obj>
+	<obj>
+		<objName>team11</objName>
+		<screenName>
+			<en>Melee Massacre</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>That's the last goddamn zombie I ever pick up.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Hobo_Melee</member>
+		<member>Outdoorsman_Melee</member>
+		<member>Boxer_Melee</member>
+		<member>Worker_Melee</member>
+	</obj>
+	<obj>
+		<objName>team12</objName>
+		<screenName>
+			<en>Pistol Paranza</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>The fun just never ends.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Cop_Pistol</member>
+		<member>Cop_Pistol</member>
+		<member>Cop_Pistol</member>
+		<member>Cop_Pistol</member>
+	</obj>
+	<obj>
+		<objName>team13</objName>
+		<screenName>
+			<en>Boys' Night Out</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>This all-male crew will have to step up if they want to survive the apocalypse.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Nerd</member>
+		<member>Outdoorsman</member>
+		<member>Hunter</member>
+		<member>Detective</member>
+	</obj>
+	<obj>
+		<objName>team14</objName>
+		<screenName>
+			<en>Girls' Night Out</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>This all-female crew will have to step up if they want to survive the apocalypse.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Cheerleader</member>
+		<member>CutiePie</member>
+		<member>Hero-Zoey</member>
+		<member>Sydney</member>
+	</obj>
+	<obj>
+		<objName>team15</objName>
+		<screenName>
+			<en>No Man Left Behind</en>
+			<jp>後には誰も残さない</jp>
+			<cn>不离不弃</cn>
+		</screenName>
+		<desc>
+			<en>The greatest gunmen get themselves in a bind...again! This time it's the apocalypse.</en>
+			<jp>最強のガンマンたちが帰ってきた！今度はアポカリプスだ。</jp>
+			<cn>最棒的枪手们再一次团结在了一起！这次是为了度过末日！</cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<member>FreddieWong</member>
+		<member>Pwnisher</member>
+	</obj>
+	<obj>
+		<objName>team16</objName>
+		<screenName>
+			<en>The Couple</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Brofists and Marzipans. What more could you ask for in a zombie apocalypse?</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>CutiePie</member>
+		<member>Pewdiepie</member>
+	</obj>
+	<obj>
+		<objName>team17</objName>
+		<screenName>
+			<en>The Youtubers</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Remember to subscribe and hit the like button!</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>CutiePie</member>
+		<member>Pewdiepie</member>
+		<member>FreddieWong</member>
+		<member>Pwnisher</member>
+	</obj>
+	<obj>
+		<objName>team18</objName>
+		<screenName>
+			<en>Left 4 Dead</en>
+			<jp>L4D</jp>
+			<cn>求生之路</cn>
+		</screenName>
+		<desc>
+			<en>Two weeks after the first infection, four immune survivors are fighting their way out of the city.</en>
+			<jp>一次感染から2週間後、抗体をもつ4人の生存者は街から脱出しようと戦っていた。</jp>
+			<cn>在首次感染爆发的两周后，四名获得免疫力的幸存者试图在城市中杀出一条血路。</cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>2</gemCost>
+		<premium>0</premium>
+		<member>Hero-Bill</member>
+		<member>Hero-Francis</member>
+		<member>Hero-Louis</member>
+		<member>Hero-Zoey</member>
+	</obj>
+</teams>

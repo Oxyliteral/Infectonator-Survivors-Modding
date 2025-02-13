@@ -1,0 +1,2069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+	
+	Text Flags 
+	%MAXDAYS% = max game day limit
+	%NAME% = character full name
+	
+	Tags
+	&lt; is < and &gt; is >
+	at the moment this can be used as text pauses
+	
+-->
+<dialogs>
+	<obj>
+		<objName>tutorial1</objName>
+		<init>
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic1" texture="TutorialInst1" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic2" texture="TutorialInst2" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn>Ra Dio</cn>
+				</nameText>
+				<dialogText>
+					<en>"Wait, &lt;........&gt;before we go on, let's review the basics."</en>
+					<jp>「待って、&lt;……&gt;先に進む前に、基本をおさらいしよう」</jp>
+					<cn>Ching chong</cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't get trapped, you gotta keep moving! &lt;........&gt;LEFT CLICK to select someone, and RIGHT CLICK to move!"</en>
+					<jp>「捕まらないように動き続けて！&lt;……&gt;左クリックでキャラクターを選択したら、右クリックで移動だ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Your team will AUTOMATICALLY shoot zombies! Remember, your weapon affects your attack and range. So pick wisely!"</en>
+					<jp>「チームのメンバーは自動でゾンビを攻撃する！攻撃力と攻撃範囲は使用中の武器に依存する。武器の選択はよく考えて！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic1" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Zombies will walk away if they did not see you. However, do not allow too many of them to pass you or you'll be sieged, got it?"</en>
+					<jp>「ゾンビに見つからなければ、やり過ごせる。でも、あまりやり過ごすのも危険だ。後で大量のゾンビに包囲されてしまう」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic2" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic1" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I hope you are ready. Let's go!"</en>
+					<jp>「準備はできた？次に行こう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic2" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>tutorial2</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<image imageName="tutorialpic3" texture="TutorialInst3" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		<image imageName="tutorialpic5" texture="TutorialInst5" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"If you are feeling brave enough, you can call the zombie horde early. You'll get bonus ammo for that! Be careful though, zombies can overwhelm you!"</en>
+					<jp>「もし準備ができてれば、ゾンビの次の群れをすぐに呼び寄せることもできる。そうすれば弾薬にボーナスがつくんだ！でも気をつけて。ゾンビにやられてしまうかもしれない！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic3" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Search for LOOT, look out for sparkly objects to scavenge. You may find useful new items!"</en>
+					<jp>「戦利品を見つけるんだ。光っているオブジェクトは調べられる。役に立つアイテムが見つかるかもしれない！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic3" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic5" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>tutorial3</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<image imageName="tutorialpic7" texture="TutorialInst7" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		<image imageName="tutorialpic8" texture="TutorialInst8" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Check out those SANDBAGS with turret parts. I think we can build GUN TURRETS there!"</en>
+					<jp>「土嚢に囲まれたタレットの部品を調べてみて。そこに機関砲タレットを組み上げられると思うんだ！」</jp>
+					<cn></cn></dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic7" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						"And one more thing, the military left some of their equipment. You can call in SUPPORT through the RADIO."
+					</en>
+					<jp>「それからもうひとつ。軍の備品が少し残されている。無線機から『支援』を呼ぶことができる」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic7" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic8" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						"Try building a TURRET and call SUPPORT for cover!"
+					</en>
+					<jp>「タレットを組み上げてみて。それから援護のための支援を呼ぶんだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">100</reward>
+				<reward type="mortar">3</reward>
+				<tween imageName="tutorialpic8" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>tutorialExplore</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You need to EXPLORE this area before we can go further."</en>
+					<jp>「先に進む前に、このエリアを探索する必要がある」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Stay sharp! The area is crawling with zeds. Try to eliminate as many as possible."</en>
+					<jp>「気を抜かないで！エリアにはゾンビがのさばっている。なるべく多く倒すんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"The more zombies you kill, the less you will encounter next time."</en>
+					<jp>「倒せば倒すほど、この次に出会うゾンビは少なくなる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"To leave the area, send your team to the edge of the map and press the LEAVE button."</en>
+					<jp>「エリアを出るには、チームのメンバーをマップの端まで移動させて、『離脱』ボタンを押すんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Good luck!"</en>
+					<jp>「頼んだよ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>tutorialCity1</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<blinds imageName="blinds" alpha="0.25" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The building in the middle is where we are right now! Your current position is marked with the RED ARROW!</en>
+					<jp>今いるのは、中央にある建物だ。現在地は赤い矢印で表示される。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>We need to EXPLORE and secure this area before we can go to other areas.</en>
+					<jp>他のエリアに行く前に、現在のエリアを探索して安全を確保する必要がある。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Let's EXPLORE this area!</en>
+					<jp>早速このエリアを探索だ！</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.8" fromY="0.5" toX="0.8" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>tutorialCity2</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<blinds imageName="blinds" alpha="0.25" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Good job!</en>
+					<jp>やったね！</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Once an area is EXPLORED, adjacent areas will be unlocked!</en>
+					<jp>エリアが探索済みになると、隣接するエリアが解除される。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You can move to another area by selecting on it and press the GO button.</en>
+					<jp>他のエリアを選択して『GO』ボタンを押すと、そのエリアに移動できるよ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Selecting on an area will also open the information window.</en>
+					<jp>他のエリア選択時には、エリア情報も表示されるんだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>To end your EXPEDITION, you must return to the HQ.</en>
+					<jp>遠征を終了するには、HQに戻らなければならない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>importantCityTarget1</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<blinds imageName="blinds" alpha="0" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You might want to check this place out!</en>
+					<jp>このエリアを調べてみたほうがいい！</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>importantCityTarget2</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<blinds imageName="blinds" alpha="0" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You should go and check this area!</en>
+					<jp>このエリアに行ってみたほうがいい！</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>importantCityTarget3</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<blinds imageName="blinds" alpha="0" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There are new locations we should investigate!</en>
+					<jp>調査対象となる新しいエリアを発見したよ！</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dialog1</objName>
+		<init>
+			<portrait imageName="pincang" texture="PortraitPincang" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="doge" texture="PortraitShiro" posX="0.6" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="paper" texture="Paper2" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Shiro</en>
+					<jp>シロ</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Woof! Woof!</en>
+					<jp>ワンワン！</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="doge" fromX="0" fromY="0.7" toX="0.6" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>I'm glad you made it!</en>
+					<jp>無事にたどり着いたね！</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="doge" fromX="0.6" fromY="0.7" toX="0.6" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="pincang" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>My name is Scott, I'm the one on the RADIO. And this is my friend, Shiro the Samoyed. Welcome to my safe house HQ!</en>
+					<jp>僕はスコット。無線機から声をかけていたのは僕だ。それからこっちは愛犬のシロ。僕の友達なんだ。HQへようこそ！ここなら安全だ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Shiro</en>
+					<jp>シロ</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Woof!</en>
+					<jp>ワン！</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="doge" fromX="0.6" fromY="0.8" toX="0.6" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>I hate to tell you this, but I have some bad news...</en>
+					<jp>こんなことを伝えるのは残念だけど、悪いニュースだ…</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="doge" fromX="0.6" fromY="0.7" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>%MAXDAYS% Days</nameText>
+				<dialogText>
+					<en>
+						Radio broadcast said today they are sealing off the mainland. We only have %MAXDAYS% DAYS before they nuke the whole city.
+					</en>
+					<jp>ラジオから聞こえてきたんだ。本土は封鎖されるらしい。街が核で破壊されるまであと%MAXDAYS%日しかない。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="paper" fromX="1" fromY="0.7" toX="0.6" toY="0.6" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAXDAYS% Days</en>
+					<jp>%MAXDAYS%日</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						We need to find a way out before the %MAXDAYS% DAYS deadline ends!
+					</en>
+					<jp>それまでになんとかここから脱出する方法を見つけないと！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As you can see my legs are injured, I need your help gathering supplies and work around the HQ. I'll be monitoring the RADIO.</en>
+					<jp>僕は足をケガしていてここから動けない。使えるものを集めてHQで作業するには君たちの助けが必要だ。僕は無線機の通信を担当するよ。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="paper" fromX="0.6" fromY="0.6" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dialog2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.5" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hey, check out this map!"</en>
+					<jp>「この地図を見てくれ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"The building in the middle is where we are right now! I'll mark it with the RED ARROW!"</en>
+					<jp>「中央の建物が、僕たちが今いるところだ。現在地は赤い矢印で表示する」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We need to look for FUEL and SUPPLIES!"</en>
+					<jp>「燃料と補給物資を探さなくちゃいけない」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We better explore this area first before we go to other buildings."</en>
+					<jp>「他の建物に行く前に、このエリアを探索したほうがいいと思う」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dialog2Demo</objName>
+		<init>
+			<portrait imageName="paper" texture="Paper2" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>MISSIONS</en>
+					<jp>%MAXDAYS%日</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						The building in the middle is where we are right now. It's marked with the RED ARROW.
+						We better explore this area first before we go to other buildings.
+						We need to look for FUEL, SUPPLIES and MATERIALS.
+					</en>
+					<jp>中央の建物が現在地だ。現在地は赤い矢印で表示される。他の建物に行く前に、このエリアを探索したほうがいい。燃料、補給物資、資材を探す必要がある。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="paper" fromX="1" fromY="0.7" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dialog3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.5" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Are you ready to go?"</en>
+					<jp>「準備はできた？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="0.8" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dialog3Demo</objName>
+		<init>
+			<portrait imageName="paper" texture="Paper2" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>MISSIONS</en>
+					<jp>ミッション</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Are you ready to go?</en>
+					<jp>準備はできた？</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="paper" fromX="1" fromY="0.7" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>mission1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.25" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Last but not least..."</en>
+					<jp>「最後に重要なのは…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is the MISSION briefing area"</en>
+					<jp>「ミッションのブリーフィングテーブルだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is where we plan our night EXPEDITIONs"</en>
+					<jp>「夜間の遠征はここで計画しよう」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I know it sounds weird going out at night...but it's actually safer as zombies are less agressive when it's dark"</en>
+					<jp>「夜間に出かけるなんておかしいと思うだろうけど…暗い方がゾンビの活動量が低下して、実は危険度が下がるんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We'll meet here when the sun sets to plan our first EXPEDITION"</en>
+					<jp>「日没がきたらここに集合して、最初の遠征を計画しよう」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>mission2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialMission" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This MISSION briefing area is where we plan our next EXPEDITION."</en>
+					<jp>「このミッションブリーフィングテーブルで、次の遠征の計画を立てる」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We can send up to 4 people. It's better not to go alone."</en>
+					<jp>「遠征に行けるのは最大4人だ。単独で行くのはやめたほうがいい」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We need to decide who should we ASSIGN on this expedition mission."</en>
+					<jp>「遠征ミッションに行くメンバーを配置する必要がある」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>mission2Demo</objName>
+		<init>
+			<portrait imageName="paper" texture="Paper2" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>MISSIONS</nameText>
+				<dialogText>
+					<en>
+						We need to decide who should we send on this mission.
+						It's better not to go alone. We can send up to 4 people.
+					</en>
+					<jp>ミッションに行くメンバーを決定する必要がある。単独で行くのは避けたほうがいい。行けるのは最大4人だ。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="paper" fromX="1" fromY="0.7" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>garden1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.25" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Before we can start cooking, we need to have the right ingredients."</en>
+					<jp>「料理をするなら、メニューに合う材料が必要だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We could utilize this GARDEN and use it as a small FARM!"</en>
+					<jp>「この庭を使えば、小さな菜園を作れる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We should PLANT some veggies or TRAP some small animals."</en>
+					<jp>「野菜を植えるか、わなを仕掛けて小型の動物を捕まえよう」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>garden2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialGarden" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Welcome to the garden!"</en>
+					<jp>「庭を見に来たの？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is where we grow raw INGREDIENTS for COOKING in the KITCHEN"</en>
+					<jp>「ここでは、キッチンで料理するための材料を栽培できるんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You can cultivate vegetables, fruits and even trap small animals"</en>
+					<jp>「野菜や果物を栽培してもいいし、小型の動物を捕まえることもできる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"To start, just select a PROJECT."</en>
+					<jp>「開始するには、プロジェクトを選択して」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>garden3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.5" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Now, you need to ASSIGN someone to work on the GARDEN!"</en>
+					<jp>「次に、庭で作業をするメンバーの配置が必要だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>kitchen1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.25" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hey, you might notice our SUPPLIES are running low."</en>
+					<jp>「補給物資が少なくなってきてる、って気づいた？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We need to keep track of our food SUPPLY stock!"</en>
+					<jp>「食料の状況はいつでも把握しておく必要がある」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You can use this KITCHEN to COOK. Cooking will produce food SUPPLIES for the entire group."</en>
+					<jp>「料理には、このキッチンを使うといいよ。そうすれば、ここにいる皆が利用できる食料を作れる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Food SUPPLIES are very important. Without it, our people will starve."</en>
+					<jp>「補給物資のなかでも食料は特に重要だ。食料がなければ皆飢えてしまうからね」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>kitchen2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialKitchen" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's good to finally see you in the KITCHEN! Are you ready for your first COOKING lesson?"</en>
+					<jp>「キッチンをのぞいてくれてうれしいよ！料理の準備はできてる？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is where we process raw ingredients into edible FOOD supplies for our group to eat"</en>
+					<jp>「ここでは生の材料を加工して、ここにいる皆で食べる食事を作ることができる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Assign a few people to the kitchen and choose a cooking project to start producing food"</en>
+					<jp>「キッチンに何人か配置して、料理のプロジェクトを選択すると、食事を作ることができるんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>kitchen3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.5" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Once you have chosen a dish to cook you need to ASSIGN someone to work on it."</en>
+					<jp>「作るものを選択したら、調理メンバーを配置して」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Go ahead and select one of the empty slots and ASSIGN someone."</en>
+					<jp>「空いているスロットを選択して、メンバーを配置するんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>garage1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.25" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"If we can fix this car we might be able to use it to get out from this city!"</en>
+					<jp>「この車を修理したら、街を脱出するのに使えるんじゃないかと思うんだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We should start working on it immediately."</en>
+					<jp>「すぐに取り掛かったほうがいい」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>garage2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialGarage" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This car is in a pretty bad condition"</en>
+					<jp>「車の状態はすごく悪いんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Even so, we can still fix it!"</en>
+					<jp>「それでも、直すことはできると思う！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You'll need to select a PROJECT to start specific repairs"</en>
+					<jp>「部品の修理を始めるには、プロジェクトを選択して」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't forget to assign someone to the GARAGE to work on the project"</en>
+					<jp>「ガレージでプロジェクトの作業をするメンバーを配置するのを忘れないで」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Some projects may require MATERIALS before you can start working on it"</en>
+					<jp>「プロジェクトの中には、資材がなければ取り掛かれないものもある」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You may have to send people out on EXPEDITION missions to collect those materials"</en>
+					<jp>「メンバーを遠征に送り出して、資材を調達する必要があるかもしれない」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>garage3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.5" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't forget to ASSIGN someone to the GARAGE to work on the project"</en>
+					<jp>「ガレージでプロジェクトの作業をするメンバーを配置するのを忘れないで」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>workshop1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.25" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hey, I think we can use the tools from the WORKSHOP to work on UPGRADES and REPAIRS"</en>
+					<jp>「この作業台にある道具を使えば、アップグレードや修理ができると思うんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Should we start working on projects? Come visit me at the WORKSHOP."</en>
+					<jp>「何かしたい作業がある？作業台で相談しよう」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>workshop2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialWorkshop" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We can CRAFT new WEAPONS and GEAR here in the WORKSHOP"</en>
+					<jp>「作業台では、新しい武器や装置をクラフトすることができる」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You need to assign people to work on the projects, more people means faster work."</en>
+					<jp>「プロジェクトの作業をするメンバーの配置が必要だ。配置人数が多ければ多いほど作業も早くなる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Please choose a PROJECT Which one should it be?"</en>
+					<jp>「プロジェクトを選択して。どれがいいかな？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>workshop3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.5" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Now, ASSIGN someone to work on the projects, more people means faster work."</en>
+					<jp>「じゃあ、プロジェクトの作業をするメンバーを配置して。配置人数が多ければ多いほど作業も早くなる」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchant1</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hi there, What a pleasure to meet fellow survivors!"</en>
+					<jp>「やあやあ、生き残りのお仲間に会えるなんてうれしいねえ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't worry, I mean you no harm! I just wanna do business."</en>
+					<jp>「心配無用、手は出さないぜ。商売をしに来たんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.9" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Come to my STORE I have some items that you might find interesting."</en>
+					<jp>「店に来てくれ。興味を持ってくれそうなものがあるぜ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchant2</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Come to my STORE! I have new goods that you might find interesting."</en>
+					<jp>「店に来てくれ！興味を持ってくれそうなものがあるぜ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchant3</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ahh, hello my friend! Check out my new wares..."</en>
+					<jp>「やあ、どうも。新商品を見ていってくれ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchant4</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Nice of you to visit. What's mine is yours, for a price of course!"</en>
+					<jp>「来てくれてうれしいぜ。お金さえ払ってくれれば、ここにあるものを持っていっていいぞ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>gameOver</objName>
+		<init>
+			<quadTop imageName="quadTop" alpha="0" />
+			<quadBottom imageName="quadBottom" alpha="0" />
+			<imageBG imageName="gameOver" texture="GameOverAllDied" posX="0.5" posY="0.5" alpha="0" scaleX="1" scaleY="1" pivotX="288" pivotY="192"/>
+			<image imageName="gameOverA" texture="GameOverLoseA" posX="0" posY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="gameOverB" texture="GameOverLoseB" posX="1" posY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="gameOverA"  fromX="0" fromY="0.5" toX="0.25" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<tween imageName="gameOverB"  fromX="1" fromY="0.5" toX="0.75" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<tween imageName="gameOverA"  fromX="0.25" fromY="0.5" toX="0" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="gameOverB"  fromX="0.75" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="gameOver"  fromX="0.5" fromY="0.5" toX="0.5" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>demoOver</objName>
+		<init>
+			<quadTop imageName="quadTop" alpha="0" />
+			<quadBottom imageName="quadBottom" alpha="0" />
+			<imageBG imageName="gameOver" texture="GameOverAllDied" posX="0.5" posY="0.5" alpha="0" scaleX="1" scaleY="1" pivotX="288" pivotY="192"/>
+			<image imageName="gameOverA" texture="GameOverLoseA" posX="0" posY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="gameOverB" texture="GameOverLoseB" posX="1" posY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="gameOverA"  fromX="0" fromY="0.5" toX="0.25" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<tween imageName="gameOverB"  fromX="1" fromY="0.5" toX="0.75" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<tween imageName="gameOverA"  fromX="0.25" fromY="0.5" toX="0" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="gameOverB"  fromX="0.75" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="gameOver"  fromX="0.5" fromY="0.5" toX="0.5" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>paxDemoOver</objName>
+		<init>
+			<quadTop imageName="quadTop" alpha="0" />
+			<quadBottom imageName="quadBottom" alpha="0" />
+			<imageBG imageName="gameOver" texture="GameOverAllDied" posX="0.5" posY="0.5" alpha="0" scaleX="1" scaleY="1" pivotX="288" pivotY="192"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="gameOver"  fromX="0.5" fromY="0.5" toX="0.5" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dayLimitGameOver</objName>
+		<init>
+			<quadTop imageName="quadTop" alpha="1" />
+			<quadBottom imageName="quadBottom" alpha="1" />
+			<imageBG imageName="gameOver" texture="EndingBoom" posX="0.5" posY="0.5" alpha="0" scaleX="1" scaleY="1" pivotX="334" pivotY="192"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Out of time</en>
+					<jp>時間切れ</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Your days are over. You did not escape on time.</en>
+					<jp>期日が来てしまった。時間内に脱出できなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="gameOver"  fromX="0.5" fromY="0.5" toX="0.5" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>travel</objName>
+		<init>
+			<imageBG imageName="travel" texture="GameOverTravel" posX="0.5" posY="0.5" alpha="0" scaleX="1" scaleY="1" pivotX="334" pivotY="192"/>
+			<image imageName="travelA" texture="GameOverWinA" posX="0" posY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="travelB" texture="GameOverWinB" posX="1" posY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="travelA"  fromX="0" fromY="0.5" toX="0.25" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<!-- <sound type="bgm" play="1"></sound> -->
+				<sound type="sfx" play="1">sfxTrunkClose</sound>
+			</scene>
+			<scene>
+				<tween imageName="travelB"  fromX="1" fromY="0.5" toX="0.75" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<sound type="sfx" play="1">sfxEngineStart</sound>
+			</scene>
+			<scene>
+				<tween imageName="travelA"  fromX="0.25" fromY="0.5" toX="0" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="travelB"  fromX="0.75" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="travel"  fromX="0.5" fromY="0.5" toX="0.5" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<sound type="sfx" play="1">sfxDriveAway</sound>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>outOfFuel</objName>
+		<init>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Out of Fuel</en>
+					<jp>燃料切れ</jp>
+					<cn>用尽燃料</cn>
+				</nameText>
+				<dialogText>
+					<en>Your car slows down to a halt. There's no more fuel in the tank, the only way forward is to walk on foot...</en>
+					<jp>車は減速し、ついに止まってしまった。タンクに燃料がない。ここから進むには、歩いていくしかない…</jp>
+					<cn>你的车减速停下来。 坦克里没有更多的燃料，唯一的出路就是步行...</cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- JAPANESE LANGUAGE -->
+	<obj>
+		<objName>tutorial1jp</objName>
+		<init>
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic1" texture="TutorialInst1JP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic2" texture="TutorialInst2JP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn>Ra Dio</cn>
+				</nameText>
+				<dialogText>
+					<en>"Wait, &lt;........&gt;before we go on, let's review the basics."</en>
+					<jp>「待って、&lt;……&gt;先に進む前に、基本をおさらいしよう」</jp>
+					<cn>Ching chong</cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't get trapped, you gotta keep moving! &lt;........&gt;LEFT CLICK to select someone, and RIGHT CLICK to move!"</en>
+					<jp>「捕まらないように動き続けて！&lt;……&gt;左クリックでキャラクターを選択したら、右クリックで移動だ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Your team will AUTOMATICALLY shoot zombies! Remember, your weapon affects your attack and range. So pick wisely!"</en>
+					<jp>「チームのメンバーは自動でゾンビを攻撃する！攻撃力と攻撃範囲は使用中の武器に依存する。武器の選択はよく考えて！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic1" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Zombies will walk away if they did not see you. However, do not allow too many of them to pass you or you'll be sieged, got it?"</en>
+					<jp>「ゾンビに見つからなければ、やり過ごせる。でも、あまりやり過ごすのも危険だ。後で大量のゾンビに包囲されてしまう」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic2" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic1" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I hope you are ready. Let's go!"</en>
+					<jp>「準備はできた？次に行こう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic2" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>tutorial2jp</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<image imageName="tutorialpic3" texture="TutorialInst3JP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		<image imageName="tutorialpic5" texture="TutorialInst5JP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"If you are feeling brave enough, you can call the zombie horde early. You'll get bonus ammo for that! Be careful though, zombies can overwhelm you!"</en>
+					<jp>「もし準備ができてれば、ゾンビの次の群れをすぐに呼び寄せることもできる。そうすれば弾薬にボーナスがつくんだ！でも気をつけて。ゾンビにやられてしまうかもしれない！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic3" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Search for LOOT, look out for sparkly objects to scavenge. You may find useful new items!"</en>
+					<jp>「戦利品を見つけるんだ。光っているオブジェクトは調べられる。役に立つアイテムが見つかるかもしれない！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic3" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic5" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>tutorial3jp</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		<image imageName="tutorialpic7" texture="TutorialInst7JP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		<image imageName="tutorialpic8" texture="TutorialInst8JP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Check out those SANDBAGS with turret parts. I think we can build GUN TURRETS there!"</en>
+					<jp>「土のうに囲まれたタレットの部品を調べてみて。そこに機関砲タレットを組み立てられると思うんだ！」</jp>
+					<cn></cn></dialogText>
+				<tween imageName="radio" fromX="0.9" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic7" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						"And one more thing, the military left some of their equipment. You can call in SUPPORT through the RADIO."
+					</en>
+					<jp>「それからもうひとつ。軍の備品が少し残されている。無線機から『支援』を呼ぶことができる」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="tutorialpic7" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic8" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						"Try building a TURRET and call SUPPORT for cover!"
+					</en>
+					<jp>「タレットを組み立ててみて。それから『支援』を呼ぶんだ。援護を受けられる！」</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">100</reward>
+				<reward type="mortar">3</reward>
+				<tween imageName="tutorialpic8" fromX="0.3" fromY="0.65" toX="0.3" toY="1" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>mission2jp</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialMissionJP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This MISSION briefing area is where we plan our next EXPEDITION."</en>
+					<jp>「このミッションブリーフィングテーブルで、次の遠征の計画を立てる」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We can send up to 4 people. It's better not to go alone."</en>
+					<jp>「遠征に行けるのは最大4人だ。単独で行くのはやめたほうがいい」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We need to decide who should we ASSIGN on this expedition mission."</en>
+					<jp>「遠征ミッションに行くメンバーを配置する必要がある」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>garden2jp</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialGardenJP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Welcome to the garden!"</en>
+					<jp>「庭を見に来たの？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is where we grow raw INGREDIENTS for COOKING in the KITCHEN"</en>
+					<jp>「ここでは、キッチンで料理するための材料を栽培できるんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You can cultivate vegetables, fruits and even trap small animals"</en>
+					<jp>「野菜や果物を栽培してもいいし、小型の動物を捕まえることもできる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"To start, just select a PROJECT."</en>
+					<jp>「開始するには、プロジェクトを選択して」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>kitchen2jp</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialKitchenJP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's good to finally see you in the KITCHEN! Are you ready for your first COOKING lesson?"</en>
+					<jp>「キッチンをのぞいてくれてうれしいよ！料理の準備はできてる？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is where we process raw ingredients into edible FOOD supplies for our group to eat"</en>
+					<jp>「ここでは生の材料を加工して、皆で食べる食事を作ることができる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Assign a few people to the kitchen and choose a cooking project to start producing food"</en>
+					<jp>「キッチンに何人か配置して、料理のプロジェクトを選択すると、食事を作ることができるんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>garage2jp</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialGarageJP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This car is in a pretty bad condition"</en>
+					<jp>「車の状態はすごく悪いんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Even so, we can still fix it!"</en>
+					<jp>「それでも、直すことはできると思う！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You'll need to select a PROJECT to start specific repairs"</en>
+					<jp>「部品の修理を始めるには、プロジェクトを選択して」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't forget to assign someone to the GARAGE to work on the project"</en>
+					<jp>「ガレージでプロジェクトの作業をするメンバーを配置するのを忘れないで」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Some projects may require MATERIALS before you can start working on it"</en>
+					<jp>「プロジェクトの中には、資材がなければ取り掛かれないものもある」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You may have to send people out on EXPEDITION missions to collect those materials"</en>
+					<jp>「メンバーを遠征に送り出して、資材を調達する必要があるかもしれない」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>workshop2jp</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.9" />
+			<portrait imageName="pincang" texture="PortraitPincang" posX="1" posY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+			<image imageName="tutorialpic" texture="TutorialWorkshopJP" posX="0.3" posY="0.65" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We can CRAFT new WEAPONS and GEAR here in the WORKSHOP"</en>
+					<jp>「作業台では、新しい武器や装置をクラフトすることができる」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="pincang" fromX="1" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="tutorialpic" fromX="0.3" fromY="1" toX="0.3" toY="0.65" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You need to assign people to work on the projects, more people means faster work."</en>
+					<jp>「プロジェクトの作業をするメンバーの配置が必要だ。配置人数が多ければ多いほど作業も早くなる」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Scott</en>
+					<jp>スコット</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Please choose a PROJECT Which one should it be?"</en>
+					<jp>「プロジェクトを選択して。どれがいいかな？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- JAPANESE LANGUAGE END -->
+	
+</dialogs>

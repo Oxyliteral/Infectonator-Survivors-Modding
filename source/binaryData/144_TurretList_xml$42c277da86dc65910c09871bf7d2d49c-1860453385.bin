@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<characters>
+	<obj>
+		<objName>GunTurret</objName>
+		<screenName>
+			<en>Gun Turret</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Turret cupu. It shoots like a machine gun.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<maxHealth>100</maxHealth>
+		<viewRadius>160</viewRadius>
+		<speed>0</speed>
+		<cost>100</cost> // maxhealth/health interval * costInterval (manual)
+		<reloadCost>25</reloadCost>
+		<accuracy>90</accuracy>
+		<equip part="weapon">Gun Turret</equip>
+		
+		<behavior state="idle">turretIdle</behavior>
+		<behavior state="attack">playerAttack</behavior>
+		<behavior state="unfinished">turretUnfinished</behavior>
+	</obj>
+
+	<obj>
+		<objName>GunTurret2</objName>
+		<screenName>
+			<en>Gun Turret2</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Turret cupu2. It shoots like a machine gun.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<maxHealth>100</maxHealth>
+		<viewRadius>160</viewRadius>
+		<speed>0</speed>
+		<cost>50</cost> // maxhealth/health interval * costInterval (manual)
+		<reloadCost>30</reloadCost>
+		<accuracy>90</accuracy>
+		<equip part="weapon">Gun Turret2</equip>
+		<equip part="head">Face13</equip>
+		
+		<behavior state="idle">turretIdle</behavior>
+		<behavior state="attack">playerAttack</behavior>
+		<behavior state="unfinished">turretUnfinished</behavior>
+	</obj>
+
+	<obj>
+		<objName>GunBros</objName>
+		<screenName>
+			<en>Gun Bros</en>
+			<jp></jp>
+			<cn></cn>
+		</screenName>
+		<desc>
+			<en>Turret para bros. It shoots like bros.</en>
+			<jp></jp>
+			<cn></cn>
+		</desc>
+		<maxHealth>100</maxHealth>
+		<viewRadius>160</viewRadius>
+		<speed>0</speed>
+		<cost>50</cost> // maxhealth/health interval * costInterval (manual)
+		<reloadCost>30</reloadCost>
+		<accuracy>90</accuracy>
+		<equip part="weapon">Gun Turret</equip>
+		
+		<behavior state="idle">turretIdle</behavior>
+		<behavior state="attack">playerAttack</behavior>
+		<behavior state="unfinished">turretUnfinished</behavior>
+	</obj>
+</characters>

@@ -1,0 +1,2652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<obj>
+		<objName>Campaign</objName>
+		<en></en>
+		<jp>キャンペーンモード</jp>
+		<cn>战役模式</cn>
+	</obj>
+	<obj>
+		<objName>Survival</objName>
+		<en></en>
+		<jp>サバイバルモード</jp>
+		<cn>生存模式</cn>
+	</obj>
+	<obj>
+		<objName>Options</objName>
+		<en>OPTIONS</en>
+		<jp>オプション</jp>
+		<cn>选项</cn>
+	</obj>
+	<obj>
+		<objName>Credits</objName>
+		<en>CREDITS</en>
+		<jp>クレジット</jp>
+		<cn>关于作者</cn>
+	</obj>
+	<obj>
+		<objName>Quit</objName>
+		<en>QUIT</en>
+		<jp>終了</jp>
+		<cn>退出</cn>
+	</obj>
+	<obj>
+		<objName>Town map</objName>
+		<en>TOWN MAP</en>
+		<jp>マップ</jp>
+		<cn>城市地图</cn>
+	</obj>
+	<obj>
+		<objName>Camp</objName>
+		<en>CAMP</en>
+		<jp>野営</jp>
+		<cn>野营</cn>
+	</obj>
+	<obj>
+		<objName>Enter hq</objName>
+		<en>ENTER HQ</en>
+		<jp>HQに入る</jp>
+		<cn>进入总部</cn>
+	</obj>
+	<obj>
+		<objName>REST IN HQ</objName>
+		<en>REST IN HQ</en>
+		<jp>HQで休む</jp>
+		<cn>在总部休息</cn>
+	</obj>
+	<obj>
+		<objName>Do you want to skip the night and rest in HQ?</objName>
+		<en>Do you want to skip the night and rest in HQ?</en>
+		<jp>夜間の活動は止めて、HQで休みますか？</jp>
+		<cn>是否跳过夜晚并在总部休息？</cn>
+	</obj>
+	<obj>
+		<objName>ESCAPE CITY?</objName>
+		<en>ESCAPE CITY?</en>
+		<jp>街を脱出しますか？</jp>
+		<cn>逃离城市？</cn>
+	</obj>
+	<obj>
+		<objName>Do you want to travel and leave this place?</objName>
+		<en>Do you want to travel and leave this place?</en>
+		<jp>移動してここを離脱しますか？</jp>
+		<cn>是否想离开去探险？</cn>
+	</obj>
+	<obj>
+		<objName>Scout</objName>
+		<en>SCOUT</en>
+		<jp>偵察</jp>
+		<cn>侦察</cn>
+	</obj>
+	<obj>
+		<objName>Gameplay</objName>
+		<en>GAMEPLAY</en>
+		<jp>ゲームプレイ</jp>
+		<cn>游戏设置</cn>
+	</obj>
+	<obj>
+		<objName>Audio</objName>
+		<en>AUDIO</en>
+		<jp>音声</jp>
+		<cn>音频</cn>
+	</obj>
+	<obj>
+		<objName>Graphics</objName>
+		<en>GRAPHICS</en>
+		<jp>グラフィック</jp>
+		<cn>图形</cn>
+	</obj>
+	<obj>
+		<objName>Auto Pause</objName>
+		<en>AUTO PAUSE</en>
+		<jp>自動ポーズ</jp>
+		<cn>自动暂停</cn>
+	</obj>
+	<obj>
+		<objName>Show Grid</objName>
+		<en>SHOW GRID</en>
+		<jp>グリッド表示</jp>
+		<cn>显示网格</cn>
+	</obj>
+	<obj>
+		<objName>Controls</objName>
+		<en>CONTROLS</en>
+		<jp>操作</jp>
+		<cn>控制设置</cn>
+	</obj>
+	<obj>
+		<objName>Dialog Timer</objName>
+		<en>DIALOG TIMER</en>
+		<jp>会話タイマー</jp>
+		<cn>对话计时</cn>
+	</obj>
+	<obj>
+		<objName>Music</objName>
+		<en>MUSIC</en>
+		<jp>ミュージック</jp>
+		<cn>音乐</cn>
+	</obj>
+	<obj>
+		<objName>Sound</objName>
+		<en>SOUND</en>
+		<jp>効果音</jp>
+		<cn>声音</cn>
+	</obj>
+	<obj>
+		<objName>Yes</objName>
+		<en>YES</en>
+		<jp>はい</jp>
+		<cn>是</cn>
+	</obj>
+	<obj>
+		<objName>No</objName>
+		<en>NO</en>
+		<jp>いいえ</jp>
+		<cn>否</cn>
+	</obj>
+	<obj>
+		<objName>SET UP CAMP</objName>
+		<en>SET UP CAMP</en>
+		<jp>野営の設置</jp>
+		<cn>扎营</cn>
+	</obj>
+	<obj>
+		<objName>Set up camp and rest?</objName>
+		<en>Set up camp and rest?&#xA;Consume 1 FUEL.</en>
+		<jp>野営を設置して休みますか？&#xA;燃料を1消費します。</jp>
+		<cn>是否扎营并休息？&#xA;消耗1个燃料</cn>
+	</obj>
+	<obj>
+		<objName>RETURN TO HQ</objName>
+		<en>RETURN TO HQ</en>
+		<jp>HQに戻る</jp>
+		<cn>回到总部</cn>
+	</obj>
+	<obj>
+		<objName>Do you want to end the expedition and return to base?</objName>
+		<en>Do you want to end the expedition and return to base?</en>
+		<jp>遠征を終了して基地に戻りますか？</jp>
+		<cn>是否结束探险并回到基地？</cn>
+	</obj>
+	<obj>
+		<objName>Retreat</objName>
+		<en>RETREAT</en>
+		<jp>撤退</jp>
+		<cn>撤退</cn>
+	</obj>
+	<obj>
+		<objName>Retreating</objName>
+		<en>You are still far away from the HQ, penalties may apply.&#xA;Do you want to end the expedition and return to base?</en>
+		<jp>HQから離れているため、攻撃を受ける恐れがあります。&#xA;ここで遠征を終了して基地に戻りますか？</jp>
+		<cn>你距离总部还很远，可能将受到处罚。&#xA;是否结束探险并回到基地？</cn>
+	</obj>
+	<obj>
+		<objName>On</objName>
+		<en>ON</en>
+		<jp>On</jp><!-- <jp>オン</jp> -->
+		<cn>开启</cn>
+	</obj>
+	<obj>
+		<objName>Off</objName>
+		<en>OFF</en>
+		<jp>Off</jp><!-- <jp>オフ</jp> -->
+		<cn>关闭</cn>
+	</obj>
+	<obj>
+		<objName>Touch</objName>
+		<en>TOUCH</en>
+		<jp>タッチ</jp>
+		<cn>触屏</cn>
+	</obj>
+	<obj>
+		<objName>Mouse</objName>
+		<en>MOUSE</en>
+		<jp>マウス</jp>
+		<cn>鼠标</cn>
+	</obj>
+	<obj>
+		<objName>Language</objName>
+		<en>LANGUAGE</en>
+		<jp>言語</jp>
+		<cn>语言</cn>
+	</obj>
+	<obj>
+		<objName>CurrentLanguage</objName>
+		<en>ENGLISH</en>
+		<jp>日本語</jp>
+		<cn>英文</cn>
+	</obj>
+	<obj>
+		<objName>Effect</objName>
+		<en>EFFECT SETTINGS</en>
+		<jp>グラフィック効果</jp>
+		<cn>效果设置</cn>
+	</obj>
+	<obj>
+		<objName>Full Screen</objName>
+		<en>FULLSCREEN</en>
+		<jp>全画面表示</jp>
+		<cn>全屏</cn>
+	</obj>
+	<obj>
+		<objName>Screen Ratio</objName>
+		<en>ASPECT</en>
+		<jp>解像度</jp>
+		<cn>屏幕比例</cn>
+	</obj>
+	<obj>
+		<objName>Particles</objName>
+		<en>PARTICLES</en>
+		<jp>パーティクル</jp>
+		<cn>粒子分布</cn>
+	</obj>
+	<obj>
+		<objName>Blood</objName>
+		<en>BLOOD</en>
+		<jp>流血表現</jp>
+		<cn>血液</cn>
+	</obj>
+	<obj>
+		<objName>Bullet Trail</objName>
+		<en>BULLET TRAIL</en>
+		<jp>弾丸の軌道</jp>
+		<cn>子弹轨迹</cn>
+	</obj>
+	<obj>
+		<objName>Delete</objName>
+		<en>DELETE</en>
+		<jp>削除</jp>
+		<cn>删除</cn>
+	</obj>
+	<obj>
+		<objName>Dynamic Light</objName>
+		<en>DYN. LIGHT</en>
+		<jp>動的光源</jp>
+		<cn>动态光源</cn>
+	</obj>
+	<obj>
+		<objName>Abort</objName>
+		<en>ABORT</en>
+		<jp>中断</jp>
+		<cn>中止</cn>
+	</obj>
+	<obj>
+		<objName>Effect Changed</objName>
+		<en>EFFECT CHANGED</en>
+		<jp>効果変更</jp>
+		<cn>效果变化</cn>
+	</obj>
+	<obj>
+		<objName>Applied Change</objName>
+		<en>You've applied change of the dynamic light. You must restart your game for it to take effect.</en>
+		<jp>動的光源の効果を変更しました。変更の反映にはゲームの再起動が必要です。</jp>
+		<cn>您已应用了动态光源的改变，请重启游戏使设置生效。</cn>
+	</obj>
+	<obj>
+		<objName>Local Save</objName>
+		<en>LOCAL SAVE</en>
+		<jp>ローカルセーブ</jp>
+		<cn>本地保存</cn>
+	</obj>
+	<obj>
+		<objName>Auto saving game</objName>
+		<en>Auto Saving Game...</en>
+		<jp>自動セーブ中…</jp>
+		<cn>自动保存游戏。。。</cn>
+	</obj>
+	<obj>
+		<objName>Points</objName>
+		<en>POINTS</en>
+		<jp>ポイント</jp>
+		<cn>点/得分</cn>
+	</obj>
+	<obj>
+		<objName>Profile</objName>
+		<en>PROFILE</en>
+		<jp>プロフィール</jp>
+		<cn>配置文件</cn>
+	</obj>
+	<obj>
+		<objName>Zombie Killed</objName>
+		<en>ZOMBIE KILLED</en>
+		<jp>倒したゾンビ</jp>
+		<cn>僵尸死亡数</cn>
+	</obj>
+	<obj>
+		<objName>Ammo Collected</objName>
+		<en>AMMO COLLECTED</en>
+		<jp>回収した弾薬</jp>
+		<cn>弹药搜集量</cn>
+	</obj>
+	<obj>
+		<objName>Area Visited</objName>
+		<en>AREA VISITED</en>
+		<jp>到達したエリア</jp>
+		<cn>侦察区域数</cn>
+	</obj>
+	<obj>
+		<objName>Weapons Found</objName>
+		<en>WEAPONS FOUND</en>
+		<jp>発見した武器</jp>
+		<cn>武器获取数</cn>
+	</obj>
+	<obj>
+		<objName>Casualties</objName>
+		<en>CASUALTIES</en>
+		<jp>死傷者</jp>
+		<cn>伤亡数量</cn>
+	</obj>
+	<obj>
+		<objName>Supplies</objName>
+		<en>SUPPLIES</en>
+		<jp>補給物資</jp>
+		<cn>物资</cn>
+	</obj>
+	<obj>
+		<objName>Starvation</objName>
+		<en>STARVATION</en>
+		<jp>飢え</jp>
+		<cn>饥饿状态</cn>
+	</obj>
+	<obj>
+		<objName>Survivor healed</objName>
+		<en>SURVIVOR HEALED</en>
+		<jp>回復した生存者</jp>
+		<cn>治愈人数</cn>
+	</obj>
+	<obj>
+		<objName>HEAL SURVIVOR?</objName>
+		<en>HEAL SURVIVOR?</en>
+		<jp>回復しますか？</jp>
+		<cn>是否救治幸存者？</cn>
+	</obj>
+	<obj>
+		<objName>Use 1 SUPPLY and try to heal</objName>
+		<en>Use 1 SUPPLY and try to heal</en>
+		<jp>補給物資を1消費して回復させる：</jp>
+		<cn>使用一份物资救治</cn>
+	</obj>
+	<obj>
+		<objName>You don't have enough SUPPLY to heal</objName>
+		<en>You don't have enough SUPPLY to heal</en>
+		<jp>補給物資が不足している。回復できない：</jp>
+		<cn>你没有足够的物资进行救治</cn>
+	</obj>
+	<obj>
+		<objName>The night was quiet</objName>
+		<en>The Night Was Quiet</en>
+		<jp>静かな夜だった</jp>
+		<cn>夜晚很安静</cn>
+	</obj>
+	<obj>
+		<objName>Night</objName>
+		<en>NIGHT</en>
+		<jp>夜</jp>
+		<cn>夜晚</cn>
+	</obj>
+	<obj>
+		<objName>It is time to venture out</objName>
+		<en>It is time to venture out</en>
+		<jp>冒険の時間だ</jp>
+		<cn>是时候出发去探险了</cn>
+	</obj>
+	<obj>
+		<objName>Days left</objName>
+		<en>days left</en>
+		<jp>日残されている</jp>
+		<cn>剩余天数</cn>
+	</obj>
+	<obj>
+		<objName>Day left</objName>
+		<en>day left</en>
+		<jp>日残されている</jp>
+		<cn>剩余天数</cn>
+	</obj>
+	<obj>
+		<objName>this is the last day</objName>
+		<en>this is the last day</en>
+		<jp>最後の日だ</jp>
+		<cn>现在是最后一天</cn>
+	</obj>
+	<obj>
+		<objName>HQ defended</objName>
+		<en>HQ DEFENDED</en>
+		<jp>HQ防衛に成功</jp>
+		<cn>总部保护中</cn>
+	</obj>
+	<obj>
+		<objName>Nothing to report</objName>
+		<en>Nothing to report</en>
+		<jp>異変なし</jp>
+		<cn>无可奉告</cn>
+	</obj>
+	<obj>
+		<objName>Places Traveled</objName>
+		<en>PLACES TRAVELED</en>
+		<jp>遠出した場所</jp>
+		<cn>去过的地方</cn>
+	</obj>
+	<obj>
+		<objName>New Games</objName>
+		<en>NEW GAMES</en>
+		<jp>ニューゲーム</jp>
+		<cn>新游戏</cn>
+	</obj>
+	<obj>
+		<objName>Clear Saved Data</objName>
+		<en>CLEAR SAVED DATA</en>
+		<jp>セーブデータ削除</jp>
+		<cn>清除保存的数据</cn>
+	</obj>
+	<obj>
+		<objName>Opt Game Paused</objName>
+		<en>OPTIONS - GAME PAUSED</en>
+		<jp>オプション - ポーズ中</jp>
+		<cn>选项-游戏暂停</cn>
+	</obj>
+	<obj>
+		<objName>New Game</objName>
+		<en>NEW GAME</en>
+		<jp>ニューゲーム</jp>
+		<cn>新游戏</cn>
+	</obj>
+	<obj>
+		<objName>Load Game</objName>
+		<en>LOAD GAME</en>
+		<jp>ゲームをロード</jp>
+		<cn>加载游戏</cn>
+	</obj>
+	<obj>
+		<objName>Store Your Data</objName>
+		<en>Stores your data in your computer</en>
+		<jp>コンピューターにデータを保存します</jp>
+		<cn>在您的电脑中存储数据</cn>
+	</obj>
+	<obj>
+		<objName>Delete Saved Game</objName>
+		<en>DELETE SAVED GAME?</en>
+		<jp>セーブデータを削除しますか？</jp>
+		<cn>删除已存游戏？</cn>
+	</obj>
+	<obj>
+		<objName>Lose Progress</objName>
+		<en>You will lose all of your progress.&#xA;Are you sure about this?</en>
+		<jp>すべての進捗が失われます。&#xA;よろしいですか？</jp>
+		<cn>您将丢失所有游戏进度。&#xA;您确定这样做吗？</cn>
+	</obj>
+	<obj>
+		<objName>Attention</objName>
+		<en>ATTENTION</en>
+		<jp>注意</jp>
+		<cn>注意</cn>
+	</obj>
+	<obj>
+		<objName>Attention!</objName>
+		<en>ATTENTION!</en>
+		<jp>注意!</jp>
+		<cn>注意!</cn>
+	</obj>
+	<obj>
+		<objName>Stats</objName>
+		<en>STATS</en>
+		<jp>実績</jp>
+		<cn>开始</cn>
+	</obj>
+	<obj>
+		<objName>Level</objName>
+		<en>LEVEL</en>
+		<jp>レベル</jp>
+		<cn>等级</cn>
+	</obj>
+	<obj>
+		<objName>Empty</objName>
+		<en>EMPTY</en>
+		<jp>なし</jp>
+		<cn>空的</cn>
+	</obj>
+	<obj>
+		<objName>Touch Hotkey Title</objName>
+		<en>KEYBOARD HOTKEYS&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;TOUCH CONTROLS</en>
+		<jp>ショートカットキー&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;タッチ操作</jp>
+		<cn>快捷键&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;接触控制</cn>
+	</obj>
+	<obj>
+		<objName>Touch Hotkey</objName>
+		<en>.&#xA;1,2,3,4 - Select Chars&#xA;Q - Select All&#xA;R - Reload&#xA;H - Heal&#xA;&#xA;&#xA;TAP - Select&#xA;DRAG - Move</en>
+		<jp>.&#xA;1,2,3,4 - キャラクターの選択&#xA;Q - すべて選択&#xA;R - リロード&#xA;H - 癒し&#xA;&#xA;&#xA;タップ - 選択する&#xA;ドラッグ - 動く</jp>
+		<cn>.&#xA;1,2,3,4 - 选择字符&#xA;Q - 全选&#xA;R - 重装&#xA;H - 愈合&#xA;&#xA;&#xA;龙头 - 选择&#xA;拖动 - 移动</cn>
+	</obj>
+	<obj>
+		<objName>Mouse Hotkey Title</objName>
+		<en>KEYBOARD HOTKEYS&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;MOUSE CONTROLS</en>
+		<jp>ショートカットキー&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;マウス操作</jp>
+		<cn>键盘热键&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;鼠标控制</cn>
+	</obj>
+	<obj>
+		<objName>Mouse Hotkey</objName>
+		<en>.&#xA;1,2,3,4 - Select Chars&#xA;Q - Select All&#xA;R - Reload&#xA;H - Heal&#xA;&#xA;&#xA;LMB - Select&#xA;RMB - Move</en>
+		<jp>.&#xA;1,2,3,4 - キャラクターの選択&#xA;Q - すべて選択&#xA;R - リロード&#xA;H - 癒し&#xA;&#xA;&#xA;左マウスボタン - 選択する&#xA;マウスの右ボタン - 動く</jp>
+		<cn>.&#xA;1,2,3,4 - 选择字符&#xA;Q - 全选&#xA;R - 重装&#xA;H - 愈合&#xA;&#xA;&#xA;鼠标左键 - 选择&#xA;鼠标右键 - 移动</cn>
+	</obj>
+	<obj>
+		<objName>Select Team</objName>
+		<en>SELECT TEAM</en>
+		<jp>チーム選択</jp>
+		<cn>选择队伍</cn>
+	</obj>
+	<obj>
+		<objName>Locked</objName>
+		<en>LOCKED</en>
+		<jp>未解除</jp>
+		<cn>锁定</cn>
+	</obj>
+	<obj>
+		<objName>Get</objName>
+		<en>GET</en>
+		<jp>獲得</jp>
+		<cn>得到</cn>
+	</obj>
+	<obj>
+		<objName>Play</objName>
+		<en>PLAY</en>
+		<jp>プレイ</jp>
+		<cn>玩</cn>
+	</obj>
+	<obj>
+		<objName>Tutorial</objName>
+		<en>TUTORIAL</en>
+		<jp>チュートリアル</jp>
+		<cn>教程</cn>
+	</obj>
+	<obj>
+		<objName>Cancel</objName>
+		<en>CANCEL</en>
+		<jp>Cancel</jp><!-- <jp>キャンセル</jp> -->
+		<cn>取消</cn>
+	</obj>
+	<obj>
+		<objName>Continue</objName>
+		<en>CONTINUE</en>
+		<jp>続ける</jp>
+		<cn>继续</cn>
+	</obj>
+	<obj>
+		<objName>Start</objName>
+		<en>START</en>
+		<jp>スタート</jp>
+		<cn>开始</cn>
+	</obj>
+	<obj>
+		<objName>Unlock</objName>
+		<en>UNLOCK</en>
+		<jp>解除</jp>
+		<cn>解锁</cn>
+	</obj>
+	<obj>
+		<objName>Active</objName>
+		<en>ACTIVE</en>
+		<jp>有効</jp>
+		<cn>活跃的</cn>
+	</obj>
+	<obj>
+		<objName>Disabled</objName>
+		<en>DISABLED</en>
+		<jp>無効</jp>
+		<cn>伤残的</cn>
+	</obj>
+	<obj>
+		<objName>Unlock With Points</objName>
+		<en>UNLOCK WITH POINTS</en>
+		<jp>ポイントを消費して解除</jp>
+		<cn>使用点数解锁</cn>
+	</obj>
+	<obj>
+		<objName>Use Your Points</objName>
+		<en>Use your POINTS to UNLOCK this team.</en>
+		<jp>ポイントを消費するとこのチームを解除できます。</jp>
+		<cn>使用点数来解锁这支队伍。</cn>
+	</obj>
+	<obj>
+		<objName>Perks</objName>
+		<en>PERKS</en>
+		<jp>能力</jp>
+		<cn>能力</cn>
+	</obj>
+	<obj>
+		<objName>Extra Provisions</objName>
+		<en>EXTRA PROVISIONS</en>
+		<jp>追加の対策</jp>
+		<cn>额外储备</cn>
+	</obj>
+	<obj>
+		<objName>Additional Provisions</objName>
+		<en>Choose additional provision for your team.</en>
+		<jp>チームに追加の対策を選択します。</jp>
+		<cn>为你的队伍选择额外储备。</cn>
+	</obj>
+	<obj>
+		<objName>Get This Team</objName>
+		<en>GET THIS TEAM</en>
+		<jp>このチームを獲得</jp>
+		<cn>获取这支队伍</cn>
+	</obj>
+	<obj>
+		<objName>Day</objName>
+		<en>DAY</en>
+		<jp>Day</jp>
+		<cn>天/白天</cn>
+	</obj>
+	<obj>
+		<objName>Survivor died</objName>
+		<en>SURVIVOR DIED</en>
+		<jp>生存者死亡</jp>
+		<cn>幸存者死亡</cn>
+	</obj>
+	<obj>
+		<objName>Defense</objName>
+		<en>DEFENSE</en>
+		<jp>防衛</jp>
+		<cn>防御</cn>
+	</obj>
+	<obj>
+		<objName>Hunt Zeds</objName>
+		<en>HUNT ZEDS</en>
+		<jp>ゾンビ狩り</jp>
+		<cn>追捕Zeds</cn>
+	</obj>
+	<obj>
+		<objName>Ambush</objName>
+		<en>AMBUSH</en>
+		<jp>奇襲</jp>
+		<cn>埋伏</cn>
+	</obj>
+	<obj>
+		<objName>Bandit Ambush</objName>
+		<en>BANDIT AMBUSH</en>
+		<jp>強盗奇襲</jp>
+		<cn>土匪埋伏</cn>
+	</obj>
+	<obj>
+		<objName>Wave</objName>
+		<en>WAVE</en>
+		<jp>Wave</jp>
+		<cn>波动/挥手</cn>
+	</obj>
+	<obj>
+		<objName>Support</objName>
+		<en>SUPPORT</en>
+		<jp>支援</jp>
+		<cn>支持</cn>
+	</obj>
+	<obj>
+		<objName>Next Area</objName>
+		<en>NEXT AREA</en>
+		<jp>次の&#xA;エリアへ</jp>
+		<cn>下一区域</cn>
+	</obj>
+	<obj>
+		<objName>Leave Area</objName>
+		<en>LEAVE AREA</en>
+		<jp>エリア離脱</jp>
+		<cn>离开区域</cn>
+	</obj>
+	<obj>
+		<objName>Leave</objName>
+		<en>LEAVE</en>
+		<jp>離脱</jp>
+		<cn>离开</cn>
+	</obj>
+	<obj>
+		<objName>Char</objName>
+		<en>CHAR</en>
+		<jp>キャラクター</jp>
+		<cn>人物</cn>
+	</obj>
+	<obj>
+		<objName>Heal</objName>
+		<en>HEAL</en>
+		<jp>回復</jp>
+		<cn>治愈</cn>
+	</obj>
+	<obj>
+		<objName>Pierce</objName>
+		<en>PIERCE</en>
+		<jp>貫通</jp>
+		<cn>进入</cn>
+	</obj>
+	<obj>
+		<objName>Mine</objName>
+		<en>MINE</en>
+		<jp>地雷</jp>
+		<cn>礦</cn>
+	</obj>
+	<obj>
+		<objName>Auto</objName>
+		<en>AUTO</en>
+		<jp>オート</jp>
+		<cn>自动</cn>
+	</obj>
+	<obj>
+		<objName>Go</objName>
+		<en>GO</en>
+		<jp>GO</jp>
+		<cn>行动</cn>
+	</obj>
+	<obj>
+		<objName>Rest</objName>
+		<en>REST</en>
+		<jp>休む</jp>
+		<cn>休息</cn>
+	</obj>
+	<obj>
+		<objName>Auto assign</objName>
+		<en>AUTO ASSIGN</en>
+		<jp>自動配置</jp>
+		<cn>自动分配</cn>
+	</obj>
+	<obj>
+		<objName>Initializing Game</objName>
+		<en>Initializing Game</en>
+		<jp>ゲームを初期化しています</jp>
+		<cn>初始化游戏</cn>
+	</obj>
+	<obj>
+		<objName>Loading</objName>
+		<en>Loading...</en>
+		<jp>ロード中…</jp>
+		<cn>加载中。。。</cn>
+	</obj>
+	<obj>
+		<objName>Loading Challenge</objName>
+		<en>Loading Challenge...</en>
+		<jp>チャレンジをロードしています</jp>
+		<cn>加载失败。。。</cn>
+	</obj>
+	<obj>
+		<objName>Destroying Cities</objName>
+		<en>Destroying Cities</en>
+		<jp>街を破壊しています</jp>
+		<cn>摧毁城市</cn>
+	</obj>
+	<obj>
+		<objName>Resurrecting Zombies</objName>
+		<en>Resurrecting Zombies</en>
+		<jp>ゾンビを復活させています</jp>
+		<cn>复活僵尸</cn>
+	</obj>
+	<obj>
+		<objName>Preparing Apocalypse</objName>
+		<en>Preparing Apocalypse</en>
+		<jp>アポカリプスを創造しています</jp>
+		<cn>准备来袭</cn>
+	</obj>
+	<obj>
+		<objName>Assembling Survivors</objName>
+		<en>Assembling Survivors</en>
+		<jp>生存者を構築しています</jp>
+		<cn>聚集幸存者</cn>
+	</obj>
+	<obj>
+		<objName>Rescuing People</objName>
+		<en>Rescuing People</en>
+		<jp>市民を救出しています</jp>
+		<cn>营救人们</cn>
+	</obj>
+	<obj>
+		<objName>Quit Game</objName>
+		<en>QUIT GAME</en>
+		<jp>ゲーム終了</jp>
+		<cn>退出游戏</cn>
+	</obj>
+	<obj>
+		<objName>Quitting</objName>
+		<en>Return to the main menu?</en>
+		<jp>メインメニューに戻りますか？</jp>
+		<cn>回到主页面？</cn>
+	</obj>
+	<obj>
+		<objName>Abort Mission</objName>
+		<en>ABORT MISSION</en>
+		<jp>ミッションを中断</jp>
+		<cn>关于任务</cn>
+	</obj>
+	<obj>
+		<objName>Leaving</objName>
+		<en>Are you sure you want to leave?</en>
+		<jp>本当に離脱してよろしいですか？</jp>
+		<cn>您确定要离开吗？</cn>
+	</obj>
+	<obj>
+		<objName>Aborting</objName>
+		<en>Your team will receive some health penalty. Are you sure about this?</en>
+		<jp>体力にダメージを受けてしまいます。よろしいですか？</jp>
+		<cn>您的队伍健康将受到影响。您确定这样做吗？</cn>
+	</obj>
+	<obj>
+		<objName>Survivors At Risk</objName>
+		<en>WARNING : SURVIVORS AT RISK&#xA;Some survivors are outside the safe area.&#xA;&#xA;</en>
+		<jp>警告：生存者が危険&#xA;安全区域外にいる生存者がいます。&#xA;&#xA;</jp>
+		<cn>警告:幸存者受到威胁&#xA;一些幸存者在安全区域外。&#xA;&#xA;</cn>
+	</obj>
+	<obj>
+		<objName>Area Not Explored</objName>
+		<en>WARNING : AREA NOT EXPLORED&#xA;Exploration objective is not complete.&#xA;&#xA;</en>
+		<jp>警告：エリア探索が未終了&#xA;探索目標が未達成のままです。&#xA;&#xA;</jp>
+		<cn>警告:未探索区域&#xA;探索目标未完成。&#xA;&#xA;</cn>
+	</obj>
+	<obj>
+		<objName>Area Explored</objName>
+		<en>AREA EXPLORED</en>
+		<jp>エリア探索終了</jp>
+		<cn>已探索的区域</cn>
+	</obj>
+	<obj>
+		<objName>Explored</objName>
+		<en>EXPLORED</en>
+		<jp>探索済み</jp>
+		<cn>已探索</cn>
+	</obj>
+	<obj>
+		<objName>Explore</objName>
+		<en>EXPLORE</en>
+		<jp>探索</jp>
+		<cn>探索</cn>
+	</obj>
+	<obj>
+		<objName>Survivors</objName>
+		<en>SURVIVORS</en>
+		<jp>生存者</jp>
+		<cn>幸存者</cn>
+	</obj>
+	<obj>
+		<objName>Select Survivor</objName>
+		<en>Select a Survivor</en>
+		<jp>生存者を選択</jp>
+		<cn>选择一名幸存者</cn>
+	</obj>
+	<obj>
+		<objName>No Survivor</objName>
+		<en>No Survivor is Available</en>
+		<jp>利用できる生存者がいません</jp>
+		<cn>没有找到幸存者</cn>
+	</obj>
+	<obj>
+		<objName>Vital</objName>
+		<en>Vital</en>
+		<jp>体力</jp>
+		<cn>活力</cn>
+	</obj>
+	<obj>
+		<objName>Speed</objName>
+		<en>Speed</en>
+		<jp>スピード</jp>
+		<cn>速度</cn>
+	</obj>
+	<obj>
+		<objName>Search</objName>
+		<en>Search</en>
+		<jp>サーチ</jp>
+		<cn>探索力</cn>
+	</obj>
+	<obj>
+		<objName>Src</objName>
+		<en>SRC</en>
+		<jp>サーチ</jp>
+		<cn>搜索 </cn>
+	</obj>
+	<obj>
+		<objName>Build</objName>
+		<en>Build</en>
+		<jp>器用さ</jp>
+		<cn>建造力</cn>
+	</obj>
+	<obj>
+		<objName>Bld</objName>
+		<en>BLD</en>
+		<jp>器用さ</jp>
+		<cn>建立 </cn>
+	</obj>
+	<obj>
+		<objName>Aim</objName>
+		<en>Aim</en>
+		<jp>エイム</jp>
+		<cn>目的</cn>
+	</obj>
+	<obj>
+		<objName>Melee</objName>
+		<en>Melee</en>
+		<jp>近接武器</jp>
+		<cn>战斗</cn>
+	</obj>
+	<obj>
+		<objName>Available Points</objName>
+		<en>Available Points</en>
+		<jp>残りポイント</jp>
+		<cn>可获得点数</cn>
+	</obj>
+	<obj>
+		<objName>Damage</objName>
+		<en>Damage</en>
+		<jp>ダメージ</jp>
+		<cn>伤害</cn>
+	</obj>
+	<obj>
+		<objName>Range</objName>
+		<en>Range</en>
+		<jp>範囲</jp>
+		<cn>范围</cn>
+	</obj>
+	<obj>
+		<objName>Reload</objName>
+		<en>Reload</en>
+		<jp>リロード</jp>
+		<cn>填弹</cn>
+	</obj>
+	<obj>
+		<objName>Durability</objName>
+		<en>Durability</en>
+		<jp>耐久性</jp>
+		<cn>耐久度</cn>
+	</obj>
+	<obj>
+		<objName>Fire Rate</objName>
+		<en>Fire Rate</en>
+		<jp>連射性能</jp>
+		<cn>射速</cn>
+	</obj>
+	<obj>
+		<objName>Ammo</objName>
+		<en>Ammo</en>
+		<jp>銃弾</jp>
+		<cn>弹药</cn>
+	</obj>
+	<obj>
+		<objName>Inventory</objName>
+		<en>INVENTORY</en>
+		<jp>所持アイテム</jp>
+		<cn>存量</cn>
+	</obj>
+	<obj>
+		<objName>Perk</objName>
+		<en>PERK</en>
+		<jp>能力</jp>
+		<cn>技能</cn>
+	</obj>
+	<obj>
+		<objName>Ailment Low Tired</objName>
+		<en>AILMENT : SLIGHTLY TIRED</en>
+		<jp>体調：軽度の疲労</jp>
+		<cn>伤病：轻微疲劳</cn>
+	</obj>
+	<obj>
+		<objName>Ailment Med Tired</objName>
+		<en>AILMENT : TIRED</en>
+		<jp>体調：疲労</jp>
+		<cn>伤病：疲劳</cn>
+	</obj>
+	<obj>
+		<objName>Ailment High Tired</objName>
+		<en>AILMENT : VERY TIRED</en>
+		<jp>体調：極度の疲労</jp>
+		<cn>伤病：严重疲劳</cn>
+	</obj>
+	<obj>
+		<objName>Speed Reduced</objName>
+		<en>Movement speed is reduced by</en>
+		<jp>移動速度がX%低下します</jp>
+		<cn>运动速度下降</cn>
+	</obj>
+	<obj>
+		<objName>Mission prep</objName>
+		<en>MISSION PREP</en>
+		<jp>ミッション準備</jp>
+		<cn>任务准备</cn>
+	</obj>
+	<obj>
+		<objName>Assign</objName>
+		<en>ASSIGN</en>
+		<jp>配置</jp>
+		<cn>指定</cn>
+	</obj>
+	<obj>
+		<objName>Unassign</objName>
+		<en>UNASSIGN</en>
+		<jp>配置解除</jp>
+		<cn>撤销指定</cn>
+	</obj>
+	<obj>
+		<objName>Revive</objName>
+		<en>REVIVE</en>
+		<jp>蘇生</jp>
+		<cn>恢复</cn>
+	</obj>
+	<obj>
+		<objName>REVIVE SURVIVOR?</objName>
+		<en>REVIVE SURVIVOR?</en>
+		<jp>蘇生させますか？</jp>
+		<cn>恢复幸存者？</cn>
+	</obj>
+	<obj>
+		<objName>You need</objName>
+		<en>You need</en>
+		<jp>蘇生には補給物資</jp>
+		<cn>你需要</cn>
+	</obj>
+	<obj>
+		<objName>SUPPLIES to revive</objName>
+		<en>SUPPLIES to revive</en>
+		<jp>が必要です</jp>
+		<cn>恢复所需物资</cn>
+	</obj>
+	<obj>
+		<objName>Use</objName>
+		<en>Use</en>
+		<jp>補給物資を</jp>
+		<cn>使用</cn>
+	</obj>
+	<obj>
+		<objName>SUPPLIES and try to revive</objName>
+		<en>SUPPLIES and try to revive</en>
+		<jp>消費して蘇生します：</jp>
+		<cn>物资来恢复</cn>
+	</obj>
+	<obj>
+		<objName>Kick</objName>
+		<en>KICK</en>
+		<jp>追い出す</jp>
+		<cn>踢</cn>
+	</obj>
+	<obj>
+		<objName>Confirm</objName>
+		<en>CONFIRM</en>
+		<jp>OK</jp>
+		<cn>确定</cn>
+	</obj>
+	<obj>
+		<objName>Is Dying</objName>
+		<en>IS DYING</en>
+		<jp>瀕死</jp>
+		<cn>即将死亡</cn>
+	</obj>
+	<obj>
+		<objName>Is Tired</objName>
+		<en>IS TIRED</en>
+		<jp>疲労</jp>
+		<cn>处于疲劳状态</cn>
+	</obj>
+	<obj>
+		<objName>Your survivors are</objName>
+		<en>Your survivors are</en>
+		<jp>生存者は</jp>
+		<cn>您的幸存者们正</cn>
+	</obj>
+	<obj>
+		<objName>Returning</objName>
+		<en>RETURNING</en>
+		<jp>帰還中です</jp>
+		<cn>返回</cn>
+	</obj>
+	<obj>
+		<objName>Away</objName>
+		<en>AWAY</en>
+		<jp>離れています</jp>
+		<cn>离开</cn>
+	</obj>
+	<obj>
+		<objName>Dying</objName>
+		<en>DYING</en>
+		<jp>瀕死です</jp>
+		<cn>奄奄一息的</cn>
+	</obj>
+	<obj>
+		<objName>Dead</objName>
+		<en>DEAD</en>
+		<jp>死亡しました</jp>
+		<cn>已消灭的</cn>
+	</obj>
+	<obj>
+		<objName>Died</objName>
+		<en>DIED</en>
+		<jp>死んだ</jp>
+		<cn>死</cn>
+	</obj>
+	<obj>
+		<objName>Death</objName>
+		<en>DEATH</en>
+		<jp>死亡しました</jp>
+		<cn>消灭</cn>
+	</obj>
+	<obj>
+		<objName>Injured</objName>
+		<en>INJURED</en>
+		<jp>負傷しました</jp>
+		<cn>受伤的</cn>
+	</obj>
+	<obj>
+		<objName>Healed</objName>
+		<en>HEALED</en>
+		<jp>回復しました</jp>
+		<cn>治愈的</cn>
+	</obj>
+	<obj>
+		<objName>Daily report</objName>
+		<en>DAILY REPORT</en>
+		<jp>日報</jp>
+		<cn>每日报告</cn>
+	</obj>
+	<obj>
+		<objName>Found Weapon</objName>
+		<en>FOUND WEAPON</en>
+		<jp>発見した武器</jp>
+		<cn>已发现武器</cn>
+	</obj>
+	<obj>
+		<objName>Found Material</objName>
+		<en>FOUND MATERIAL</en>
+		<jp>発見した資材</jp>
+		<cn>已发现物资</cn>
+	</obj>
+	<obj>
+		<objName>workshop</objName>
+		<en>WORKSHOP</en>
+		<jp>作業台</jp>
+		<cn>工厂</cn>
+	</obj>
+	<obj>
+		<objName>garage</objName>
+		<en>GARAGE</en>
+		<jp>ガレージ</jp>
+		<cn>车库</cn>
+	</obj>
+	<obj>
+		<objName>garden</objName>
+		<en>GARDEN</en>
+		<jp>庭</jp>
+		<cn>花园</cn>
+	</obj>
+	<obj>
+		<objName>kitchen</objName>
+		<en>KITCHEN</en>
+		<jp>キッチン</jp>
+		<cn>厨房</cn>
+	</obj>
+	<obj>
+		<objName>radio</objName>
+		<en>RADIO</en>
+		<jp>無線機</jp>
+		<cn>收音机</cn>
+	</obj>
+	<obj>
+		<objName>Merchant</objName>
+		<en>MERCHANT</en>
+		<jp>商人</jp>
+		<cn>商人</cn>
+	</obj>
+	<obj>
+		<objName>vehicle</objName>
+		<en>VEHICLE</en>
+		<jp>車両</jp>
+		<cn>车辆</cn>
+	</obj>
+	<obj>
+		<objName>Total work</objName>
+		<en>TOTAL WORK / HOUR</en>
+		<jp>1時間あたりの作業量合計</jp>
+		<cn>每小时工作量</cn>
+	</obj>
+	<obj>
+		<objName>Auto Assign</objName>
+		<en>AUTO ASSIGN</en>
+		<jp>自動割り当て</jp>
+		<cn>自动分配</cn>
+	</obj>
+	<obj>
+		<objName>Boost</objName>
+		<en>BOOST</en>
+		<jp>ブースト</jp>
+		<cn>促进</cn>
+	</obj>
+	<obj>
+		<objName>Select</objName>
+		<en>SELECT</en>
+		<jp>選択する</jp>
+		<cn>选择</cn>
+	</obj>
+	<obj>
+		<objName>Select Project</objName>
+		<en>SELECT PROJECT</en>
+		<jp>プロジェクトを選択</jp>
+		<cn>选择项目</cn>
+	</obj>
+	<obj>
+		<objName>Projects</objName>
+		<en>PROJECTS</en>
+		<jp>プロジェクト</jp>
+		<cn>任务</cn>
+	</obj>	
+	<obj>
+		<objName>No Project</objName>
+		<en>NO PROJECT</en>
+		<jp>プロジェクトがありません</jp>
+		<cn>无任务</cn>
+	</obj>
+	<obj>
+		<objName>Current project</objName>
+		<en>CURRENT PROJECT</en>
+		<jp>現在のプロジェクト</jp>
+		<cn>目前任务</cn>
+	</obj>
+	<obj>
+		<objName>Select a project</objName>
+		<en>Select a Project</en>
+		<jp>プロジェクトを選択</jp>
+		<cn>选择一个任务</cn>
+	</obj>
+	<obj>
+		<objName>There is no project</objName>
+		<en>There is no project assigned. Please CHOOSE PROJECT.</en>
+		<jp>プロジェクトがありません。プロジェクトを選択してください。</jp>
+		<cn>没有任何任务。请选择任务。</cn>
+	</obj>
+	<obj>
+		<objName>Add survivor</objName>
+		<en>ADD SURVIVOR</en>
+		<jp>生存者を追加</jp>
+		<cn>添加幸存者</cn>
+	</obj>
+	<obj>
+		<objName>Workload</objName>
+		<en>WORKLOAD</en>
+		<jp>作業量</jp>
+		<cn>工作量</cn>
+	</obj>
+	<obj>
+		<objName>Working</objName>
+		<en>WORKING</en>
+		<jp>作業中</jp>
+		<cn>正在工作</cn>
+	</obj>
+	<obj>
+		<objName>Reward</objName>
+		<en>REWARD</en>
+		<jp>成果物</jp>
+		<cn>奖励</cn>
+	</obj>
+	<obj>
+		<objName>Required</objName>
+		<en>REQUIRED</en>
+		<jp>必須資材</jp>
+		<cn>要求的</cn>
+	</obj>
+	<obj>
+		<objName>Mission</objName>
+		<en>MISSION</en>
+		<jp>ミッション</jp>
+		<cn>任务</cn>
+	</obj>
+	<obj>
+		<objName>Mission info</objName>
+		<en>MISSION INFO</en>
+		<jp>ミッション情報</jp>
+		<cn>任务详情</cn>
+	</obj>
+	<obj>
+		<objName>Objectives</objName>
+		<en>OBJECTIVES</en>
+		<jp>目標</jp>
+		<cn>目标</cn>
+	</obj>
+	<obj>
+		<objName>Kill Zombies</objName>
+		<en>Kill Zombies</en>
+		<jp>ゾンビ討伐</jp>
+		<cn>消灭僵尸</cn>
+	</obj>
+	<obj>
+		<objName>Collect Coins</objName>
+		<en>Collect Coins</en>
+		<jp>コイン収集</jp>
+		<cn>收集钱币</cn>
+	</obj>
+	<obj>
+		<objName>Collect Supplies</objName>
+		<en>Collect Supplies</en>
+		<jp>補給物資収集</jp>
+		<cn>收集物资</cn>
+	</obj>
+	<obj>
+		<objName>Collect Fuel</objName>
+		<en>Collect Fuel</en>
+		<jp>燃料収集</jp>
+		<cn>收集燃料</cn>
+	</obj>
+	<obj>
+		<objName>Speed up project</objName>
+		<en>SPEED UP PROJECT?</en>
+		<jp>プロジェクトをスピードアップしますか？</jp>
+		<cn>加速任务进度？</cn>
+	</obj>
+	<obj>
+		<objName>Use Fuel For Generator</objName>
+		<en>Use 1 FUEL for the generator and speed up</en>
+		<jp>発電機に燃料を1使用。</jp>
+		<cn>发电机使用1 FUEL。</cn>
+	</obj>
+	<obj>
+		<objName>Project Boosted</objName>
+		<en>project.</en>
+		<jp>プロジェクトを加速。</jp>
+		<cn>项目加速。</cn>
+	</obj>
+	<obj>
+		<objName>Not Enough Fuel For Generator</objName>
+		<en>You don't have enough FUEL to start the generator.</en>
+		<jp>発電機を始動させるのに十分な燃料がありません。</jp>
+		<cn>您没有足够的燃料来启动发电机。</cn>
+	</obj>
+	<obj>
+		<objName>Search Objects</objName>
+		<en>Search Objects</en>
+		<jp>オブジェクト調査</jp>
+		<cn>搜索目标</cn>
+	</obj>
+	<obj>
+		<objName>Build Turrets</objName>
+		<en>Build Turrets</en>
+		<jp>タレット組立</jp>
+		<cn>建造炮塔</cn>
+	</obj>
+	<obj>
+		<objName>Mission Success</objName>
+		<en>Mission Success</en>
+		<jp>ミッション成功</jp>
+		<cn>目标完成</cn>
+	</obj>
+	<obj>
+		<objName>Visit Area</objName>
+		<en>Visit Area</en>
+		<jp>エリアに行く</jp>
+		<cn>前往区域</cn>
+	</obj>
+	<obj>
+		<objName>Explore Area</objName>
+		<en>Explore Area</en>
+		<jp>エリア探索</jp>
+		<cn>探索区域</cn>
+	</obj>
+	<obj>
+		<objName>Joins</objName>
+		<en>JOINS</en>
+		<jp>合流</jp>
+		<cn>加入</cn>
+	</obj>
+	<obj>
+		<objName>New Survivor Joins</objName>
+		<en>NEW SURVIVOR JOINS</en>
+		<jp>新しい仲間ができた</jp>
+		<cn>新的幸存者加入了</cn>
+	</obj>
+	<obj>
+		<objName>Survivor Left</objName>
+		<en>SURVIVOR LEFT</en>
+		<jp>残りの生存者</jp>
+		<cn>剩余的幸存者</cn>
+	</obj>
+	<obj>
+		<objName>Farming</objName>
+		<en>FARMING</en>
+		<jp>畑仕事</jp>
+		<cn>种植</cn>
+	</obj>
+	<obj>
+		<objName>Fixing Car</objName>
+		<en>FIXING CAR</en>
+		<jp>車両修理</jp>
+		<cn>修理汽车</cn>
+	</obj>
+	<obj>
+		<objName>Travel</objName>
+		<en>TRAVEL</en>
+		<jp>遠出</jp>
+		<cn>旅行</cn>
+	</obj>
+	<obj>
+		<objName>Cooking</objName>
+		<en>COOKING</en>
+		<jp>料理</jp>
+		<cn>烹饪</cn>
+	</obj>
+	<obj>
+		<objName>Squad</objName>
+		<en>SQUAD</en>
+		<jp>チーム</jp>
+		<cn>小队</cn>
+	</obj>
+	<obj>
+		<objName>Equip Gear</objName>
+		<en>EQUIP GEAR</en>
+		<jp>ギアを装備</jp>
+		<cn>穿戴道具</cn>
+	</obj>
+	<obj>
+		<objName>Equip</objName>
+		<en>EQUIP</en>
+		<jp>装備</jp>
+		<cn>穿戴</cn>
+	</obj>
+	<obj>
+		<objName>Unequip</objName>
+		<en>UNEQUIP</en>
+		<jp>装備を外す</jp>
+		<cn>卸下</cn>
+	</obj>
+	<obj>
+		<objName>Equipped</objName>
+		<en>EQUIPPED</en>
+		<jp>装備中</jp>
+		<cn>已穿戴</cn>
+	</obj>
+	<obj>
+		<objName>Material</objName>
+		<en>MATERIAL</en>
+		<jp>資材</jp>
+		<cn>材料</cn>
+	</obj>
+	<obj>
+		<objName>Store</objName>
+		<en>STORE</en>
+		<jp>ショップ</jp>
+		<cn>商店</cn>
+	</obj>
+	<obj>
+		<objName>Weapon</objName>
+		<en>WEAPON</en>
+		<jp>武器</jp>
+		<cn>武器</cn>
+	</obj>
+	<obj>
+		<objName>Weapons</objName>
+		<en>WEAPONS</en>
+		<jp>武器</jp>
+		<cn>武器</cn>
+	</obj>
+	<obj>
+		<objName>Gear</objName>
+		<en>GEAR</en>
+		<jp>ギア</jp>
+		<cn>道具</cn>
+	</obj>
+	<obj>
+		<objName>Your Resources</objName>
+		<en>YOUR RESOURCES</en>
+		<jp>所持している資材</jp>
+		<cn>您的资源</cn>
+	</obj>
+	<obj>
+		<objName>Your Weapons</objName>
+		<en>YOUR WEAPONS</en>
+		<jp>所持している武器</jp>
+		<cn>您的武器</cn>
+	</obj>
+	<obj>
+		<objName>Your Gears</objName>
+		<en>YOUR GEARS</en>
+		<jp>所持しているギア</jp>
+		<cn>您的道具</cn>
+	</obj>
+	<obj>
+		<objName>Material Inventory</objName>
+		<en>MATERIAL INVENTORY</en>
+		<jp>所持資材</jp>
+		<cn>持有材料</cn>
+	</obj>
+	<obj>
+		<objName>Buy</objName>
+		<en>BUY</en>
+		<jp>購入</jp>
+		<cn>购买</cn>
+	</obj>
+	<obj>
+		<objName>Sell</objName>
+		<en>SELL</en>
+		<jp>売却</jp>
+		<cn>出售</cn>
+	</obj>
+	<obj>
+		<objName>Inventory Empty</objName>
+		<en>Inventory Empty</en>
+		<jp>所持品はありません</jp>
+		<cn>没有剩余</cn>
+	</obj>
+	<obj>
+		<objName>Zed Killed</objName>
+		<en>ZED KILLED</en>
+		<jp>倒したゾンビ</jp>
+		<cn>消灭Zed数</cn>
+	</obj>
+	<obj>
+		<objName>Fuel</objName>
+		<en>FUEL</en>
+		<jp>燃料</jp>
+		<cn>燃料</cn>
+	</obj>
+	<obj>
+		<objName>Cost</objName>
+		<en>Cost</en>
+		<jp>コスト</jp>
+		<cn>花费</cn>
+	</obj>
+	<obj>
+		<objName>Progress</objName>
+		<en>PROGRESS</en>
+		<jp>進捗</jp>
+		<cn>前进</cn>
+	</obj>
+	<obj>
+		<objName>Ammo Found</objName>
+		<en>@MMO FOUND</en>
+		<jp>発見した弾薬</jp>
+		<cn>已发现弹药</cn>
+	</obj>
+	<obj>
+		<objName>Notes</objName>
+		<en>NOTES</en>
+		<jp>ノート</jp>
+		<cn>说明</cn>
+	</obj>
+	<obj>
+		<objName>Cash Found</objName>
+		<en>CASH FOUND</en>
+		<jp>発見した現金</jp>
+		<cn>已发现金钱</cn>
+	</obj>
+	<obj>
+		<objName>Day Survived</objName>
+		<en>DAY SURVIVED</en>
+		<jp>生存日数</jp>
+		<cn>生存天数</cn>
+	</obj>
+	<obj>
+		<objName>Traveled</objName>
+		<en>TRAVELED</en>
+		<jp>遠出した場所</jp>
+		<cn>已去过</cn>
+	</obj>
+	<obj>
+		<objName>Condition</objName>
+		<en>CONDITION</en>
+		<jp>状態</jp>
+		<cn>情况</cn>
+	</obj>
+	<obj>
+		<objName>Score</objName>
+		<en>SCORE</en>
+		<jp>スコア</jp>
+		<cn>分</cn>
+	</obj>
+	<obj>
+		<objName>Pro Tip</objName>
+		<en>Pro Tip</en>
+		<jp>スペシャルヒント</jp>
+		<cn>进阶技巧</cn>
+	</obj>
+	<obj>
+		<objName>Mission Status</objName>
+		<en>MISSION : </en>
+		<jp>ミッション : </jp>
+		<cn>任务 : </cn>
+	</obj>
+	<obj>
+		<objName>Status</objName>
+		<en>STATUS</en>
+		<jp>ステータス</jp>
+		<cn>状态</cn>
+	</obj>
+	<obj>
+		<objName>Extreme</objName>
+		<en>Extreme</en>
+		<jp>エクストリーム</jp>
+		<cn>特别</cn>
+	</obj>
+	<obj>
+		<objName>Infested</objName>
+		<en>Infested</en>
+		<jp>感染</jp>
+		<cn>感染的</cn>
+	</obj>
+	<obj>
+		<objName>Dangerous</objName>
+		<en>Dangerous</en>
+		<jp>危険</jp>
+		<cn>危险的</cn>
+	</obj>
+	<obj>
+		<objName>Frantic</objName>
+		<en>Frantic</en>
+		<jp>狂気</jp>
+		<cn>狂乱的</cn>
+	</obj>
+	<obj>
+		<objName>Beware</objName>
+		<en>Beware</en>
+		<jp>警戒</jp>
+		<cn>当心</cn>
+	</obj>
+	<obj>
+		<objName>Harmless</objName>
+		<en>Harmless</en>
+		<jp>無害</jp>
+		<cn>无害的</cn>
+	</obj>
+	<obj>
+		<objName>Unexplored</objName>
+		<en>UNEXPLORED</en>
+		<jp>未探索</jp>
+		<cn>未探索的</cn>
+	</obj>
+	<obj>
+		<objName>Searchable Objects</objName>
+		<en>SEARCHABLE OBJECTS</en>
+		<jp>調査ポイント</jp>
+		<cn>可搜索目标</cn>
+	</obj>
+	<obj>
+		<objName>Objects</objName>
+		<en>OBJECTS</en>
+		<jp>オブジェクト</jp>
+		<cn>目标</cn>
+	</obj>
+	<obj>
+		<objName>Wall</objName>
+		<en>WALL</en>
+		<jp>壁</jp>
+		<cn>墙</cn>
+	</obj>
+	<obj>
+		<objName>Survivor</objName>
+		<en>SURVIVOR</en>
+		<jp>生存者</jp>
+		<cn>幸存者</cn>
+	</obj>
+	<obj>
+		<objName>Lead Survivor</objName>
+		<en>LEAD SURVIVOR</en>
+		<jp>生存者リーダー</jp>
+		<cn>幸存者头领</cn>
+	</obj>
+	<obj>
+		<objName>Safe Area</objName>
+		<en>SAFE AREA</en>
+		<jp>安全区域</jp>
+		<cn>安全区域</cn>
+	</obj>
+	<obj>
+		<objName>We are currently here.</objName>
+		<en>We are currently here.</en>
+		<jp>現在地はここだ。</jp>
+		<cn>我们现在在这里。</cn>
+	</obj>
+	<obj>
+		<objName>Let's explore this area further!</objName>
+		<en>Let's explore this area further!</en>
+		<jp>このエリアをもっと探索しよう。</jp>
+		<cn>让我们继续探索此区域！</cn>
+	</obj>
+	<obj>
+		<objName>Return to HQ to end expedition!</objName>
+		<en>Return to HQ to end expedition!</en>
+		<jp>HQに戻って遠征終了だ！</jp>
+		<cn>回到总部，结束探险！</cn>
+	</obj>
+	<obj>
+		<objName>A mutant zombie is roaming in this area.</objName>
+		<en>A mutant zombie is roaming in this area.</en>
+		<jp>このエリアには変異体ゾンビがうろついている。</jp>
+		<cn>一只变异的僵尸正在此区域游走。</cn>
+	</obj>
+	<obj>
+		<objName>There seems to be some human activity in this area.</objName>
+		<en>There seems to be some human activity in this area.</en>
+		<jp>このエリアには人間の活動があるようだ。</jp>
+		<cn>此区域似乎有人类活动。</cn>
+	</obj>
+	<obj>
+		<objName>A merchant has set up shop here.</objName>
+		<en>A merchant has set up shop here.</en>
+		<jp>ここでは商人がショップを開いている。</jp>
+		<cn>一位商人在此建造了商店。</cn>
+	</obj>
+	<obj>
+		<objName>This area has not been successfully scouted nor explored.</objName>
+		<en>This area has not been successfully scouted nor explored.</en>
+		<jp>このエリアはまだ偵察も探索もされていない。</jp>
+		<cn>此区域未被侦察及探索。</cn>
+	</obj>
+	<obj>
+		<objName>Encounter</objName>
+		<en>ENCOUNTER</en>
+		<jp>エンカウント</jp>
+		<cn>遭遇</cn>
+	</obj>
+	<obj>
+		<objName>Abundant</objName>
+		<en>Abundant</en>
+		<jp>無数</jp>
+		<cn>充足的</cn>
+	</obj>
+	<obj>
+		<objName>Moderate</objName>
+		<en>Moderate</en>
+		<jp>大量</jp>
+		<cn>适合的</cn>
+	</obj>
+	<obj>
+		<objName>Plenty</objName>
+		<en>Plenty</en>
+		<jp>多数</jp>
+		<cn>大量的</cn>
+	</obj>
+	<obj>
+		<objName>Decent</objName>
+		<en>Decent</en>
+		<jp>普通</jp>
+		<cn>足够的</cn>
+	</obj>
+	<obj>
+		<objName>Scarce</objName>
+		<en>Scarce</en>
+		<jp>少数</jp>
+		<cn>缺乏</cn>
+	</obj>
+	<obj>
+		<objName>Depleted</objName>
+		<en>Depleted</en>
+		<jp>ごくわずか</jp>
+		<cn>耗尽</cn>
+	</obj>
+	<obj>
+		<objName>Unknown</objName>
+		<en>Unknown</en>
+		<jp>未知</jp>
+		<cn>未知</cn>
+	</obj>
+	<obj>
+		<objName>Completion</objName>
+		<en>COMPLETION</en>
+		<jp>完了</jp>
+		<cn>完成</cn>
+	</obj>
+	<obj>
+		<objName>Expedition Success</objName>
+		<en>EXPEDITION SUCCESS</en>
+		<jp>遠征成功</jp>
+		<cn>探险成功</cn>
+	</obj>
+	<obj>
+		<objName>FAST FORWARD</objName>
+		<en>FAST FORWARD</en>
+		<jp>早送り</jp>
+		<cn>快进</cn>
+	</obj>
+	<obj>
+		<objName>Do you want to fast forward to night time and start expedition?</objName>
+		<en>Do you want to fast forward to night time and start expedition?</en>
+		<jp>夜まで時間を早送りして、&#xA;遠征を開始しますか？</jp>
+		<cn>您是否想跳过夜晚并开始探险？</cn>
+	</obj>
+	<obj>
+		<objName>Ready</objName>
+		<en>READY</en>
+		<jp>準備</jp>
+		<cn>准备</cn>
+	</obj>
+	<obj>
+		<objName>huh?</objName>
+		<en>huh?</en>
+		<jp>ハァッ？</jp>
+		<cn>是吧？</cn>
+	</obj>
+	<obj>
+		<objName>Thank you!</objName>
+		<en>Thank you!</en>
+		<jp>ありがとう！</jp>
+		<cn>谢谢！</cn>
+	</obj>
+	<obj>
+		<objName>What is it?</objName>
+		<en>What is it?</en>
+		<jp>何ですか？</jp>
+		<cn>什么？</cn>
+	</obj>
+	<obj>
+		<objName>What?</objName>
+		<en>What?</en>
+		<jp>何？</jp>
+		<cn>什么？</cn>
+	</obj>
+	<obj>
+		<objName>What do you want?</objName>
+		<en>What do you want?</en>
+		<jp>なんでしょう？</jp>
+		<cn>你想要什么？</cn>
+	</obj>
+	<obj>
+		<objName>Hey!?</objName>
+		<en>Hey!?</en>
+		<jp>ちょっと！</jp>
+		<cn>嘿！？</cn>
+	</obj>
+	<obj>
+		<objName>Stop poking me!</objName>
+		<en>Stop poking me!</en>
+		<jp>私を突き止めるのをやめて！</jp>
+		<cn>停止戳我！</cn>
+	</obj>
+	<obj>
+		<objName>Expedition briefing</objName>
+		<en>EXPEDITION BRIEFING</en>
+		<jp>遠征前ブリーフィング</jp>
+		<cn>探险情况</cn>
+	</obj>
+	<obj>
+		<objName>Expedition Aborted</objName>
+		<en>EXPEDITION ABORTED</en>
+		<jp>遠征中止</jp>
+		<cn>探险异常退出</cn>
+	</obj>
+	<obj>
+		<objName>Expedition Failed</objName>
+		<en>EXPEDITION FAILED</en>
+		<jp>遠征失敗</jp>
+		<cn>探险失败</cn>
+	</obj>
+	<obj>
+		<objName>Assemble team</objName>
+		<en>Assemble your expedition team</en>
+		<jp>遠征チームを結成しよう。</jp>
+		<cn>配置你的探险队伍。</cn>
+	</obj>
+	<obj>
+		<objName>Assign survivors</objName>
+		<en>Assign up to 4 survivors to be sent out to explore the city.</en>
+		<jp>街の探索に行けるのは最大で4人だ。</jp>
+		<cn>选择至多4名幸存者来探索城市。</cn>
+	</obj>
+	<obj>
+		<objName>Gather supplies</objName>
+		<en>Gather as many supplies as possible and return to headquarters before 6:00 AM.</en>
+		<jp>出来るだけたくさんの物資を集めて、朝6時までにHQに戻ろう。</jp>
+		<cn>尽可能多的收集物资并在6:00前回到总部。</cn>
+	</obj>
+	<obj>
+		<objName>We are out of SUPPLIES! People are fighting over food, thankfully no one gets hurt.</objName>
+		<en>We are out of SUPPLIES! People are fighting over food, thankfully no one gets hurt.</en>
+		<jp>補給物資がなくなった！食べ物をめぐる喧嘩があったが、幸いケガ人は出なかった。</jp>
+		<cn>我们的物资耗尽了！人们正在争夺食物，所幸无人受伤。</cn>
+	</obj>
+	<obj>
+		<objName>There's nothing to eat! People are starving, we need to find more SUPPLIES!</objName>
+		<en>There's nothing to eat! People are starving, we need to find more SUPPLIES!</en>
+		<jp>もう食べるものがない！みんな飢え始めている。補給物資が必要だ！</jp>
+		<cn>没有任何食物了@人们正在挨饿，我们需要去寻找更多的物资！</cn>
+	</obj>
+	<obj>
+		<objName>You only have</objName>
+		<en>You only have</en>
+		<jp>残りの補給物資は</jp>
+		<cn>你仅有</cn>
+	</obj>
+	<obj>
+		<objName>SUPPLIES, while you need</objName>
+		<en>SUPPLIES, while you need</en>
+		<jp>だ。生存者の維持には</jp>
+		<cn>物资，你需要</cn>
+	</obj>
+	<obj>
+		<objName>SUPPLIES to feed SURVIVORS. People are getting hungry.</objName>
+		<en>SUPPLIES to feed SURVIVORS. People are getting hungry.</en>
+		<jp>の補給物資が必要だ。みんな空腹を感じている。</jp>
+		<cn>物资来供应给幸存者。人们正在饱受饥饿。</cn>
+	</obj>
+	<obj>
+		<objName>has fallen ill due to starvation! We need to find more SUPPLIES or this will get worse!</objName>
+		<en>has fallen ill due to starvation! We need to find more SUPPLIES or this will get worse!</en>
+		<jp>は飢えにより病気にかかってしまった！補給物資を手に入れない限り、状況は悪化するだろう。</jp>
+		<cn>已经由于饥饿病倒！我们需要找到更多的物资，不然情况会更糟糕！</cn>
+	</obj>
+	<obj>
+		<objName>SUPPLIES has been consumed by survivors.</objName>
+		<en>SUPPLIES has been consumed by survivors.</en>
+		<jp>個：補給物資が生存者によって消費された。</jp>
+		<cn>物资已经被幸存者消耗。</cn>
+	</obj>
+	<obj>
+		<objName>We are running low on SUPPLIES! People are getting anxious. We need to do something about this!</objName>
+		<en>We are running low on SUPPLIES! People are getting anxious. We need to do something about this!</en>
+		<jp>補給物資が底をつきそうだ！生存者の間には不安感が増している。どうにかしなければ！</jp>
+		<cn>我们的物资不多了！人们越来越焦虑。我们需要为此行动了！</cn>
+	</obj>
+	<obj>
+		<objName>SUPPLIES are running low! We need to find more food, or people will starve!</objName>
+		<en>SUPPLIES are running low! We need to find more food, or people will starve!</en>
+		<jp>補給物資が底をつきそうだ！食べ物を見つけなければ、みんな飢えてしまう！</jp>
+		<cn>物资不多了！我们需要寻找更多的食物，不然人们就要挨饿了！</cn>
+	</obj>
+	<obj>
+		<objName>There's almost nothing to eat, today I saw someone fainted because of hunger!</objName>
+		<en>There's almost nothing to eat, today I saw someone fainted because of hunger!</en>
+		<jp>食べられるものがほとんどない。空腹のため失神する人も出始めた！</jp>
+		<cn>几乎没有任何食物了，今天我看到有人因为过度饥饿晕倒了！</cn>
+	</obj>
+	<obj>
+		<objName>We need more SUPPLIES! Our stocks won't last another day!</objName>
+		<en>We need more SUPPLIES! Our stocks won't last another day!</en>
+		<jp>もっと補給物資が必要だ！もうもたない！</jp>
+		<cn>我们需要更多的物资！我们贮存的东西撑不过一天了！</cn>
+	</obj>
+	<obj>
+		<objName>has recovered from injuries</objName>
+		<en>has recovered from injuries</en>
+		<jp>はケガから回復した。</jp>
+		<cn>已经从伤病中恢复</cn>
+	</obj>
+	<obj>
+		<objName>Out Of Time</objName>
+		<en>OUT OF TIME</en>
+		<jp>時間切れ</jp>
+		<cn>时间紧迫</cn>
+	</obj>
+	<obj>
+		<objName>You Found</objName>
+		<en>You found</en>
+		<jp>発見</jp>
+		<cn>你发现</cn>
+	</obj>
+	<obj>
+		<objName>Hint 1</objName>
+		<en>Hint : Collect FUEL by completing objectives.</en>
+		<jp>ヒント：目標を達成して燃料を集めよう。</jp>
+		<cn>线索：采集燃料，完成目标。</cn>
+	</obj>
+	<obj>
+		<objName>Hint 2</objName>
+		<en>Hint : TURRETS and SUPPORTS can help you survive.</en>
+		<jp>ヒント：タレットと支援を使えば、状況を有利にできる。</jp>
+		<cn>线索：炮塔和支架可以帮助你生存下来。</cn>
+	</obj>
+	<obj>
+		<objName>Hint 3</objName>
+		<en>Hint : Rescue other survivors and they will join you.</en>
+		<jp>ヒント：他の生存者を救出すれば仲間になってくれる。</jp>
+		<cn>线索：救治其他幸存者，他们将加入你的队伍。</cn>
+	</obj>
+	<obj>
+		<objName>Hint 4</objName>
+		<en>Hint : Searchable objects will sparkle.</en>
+		<jp>ヒント：光っているオブジェクトは調査できる。</jp>
+		<cn>线索：可找到的物品会发光。</cn>
+	</obj>
+	<obj>
+		<objName>Hint 5</objName>
+		<en>Hint : You can find WEAPONS and SUPPLIES by searching.</en>
+		<jp>ヒント：調査で武器や補給物資が手に入る。</jp>
+		<cn>线索：你可以通过搜索找到武器和物资。</cn>
+	</obj>
+	<obj>
+		<objName>Hint 6</objName>
+		<en>Hint : Position your survivors strategically during missions.</en>
+		<jp>ヒント：ミッション中は生存者を戦略的に配置しよう。</jp>
+		<cn>线索：在任务期间策略性地调用你的幸存者们。</cn>
+	</obj>
+	<obj>
+		<objName>Hint 7</objName>
+		<en>Hint : Try building turrets durring missions.</en>
+		<jp>ヒント：ミッション中にタレットを組み立ててみよう。</jp>
+		<cn>线索:在任务期间建造炮塔。</cn>
+	</obj>
+	<obj>
+		<objName>Hint 8</objName>
+		<en>Hint : Manage your SUPPLIES and avoid STARVATION.</en>
+		<jp>ヒント：補給物資の残数に気をつけて飢えを防ごう。</jp>
+		<cn>线索：管理好你的资源，避免饥荒！</cn>
+	</obj>
+	<obj>
+		<objName>Hint 9</objName>
+		<en>Try again! You can do better.</en>
+		<jp>あきらめないで！次はうまくいくはず。</jp>
+		<cn>再试一次！你可以做得更好。</cn>
+	</obj>
+	<obj>
+		<objName>Your days are over</objName>
+		<en>Your days are over! You can do better.</en>
+		<jp>あなたの時間は終わった！次はうまくいくはず。</jp>
+		<cn>你的日子已经结束了！你可以做得更好。</cn>
+	</obj>
+	<obj>
+		<objName>Completed</objName>
+		<en>COMPLETED</en>
+		<jp>完了</jp>
+		<cn>已完成</cn>
+	</obj>
+	<obj>
+		<objName>Escape City</objName>
+		<en>Escape City</en>
+		<jp>街を脱出</jp>
+		<cn>逃离城市</cn>
+	</obj>
+	<obj>
+		<objName>Fix The Car</objName>
+		<en>Fix The Car</en>
+		<jp>車を修理</jp>
+		<cn>修理汽车</cn>
+	</obj>
+	<obj>
+		<objName>Collect Fuel</objName>
+		<en>Collect Fuel</en>
+		<jp>燃料を収集</jp>
+		<cn>采集燃料</cn>
+	</obj>
+	<obj>
+		<objName>Locate Exit</objName>
+		<en>Locate Exit</en>
+		<jp>出口を探す</jp>
+		<cn>找到出口</cn>
+	</obj>
+	<obj>
+		<objName>You Died</objName>
+		<en>YOU DIED</en>
+		<jp>死亡した</jp>
+		<cn>你已失败</cn>
+	</obj>
+	<obj>
+		<objName>Has died</objName>
+		<en>has died</en>
+		<jp>は死亡した</jp>
+		<cn>已失败</cn>
+	</obj>
+	<obj>
+		<objName>Safe</objName>
+		<en>SAFE</en>
+		<jp>安全</jp>
+		<cn>安全</cn>
+	</obj>
+	<obj>
+		<objName>Not Safe</objName>
+		<en>NOT SAFE</en>
+		<jp>危険</jp>
+		<cn>不安全</cn>
+	</obj>
+	<obj>
+		<objName>Not In Safe Area</objName>
+		<en>Survivors currently not on safe area will get health penalty when you leave.</en>
+		<jp>安全区域にいない生存者は、離脱時に体力にダメージを受ける。</jp>
+		<cn>目前不在安全区域的幸存者将在您离开后受到健康影响。</cn>
+	</obj>
+	<obj>
+		<objName>Minimap</objName>
+		<en>MINIMAP</en>
+		<jp>ミニマップ</jp>
+		<cn>小地图</cn>
+	</obj>
+	<obj>
+		<objName>Map Legend</objName>
+		<en>MAP LEGEND</en>
+		<jp>マップの凡例</jp>
+		<cn>地图图例</cn>
+	</obj>
+	<obj>
+		<objName>You Survived</objName>
+		<en>You survived for</en>
+		<jp>生存日数：</jp>
+		<cn>你已经存活了</cn>
+	</obj>
+	<obj>
+		<objName>Days</objName>
+		<en>Day(s)</en>
+		<jp>日々</jp>
+		<cn>天</cn>
+	</obj>
+	<obj>
+		<objName>Yours</objName>
+		<en>YOURS</en>
+		<jp>所持品</jp>
+		<cn>你的</cn>
+	</obj>
+	<obj>
+		<objName>Buying</objName>
+		<en>BUYING</en>
+		<jp>購入</jp>
+		<cn>购买</cn>
+	</obj>
+	<obj>
+		<objName>Selling</objName>
+		<en>SELLING</en>
+		<jp>売却</jp>
+		<cn>出售</cn>
+	</obj>
+	<obj>
+		<objName>Project Complete</objName>
+		<en>PROJECT COMPLETE</en>
+		<jp>プロジェクト達成</jp>
+		<cn>任务完成</cn>
+	</obj>
+	<obj>
+		<objName>Defend The HQ</objName>
+		<en>DEFEND THE HQ</en>
+		<jp>HQ防衛</jp>
+		<cn>保护总部</cn>
+	</obj>
+	<obj>
+		<objName>Zombie Horde</objName>
+		<en>Zombie horde is approaching our HQ. Assign up to 4 survivors to intercept and defend our HQ.</en>
+		<jp>ゾンビの群れがHQに向かってきている。最大4人でチームを組んで、HQを防衛してくれ。</jp>
+		<cn>"僵尸群正在接近我们的总部。派遣至多4名幸存者拦截它们，守护我们的总部！"</cn>
+	</obj>
+	<obj>
+		<objName>Found</objName>
+		<en>FOUND</en>
+		<jp>発見：</jp>
+		<cn>找到</cn>
+	</obj>
+	<obj>
+		<objName>Lost</objName>
+		<en>LOST </en>
+		<jp>紛失：</jp>
+		<cn>丢失</cn>
+	</obj>
+	<obj>
+		<objName>Supply</objName>
+		<en>SUPPLY</en>
+		<jp>供給</jp>
+		<cn>供应</cn>
+	</obj>
+	<obj>
+		<objName>Supplies</objName>
+		<en>SUPPLIES</en>
+		<jp>供給</jp>
+		<cn>供应</cn>
+	</obj>
+	<obj>
+		<objName>Supp</objName>
+		<en>SUPPLIES</en>
+		<jp>用品</jp>
+		<cn>物资</cn>
+	</obj>
+	<obj>
+		<objName>Fuel</objName>
+		<en>FUEL</en>
+		<jp>燃料</jp>
+		<cn>燃料</cn>
+	</obj>
+	<obj>
+		<objName>Lost Fuel</objName>
+		<en>LOST FUEL</en>
+		<jp>燃料を失くした</jp>
+		<cn>丢失燃料</cn>
+	</obj>
+	<obj>
+		<objName>Found Fuel</objName>
+		<en>FOUND FUEL</en>
+		<jp>燃料を見つけた</jp>
+		<cn>找到燃料</cn>
+	</obj>
+	<obj>
+		<objName>No Fuel</objName>
+		<en>NO FUEL</en>
+		<jp>燃料がない</jp>
+		<cn>没有燃料</cn>
+	</obj>
+	<obj>
+		<objName>There Are No Fuel</objName>
+		<en>THERE ARE NO FUEL</en>
+		<jp>燃料がありません</jp>
+		<cn>没有燃料了</cn>
+	</obj>
+	<obj>
+		<objName>Lost Ammo</objName>
+		<en>LOST @MMO</en>
+		<jp>弾薬を失くした</jp>
+		<cn>丢失弹药</cn>
+	</obj>
+	<obj>
+		<objName>Found Ammo</objName>
+		<en>FOUND @MMO</en>
+		<jp>弾薬を見つけた</jp>
+		<cn>找到弹药</cn>
+	</obj>
+	<obj>
+		<objName>No Ammo</objName>
+		<en>NO @MMO</en>
+		<jp>弾薬がない</jp>
+		<cn>没有弹药</cn>
+	</obj>
+	<obj>
+		<objName>There Are No Ammo</objName>
+		<en>THERE ARE NO @MMO</en>
+		<jp>弾薬がありません</jp>
+		<cn>没有弹药了</cn>
+	</obj>
+	<obj>
+		<objName>Lost Supply</objName>
+		<en>LOST SUPPLY</en>
+		<jp>補給物資を失くした</jp>
+		<cn>丢失物资</cn>
+	</obj>
+	<obj>
+		<objName>Lost Supplies</objName>
+		<en>LOST SUPPLIES</en>
+		<jp>補給物資を失くした</jp>
+		<cn>丢失物资</cn>
+	</obj>
+	<obj>
+		<objName>Found Supply</objName>
+		<en>FOUND SUPPLY</en>
+		<jp>補給物資を見つけた</jp>
+		<cn>找到物资</cn>
+	</obj>
+	<obj>
+		<objName>Found Supplies</objName>
+		<en>FOUND SUPPLIES</en>
+		<jp>補給物資を見つけた</jp>
+		<cn>找到物资</cn>
+	</obj>
+	<obj>
+		<objName>No Supply</objName>
+		<en>NO SUPPLY</en>
+		<jp>補給物資がない</jp>
+		<cn>没有物资</cn>
+	</obj>
+	<obj>
+		<objName>There Are No Supply</objName>
+		<en>THERE ARE NO SUPPLY</en>
+		<jp>補給物資がありません</jp>
+		<cn>没有物资了</cn>
+	</obj>
+	<obj>
+		<objName>Mortar</objName>
+		<en>MORTAR</en>
+		<jp>モルタル</jp>
+		<cn>迫击炮</cn>
+	</obj>
+	<obj>
+		<objName>Mortars</objName>
+		<en>MORTARS</en>
+		<jp>モルタル</jp>
+		<cn>迫击炮</cn>
+	</obj>
+	<obj>
+		<objName>Lost Mortar</objName>
+		<en>LOST MORTAR</en>
+		<jp>迫撃砲を失くした</jp>
+		<cn>丢失迫击炮</cn>
+	</obj>
+	<obj>
+		<objName>Lost Mortars</objName>
+		<en>LOST MORTARS</en>
+		<jp>迫撃砲を失くした</jp>
+		<cn>丢失迫击炮</cn>
+	</obj>
+	<obj>
+		<objName>Found Mortar</objName>
+		<en>FOUND MORTAR</en>
+		<jp>迫撃砲を見つけた</jp>
+		<cn>找到迫击炮</cn>
+	</obj>
+	<obj>
+		<objName>Found Mortars</objName>
+		<en>FOUND MORTARS</en>
+		<jp>迫撃砲を見つけた</jp>
+		<cn>找到迫击炮</cn>
+	</obj>
+	<obj>
+		<objName>No Mortar</objName>
+		<en>NO MORTAR</en>
+		<jp>迫撃砲がない</jp>
+		<cn>没有迫击炮</cn>
+	</obj>
+	<obj>
+		<objName>There Are No Mortar</objName>
+		<en>THERE ARE NO MORTAR</en>
+		<jp>迫撃砲がありません</jp>
+		<cn>没有迫击炮了</cn>
+	</obj>
+	<obj>
+		<objName>Special Thanks</objName>
+		<en>SPECIAL THANKS</en>
+		<jp>スペシャルサンクス</jp>
+		<cn>特别鸣谢</cn>
+	</obj>
+	<obj>
+		<objName>Credits Label</objName>mail
+		<en>GAME DESIGN, LEAD PROGRAMMER&#xA;&#xA;&#xA;ADDITIONAL PROGRAMMER&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;LEAD PIXEL ARTIST &amp; ANIMATOR&#xA;&#xA;&#xA;ILLUSTRATIONS &amp; PIXEL ARTISTS&#xA;&#xA;&#xA;&#xA;&#xA;MUSIC &amp; SOUND&#xA;&#xA;&#xA;SPONSORED BY&#xA;&#xA;&#xA;A GAME BY</en>
+		<jp>ゲームデザイン、リードプログラマー&#xA;&#xA;追加のプログラマ&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;リードピクセル芸術家 &amp; アニメーター&#xA;&#xA;&#xA;イラスト &amp; ピクセルのアーティスト&#xA;&#xA;&#xA;&#xA;音楽 &amp; 音&#xA;&#xA;&#xA;主催者&#xA;&#xA;&#xA;のゲーム</jp>
+		<cn>游戏设计，领导计划&#xA;&#xA;&#xA;附加程序员&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;铅像素艺术家 &amp; 动画制作者&#xA;&#xA;&#xA;插图 &amp; 像素艺术家&#xA;&#xA;&#xA;&#xA;&#xA;音乐 &amp; 声音&#xA;&#xA;&#xA;由...赞助&#xA;&#xA;&#xA;一场比赛</cn>
+	</obj>
+	<obj>
+		<objName>Announcement To Player2</objName>
+		<en>ANNOUNCEMENT - Aug 4, 2016&#xA;&#xA;Welcome to Infectonator : Survivors.&#xA;&#xA;We would like to thank all of you for your never ending support. This game could not exist without the continuing support of our Early Access backers and TOGE PRODUCTIONS community.&#xA;&#xA;Thank you for your patience, enthusiasm, support, and feedbacks.&#xA;&#xA;Please go to www.infectonatorsurvivors.com and join our mailing list.&#xA;&#xA;Thank you. - Dev Team</en>
+		<jp>発表 - 12月 2017&#xA;&#xA;生存者のための新しいアップデートがすぐに利用可能です！&#xA;&#xA;お待ち頂きまして、ありがとうございます。&#xA;&#xA;ありがとう - チームデベロッパー</jp>
+		<cn>乐 &amp;</cn>
+	</obj>
+	<obj>
+		<objName>Announcement To Player</objName>
+		<en>Infectonator: Survivors is about surviving in a world where everything tries to kill you. You will have to make hard decisions. Characters will die and missions will fail.&#xA;&#xA;When tragedy happens, it is up to you; will you give up? Or will you bounce back stronger and take lesson from your failure?</en>
+		<jp>Infectonator―生存者たち―の目的は、襲い掛かる敵に立ち向かって生き延びることだ。難しい決断を迫られることもある。操作キャラクターが死亡し、ミッションに失敗することもあるだろう。&#xA;&#xA;悲劇が起こったら…　あきらめるか？　それとも、失敗から学び自分を成長させて、再び挑むか？　すべて君にかかっている！</jp>
+		<cn>"僵尸病毒：生存者将在一个所有东西都想要击败你的环境中活下来。你将会做出非常艰难的决定。人物将会被击败并且任务会失败。&#xA;&#xA;当悲剧发生时，命运由你自己选择；你会放弃吗？抑或是重新振作变得更强，从失败中吸取经验教训？"</cn>
+	</obj>
+	<!-- RESEARCH COMMENTS START -->
+	<obj>
+		<objName>ResearchComment1</objName>
+		<en>Doing some heavy...stuff.</en>
+		<jp>大変な作業を…行っています</jp>
+		<cn>大扫荡。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment2</objName>
+		<en>Figuring out puzzles.</en>
+		<jp>パズルを解読しています</jp>
+		<cn>解开谜语。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment3</objName>
+		<en>Reticulating splines!...whatever that means.</en>
+		<jp>スプラインを網状化しています！…意味わかるかな</jp>
+		<cn>把曲线结成网状！。。。不管这意味着什么。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment4</objName>
+		<en>Punching air into bags.</en>
+		<jp>空気を袋に叩き入れています</jp>
+		<cn>将空气充入袋子里。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment5</objName>
+		<en>Remembering answers to questions.</en>
+		<jp>質問に対する回答を思い出しています</jp>
+		<cn>记住问题的答案。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment6</objName>
+		<en>Regretting some decisions.</en>
+		<jp>あの決断を後悔しています</jp>
+		<cn>重新做决定。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment7</objName>
+		<en>Praying to GOD.</en>
+		<jp>カミに祈りを捧げています</jp>
+		<cn>向上帝祷告。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment8</objName>
+		<en>Looking for instruction manuals.</en>
+		<jp>取扱説明書を探しています</jp>
+		<cn>寻找指导手册。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment9</objName>
+		<en>Hoping that this would work.</en>
+		<jp>上手くいくように念じています</jp>
+		<cn>希望这能有效。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment10</objName>
+		<en>Singing Heigh Ho, Heigh Ho.</en>
+		<jp>ハイホーハイホー</jp>
+		<cn>歌唱嗨哟，嗨哟。</cn>
+	</obj>
+	<obj>
+		<objName>ResearchComment11</objName>
+		<en>Adding some pixie dusts.</en>
+		<jp>妖精の粉を追加しています</jp>
+		<cn>加入一些魔法粉尘。</cn>
+	</obj>
+	<!-- RESEARCH COMMENTS END -->
+	
+	<obj>
+		<objName>You Received</objName>
+		<en>YOU RECEIVED</en>
+		<jp>成果物</jp>
+		<cn>你收到了</cn>
+	</obj>
+	<obj>
+		<objName>Kitchen Upgraded</objName>
+		<en>KITCHEN UPGRADED</en>
+		<jp>キッチンのアップグレード完了</jp>
+		<cn>厨房升级</cn>
+	</obj>
+	<obj>
+		<objName>Kitchen Upgraded Desc</objName>
+		<en>Our kitchen production is now improved</en>
+		<jp>出来上がる料理の数が増加する</jp>
+		<cn>我们厨房的产物得到了提高</cn>
+	</obj>
+	<obj>
+		<objName>Stamina Improved</objName>
+		<en>STAMINA IMPROVED</en>
+		<jp>スタミナが向上</jp>
+		<cn>体力提高</cn>
+	</obj>
+	<obj>
+		<objName>STAMINA</objName>
+		<en>STAMINA</en>
+		<jp>スタミナ</jp>
+		<cn>耐力</cn>
+	</obj>
+	<obj>
+		<objName>Stamina Improved Desc</objName>
+		<en>Your expedition team can now explore further</en>
+		<jp>遠征チームの活動量が増加する</jp>
+		<cn>现在我们的探险队伍可以进一步探索了</cn>
+	</obj>
+	<obj>
+		<objName>Garden Upgraded</objName>
+		<en>GARDEN UPGRADED</en>
+		<jp>庭のアップグレード完了</jp>
+		<cn>花园升级</cn>
+	</obj>
+	<obj>
+		<objName>Garden Upgraded Desc</objName>
+		<en>Our garden production is increased</en>
+		<jp>畑の生産量が増加する</jp>
+		<cn>我们花园的产物得到了提高</cn>
+	</obj>
+	<obj>
+		<objName>You Received A Call</objName>
+		<en>YOU RECEIVED A CALL</en>
+		<jp>コールを受信</jp>
+		<cn>你收到了一通电话</cn>
+	</obj>
+	<obj>
+		<objName>You Received A Call Desc</objName>
+		<en>You've got a response from someone!</en>
+		<jp>誰かから応答があった！</jp>
+		<cn>你收到了来自某人的回复！</cn>
+	</obj>
+	<obj>
+		<objName>You Received Nothing</objName>
+		<en>YOU RECEIVED NOTHING</en>
+		<jp>応答がない</jp>
+		<cn>你什么也没收到</cn>
+	</obj>
+	<obj>
+		<objName>You Received Nothing Desc</objName>
+		<en>No one picked up our signal</en>
+		<jp>交信に応じてくれた人はいなかった</jp>
+		<cn>没人收到我们的信号</cn>
+	</obj>
+	<obj>
+		<objName>You Secured Supply Location</objName>
+		<en>YOU SECURED SUPPLY LOCATION</en>
+		<jp>補給物資の保管場所を発見</jp>
+		<cn>你保护住了物资点</cn>
+	</obj>
+	<obj>
+		<objName>You Secured Supply Location Desc</objName>
+		<en>You manage to locate supplies whereabouts</en>
+		<jp>補給物資の保管場所を発見できた</jp>
+		<cn>你成功地在某处放置了物资</cn>
+	</obj>
+	<obj>
+		<objName>You Secured Fuel Location</objName>
+		<en>YOU SECURED FUEL LOCATION</en>
+		<jp>燃料の保管場所を発見</jp>
+		<cn>你保护住了燃料点</cn>
+	</obj>
+	<obj>
+		<objName>You Secured Fuel Location Desc</objName>
+		<en>You manage to locate some fuel whereabouts</en>
+		<jp>燃料の保管場所を発見できた</jp>
+		<cn>你成功地在某处放置了燃料</cn>
+	</obj>
+	<obj>
+		<objName>You Secured Nothing</objName>
+		<en>YOU SECURED NOTHING</en>
+		<jp>発見したものはない</jp>
+		<cn>你没能保护住任何东西</cn>
+	</obj>
+	<obj>
+		<objName>You Secured Nothing Desc</objName>
+		<en>Your receiver did not pick up any signal</en>
+		<jp>なんの信号もキャッチできなかった</jp>
+		<cn>你的接收者没有收到任何信号</cn>
+	</obj>
+	<obj>
+		<objName>You managed to escape the city</objName>
+		<en>You managed to escape the city!</en>
+		<jp>街を脱出することができた</jp>
+		<cn>你设法逃离城市</cn>
+	</obj>
+	<obj>
+		<objName>Broadcast Success</objName>
+		<en>BROADCAST SUCCESS</en>
+		<jp>作戦成功を放送</jp>
+		<cn>播放成功</cn>
+	</obj>
+	<obj>
+		<objName>Broadcast Failed</objName>
+		<en>BROADCAST FAILED</en>
+		<jp>作戦失敗を放送</jp>
+		<cn>播放失败</cn>
+	</obj>
+	<obj>
+		<objName>You Received Supplies</objName>
+		<en>YOU RECEIVED SUPPLIES</en>
+		<jp>補給物資を受け取った</jp>
+		<cn>你收到了物资</cn>
+	</obj>
+	<obj>
+		<objName>You Received Materials</objName>
+		<en>YOU RECEIVED MATERIALS</en>
+		<jp>資材を受け取った</jp>
+		<cn>你收到了材料</cn>
+	</obj>
+	<obj>
+		<objName>You collected</objName>
+		<en>You collected</en>
+		<jp>回収した</jp>
+		<cn>你收集了</cn>
+	</obj>
+	<obj>
+		<objName>Move</objName>
+		<en>MOVE</en>
+		<jp>動く</jp>
+		<cn>移动</cn>
+	</obj>
+	<obj>
+		<objName>Salvage</objName>
+		<en>SALVAGE</en>
+		<jp>サルベージ</jp>
+		<cn>打捞</cn>
+	</obj>
+	<obj>
+		<objName>Craft</objName>
+		<en>CRAFT</en>
+		<jp>クラフト</jp>
+		<cn>手艺</cn>
+	</obj>
+	<obj>
+		<objName>Fix</objName>
+		<en>FIX</en>
+		<jp>修正する</jp>
+		<cn>固定</cn>
+	</obj>
+	<obj>
+		<objName>Items</objName>
+		<en>ITEMS</en>
+		<jp>アイテム</jp>
+		<cn>项目</cn>
+	</obj>
+	<obj>
+		<objName>Shop</objName>
+		<en>SHOP</en>
+		<jp>ショップ</jp>
+		<cn>店</cn>
+	</obj>
+	<obj>
+		<objName>Talk</objName>
+		<en>TALK</en>
+		<jp>トーク</jp>
+		<cn>谈论</cn>
+	</obj>
+	<obj>
+		<objName>Plant</objName>
+		<en>PLANT</en>
+		<jp>植える</jp>
+		<cn>植物</cn>
+	</obj>
+	<obj>
+		<objName>Cook</objName>
+		<en>COOK</en>
+		<jp>クック</jp>
+		<cn>厨师</cn>
+	</obj>
+	<obj>
+		<objName>Radio</objName>
+		<en>RADIO</en>
+		<jp>無線機</jp>
+		<cn>收音机</cn>
+	</obj>
+	<obj>
+		<objName>Check</objName>
+		<en>CHECK</en>
+		<jp>診る</jp>
+		<cn>校验</cn>
+	</obj>
+	<obj>
+		<objName>VEGETABLES</objName>
+		<en>VEGETABLES</en>
+		<jp>野菜</jp>
+		<cn>蔬菜</cn>
+	</obj>
+	<obj>
+		<objName>MEAT</objName>
+		<en>MEAT</en>
+		<jp>肉</jp>
+		<cn>肉</cn>
+	</obj>
+	<obj>
+		<objName>FRUITS</objName>
+		<en>FRUITS</en>
+		<jp>果物</jp>
+		<cn>水果</cn>
+	</obj>
+	<obj>
+		<objName>The end</objName>
+		<en>THE END</en>
+		<jp>THE END</jp>
+		<cn>结束</cn>
+	</obj>
+	<obj>
+		<objName>9V BATTERY</objName>
+		<en>9V BATTERIES</en>
+		<jp>9V電池</jp>
+		<cn>9V电池</cn>
+	</obj>
+	<obj>
+		<objName>Amount</objName>
+		<en>AMOUNT</en>
+		<jp>量</jp>
+		<cn>量</cn>
+	</obj>
+</localization>

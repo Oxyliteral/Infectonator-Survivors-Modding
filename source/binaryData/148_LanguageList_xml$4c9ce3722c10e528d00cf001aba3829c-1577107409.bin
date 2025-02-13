@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<!-- The first will be default language -->
+	<obj>
+		<objName>en</objName>
+		<desc>English</desc>
+		<kanji>0</kanji>
+		<svo>1</svo>
+		<tutorialList>
+			<tutorial>tutorial1</tutorial>
+			<tutorial>tutorial2</tutorial>
+			<tutorial>tutorial3</tutorial>
+			<tutorial>workshop2</tutorial>
+			<tutorial>garden2</tutorial>
+			<tutorial>garage2</tutorial>
+			<tutorial>kitchen2</tutorial>
+			<tutorial>mission2</tutorial>
+		</tutorialList>
+	</obj>
+	<!-- <obj>
+		<objName>jp</objName>
+		<desc>Japanese</desc>
+		<kanji>1</kanji>
+		<svo>0</svo>
+		<tutorialList>
+			<tutorial>tutorial1jp</tutorial>
+			<tutorial>tutorial2jp</tutorial>
+			<tutorial>tutorial3jp</tutorial>
+			<tutorial>workshop2jp</tutorial>
+			<tutorial>garden2jp</tutorial>
+			<tutorial>garage2jp</tutorial>
+			<tutorial>kitchen2jp</tutorial>
+			<tutorial>mission2jp</tutorial>
+		</tutorialList>
+	</obj>
+	<!-- <obj>
+		<objName>cn</objName>
+		<desc>Chinese</desc>
+		<kanji>1</kanji>
+		<svo>1</svo>
+		<tutorialList>
+			<tutorial>tutorial1</tutorial>
+			<tutorial>tutorial2</tutorial>
+			<tutorial>tutorial3</tutorial>
+			<tutorial>workshop2</tutorial>
+			<tutorial>garden2</tutorial>
+			<tutorial>garage2</tutorial>
+			<tutorial>kitchen2</tutorial>
+			<tutorial>mission2</tutorial>
+		</tutorialList>
+	</obj> -->
+</language>

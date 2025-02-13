@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+	<obj>
+		<objName>approachSurvivor1</objName>
+		<init>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Lone Survivor</en>
+					<jp>孤立した生存者</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hey! Anybody there??&#xA;Please help me!"</en>
+					<jp>「おーい！誰か！！&#xA;助けてほしい！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Somebody is screaming for help. We need to move fast if we want to help.</en>
+					<jp>助けを求める叫び声が聞こえる。救助するなら急がなければ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>approachSurvivor2</objName>
+		<init>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Lone Survivor</en>
+					<jp>孤立した生存者</jp>
+					<cn></cn></nameText>
+				<dialogText>
+					<en>"Who goes there?! What do you want?!"</en>
+					<jp>「誰だ？何をしている？！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Looks like there's a survivor nearby.</en>
+					<jp>近くに生存者がいるようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>approachSurvivor3</objName>
+		<init>
+		
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Hold on...&lt;.....&gt;I think I hear something.</en>
+					<jp>ちょっと待て…&lt;……&gt;何か聞こえたような…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Let's check it out!</en>
+					<jp>調べてみよう！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>approachSurvivorFail1</objName>
+		<init>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There's a body lying on the ground.</en>
+					<jp>誰か倒れている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>is it still be breathing...?</en>
+					<jp>まだ息があるだろうか？</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>approachSurvivorFail2</objName>
+		<init>
+		</init>
+		<scenes>
+			<scene>
+				<nameText></nameText>
+				<dialogText>
+				<en>Is that...a survivor?</en>
+				<jp>生きてる…のか？</jp>
+				<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>approachSurvivorFail3</objName>
+		<init>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There's a body lying on the ground.</en>
+					<jp>誰か倒れている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Are we too late?</en>
+					<jp>遅すぎたのだろうか？</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>approachSurvivorTalk1</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Lone Survivor</en>
+					<jp>孤立した生存者</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Get me out of here!"</en>
+					<jp>「ここから出して！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>approachSurvivorTalk2</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Lone Survivor</en>
+					<jp>孤立した生存者</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Good to see you!"</en>
+					<jp>「こんなところで会うとはな！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Lone Survivor</en>
+					<jp>孤立した生存者</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Keep out of this place!"</en>
+					<jp>「ここから離れろ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>	
+		
+	<obj>
+		<objName>approachSurvivorTalk3</objName>
+		<init>
+		<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Lone Survivor</en>
+					<jp>孤立した生存者</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Damn zombies! Kill them!"</en>
+					<jp>「ゾンビのやつら！ぶっ倒せ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	
+	<obj>
+		<objName>meetSurvivorCanJoinImmediatelyTalk</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Do you want to invite the survivor to your groups?</en>
+					<jp>生存者をメンバーとして迎え入れますか？</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Invite and ask to join group immediately</en>
+					<jp>迎え入れ、すぐにチームに入るように頼む</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">meetSurvivorJoinImmediately1</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Invite and ask send to base</en>
+					<jp>迎え入れ、HQに行くように頼む</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">meetSurvivorSendToBase1</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Leave</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">meetSurvivorLeave</link>
+				</links>
+			</option>
+		</options>
+	</obj>
+	
+</dialogs>

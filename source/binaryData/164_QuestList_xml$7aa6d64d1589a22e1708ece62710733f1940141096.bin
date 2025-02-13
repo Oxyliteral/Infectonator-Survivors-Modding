@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+
+	<obj>
+		<objName>merchantQuestTest</objName>
+		<opening>merchantOpeningEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject></targetObject>
+		<targetDialog></targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestRetrievePackage</objName>
+		<opening>genericOpeningEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>NPC_dying2</targetObject>
+		<targetDialog>merchantQuestTimingBeltDialogFoundNPC1</targetDialog>
+		<pos></pos>
+	</obj>
+
+	<obj>
+		<objName>rescueDog</objName>
+		<opening>openingDogRescueEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Dog</targetObject>
+		<targetDialog>dogRescued</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>rescueSurvivor</objName>
+		<opening>openingSurvivorRescueEvents</opening>
+		<enableSurvivor>1</enableSurvivor>
+		<targetObject></targetObject>
+		<targetDialog></targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>obtainSupply</objName>
+		<opening>openingObtainSupplyEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Chest5</targetObject>
+		<targetDialog>supplyObtained</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>obtainFuel</objName>
+		<opening>openingObtainFuelEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Chest5</targetObject>
+		<targetDialog>fuelObtained</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	
+	<!-- TIMING BELT START -->
+	<obj>
+		<objName>tBeltGenerator1</objName>
+		<opening>tBeltGenerator1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>NPC_dying1</targetObject>
+		<targetDialog>tBeltGenerator1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>tBeltGenerator2</objName>
+		<opening>tBeltGenerator2Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Generator</targetObject>
+		<targetDialog>tBeltGenerator2Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>tBeltFriendship1</objName>
+		<opening>tBeltFriendship1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>MilitaryNPC</targetObject>
+		<targetDialog>tBeltFriendship1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>tBeltFriendship2</objName>
+		<opening>tBeltFriendship2Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>MechanicToolBox</targetObject>
+		<targetDialog>tBeltFriendship2Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<!-- TIMING BELT END -->
+	
+	<!-- WINDSHIELD START -->
+	<obj>
+		<objName>repairBodySimpleQuest</objName>
+		<opening>genericOpeningEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>WindshieldDisplay</targetObject>
+		<targetDialog>windshieldAcquiringA1</targetDialog>
+		<pos></pos>
+	</obj>
+	<!-- WINDSHIELD END -->
+	
+	<!-- VELG START -->
+	<obj>
+		<objName>velgMillitary</objName>
+		<opening>velgMillitaryEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>MilitaryNPC</targetObject>
+		<targetDialog>velgMillitaryDialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>velgPriest</objName>
+		<opening>velgPriestEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>PriestNPC</targetObject>
+		<targetDialog>velgPriestDialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>velgUnfinishedBusiness1</objName>
+		<opening>velgUnfinishedBusiness1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Chest4</targetObject>
+		<targetDialog>velgUnfinishedBusiness1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>velgUnfinishedBusiness2</objName>
+		<opening>velgUnfinishedBusiness2Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>MilitaryNPC</targetObject>
+		<targetDialog>velgUnfinishedBusiness2Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<!-- VELG END -->
+	
+	<!-- ALTERNATOR START -->
+	<obj>
+		<objName>alternatorScientist</objName>
+		<opening>alternatorScientistEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>ScientistNPC</targetObject>
+		<targetDialog>alternatorScientistDialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>alternatorLoveStory1</objName>
+		<opening>alternatorLoveStory1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Chest4</targetObject>
+		<targetDialog>alternatorLoveStory1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>alternatorLoveStory2</objName>
+		<opening>alternatorLoveStory2Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Chest4</targetObject>
+		<targetDialog>alternatorLoveStory2Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>alternatorParanoid1</objName>
+		<opening>alternatorParanoid1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>MilitaryNPC</targetObject>
+		<targetDialog>alternatorParanoid1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>alternatorParanoid2</objName>
+		<opening>alternatorParanoid2Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>ScientistNPC</targetObject>
+		<targetDialog>alternatorParanoid2Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<!-- ALTERNATOR END -->
+	
+	<!-- DETERGENT START -->
+	<obj>
+		<objName>detergentScientistTwins1</objName>
+		<opening>detergentScientistTwins1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>ScientistNPC</targetObject>
+		<targetDialog>detergentScientistTwins1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>detergentScientistTwins2</objName>
+		<opening>detergentScientistTwins2Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>ScientistNPC</targetObject>
+		<targetDialog>detergentScientistTwins2Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>detergentScientistHungry</objName>
+		<opening>detergentScientistHungryEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>ScientistNPC</targetObject>
+		<targetDialog>detergentScientistHungryDialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>detergentScientistAnnoying1</objName>
+		<opening>detergentScientistAnnoying1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>ScientistNPC</targetObject>
+		<targetDialog>detergentScientistAnnoying1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<!-- DETERGENT END -->
+	
+	<!-- ECU START -->
+	<obj>
+		<objName>eCUMillitary1</objName>
+		<opening>eCUMillitary1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>DeadBodyScientist1</targetObject>
+		<targetDialog>eCUMillitary1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>eCUMillitary2</objName>
+		<opening>eCUMillitary2Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>MilitaryNPC</targetObject>
+		<targetDialog>eCUMillitary2Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>eCUBandit</objName>
+		<opening>eCUBanditEvents</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Chest4</targetObject>
+		<targetDialog>eCUBanditDialog</targetDialog>
+		<pos></pos>
+	</obj>
+	
+	<obj>
+		<objName>eCUAgent1</objName>
+		<opening>eCUAgent1Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>MilitaryNPC</targetObject>
+		<targetDialog>eCUAgent1Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>eCUAgent2</objName>
+		<opening>eCUAgent2Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Chest4</targetObject>
+		<targetDialog>eCUAgent2Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<obj>
+		<objName>eCUAgent3</objName>
+		<opening>eCUAgent3Events</opening>
+		<enableSurvivor>0</enableSurvivor>
+		<targetObject>Chest4</targetObject>
+		<targetDialog>eCUAgent3Dialog</targetDialog>
+		<pos></pos>
+	</obj>
+	<!-- ECU END -->
+	
+</quests>

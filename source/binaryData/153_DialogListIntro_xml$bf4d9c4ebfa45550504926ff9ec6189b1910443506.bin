@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<!-- INTRO EVENT START -->
+	<obj>
+		<objName>introEvent</objName>
+		<init>
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en>>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hello! Guys!? *bzzt* Where are you?"</en>
+					<jp>「誰かいる？…bzzt…どこ？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>You</en>
+					<jp>あなた</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Our car just broke down! We are only a block away..."</en>
+					<jp>「車が壊れてしまった！そこまであと1ブロックだ…」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You have got to hurry, the military is about to leave!"</en>
+					<jp>「急いだほうがいい、もう軍は出発してしまう！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Proceed on foot</en>
+					<jp>徒歩で行く</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">introAnswerEvent</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Try to restart the car</en>
+					<jp>もう一度エンジンをかける</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">introIgnoreEvent</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>introAnswerEvent</objName>
+		<init>
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to get out from the car.</en>
+					<jp>車から出ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en>You</en>
+					<jp>あなた</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Damn it! We are going on foot."</en>
+					<jp>「車はもうだめだ！歩いて行く」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Are you crazy? Zeds are coming your way!"</en>
+					<jp>「正気か？ゾンビに襲われてしまうぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>You</en>
+					<jp>あなた</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't worry, we'll be there!"</en>
+					<jp>「心配ない、すぐ行く！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introIgnoreEvent</objName>
+		<init>
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You tried to restart the engine.&#xA;Nothing happens</en>
+					<jp>もう一度エンジンをかけようとした。&#xA;何も起こらない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You realized that there's no more fuel in the tank.&#xA;The only way forward is to walk on foot...</en>
+					<jp>よく見ると、もう燃料がなくなっている。&#xA;先に進むには歩くしかない…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<nameText>
+					<en>You</en>
+					<jp>あなた</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText><en>"Damn it! We are going on foot."</en>
+					<jp>「車はもうだめだ！歩いて行く」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText
+					><en>"Are you crazy? Zeds are coming your way!"</en>
+					<jp>「正気か？ゾンビに襲われてしまうぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We have no choice, we ran out of fuel!"</en>
+					<jp>「他に方法はない、ガソリンを切らしたんだ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You better hurry up!"</en>
+					<jp>「急ぐんだ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>You</en>
+					<jp>あなた</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't worry, we'll be there!"</en>
+					<jp>「心配ない、すぐ行く！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- INTRO EVENT END -->
+	
+</dialogs>

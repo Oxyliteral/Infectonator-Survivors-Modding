@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<!-- FOUND CORPSE START -->
+	<obj>
+		<objName>foundCorpse</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Found Corpse</en>
+					<jp>死体を発見</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>While scavenging you found a corpse.&#xA;Next to the corpse is a backpack.</en>
+					<jp>探索の途中で、死体を発見した。&#xA;死体の横にはバックパックがある。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Leave it</en>
+					<jp>放っておく</jp>
+					<cn>别管它</cn>
+				</name>
+				<links>
+					<link chance="1">foundCorpseLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Search backpack</en>
+					<jp>バックパックをあさる</jp>
+					<cn>搜索背包</cn>
+				</name>
+				<links>
+					<link chance="3">foundCorpseSearchA</link>
+					<link chance="2">foundCorpseSearchB</link>
+					<link chance="2">foundCorpseSearchC</link>
+					<link chance="3">foundCorpseSearchD</link>
+					<link chance="3">foundCorpseSearchE</link>
+					<link chance="3">foundCorpseSearchF</link>
+					<link chance="2">foundCorpseSearchG</link>
+					<link chance="2">foundCorpseSearchH</link>
+					<link chance="3">foundCorpseSearchI</link>
+					<!-- <link chance="1">foundCorpseSearchJ</link> -->
+					<link chance="1">foundCorpseSearchK</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseLeave</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You leave the poor guy alone. May he rest in peace.</en>
+					<jp>そっとしておこう。安らかに眠ってほしい。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchA</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You rummage through the backpack and found nothing.</en>
+					<jp>ひっかき回してみたが、何も見つからなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchB</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="notes" texture="Paper" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Inside the backpack you found...</en>
+					<jp>バックパックの中から何か見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">30</reward>
+				<reward type="supply">1</reward>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You also found a note. It says
+						"Jim, I'm taking the kids to the hospital.&#xA;The fever is getting worse.&#xA;I'm not feeling well myself.&#xA;I'll see you soon.&#xA;Sarah"
+					</en>
+					<jp>さらにメモも見つけた。&#xA;&#xA;「ジム、子どもたちを病院に連れて行ってくる。&#xA;熱がどんどん上がってる。&#xA;私もなんだか調子が悪いわ。&#xA;また後でね。&#xA;サラ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="notes" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchC</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="notes" texture="Paper2" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="photo" texture="FamilyPortrait" posX="0.7" posY="0.6" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You found a note next to the corpse. It says
+					"I’ve been bitten. I couldn’t go on.&#xA;Whoever you are, please tell my family I love them."
+					It seems he committed suicide. A bullet to the head did the job.
+					</en>
+					<jp>死体の横にはメモがある。&#xA;&#xA;「かまれた。もう終わりだ。&#xA;この遺書を見つけてくれた誰かさん、うちの家族に『愛している』と伝えてくれないか。」&#xA;…自ら命を絶ったようだ。頭部に弾丸が埋まっている。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="notes" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There's a photo next to it.</en>
+					<jp>遺書には写真が添えられていた。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="photo" fromX="1" fromY="0.6" toX="0.7" toY="0.6" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Inside the backpack you found...</en>
+					<jp>バックパックの中から見つかったのは…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">20</reward>
+				<reward type="supply">2</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchD</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Inside the backpack you found...</en>
+					<jp>バックパックの中から見つかったのは…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">1</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchE</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Inside the backpack you found...</en>
+					<jp>バックパックの中から見つかったのは…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">20</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchF</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Inside the backpack you found...</en>
+					<jp>バックパックの中から見つかったのは…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="gun">1</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchG</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Inside the backpack you found...</en>
+					<jp>バックパックの中から見つかったのは…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">100</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchH</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>And you found...</en>
+					<jp>何か見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="equipment">1</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchI</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You approached the corpse when suddenly it opened its eyes and started to move!</en>
+					<jp>死体に近づくと、それは突然目を開けて動き出した！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="provokeUnexpectedEvent">deadRisen</trigger>
+				<trigger type="object" action="setInteractable">0</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchJ</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As you lifted the backpack a loud alarm went off. The corpse was booby trapped!</en>
+					<jp>バックパックを持ち上げると大きな警報音が鳴り始めた。死体は罠だった！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The loud alarm attracted zombies from around the area. Get ready, they are coming!</en>
+					<jp>アラームが近くにいるゾンビを引き付けた。気をつけろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="provokeUnexpectedEvent">drawAttention</trigger>
+				<trigger type="object" action="setInteractable">0</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCorpseSearchK</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="backpack" texture="Backpack" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to search the backpack.</en>
+					<jp>バックパックをあさることにした。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="backpack" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Inside the backpack you found...</en>
+					<jp>バックパックの中から見つかったのは…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+				<trigger type="object" action="setInteractable">0</trigger>
+				<trigger type="object" action="changeInteractionDialog">foundCorpseSearchA</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FOUND CORPSE END -->
+	
+	<!-- RESEARCH NOTE START -->
+	<obj>
+		<objName>briefcase</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You found a corpse wearing a lab coat. A briefcase is handcuffed to its arm.</en>
+					<jp>白衣を着た死体を見つけた。その腕には手錠がかけられ、ブリーフケースがつながれている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Stay away from it</en>
+					<jp>近寄らずに放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="5">briefcaseLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Examine the briefcase</en>
+					<jp>ブリーフケースを調べる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">briefcaseNothing</link>
+					<link chance="2">briefcaseZombieBehavior</link>
+					<link chance="3">briefcaseZombieVirus</link>
+					<link chance="2">briefcaseZombieAutopsies</link>
+					<link chance="2">briefcaseZombieAttack</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>briefcaseNothing</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It's completely empty.&#xA;What a waste...</en>
+					<jp>空っぽだ。&#xA;時間をムダにした…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>briefcaseZombieBehavior</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You find an observation notes, showing the detail of zombie behaviors, as well as initial symptoms that might occur on people that might had been unknowingly infected.</en>
+					<jp>観察日誌を見つけた。ゾンビの習性と、知らぬ間に感染した人間に起こり得る初期症状について書かれている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>briefcaseZombieVirus</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You find several confidential documents, showing the detail of an unknown virus. It seems that this virus caused the outbreak, and might be able to find a cure from it.</en>
+					<jp>「部外秘」マークのある書類を見つけた。聞いたこともないウイルスについて書かれている。このウイルスでゾンビの大発生が起こったらしい。そして、この大流行から特効薬が発見できるかもしれないことも。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>briefcaseZombieAutopsies</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You find a small research note, showing the detail of zombie autopsies. It looks like every cell of the body had been badly mutated and decomposed.</en>
+					<jp>小さな研究ノートを見つけた。ゾンビの検視報告書だ。報告によると、体中の細胞が突然変異し、くさってしまうらしい。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>briefcaseZombieAttack</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly the corpse moves! It tries to bite you right away, but you manage to get out of the place.</en>
+					<jp>死体が突然動き始めた！かみ付かれそうになったが、なんとかその場から逃れることができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>briefcaseLeave</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decide not to investigate the briefcase and go away.</en>
+					<jp>ブリーフケースには手をつけず、その場を後にすることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RESEARCH NOTE END -->
+	
+</dialogs>

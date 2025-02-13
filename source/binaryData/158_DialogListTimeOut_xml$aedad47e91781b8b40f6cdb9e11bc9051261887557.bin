@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<!-- TIME OUT EVENT START -->
+	<obj>
+		<objName>timeOutEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Morning has arrived...</en>
+					<jp>朝がやってきた…</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The sun is rising. Your survivors are no longer protected by the cover of darkness.</en>
+					<jp>朝日が昇る。仲間はもう、夜の闇に紛れることができない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You can hear a horde of zombies coming from a distance. You must return to base immediately.</en>
+					<jp>遠くからゾンビの大群が近づいてくるのが聞こえる。すぐにHQに戻ったほうがいい。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>SNEAK&#xA;safer, takes more time</en>
+					<jp>足音を立てない&#xA;安全性は高いが、時間がかかる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="6">timeOutAnswerSneakSuccessEvent</link>
+					<link chance="2">timeOutAnswerSneakFailEvent</link>
+					<link chance="2">timeOutAnswerSneakInjuryEvent</link>
+				</links>
+				<cost type="returnTime">180000</cost>
+			</option>
+			<option>
+				<name>
+					<en>RUN&#xA;risky, but faster</en>
+					<jp>走る&#xA;危険度は増すが、早い</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="2">timeOutAnswerRunSuccessEvent</link>
+					<link chance="4">timeOutAnswerRunFailEvent</link>
+					<link chance="4">timeOutAnswerRunInjuryEvent</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>timeOutAnswerSneakSuccessEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the darkness, You can hear frightening noises around you.</en>
+					<jp>夜明け前の薄暗い中をゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Fortunately nothing happens, your team made it back alive!</en>
+					<jp>幸い、何も起こらなかった。チーム全員で無事に戻ることができた！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>timeOutAnswerSneakFailEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the darkness, You can hear frightening noises around you.</en>
+					<jp>夜明け前の薄暗い中をゆっくりと進んでいると、近くでギョッとするような物音が聞こえた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately, somebody tripped and made a loud noise.</en>
+					<jp>誰かがつまづいて、大きな音を立ててしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The horde has been alerted of your presence. You fight your way, but not everyone made it out unscathed.</en>
+					<jp>ゾンビの群れがこちらに気づく。戦って道を切り開いたが、全員で無事にHQにたどりつくことはできなかった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<reward type="death">1</reward>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>timeOutAnswerSneakInjuryEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to sneak back to base.</en>
+					<jp>足音を立てないように、こっそりとHQに戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team move slowly through the darkness, You can hear frightening noises around you.</en>
+					<jp>夜明け前の薄暗い中をゆっくりと進んでいると、近くでギョッとするような物音が聞こえた</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately, somebody tripped and made a loud noise.</en>
+					<jp>誰かがつまづいて、大きな音を立ててしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The horde has been alerted of your presence. You fight your way, but not everyone made it out unscathed.</en>
+					<jp>ゾンビの群れがこちらに気づく。戦って道を切り開いたが、全員で無事にHQにたどりつくことはできなかった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<reward type="health">-30</reward>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>timeOutAnswerRunSuccessEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the darkness, they made a lot of noise.</en>
+					<jp>夜明け前の薄暗い中を走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. The horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fight your way, and run as fast as you can...</en>
+					<jp>HQへの道をたどりながら戦いつつ、全力で走る…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Fortunately, you outrun the horde. Everyone made it out.</en>
+					<jp>幸い、逃げ切れたようだ。全員が無事だ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>timeOutAnswerRunFailEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the darkness, they made a lot of noise.</en>
+					<jp>夜明け前の薄暗い中を走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. The horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fight your way, and run as fast as you can.</en>
+					<jp>HQへの道をたどりながら戦いつつ、全力で走る。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately not everyone made it out unscathed.</en>
+					<jp>だが、全員で無事にHQにたどりつくことはできなかった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<reward type="death">1</reward>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>timeOutAnswerRunInjuryEvent</objName>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to run back to base.</en>
+					<jp>HQまで走って戻ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As your team run through the darkness, they made a lot of noise.</en>
+					<jp>夜明け前の薄暗い中を走るので、大きな音を立ててしまう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. The horde has been alerted of your presence.</en>
+					<jp>突然、うめき声と金切り声が聞こえた。ゾンビの群れに気づかれたようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fight your way, and run as fast as you can.</en>
+					<jp>HQへの道をたどりながら戦いつつ、全力で走る。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Unfortunately not everyone made it out unscathed.</en>
+					<jp>だが、全員で無事にHQにたどりつくことはできなかった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<reward type="health">-30</reward>
+		</scenes>
+	</obj>
+	<!-- TIME OUT EVENT END -->
+	
+</dialogs>

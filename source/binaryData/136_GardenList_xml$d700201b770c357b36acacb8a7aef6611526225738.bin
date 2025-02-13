@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<garden>
+	<obj>
+		<objName>PlantVegetables</objName>
+		<screenName>
+			<en>PLANT VEGETABLES</en>
+			<jp>野菜を植える</jp>
+			<cn>种植蔬菜</cn>
+		</screenName>
+		<iconThumb>IconVeggies</iconThumb>
+		<desc>
+			<en>Grow green and nutritious culinary vegetables.</en>
+			<jp>栄養のある食用野菜を植える。</jp>
+			<cn>种植绿色和营养丰富的可烹调蔬菜。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished planting and harvesting healthy vegetable crops.</en>
+			<jp>栽培を終え、ヘルシーな野菜を収穫した。</jp>
+			<cn>我们完成了健康蔬菜庄稼的种植和收获。</cn>
+		</completedDesc>
+		<workPoints>400</workPoints>
+		<searchPoints>400</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="gardenProduction" name="Vegetables">2</reward>
+		<unlocked>1</unlocked>
+	</obj>
+	
+	<obj>
+		<objName>PlantFruits</objName>
+		<screenName>
+			<en>PLANT FRUITS</en>
+			<jp>果物を植える</jp>
+			<cn>种植水果</cn>
+		</screenName>
+		<iconThumb>IconFruits</iconThumb>
+		<desc>
+			<en>Grow various botanical fruits.</en>
+			<jp>さまざまな果物を植える。</jp>
+			<cn>种植各种各样的水果。</cn>
+		</desc>
+		<completedDesc>
+			<en>We finished planting and harvesting healthy fruits.</en>
+			<jp>栽培を終え、ヘルシーな果物を収穫した。</jp>
+			<cn>我们完成了健康水果的种植和收获。</cn>
+		</completedDesc>
+		<workPoints>450</workPoints>
+		<searchPoints>350</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="gardenProduction" name="Fruits">2</reward>
+		<unlocked>1</unlocked>
+	</obj>
+	
+	<obj>
+		<objName>TrapAnimals</objName>
+		<screenName>
+			<en>TRAP SMALL ANIMAL</en>
+			<jp>小動物用のわな</jp>
+			<cn>捕获小动物</cn>
+		</screenName>
+		<iconThumb>IconLargeMeat</iconThumb>
+		<desc>
+			<en>Trapping and domesticating small animals.</en>
+			<jp>小動物を捕らえて食肉にする。</jp>
+			<cn>捕获并驯养小动物。</cn>
+		</desc>
+		<completedDesc>
+			<en>We successfully trapped some small animals.</en>
+			<jp>小動物をわなで捕らえた。</jp>
+			<cn>我们成功困住了一些小动物。</cn>
+		</completedDesc>
+		<workPoints>350</workPoints>
+		<searchPoints>450</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>0</supplyCost>
+		<requireExit>0</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="gardenProduction" name="Meat">2</reward>
+		<unlocked>1</unlocked>
+	</obj>
+	
+	<obj>
+		<objName>supplyUpgrade1</objName>
+		<screenName>
+			<en>GARDEN UPGRADE I</en>
+			<jp>庭のアップグレード1</jp>
+			<cn>菜园升级1</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchSupplies</iconThumb>
+		<desc>
+			<en>Improve the irrigation system of your vegetable garden. Increases garden production.</en>
+			<jp>畑の給水システムを改良しよう。畑の生産量が増える。</jp>
+			<cn>升级你菜园的灌溉系统。提升菜园产量。</cn>
+		</desc>
+		<completedDesc>
+			<en>Your group managed to improve the vegetable garden's irrigation system.</en>
+			<jp>畑の給水システムが改良された。</jp>
+			<cn>你的团队成功升级了蔬菜园的灌溉系统。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>supplyUpgrade2</postReq>
+		<reward type="gardenProductionUpgrade">1</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="5">Wood</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>supplyUpgrade2</objName>
+		<screenName>
+			<en>GARDEN UPGRADE II</en>
+			<jp>庭のアップグレード2</jp>
+			<cn>菜园升级2</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchSupplies</iconThumb>
+		<desc>
+			<en>Learn how to create and use compost as fertilizer. Increases garden production.</en>
+			<jp>堆肥の作り方と使い方を覚えよう。畑の生産量が増える。</jp>
+			<cn>学习如何创造和使用堆肥作为肥料。提升菜园产量。</cn>
+		</desc>
+		<completedDesc>
+			<en>Your group can now start using compost as fertilizers.</en>
+			<jp>畑に堆肥を撒くことができるようになった。</jp>
+			<cn>你的团队现在可以开始用堆肥作为肥料了。</cn>
+		</completedDesc>
+		<workPoints>1000</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>supplyUpgrade3</postReq>
+		<reward type="gardenProductionUpgrade">2</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="10">Wood</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>supplyUpgrade3</objName>
+		<screenName>
+			<en>GARDEN UPGRADE III</en>
+			<jp>庭のアップグレード3</jp>
+			<cn>菜园升级3</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchSupplies</iconThumb>
+		<desc>
+			<en>Improve the garden's spacing and seed diversity. Increases garden production.</en>
+			<jp>畑のレイアウトを改良し、栽培スペースを増やそう。畑の生産量が増える。</jp>
+			<cn>改善菜园的作物间隔和种子多样性。提升菜园产量。</cn>
+		</desc>
+		<completedDesc>
+			<en>Your group managed to add more seed variations and plant them properly.</en>
+			<jp>畑の栽培スペースが増えた。</jp>
+			<cn>你的团队成功添加了更多不同的种子并正确种植。</cn>
+		</completedDesc>
+		<workPoints>1500</workPoints>
+		<searchPoints>1500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="gardenProductionUpgrade">3</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="15">Wood</reqItem>
+		<reqItem num="15">Metal</reqItem>
+	</obj>
+</garden>

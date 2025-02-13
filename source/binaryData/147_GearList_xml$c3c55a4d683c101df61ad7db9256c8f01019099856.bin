@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gears>
+
+	<!--------------------------------------------------------------------- BODY ARMORS -------------------------------------------->
+	<obj>
+		<objName>Leather V.</objName>
+		<type>Armor</type>
+		<durability>50</durability>
+		<desc>
+			<en>A vest made of leather. Provides some degree of protection from bites.</en>
+			<jp>革製のベスト。ゾンビの攻撃をいくらか防ぐことができる。</jp>
+			<cn>一件皮质背心。能够对僵尸的抓咬提供一定程度的保护。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>0</tier>
+		<price>300</price>
+		<iconThumb>IconLeatherVest</iconThumb>
+		<actionState></actionState>
+	</obj>
+	
+	<obj>
+		<objName>Kevlar</objName>
+		<type>Armor</type>
+		<durability>200</durability>
+		<desc>
+			<en>Kevlar armor. If it’s bulletproof, imagine what else it can protect you from!</en>
+			<jp>防弾繊維でできたアーマー。これ以上頼れるアーマーがあるだろうか。</jp>
+			<cn>凯夫拉装甲。如果它是防弹的，想象一下它还能保护你免受什么伤害！</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>1</tier>
+		<price>500</price>
+		<iconThumb>IconKevlarVest</iconThumb>
+		<actionState></actionState>
+	</obj>
+	
+	<obj>
+		<objName>DIY Armor</objName>
+		<type>Armor</type>
+		<durability>100</durability>
+		<desc>
+			<en>A homemade armor suit. Satisfaction not guaranteed.</en>
+			<jp>手作りの防護服。効果は保証できない。</jp>
+			<cn>一件自制的装甲衣。不保证顾客满意度。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<tier>0</tier>
+		<price>300</price>
+		<iconThumb>IconDIYArmor</iconThumb>
+		<actionState></actionState>
+	</obj>
+	
+	<obj>
+		<objName>Mil. Armor</objName>
+		<type>Armor</type>
+		<durability>300</durability>
+		<desc>
+			<en>Military grade body armor suit. Tough and durable.</en>
+			<jp>ミリタリーグレードのボディアーマー。頑丈で耐久性が高い。</jp>
+			<cn>军用级别的装甲衣。坚固而耐用。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<tier>2</tier>
+		<price>1000</price>
+		<iconThumb>IconMilitaryVest</iconThumb>
+		<actionState></actionState>
+	</obj>
+	
+	<!--------------------------------------------------------------------- MEDICAL GEARS -------------------------------------------->
+	
+	<obj>
+		<objName>First Aid</objName>
+		<type>MedKit</type>
+		<durability>5</durability>
+		<desc>
+			<en>A small first aid kit. Can be used to treat wounds during combat.</en>
+			<jp>コンパクトな応急手当キット。戦闘時の傷の手当に使用できる。</jp>
+			<cn>一个小型急救箱。能在战斗中治疗创伤。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>0</tier>
+		<price>500</price>
+		<iconThumb>IconMedKit1</iconThumb>
+		<actionState>gearHeal</actionState>
+	</obj>
+	
+	<obj>
+		<objName>Trauma Kit</objName>
+		<type>MedKit</type>
+		<durability>10</durability>
+		<desc>
+			<en>A field medic surgery kit, could be used to treat wounds during combat.</en>
+			<jp>野戦用の外科治療キット。戦闘時の傷の手当に使用できる。</jp>
+			<cn>一个野战军医手术工具包，能在战斗中治疗创伤。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>1</tier>
+		<price>750</price>
+		<iconThumb>IconMedKit2</iconThumb>
+		<actionState>gearHeal</actionState>
+	</obj>
+	
+	<obj>
+		<objName>Medical Box</objName>
+		<type>MedKit</type>
+		<durability>20</durability>
+		<desc>
+			<en>Huge box of medical equipments. Can be used to restore health during combat.</en>
+			<jp>大きな箱に入った医療用品。戦闘時の体力回復に使用できる。</jp>
+			<cn>大型医疗设备箱。能在战斗中用来恢复健康。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>2</tier>
+		<price>1500</price>
+		<iconThumb>IconMedKit3</iconThumb>
+		<actionState>gearHeal</actionState>
+	</obj>
+	
+	<obj>
+		<objName>Defibrillator</objName>
+		<type>Defibrillator</type>
+		<durability>5</durability>
+		<desc>
+			<en>Shocking device.</en>
+			<jp>電気ショックを送るオドロキの装置。</jp>
+			<cn>电击设备。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>1</tier>
+		<price>1000</price>
+		<iconThumb>IconDefibrilator</iconThumb>
+		<actionState></actionState>
+		<!-- <buff>Resuscitating</buff> -->
+		<buff>BuffDefibrillating</buff>
+	</obj>
+	
+	<!--------------------------------------------------------------------- WEAPON ACCESSORIES -------------------------------------------->
+	
+	<obj>
+		<objName>Supressor</objName>
+		<type>Silencer</type>
+		<durability>250</durability>
+		<desc>
+			<en>A weapon silencer.</en>
+			<jp>銃の発射音を抑制する。</jp>
+			<cn>一种武器消音器。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>0</tier>
+		<price>500</price>
+		<iconThumb>IconSupressor</iconThumb>
+		<actionState></actionState>
+		<buff>BuffSupressorSilencing</buff>
+	</obj>
+	
+	<obj>
+		<objName>Reflex Sight</objName>
+		<type>Optical Sight</type>
+		<durability>250</durability>
+		<desc>
+			<en>An optical device with illuminated projection for aiming.</en>
+			<jp>光学式装置で、照準時に光像を照射する。</jp>
+			<cn>一种能高亮显示瞄准点的光学设备。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>0</tier>
+		<price>500</price>
+		<iconThumb>IconScope1</iconThumb>
+		<actionState></actionState>
+		<buff>BuffScopeSighting1</buff>
+	</obj>
+	
+	<obj>
+		<objName>Rifle Scope</objName>
+		<type>Optical Sight</type>
+		<durability>250</durability>
+		<desc>
+			<en>A weapon optical scope to increase range and accuracy.</en>
+			<jp>光学式照準器で、遠くのものを拡大して見ることができ、精度を高める。</jp>
+			<cn>一种能提升范围和精准度的武器瞄准镜。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>1</tier>
+		<price>800</price>
+		<iconThumb>IconScope2</iconThumb>
+		<actionState></actionState>
+		<buff>BuffScopeSighting2</buff>
+	</obj>
+	
+	<obj>
+		<objName>Optronic Telescope</objName>
+		<type>Optical Sight</type>
+		<durability>200</durability>
+		<desc>
+			<en>Technologically advanced ultra-range precision scope.</en>
+			<jp>高度な技術を用いた、長距離高精度を実現するスコープ。</jp>
+			<cn>技术先进的超范围精密瞄准镜。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>2</tier>
+		<price>1500</price>
+		<iconThumb>IconScope3</iconThumb>
+		<actionState></actionState>
+		<buff>BuffScopeSighting3</buff>
+	</obj>
+	
+	<!--------------------------------------------------------------------- WEAPON TOOLS -------------------------------------------->
+	
+	<obj>
+		<objName>AP Bullet</objName>
+		<type>APBullet</type>
+		<durability>10</durability>
+		<desc>
+			<en>Armor piercing bullets, capable of penetrating thick surfaces.</en>
+			<jp>装甲を貫通する弾薬で、分厚いものでも撃ち抜くことができる。</jp>
+			<cn>穿甲弹，能穿透很厚的表面。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>0</tier>
+		<price>500</price>
+		<iconThumb>IconAPBullets</iconThumb>
+		<actionState>gearAPierce</actionState>
+		<buff>BuffArmorPiercing</buff>
+	</obj>
+	
+	<obj>
+		<objName>Claymore</objName>
+		<type>Landmine</type>
+		<durability>1</durability>
+		<desc>
+			<en>Anti-personnel mine that fires steel balls like a shotgun when detonated.</en>
+			<jp>対人地雷。起爆時にはショットガンのように鉄球をいくつも発射する。</jp>
+			<cn>引爆时像霰弹枪一样发射钢球的杀伤性地雷。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>0</tier>
+		<price>200</price>
+		<iconThumb>IconLandMineItem</iconThumb>
+		<actionState>gearMine</actionState>
+		<buff></buff>
+	</obj>
+	
+	<!--<obj>
+		<objName>Blastmine</objName>
+		<type>Landmine</type>
+		<durability>3</durability>
+		<desc>Shockwave explosive mine.</desc>
+		<showInStore>1</showInStore>
+		<tier>1</tier>
+		<price>750</price>
+		<iconThumb>IconLandMineItem</iconThumb>
+		<actionState>gearMine</actionState>
+		<buff></buff>
+	</obj>-->
+	
+	<obj>
+		<objName>M15 Mine</objName>
+		<type>Landmine</type>
+		<durability>3</durability>
+		<desc>
+			<en>A round-shaped anti-tank blast mine.</en>
+			<jp>円筒形の対戦車地雷。</jp>
+			<cn>一种圆形的反坦克爆破地雷。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<tier>1</tier>
+		<price>500</price>
+		<iconThumb>IconLandMineItem</iconThumb>
+		<actionState>gearMine</actionState>
+		<buff></buff>
+	</obj>
+</gears>

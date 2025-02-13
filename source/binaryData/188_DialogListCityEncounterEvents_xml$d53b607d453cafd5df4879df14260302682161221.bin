@@ -1,0 +1,4014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<obj>
+		<objName>matiSemua</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>Mati Semua</nameText>
+				<dialogText>
+				matiiiii.
+				</dialogText>
+				<reward type="death">4</reward>
+			</scene>
+		</scenes>
+	</obj>
+
+	<!-- DEFAULT EVENT START -->
+	<obj>
+		<objName>defaultEvent</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Marked Building</en>
+					<jp>印のある建物</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As you are walking down the street, a building with strange markings caught your attention. The place seems to be in shambles and abandoned. Could there be anything useful?</en>
+					<jp>通りを歩いていると、不思議な印のついた建物が目に留まった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Leave</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">defaultLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Scavenge</en>
+					<jp>調べる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="5">foundNothing</link>
+					<link chance="10">foundSupplies</link>
+					<link chance="10">foundCash</link>
+					<link chance="8">foundFuel</link>
+					<link chance="1">foundCorpse</link>
+					<link chance="1">foundInjured</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>defaultLeave</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+					</nameText>
+				<dialogText>
+					<en>Thinking that it could be a trap. You decided not to go any further and quickly leave the area.</en>
+					<jp>わなかもしれない。これ以上深入りしないと決め、このエリアを離れることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundNothing</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn></nameText>
+				<dialogText>
+					<en>A brief exploration yields nothing of interest.</en>
+					<jp>ざっと探索してみたが、何も見つからなかった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundSupplies</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You discovered some useful items.</en>
+					<jp>役に立ちそうなものをいくつか見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundCash</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You discovered some ammo boxes.</en>
+					<jp>弾薬の入った箱をいくつか見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">100</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundFuel</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You discovered a can of FUEL.</en>
+					<jp>燃料缶を見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- DEFAULT EVENT END -->
+	
+	<!-- FOUND INJURED START -->
+	<obj>
+		<objName>foundInjured</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Strange Noises</en>
+					<jp>不気味な音</jp>
+					<cn></cn>
+					</nameText>
+				<dialogText>
+					<en>As you entered a nearby building, you hear strange noises and sounds coming from one of the rooms.</en>
+					<jp>近くの建物に入ると、どこかの部屋から不気味な音が聞こえてきた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Leave</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Investigate</en>
+					<jp>調べる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredSearchA</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredLeave</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pack your things and leave the area.</en>
+					<jp>荷物をまとめ、エリアを離れることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredSearchA</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to investigate the noise.</en>
+					<jp>聞こえる音を調べてみることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You carefully thread through the corridors. You see a door covered in blood stains. The noise is coming from behind the door.</en>
+					<jp>狭いろうかを通った先に、血まみれのドアを見つけた。あの音はこのドアの向こうから聞こえる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Leave</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Open the door</en>
+					<jp>ドアを開ける</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredSearchA1</link>
+					<link chance="2">foundInjuredSearchA2</link>
+					<link chance="2">foundInjuredSearchA3</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredSearchA1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You opened the door and found...an injured SURVIVOR. He seems to be alive but mortally wounded. However, you didn't know how he got the wound. What if he was bitten by zombies and got infected?</en>
+					<jp>ドアを開けるとそこには…傷を負った生存者がいた。かろうじて息はあるが致命傷を負ったようだ。どのような傷なのかわからない。もしかしたらゾンビにかまれて感染している可能性もある。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>INJURED SURVIVOR</en>
+					<jp>負傷した生存者</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing you entered the room he yells "WHO GOES THERE!?" and pulled his gun.</en>
+					<jp>こちらがドアを開けるのを見て生存者が大声を上げる。「そこにいるのは誰だ！？」そして銃をこちらに向けた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>INJURED SURVIVOR</en>
+					<jp>負傷した生存者</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"ARRGH!" he screams in pain and drops his gun to the ground.</en>
+					<jp>「ああああ！」彼は叫んで、かまえた銃を床に落とす。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>INJURED SURVIVOR</en>
+					<jp>負傷した生存者</jp>
+					<cn></cn></nameText>
+				<dialogText>
+					<en>He took one deep breath and cried "Go ahead...kill me! I can't...go...further."</en>
+					<jp>そして深く息を吸いポツリと言う。「いいさ…殺せばいい！どうせもう…駄目なんだ…」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Leave</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Kill him end the misery</en>
+					<jp>殺して苦しみから解放する</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredKill</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Help him (-1 SUPPLY)</en>
+					<jp>助ける（補給物資を1消費）</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredSearchA13</link>
+				</links>
+				<cost type="supply">1</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredKill</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The INJURED SURVIVOR seems to be in great pain. The thought of killing as an act of mercy crossed your mind.</en>
+					<jp>負傷した生存者は激しい痛みを感じているようだ。これ以上苦しませないためには死なせたほうがいいかもしれない。そんな考えが頭をよぎる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Change your mind</en>
+					<jp>他の方法を選ぶ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Use a GUN</en>
+					<jp>銃で死なせる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredKillGunHit</link>
+					<link chance="1">foundInjuredKillGunMissDie</link>
+					<link chance="2">foundInjuredKillGunMissSurvive</link>
+				</links>
+				<cost type="requireGun">any</cost>
+			</option>
+			<option>
+				<name>
+					<en>Use a MELEE weapon</en>
+					<jp>近接武器で死なせる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredKillMelee</link>
+				</links>
+				<cost type="requireMelee">any</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredKillGunHit</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pulled your gun and aim it at the head and pulled the trigger.</en>
+					<jp>銃をかまえ、頭に狙いを定める。そして引き金を引いた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"BAM", your gun went off. Blood and brain matter painted one side of the wall.</en>
+					<jp>「パンッ！」銃弾が飛び出す。血と頭の中身が飛び散り、一方の壁を汚した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You loot the lifeless body and found a GUN and 2 SUPPLIES.</en>
+					<jp>横たわる死体をあさる。銃と補給物資を2つ見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="gun">1</reward>
+				<reward type="supply">2</reward>
+				<reward type="cash">250</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredKillGunMissDie</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pulled your gun and aim it at the head and pulled the trigger.</en>
+					<jp>銃をかまえ、頭に狙いを定める。そして引き金を引いた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"BAM", your gun went off. Blood and brain matter painted one side of the wall.</en>
+					<jp>「パンッ！」銃弾が飛び出す。血と頭の中身が飛び散り、一方の壁を汚した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. The gunshot had alerted a zombie horde.</en>
+					<jp>突然うめき声と金切り声が聞こえる。銃声がゾンビの大群をひきつけてしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You try leaving the area...it's too late. A horde of zombies is already waiting for you. You fight your way, but not everyone made it out.</en>
+					<jp>エリアを脱出しようと試みたが…遅すぎた。ゾンビの群れが待ちかまえている。戦って道を切り開いたが、全員は脱出できなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="death">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredKillGunMissSurvive</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pulled your gun and aim it at the head and pulled the trigger.</en>
+					<jp>銃をかまえ、頭に狙いを定める。そして引き金を引いた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"BAM", your gun went off. Blood and brain matter painted one side of the wall.</en>
+					<jp>「パンッ！」銃弾が飛び出す。血と頭の中身が飛び散り、一方の壁を汚した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly you hear moans and screams. The gunshot has alerted a zombie horde.</en>
+					<jp>突然うめき声と金切り声が聞こえる。銃声がゾンビの大群をひきつけてしまったようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You try leaving the area...it's too late. A horde of zombies is already waiting for you. You fight your way, thankfully everyone made it out.</en>
+					<jp>エリアを脱出しようと試みたが…遅すぎた。るゾンビの群れが待ちかまえている。戦って道を切り開き、全員脱出することができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredKillMelee</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pulled your MELEE weapon and aim it at the head and swing it as hard as you can.</en>
+					<jp>近接武器をかまえ、頭に狙いを定める。そして力いっぱい打ち付けた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The INJURED SURVIVOR cried in pain and struggled. You hit him again and again until the body is no longer moving.</en>
+					<jp>負傷した生存者は痛みに声を上げ、体をよじる。そこに何度も何度も武器を振り下ろすと、やがて体は動きを止めた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Once you are done the room has been painted in blood. You felt very sick and quickly leave the room.</en>
+					<jp>気づくと部屋一面が血の色に染まっている。気分が悪い。部屋を出ることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredSearchA13</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="notes" texture="Paper" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You walk slowly towards the SURVIVOR and offer your help.</en>
+					<jp>ゆっくりと生存者に近づき、手当てをすると申し出た。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>You</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm not going to kill you...I'm here to help" You attempted to dress his wounds. Even so, the wounds are too great.</en>
+					<jp>「殺しはしない…助けたいんだ」傷に包帯を巻きつけようとするが、その傷は大きすぎる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>INJURED SURVIVOR</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Thank you...for trying..." The SURVIVOR said. "but I know...I'm not gonna make it..."</en>
+					<jp>「ありがとう…ありがとう…、だけどわかるんだ。もう死ぬんだ…」生存者が答えた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The SURVIVOR pulled out a note from his pocket.</en>
+					<jp>そしてポケットから1枚のメモを取り出した。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="notes" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>INJURED SURVIVOR</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take this with you...maybe you'll find it useful" You received a NOTE.</en>
+					<jp>「これを受け取ってほしい…役に立つかもしれない」メモを受け取った。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>INJURED SURVIVOR</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Now...leave me...I wish to be alone"</en>
+					<jp>「さあ…もう行って…ひとりになりたいんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="notes" fromX="0.8" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pack your things and leave. As you walk away, a gunshot echoes in the distance.</en>
+					<jp>荷物をまとめ、その場を離れる。部屋から出て歩いていると、後ろから銃声が聞こえた…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredSearchA2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You opened the door and slowly looked inside.</en>
+					<jp>ドアを開けゆっくりと中を見る。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"WAAAA!" a cat jumped out.</en>
+					<jp>「わあああ！」猫が飛び出してきた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Other than the cat, there is nothing inside the room.</en>
+					<jp>猫のほかには何もないようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredSearchA3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You opened the door and found...a ZOMBIE!</en>
+					<jp>ドアを開けるとそこには…ゾンビが！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The ZOMBIE is busy devouring fresh human flesh and did not see you.</en>
+					<jp>ゾンビは死体をむさぼるのに夢中でこちらには気づいていない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Leave</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">foundInjuredLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Shoot the head</en>
+					<jp>頭を撃つ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="3">foundInjuredKillGunHit</link>
+					<link chance="1">foundInjuredKillGunMissDie</link>
+					<link chance="2">foundInjuredKillGunMissSurvive</link>
+				</links>
+				<cost type="requireGun">any</cost>
+			</option>
+			<option>
+				<name>
+					<en>Bash the head</en>
+					<jp>頭を殴る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">foundInjuredSearchA31</link>
+					<link chance="1">foundInjuredSearchA32</link>
+					<link chance="1">foundInjuredSearchA33</link>
+				</links>
+				<cost type="requireMelee">any</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredSearchA31</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pulled your crowbar and aim it at the head and swing it as hard as you can.</en>
+					<jp>バールを振り上げ、頭に狙いを定める。そして力いっぱい打ち付けた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"BRAK!", you hear the sound of skull cracking. Blood and brain matter painted one side of the wall.</en>
+					<jp>「バキッ！」頭蓋骨の割れる音だ。血と頭の中身が飛び散り、一方の壁を汚した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText><en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You loot the lifeless body.</en>
+					<jp>死体をあさる。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="coin">50</reward>
+				<reward type="supply">2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredSearchA32</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pulled your crowbar and aim it at the head and swing it as hard as you can.</en>
+					<jp>バールを振り上げ、頭に狙いを定める。そして力いっぱい打ち付けた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"SHRACK", your blow missed the brain. The ZOMBIE is now agitated!</en>
+					<jp>「スカッ」狙いを外してしまった。ゾンビがこちらに気付いた！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly the ZOMBIE lunges at you. You fight your way, but not everyone made it out.</en>
+					<jp>そしてこちらに向かってくる。戦って道を切り開いたが、全員は脱出できなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="death">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>foundInjuredSearchA33</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pulled your crowbar and aim it at the head and swing it as hard as you can.</en>
+					<jp>バールを振り上げ、頭に狙いを定める。そして力いっぱい打ち付けた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"SHRACK", your blow missed the brain. The ZOMBIE is now agitated!</en>
+					<jp>「スカッ」狙いを外してしまった。ゾンビがこちらに気付いた！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly the ZOMBIE lunges at you. You fight your way, and kill the zombie.</en>
+					<jp>そしてこちらに向かってくる。戦い、ゾンビを倒すことができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FOUND INJURED END -->
+	
+	<!-- ABANDONED CAR START -->
+	<obj>
+		<objName>abandonedCar</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Abandoned Car</en>
+					<jp>置き去りの車</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You saw an abandoned car with  boxes scattered nearby, intact.</en>
+					<jp>置き去りにされた車を見つけた。回りには開けられていない箱が散らばっている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Ignore it</en>
+					<jp>無視する</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">abandonedCarIgnore</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Take a look</en>
+					<jp>調べる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="5">abandonedCarJunk</link>
+					<link chance="5">abandonedCarSupplies</link>
+					<link chance="2">abandonedCarMilitary</link>
+					<link chance="1">abandonedCarTrap</link>
+					<link chance="2">abandonedCarZombieSwarm</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>abandonedCarIgnore</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Leave it alone, it looks suspicious.</en>
+					<jp>放っておこう。どうもおかしい。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>abandonedCarJunk</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to take a look. You opened the boxes and...</en>
+					<jp>調べてみることにした。箱を開けると…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They appear to be filled with junk, nothing particularly useful.</en>
+					<jp>ガラクタでいっぱいだった。役に立つものは何もない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>abandonedCarSupplies</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to take a look. You opened the boxes and...</en>
+					<jp>調べてみることにした。箱を開けると…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They appear to be filled with goods, food and water.</en>
+					<jp>雑貨と食べ物、そして水を見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">4</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>abandonedCarMilitary</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to take a look. You opened the boxes and...</en>
+					<jp>調べてみることにした。箱を開けると…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They appear to be filled with guns and ammo.</en>
+					<jp>銃と弾薬を見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="gun">1</reward>
+				<reward type="coin">100</reward>
+				<reward type="mortar">2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>abandonedCarTrap</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to take a look. You opened the boxes and...</en>
+					<jp>調べてみることにした。箱を開けると…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"BOOM!", an explosion shakes the ground. Not everyone survived the explosion.</en>
+					<jp>「ドカーン！」爆音がとどろき地面を揺らした。爆発が仲間の命をうばってしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="death">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>abandonedCarZombieSwarm</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to take a look. You approached the car to take a closer look.</en>
+					<jp>調べてみることにした。よく見ようと車に近寄る。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Suddenly the car alarm went off! Zombie screams and moans soon filled the air.</en>
+					<jp>突然、車の防犯アラームが鳴り響く！すぐにあたりはゾンビのうめき声と金切り声で満たされた。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushZombie</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- ABANDONED CAR END -->
+	
+	<!-- OLD NEWSPAPAER START -->
+	<obj>
+		<objName>oldNewsPaper</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Old News Stand</en>
+					<jp>古い新聞売り場</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There is a newspaper stand on the side of the road.</en>
+					<jp>道路の脇に新聞売り場を見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Ignore it</en>
+					<jp>無視する</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">oldNewsPaperIgnore</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Take a look</en>
+					<jp>調べる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">oldNewsPaperSearch</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>oldNewsPaperIgnore</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It's just old news.</en>
+					<jp>古いニュースだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>oldNewsPaperSearch</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText><en>Ripped pages and rotten paper are scattered all over the place. On the shelf are old NEWSPAPERS, MAGAZINES, and COMIC BOOKS still in good condition.</en>
+					<jp>あたりには破れたページと朽ちた紙が散らばっている。棚には古いがまだ状態のよい新聞、雑誌、漫画がある。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Grab a NEWSPAPER</en>
+					<jp>新聞を取る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">grabNewsPaperA</link>
+					<link chance="1">grabNewsPaperB</link>
+					<link chance="1">grabNewsPaperC</link>
+					<link chance="1">grabNewsPaperD</link>
+					<link chance="1">grabNewsPaperE</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Grab a MAGAZINE</en>
+					<jp>雑誌を取る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">grabMagazineA</link>
+					<link chance="1">grabMagazineB</link>
+					<link chance="1">grabMagazineC</link>
+					<link chance="1">grabMagazineD</link>
+					<link chance="1">grabMagazineE</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Grab a COMIC BOOK</en>
+					<jp>漫画を取る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">grabComicBookA</link>
+					<link chance="1">grabComicBookB</link>
+					<link chance="1">grabComicBookC</link>
+					<link chance="1">grabComicBookD</link>
+					<link chance="1">grabComicBookE</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>grabNewsPaperA</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="newsPaper" texture="Newspaper" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed an old newspaper. The headline reads
+						"MYSTERY OF THE MISSING FLIGHT HM730 CONTINUES Unnamed sources suggest that there was a violent altercation onboard leading to the crash..."
+						This article was written a few weeks before the outbreak.
+					</en>
+					<jp>"古い新聞を手に取った。見出しには「行方不明のHM730機、調査続行」と書かれている。匿名の情報源によると、機内の激しい言い争いが墜落につながったらしい…"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="newsPaper" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabNewsPaperB</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="newsPaper" texture="Newspaper" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed an old newspaper. The headline reads
+						"STRANGE CASES OF VIOLENT BEHAVIOUR SPREADS These attacks are getting more and more frequent and no longer contained..."
+						This article was written a few weeks before the outbreak.
+					</en>
+					<jp>"古い新聞を手に取った。見出しには「行方不明のHM730機、調査続行」と書かれている。匿名の情報源によると、機内の激しい言い争いが墜落につながったらしい…
+新聞の日付はゾンビ大発生の数週間前だ。"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="newsPaper" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabNewsPaperC</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="newsPaper" texture="Newspaper" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+				<en>
+					You grabbed an old newspaper. The headline reads
+					"EBOLA PANDEMIC IN WEST AFRICA The Center for Disease Control has confirmed that the recent ebola outbreak in Africa is under control. No cause for concern."
+					This article was written a few weeks before the outbreak.
+				</en>
+				<jp>"古い新聞を手に取った。見出しには「西アフリカでエボラ熱大流行」と書かれている。CDCによると、アフリカでのエボラ熱患者増加は完全にコントロールされており、心配する必要はないらしい…
+新聞の日付はゾンビ大発生の数週間前だ。"</jp>
+				<cn></cn>
+				</dialogText>
+				<tween imageName="newsPaper" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabNewsPaperD</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="newsPaper" texture="Newspaper" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed an old newspaper. The headline reads
+						"CRISIS IN CRIMEA ESCALATES Russian troops today stormed the Ukrainian naval base in the key port city of Sevastopol and established a quarantine zone..."
+						This article was written a few weeks before the outbreak.
+					</en>
+					<jp>"古い新聞を手に取った。見出しには「クリミア危機、不安広がる」と書かれている。ロシア軍がセヴァストポリのウクライナ海軍基地に侵攻し、検疫所を作ったらしい…
+新聞の日付はゾンビ大発生の数週間前だ。"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="newsPaper" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabNewsPaperE</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="newsPaper" texture="Newspaper" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed an old newspaper. The headline reads
+						"MAN FOUND WASHED ASHORE STILL MOVING A man found washed ashore on the southern coast. Paramedics struggled to subdue the man..."
+						This article was written a few weeks before the outbreak.
+					</en>
+					<jp>"古い新聞を手に取った。見出しには「打ち上げられた死体が動き出す」と書かれている。南部の沿岸に打ち上げられた男の死体が動き出したため、救急隊員がなんとか押さえつけたらしい…
+新聞の日付はゾンビ大発生の数週間前だ。"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="newsPaper" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabMagazineA</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="magazine" texture="FitnessMagz" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed a fitness magazine. The cover reads
+						"AMAZING SEXY BIKINI BODIES Learn how to get that sexy celebrity bikini bods..."
+						The article explains about diet and fitness exercises. The rest of the magazine are trivial.
+					</en>
+					<jp>"フィットネス雑誌を手に取った。表紙には「ビキニの似合うセクシーなカラダ作り」と書かれている。セレブ風のビキニを着こなす体を手に入れる方法について特集しているらしい…
+記事は食事制限とエクササイズについて解説している。その他も他愛のない記事ばかりだ。"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="magazine" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabMagazineB</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="magazine" texture="GossipMagz" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed a gossip magazine. The cover reads
+						"HOW TO GET YOUR MAN BACK 10 steps that can bring your man crawling back to you..."
+						The article explains about seduction and negotiation. The rest of the magazine are trivial.
+					</en>
+					<jp>"ゴシップ雑誌を手に取った。表紙には「元カレとよりを戻す方法」と書かれている。10段階のステップに従えば、別れた恋人のほうから戻ってきてくれるらしい…
+記事は誘惑と交渉の術を解説している。その他も他愛のない記事ばかりだ。"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="magazine" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabMagazineC</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="magazine" texture="GadgetMagz" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed a gadget magazine. The cover reads
+						"GADGETS THAT YOU SHOULD BUY Our top 10 list for this summer's best gadgets that you should buy..."
+						The article explains about gadgets and electronics. The rest of the magazine are trivial.
+					</en>
+					<jp>"ガジェット雑誌を手に取った。表紙には「今買うべきガジェット」と書かれている。この夏買うべき10のガジェットを紹介しているらしい…
+記事はガジェットやその他の電子機器について解説している。その他も他愛のない記事ばかりだ。"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="magazine" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabMagazineD</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed an adult magazine. The cover reads
+						"THE GIRLS NEXT DOOR The naked truth about..."
+						The article is filled with scantily clad women. There is nothing you can learn from the magazine.
+					</en>
+					<jp>"アダルト雑誌を手に取った。表紙には「ご近所さんの赤裸々な真実」と書かれている。記事には小さな布地をまとった女性の写真がいっぱいだ。
+この雑誌には有用な情報が何もない。"</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						Among other books, you found...
+					</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabMagazineE</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="magazine" texture="SurvivalMagz" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed a survival magazine. The cover reads
+						"5 TIPS TO SURVIVE ANY DISASTER The skills and tricks on how to stay alive..."
+						The article explains about survival tactics. You learn a lot from the magazine.
+					</en>
+					<jp>"サバイバル雑誌を手に取った。表紙には「あらゆる災害を生き延びる5つの方法」と書かれている。生き残るための技術やコツを紹介しているようだ…
+記事はサバイバル戦略について解説している。役に立つ情報をたくさん手に入れた。"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="magazine" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						Among other books, you found...
+					</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabComicBookA</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed a comic book. The cover reads
+						"ARACHNID-MAN"
+						It's a comic book about a superhero. Reading the book reminded you of what life used to be before the outbreak.
+					</en>
+					<jp>"漫画を手に取った。表紙には「タランチュラマン」と書かれている。ヒーローものだ。
+つかの間、ゾンビ大発生前の生活を思い出した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						Among other books, you found...
+					</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabComicBookB</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed a comic book. The cover reads
+						"SUPERDUPERMAN"
+						It's a comic book about a superhero. Reading the book reminded you of what life used to be before the outbreak.
+					</en>
+					<jp>"漫画を手に取った。表紙には「スーパーデューパーマン」と書かれている。ヒーローものだ。
+つかの間、ゾンビ大発生前の生活を思い出した。"</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						Among other books, you found...
+					</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabComicBookC</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed a comic book. The cover reads
+						"THE WALKING DEADMAN"
+						It's a comic book about a group of people trying to survive the apocalypse.
+					</en>
+					<jp>"漫画を手に取った。表紙には「ウォーキング・デッドマン」と書かれている。
+アポカリプスを生き延びようとする人々を描く漫画だ。"</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						Among other books, you found...
+					</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabComicBookD</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+			<portrait imageName="comic" texture="ReONcomics" posX="0.7" posY="0.5" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						You grabbed a comic book. The cover reads
+						"RE:ON COMICS"
+						It's a collection of Indonesian comics. Reading the book reminded you of what life used to be before the outbreak.
+					</en>
+					<jp>"漫画を手に取った。表紙には「リオン・コミックス」と書かれている。インドネシアの漫画を集めたものだ。
+つかの間、ゾンビ大発生前の生活を思い出した。"</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="comic" fromX="1" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>
+						Among other books, you found...
+					</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>grabComicBookE</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+				<en>
+					You grabbed a comic book. The cover reads
+					"GAMUMAN"
+					It's a comic book about two ninth grade boys who wish to become game developers. Reading the book reminded you of what life used to be before the outbreak.
+				</en>
+				<jp>"漫画を手に取った。表紙には「バクゲム。」と書かれている。中学3年生の男子2人がゲーム開発者を目指す漫画だ。
+つかの間、ゾンビ大発生前の生活を思い出した。"</jp>
+				<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Among other books, you found...</en>
+					<jp>その他の新聞や雑誌の中から…</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Weapon Manual">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- OLD NEWSPAPAER END -->
+	
+	<!-- 12 MONKEYS START -->
+	<obj>
+		<objName>monkeyMarkings</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Markings on The Wall</en>
+					<jp>壁の印</jp>
+					<cn></cn></nameText>
+				<dialogText>
+					<en>You saw some interesting symbols on the wall. There are 12 dancing apes forming a circle. There's a writing beneath it, it says:
+					"Is there a virus? We Did It!"
+					</en>
+					<jp>壁に描かれた不思議な記号を見つけた。円を描くように12匹の踊る猿が描かれている。その下には文字も書かれている。「ウイルス？私たちがやったんだ！」</jp>
+					<cn></cn>
+					</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Is the zombie virus man made? If only we can travel back in time and undo all of this.</en>
+					<jp>ゾンビウイルスは人の手によって作られたものなのだろうか？作られた時に戻って、なかったことにできればいいのだが。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- 12 MONKEYS END -->
+	
+	<!-- CAKE IS A LIE START -->
+	<obj>
+		<objName>cakeMarkings</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Markings on The Wall</en>
+					<jp>壁の印</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You saw some interesting writings on the wall. It says "the cake is a lie" repeated over and over. Beneath it is a drawing resembling a heart in a box.</en>
+					<jp>壁に書かれた不思議な文字を見つけた。「the cake is a lie」と何度も書かれている。その下には、箱に入った心臓のようなものが描かれている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>These writings don't make any sense. Must be the work of some lunatic.</en>
+					<jp>意味のわからない文章だ。これを書いた人は正気ではなかったにちがいない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- CAKE IS A LIE END -->
+	
+	<!-- FIREFLY START -->
+	<obj>
+		<objName>fireflyMarkings</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Markings on The Wall</en>
+					<jp>壁の印</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You saw some interesting writings on the wall. It says:
+						"SEEK THE FIRE, FLY WITH US"
+						Next to it is a symbol of a moth-like creature.</en>
+					<jp>壁に書かれた不思議な文字を見つけた。「火を探せ。一緒に飛ぼう」と書かれている。その横には、ガのような生き物の記号が描かれている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>We should keep our guards up. Bandits and gangs could be roaming these parts.</en>
+					<jp>警戒を怠らないようにしよう。野盗やギャングがうろついているかもしれない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FIREFLY END -->
+	
+	<!-- ANOTHER GROUP START -->
+	<obj>
+		<objName>anotherGroup</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="anotherGroupOptions">
+			<scene>
+				<nameText>
+				<en>Another Group</en>
+					<jp>他のグループ</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+				<en>A group of survivors are being attacked by zombies. They seemed to be overwhelmed.</en>
+				<jp>生存者の一団がゾンビの攻撃を受けている。このままではやられてしまいそうだ。</jp>
+				<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>anotherGroupOptions</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Another Group</en>
+					<jp>他のグループ</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Should we help them or leave them to their fate?</en>
+					<jp>彼らを助けるべきだろうか、それとも運命に任せて放っておくべきだろうか？</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Help the survivors</en>
+					<jp>生存者を助ける</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="2">anotherGroupHelp1</link>
+					<link chance="2">anotherGroupHelp2</link>
+					<link chance="1">anotherGroupHelp3</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Leave them</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">anotherGroupLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>anotherGroupHelp1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to help the survivors.</en>
+					<jp>生存者の一団を助けることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You approached the survivors with the intent of helping them.</en>
+					<jp>手を差し伸べようと生存者たちに近づく。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>However, they misread your intentions and started shooting at you.</en>
+					<jp>だが、カン違いされたようだ。こちらに向かって発砲し始めた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-20</reward>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Once the dust settled, they are nowhere to be found.</en>
+					<jp>舞い上がった土埃が落ち着くと、彼らは影も形もなく消えていた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>anotherGroupHelp2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to help the survivors.</en>
+					<jp>生存者の一団を助けることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You approached the survivors with the intent of helping them.</en>
+					<jp>手を差し伸べようと生存者たちに近づく。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fought the zombies. It was not easy.</en>
+					<jp>ゾンビと戦った。戦いは簡単には決着しなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-10</reward>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Once the dust settled, the group of survivors approached you and thanked you for the help.</en>
+					<jp>舞い上がった土埃が落ち着くと、生存者の一団はこちらに近寄り感謝の言葉を述べた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They gave you a little token of appreciation and quickly continued their journey.</en>
+					<jp>そして感謝の印を手渡すと、すぐにその場を去っていった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="supply">2</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>anotherGroupHelp3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to help the survivors.</en>
+					<jp>生存者の一団を助けることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You approached the survivors with the intent of helping them.</en>
+					<jp>手を差し伸べようと生存者たちに近づく。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You fought the zombies. It was not easy.</en>
+					<jp>ゾンビと戦った。戦いは簡単には決着しなかった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-10</reward>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Once the dust settled, the group of survivors approached you and thanked you for the help.</en>
+					<jp>舞い上がった土埃が落ち着くと、生存者の一団はこちらに近寄り感謝の言葉を述べた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They gave you a little token of appreciation and quickly continued their journey.</en>
+					<jp>そして感謝の印を手渡すと、すぐにその場を去っていった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="fuel">1</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>anotherGroupLeave</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to leave them. No need to put your team and yourself at risk.</en>
+					<jp>放っておくことにした。自らとチームを危険にさらす必要はない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- ANOTHER GROUP END -->
+	
+	<!-- DOG ON THE ROAD START -->
+	<obj>
+		<objName>dogOnTheRoad</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Hungry Dog</en>
+					<jp>空腹の犬</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You saw a dog on the road digging for food. Startled by your approach, the dog becomes aggresive. The dog started growling and seems ready to attack.</en>
+					<jp>食べ物を探して地面を掘り返している犬を見つけた。犬はこちらが近づいているのにおどろき、歯をむき出しにして身がまえる。うなり声を上げ、今にも飛びかかってきそうだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Kill the dog</en>
+					<jp>犬を殺す</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">dogOnTheRoadKill1</link>
+					<link chance="1">dogOnTheRoadKill2</link>
+					<link chance="1">dogOnTheRoadKill3</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Give food (-1 SUPPLY)</en>
+					<jp>食べ物をあげる（補給物資を1消費）</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">dogOnTheRoadFeed1</link>
+					<link chance="1">dogOnTheRoadFeed2</link>
+				</links>
+				<cost type="supply">1</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>dogOnTheRoadKill1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Fearing that the dog might attack. You pulled your weapon and tried to kill it.</en>
+					<jp>犬に攻撃されるかもしれない。武器をかまえ、殺害を試みる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As you pull your weapon, the dog charges. Luckily you managed to kill the dog before it causes any harm.</en>
+					<jp>武器をかまえると、犬が突進してきた。だが、かみ付かれる前になんとか倒すことができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dogOnTheRoadKill2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Fearing that the dog might attack. You pulled your weapon and tried to kill it.</en>
+					<jp>犬に攻撃されるかもしれない。武器をかまえ、殺害を試みる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As you pull your weapon, the dog charges.</en>
+					<jp>武器をかまえると、犬が突進してきた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-10</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dogOnTheRoadKill3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Fearing that the dog might attack. You pulled your weapon and tried to kill it.</en>
+					<jp>犬に攻撃されるかもしれない。武器をかまえ、殺害を試みる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>As you pull your weapon, the dog charges.</en>
+					<jp>武器をかまえると、犬が突進してきた。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-25</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dogOnTheRoadFeed1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It seems that the dog is scared by you. You pull out some food you have with you and placed it on the ground.</en>
+					<jp>犬はこちらの姿におびえているようだ。持っている食料を取り出し、地面に置いてやる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing your kind gesture the dog becomes calmer. The dog started sniffing and slowly approaches the food.</en>
+					<jp>友好的に接したことで、犬も落ち着いてきたようだ。鼻をならして食料に近づく。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The dog takes the food into her mouth and quickly runs away.</en>
+					<jp>食料をくわえると、素早く走り去っていった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dogOnTheRoadFeed2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It seems that the dog is scared by you. You pull out some food you have with you and placed it on the ground.</en>
+					<jp>犬はこちらの姿におびえているようだ。持っている食料を取り出し、地面に置いてやる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Seeing your kind gesture the dog becomes calmer. The dog started sniffing and slowly approaches the food.</en>
+					<jp>友好的に接したことで、犬も落ち着いてきたようだ。鼻をならして食料に近づく。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The dog takes the food into her mouth and started eating. She quickly finishes the food. The dog seems happy and becomes friendly towards you.</en>
+					<jp>食料をくわえると、食べ始めた。そしてすぐに飲み込む。うれしそうに尻尾を振り、こちらに顔を向ける。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The dog barks and started tugging you. It seems that the dog is trying to show you something.</en>
+					<jp>犬は一吠えすると、服のすそを引っ張り始めた。何か見せたいものがあるようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Leave the dog</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">dogOnTheRoadLeave</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Follow the dog</en>
+					<jp>犬についていく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">dogOnTheRoadFollow</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>dogOnTheRoadLeave</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You ignored the dog and continued on your journey.</en>
+					<jp>犬を無視することにして、その場を離れた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dogOnTheRoadFollow</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It looks like the dog wants you to follow her to another building. You marked the building on your map.</en>
+					<jp>どうやらこの犬は、別の建物にある何かを見せたいらしい。マップにあるその建物に印をつけた。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">rescueDog</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>openingDogRescue</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This is the place where the dog is. Find her."</en>
+					<jp>「ここに犬がいる。犬に会うこと」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dogRescued</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="doge" texture="PortraitShiro" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You found the dog sitting and tail-waving happy. Next to her is a hole on the ground.</en>
+					<jp>座って尻尾を振る犬を見つけた。その犬の隣には、地面に穴が開いている。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="doge" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The dog lead you to a weapon stash.</en>
+					<jp>犬が導いてくれたのは、武器の隠し場所だった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="gun">1</reward>
+				<reward type="equipment">1</reward>
+				<trigger type="object" action="changeInteractionDialog">dogDone</trigger>
+				<trigger type="object" action="endQuest">rescueDog</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>dogDone</objName>
+		<init>
+			<!-- <blinds imageName="blinds" alpha="1" /> -->
+			<portrait imageName="doge" texture="PortraitShiro" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Woof!"</en>
+					<jp>「ワン！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="doge" fromX="0.7" fromY="0.5" toX="0.7" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- DOG ON THE ROAD END -->
+	
+	<!-- AMBUSH -->
+	<obj>
+		<objName>zombieAmbush1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You walked into an area infested with zeds. By the time you realized that you are walking into an ambush, it's already too late.</en>
+					<jp>足を踏み入れるとそこはゾンビでいっぱいだった。ゾンビの奇襲だと気づいたときには、もう遅かった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText><en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There's no way out, get ready to fight!</en>
+					<jp>他に打つ手はない、戦闘に備えろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushZombie</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbush2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You accidentally triggered a car alarm.</en>
+					<jp>車の盗難アラームを誤って作動させてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Zombies are swarming from all directions!</en>
+					<jp>あらゆる方向からゾンビがやってくる！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushZombie</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbush3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You are surrounded! The undead are alerted of your presence and are quickly closing in on your location.</en>
+					<jp>囲まれた！こちらの姿に警戒したゾンビが、出口をふさいでいる。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There's no way out, get ready to fight!</en>
+					<jp>他に打つ手はない、戦闘に備えろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushZombie</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbush4</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="zombieAmbushAlleyWay">
+			<scene>
+				<nameText><en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A zombie horde is approaching. They did not notice your presence at the moment, but not for long. You need to do something quickly!</en>
+					<jp>ゾンビの群れが近づいてくる。こちらにはまだ気づいていないが、それも時間の問題だ。今すぐ手を打たなければ！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbush5</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="zombieAmbushAlleyWay">
+			<scene>
+				<nameText><en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You are surrounded! The undead are quickly closing in on your location. You need to do something quickly!</en>
+					<jp>囲まれた！ゾンビが、出口をふさいでいる。今すぐ手を打たなければ！</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbush6</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="zombieAmbushAlleyWay">
+			<scene>
+				<nameText>
+					<en>Zombie Horde!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The road ahead is filled with the undead. Soon you found yourself surrounded. Fortunately, they don't seem to notice you yet.</en>
+					<jp>前方の道にはゾンビがいっぱいだ。すぐに囲まれてしまうだろう。幸い、ゾンビたちはまだこちらには気づいていない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbushSneak</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Zombie Horde!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>We could wait until the horde disperse and sneak past them, or we charge now guns blazing and all. What should we do?</en>
+					<jp>ゾンビの群れが散らばるのを待って身を潜めていることもできるし、突進して銃で撃ちまくることもできる。どうしよう？</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Wait an hour and sneak</en>
+					<jp>身を潜めて1時間待つ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">zombieAmbushSneakSafe</link>
+					<link chance="1">zombieAmbushSneakFail</link>
+				</links>
+				<cost type="returnTime">60000</cost>
+			</option>
+			<option>
+				<name>
+					<en>Charge!</en>
+					<jp>突進する！</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">chargeGunsBlazing</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbushSneakSafe</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Wait and Sneak</en>
+					<jp>身を潜めて待機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to wait for an hour and try to sneak past the undead horde.</en>
+					<jp>ゾンビの群れをやり過ごせるよう、身を潜めて1時間待つことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+				<en>Wait and Sneak</en>
+					<jp>身を潜めて待機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Your gamble paid off. You managed to sneak past the zombie horde safely and unnoticed.</en>
+					<jp>うまくいった。じっと身を潜めて、ゾンビに気づかれずにやり過ごすことができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbushSneakFail</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Wait and Sneak</en>
+					<jp>身を潜めて待機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to wait for an hour and try to sneak past the undead horde.</en>
+					<jp>ゾンビの群れをやり過ごせるよう、身を潜めて1時間待つことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Wait and Sneak</en>
+					<jp>身を潜めて待機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The horde only grew in number the longer you wait. The situation is getting worse.</en>
+					<jp>ゾンビの群れはますます大きくなり、身を潜めている時間も長くなってきた。状況は悪くなる一方だ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Wait and Sneak</en>
+					<jp>身を潜めて待機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There's no other way, get ready to fight!</en>
+					<jp>他に打つ手はない、戦闘に備えろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushZombie</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>chargeGunsBlazing</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en>Charge!</en>
+					<jp>突進する！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The situation could go worse the longer you wait. Lock n load, get ready to fight!</en>
+					<jp>待てば待つほど状況は悪くなるばかりだ。弾を込めて戦闘に備えろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushZombie</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>zombieAmbushAlleyWay</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You quickly look around and saw a dark and narrow alleyway. It could be a way out or a death trap...</en>
+					<jp>素早くあたりを見回すと、暗がりに狭い通路を見つけた。ここから脱出できるかもしれないが、思わぬ事態が起こるかもしれない。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Go through the alley</en>
+					<jp>通路に入る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">alleywayShortcutSafe</link>
+					<link chance="1">alleywayShortcutFail</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Stay and fight</en>
+					<jp>ここに残り戦う</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">stayAndFight</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>alleywayShortcutSafe</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en>Alleyway Shortcut</en>
+					<jp>近道の通路</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to go through the alleyway hoping to avoid the zombie horde.</en>
+					<jp>通路に入ることにした。ゾンビの群れに会わないことを祈ろう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Alleyway Shortcut</en>
+					<jp>近道の通路</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Your gamble paid off. You managed to sneak past the zombie horde safely and unnoticed.</en>
+					<jp>うまくいった。じっと身を潜めて、ゾンビに気づかれずにやり過ごすことができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>alleywayShortcutFail</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Alleyway Shortcut</en>
+					<jp>近道の通路</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to go through the alleyway hoping to avoid the zombie horde.</en>
+					<jp>通路に入ることにした。ゾンビの群れに会わないよう祈ろう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Alleyway Shortcut</en>
+					<jp>近道の通路</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It was hard to move quietly in the dark and narrow alleyway. Your group bumped into objects and attracted the zombies attention.</en>
+					<jp>暗く狭い通路では素早く動くことができない。何かにぶつかり音を立て、ゾンビの注意を引いてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Zombie Ambush!</en>
+					<jp>ゾンビの奇襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There's no other way, get ready to fight!</en>
+					<jp>他に打つ手はない、戦闘に備えろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushZombie</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>stayAndFight</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Stay and Fight!</en>
+					<jp>ここで戦う！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The alleyway could be a death trap. It's better to face the zombies head on.</en>
+					<jp>通路では何が起こるかわからない。真正面からゾンビと対決するほうがいいだろう。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushZombie</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditAmbush1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditAmbushSafeWay">
+			<scene>
+				<nameText>
+					<en>Bandits Approaching!</en>
+					<jp>野盗が接近中！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You noticed a group of bandits dawdling on the street not far from you. They seem to be moving towards you.</en>
+					<jp>野盗の一団がすぐ近くにたむろしている。こちらに近寄ってきているようだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditAmbush2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditAmbushDeal">
+			<scene>
+				<nameText>
+					<en>Bandit Ambush!</en>
+					<jp>野盗の急襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>A group of bandits suddenly come out of hiding and ambushed you.</en>
+					<jp>野盗が突然姿を現し、こちらに襲い掛かってきた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditAmbush3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditAmbushDeal">
+			<scene>
+				<nameText>
+					<en>Bandit Ambush!</en>
+					<jp>野盗の急襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You walked through the open road when suddenly a group of bandits cut your way.</en>
+					<jp>道路を横切ろうとすると、野盗に突然行く手を阻まれた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditAmbushDeal</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en>Bandit Ambush!</en>
+					<jp>野盗の急襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The bandits threaten to kill you unless you pay tribute.</en>
+					<jp>野盗は「通行料」を払わなければ殺すと言っている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Negotiate</en>
+					<jp>交渉する</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">banditNegotiate</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Run away</en>
+					<jp>逃げる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">runAwaySafe</link>
+					<link chance="1">runAwayFail1</link>
+					<link chance="1">runAwayFail2</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Stay and fight</en>
+					<jp>戦う</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">stayAndFightBandit</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>banditNegotiate</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You pleaded with them and agreed to pay tribute.</en>
+					<jp>野盗に命乞いをし、通行料を払うことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Give 5 Supplies</en>
+					<jp>補給物資×5を渡す</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">banditPaySupplies1</link>
+					<link chance="1">banditPaySupplies2</link>
+				</links>
+				<cost type="supply">5</cost>
+			</option>
+			<option>
+				<name>
+					<en>Give 1 Fuel</en>
+					<jp>燃料×1を渡す</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">banditPayFuel1</link>
+					<link chance="1">banditPayFuel2</link>
+				</links>
+				<cost type="fuel">1</cost>
+			</option>
+			<option>
+				<name>
+					<en>Give 500 Ammo</en>
+					<jp>弾薬×500を渡す</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="4">banditPayAmmo1</link>
+					<link chance="1">banditPayAmmo2</link>
+				</links>
+				<cost type="coin">250</cost>
+			</option>
+			<option>
+				<name><en>Give Nothing</en>
+					<jp>何も渡さない</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">banditPayNothing</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>banditPaySupplies1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditLetGo">
+			<scene>
+				<nameText>
+					<en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give some SUPPLIES to the bandits.</en>
+					<jp>野盗に補給物資を渡した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditPaySupplies2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditDemandMore">
+			<scene>
+				<nameText><en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give some SUPPLIES to the bandits.</en>
+					<jp>野盗に補給物資を渡した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditPayFuel1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditLetGo">
+			<scene>
+				<nameText>
+					<en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give some FUEL to the bandits.</en>
+					<jp>野盗に燃料を渡した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditPayFuel2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditDemandMore">
+			<scene>
+				<nameText>
+					<en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give some FUEL to the bandits.</en>
+					<jp>野盗に燃料を渡した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditPayAmmo1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditLetGo">
+			<scene>
+				<nameText>
+					<en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give some @MMO to the bandits.</en>
+					<jp>野盗に弾薬を渡した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditPayAmmo2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditDemandMore">
+			<scene>
+				<nameText>
+					<en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You give some @MMO to the bandits.</en>
+					<jp>野盗に弾薬を渡した。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditPayNothing</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditFight">
+			<scene>
+				<nameText>
+					<en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided not to give anything.</en>
+					<jp>野盗には何も渡さないことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditDemandMore</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes next="banditAmbushDeal">
+			<scene>
+				<nameText>
+					<en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The bandits are not happy with your tribute and demanded more.</en>
+					<jp>野盗は満足していないようだ。もっとよこせと言っている。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditLetGo</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en>Negotiate with bandits</en>
+					<jp>野盗との交渉</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>They laughed and let you go on your way.</en>
+					<jp>野盗は笑い、道を通してくれた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditFight</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Bandit Ambush!</en>
+					<jp>野盗たちの急襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The bandits are not happy with your decision and started attacking. </en>
+					<jp>野盗は満足していないようだ。こちらに攻撃を仕掛けてきた。</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushBandit</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>runAwaySafe</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Run Away</en>
+					<jp>逃げる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You refused to give pay tribute and started running away.</en>
+					<jp>通行料を払うのは拒否し、走って逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Run Away</en>
+					<jp>逃げる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The bandits opened fire. Fortunately, they missed and you escaped the danger.</en>
+					<jp>野盗が発砲してくる。幸い弾を受けることはなく、危険を脱することができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>runAwayFail1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Run Away</en>
+					<jp>逃げる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You refused to pay tribute and started running away.</en>
+					<jp>通行料を払うのは拒否し、走って逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Run Away</en>
+					<jp>逃げる</jp>
+					<cn></cn>
+					</nameText>
+				<dialogText>
+					<en>The bandits opened fire and some bullets hit your team.</en>
+					<jp>野盗が発砲してくる。攻撃を少し受けてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="health">-25</reward>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>runAwayFail2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Run Away</en>
+					<jp>逃げる</jp>
+					<cn></cn>
+					</nameText>
+				<dialogText>
+					<en>You refused to pay tribute and started running away.</en>
+					<jp>通行料を払うのは拒否し、走って逃げることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Bandit Ambush!</en>
+					<jp>野盗の急襲！</jp>
+					<cn></cn>
+					</nameText>
+				<dialogText>
+					<en>You could not escape! There's no other way, get ready to fight!</en>
+					<jp>だが逃げられない！他に打つ手はない、戦闘に備えろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushBandit</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>banditAmbushSafeWay</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Bandit Approaching!</en>
+					<jp>野盗が接近中！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You think quickly and look around to find a safer path to evade and stay away from the bandits...</en>
+					<jp>素早くあたりを見回して、野盗をやり過ごせる安全な逃げ道を探す…</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Bandit Approaching!</en>
+					<jp>野盗が接近中！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You saw a dark alleyway and piles of rubble.</en>
+					<jp>暗い通路とがれきの山を見つけた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name><en>Take the alleyway</en>
+					<jp>通路に入る</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">gangwayEscapeSafe</link>
+					<link chance="1">gangwayEscapeFail</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Hide behind rubble</en>
+					<jp>がれきの陰に隠れる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">hideSafe</link>
+					<link chance="1">hideFail</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Stay and fight</en>
+					<jp>ここに残って戦う</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">stayAndFightBandit</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>gangwayEscapeSafe</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en>Alleyway Escape</en>
+					<jp>通路から逃げる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You took the alleyway to avoid confrontation with the bandits.</en>
+					<jp>野盗との対戦を避けるため、通路に逃げ込んだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText><en>Alleyway Escape</en>
+					<jp>通路から逃げる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You sneaked through the alleyway and managed to get away.</en>
+					<jp>音を立てず通路を通り抜け、なんとか逃げることができた。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>gangwayEscapeFail</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText><en>Alleyway Escape</en>
+					<jp>通路から逃げる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You took the alleyway to avoid confrontation with the bandits.</en>
+					<jp>野盗との対戦を避けるため、通路に逃げ込んだ。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText><en>Alleyway Escape</en>
+					<jp>通路から逃げる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>One of the bandits saw you and alerted the rest of the pack.</en>
+					<jp>野盗に見つかり、仲間を呼び寄せられてしまった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+				<en>Bandit Ambush!</en>
+					<jp>野盗の急襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>There's no other way, get ready to fight!</en>
+					<jp>他に打つ手はない、戦闘に備えろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushBandit</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>hideSafe</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Stay Hidden</en>
+					<jp>隠れる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to hide behind the rubble.</en>
+					<jp>がれきの陰に隠れることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Stay Hidden</en>
+					<jp>隠れる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The bandits moved past you without noticing your presence.</en>
+					<jp>野盗たちはこちらに気づかず、通り過ぎていった。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>hideFail</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Stay Hidden</en>
+					<jp>隠れる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You decided to hide behind the rubble.</en>
+					<jp>がれきの陰に隠れることにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText><en>Stay Hidden</en>
+					<jp>隠れる</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>One of the bandits went behind the rubble to take a leak.</en>
+					<jp>野盗の一人が用を足そうとがれきの陰にやって来た。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Bandit Ambush!</en>
+					<jp>野盗の急襲！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The bandit found you hiding behind the rubble and alerted the rest of the pack. There's no other way, get ready to fight!</en>
+					<jp>がれきの陰に隠れているとこを野盗に見つかり、仲間を呼び寄せられてしまった。他に打つ手はない、戦闘に備えろ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushBandit</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>stayAndFightBandit</objName>
+		<init>
+			<blinds imageName="blinds" alpha="0.75" />
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Stay and Fight!</en>
+					<jp>ここで戦う！</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>It's better to stay and fight than run and hide!</en>
+					<jp>逃げたり隠れたりするよりも、ここで戦うほうがいくらかマシだ！</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="city" action="triggerCityMissionEncounter">triggerAmbushBandit</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- AMBUSH END -->
+	
+</dialogs>

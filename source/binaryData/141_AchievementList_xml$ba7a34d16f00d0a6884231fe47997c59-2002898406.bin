@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievement>
+	<obj>
+		<objName>zombieKiller</objName>
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalZombieKills" activationMode="GREATER_EQUALS">30000</req>
+	</obj>
+	
+	
+	<obj>
+		<objName>banditKiller</objName>
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalBanditKills" activationMode="GREATER_EQUALS">1000</req>
+	</obj>
+	
+	<obj>
+		<objName>bulletCollector</objName>
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalCoinsCollected" activationMode="GREATER_EQUALS">50000</req>
+	</obj>
+	
+	
+	<obj>
+		<objName>treasureHunter</objName> 
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalObjectsSearched" activationMode="GREATER_EQUALS">2000</req>
+	</obj>
+	
+	<obj>
+		<objName>totalWeaponCrafted</objName> 
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalWeaponCrafted" activationMode="GREATER_EQUALS">50</req>
+	</obj>
+	
+	<obj>
+		<objName>totalGearCrafted</objName> 
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalGearCrafted" activationMode="GREATER_EQUALS">50</req>
+	</obj>
+	
+	<obj>
+		<objName>totalPlantHarvested</objName> 
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalResourcePlanted" activationMode="GREATER_EQUALS">100</req>
+	</obj>
+	
+	<obj>
+		<objName>totalFoodCooked</objName> 
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalFoodCooked" activationMode="GREATER_EQUALS">100</req>
+	</obj>
+	
+	<obj>
+		<objName>totalTurretBuild</objName> 
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalTurretsBuilt" activationMode="GREATER_EQUALS">100</req>
+	</obj>
+	
+	<obj>
+		<objName>veteranSurvivor</objName>
+		<targetData>CAMPAIGN</targetData>
+		<req targetStat="totalSurvivingSurvivor" activationMode="GREATER_EQUALS">1</req>
+		<req targetStat="isLeavingCity" activationMode="GREATER_EQUALS">1</req>
+	</obj>
+	
+	<obj>
+		<objName>togetherWeAreStrong</objName>
+		<targetData>CAMPAIGN</targetData>
+		<req targetStat="totalCasualties" activationMode="LESS_EQUALS">0</req>
+		<req targetStat="isLeavingCity" activationMode="GREATER_EQUALS">1</req>
+	</obj>
+
+	<obj>
+		<objName>don'tYouWantToSeeRaccoonCityGotBombed</objName>
+		<targetData>CAMPAIGN</targetData>
+		<req targetStat="totalDaysSurvived" activationMode="LESS_EQUALS">10</req>
+		<req targetStat="isLeavingCity" activationMode="GREATER_EQUALS">1</req>
+	</obj>
+	
+	<obj>
+		<objName>ourFoodIsWastedOnThosePeople</objName>
+		<targetData>CAMPAIGN</targetData>
+		<req targetStat="totalSurvivingSurvivor" activationMode="GREATER_EQUALS">9</req>
+	</obj>
+	
+	<obj>
+		<objName>noRestForTheWicked</objName>
+		<targetData>MANUAL</targetData>
+		<req targetStat="totalDaysSurvived" activationMode="LESS_EQUALS">2</req>
+		<req targetStat="totalZombieKills" activationMode="GREATER_EQUALS">1000</req>
+	</obj>
+	
+	
+	<obj>
+		<objName>waveMaster</objName>
+		<targetData>SURVIVAL</targetData>
+		<req targetStat="survivalModeWave" activationMode="GREATER_EQUALS">30</req>
+	</obj>
+	<obj>
+		<objName>hiddenAchievement</objName>
+		<targetData>COLLECTIVE</targetData>
+		<req targetStat="totalAreaFullyExplored" activationMode="GREATER_EQUALS">1</req>
+	</obj>
+	<obj>
+		<objName>jediSurvivor</objName>
+		<targetData>MANUAL</targetData>
+		<req targetStat="isCraftLightSaber" activationMode="EQUALS">1</req>
+	</obj>
+	<obj>
+		<objName>noob</objName>
+		<targetData>MANUAL</targetData>
+		<req targetStat="tutorialFinished" activationMode="EQUALS">0</req>
+	</obj>
+	<obj>
+		<objName>curfewTime</objName>
+		<targetData>MANUAL</targetData>
+		<req targetStat="isExplore6am" activationMode="EQUALS">1</req>
+	</obj>
+</achievement>

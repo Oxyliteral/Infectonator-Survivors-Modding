@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chatBalloon>
+	<obj>
+		<objName>CLICK me to SELECT!</objName>
+		<en>CLICK me to SELECT!</en>
+		<jp>キャラクターをクリックして選択！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>RIGHT CLICK to MOVE</objName>
+		<en>RIGHT CLICK to MOVE</en>
+		<jp>右クリックで移動</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>TAP to START BATTLE!</objName>
+		<en>TAP to START BATTLE!</en>
+		<jp>タップして戦闘を開始！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Protect Me!</objName>
+		<en>Protect Me!</en>
+		<jp>加勢して！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Hey, Over here!</objName>
+		<en>Hey, Over here!</en>
+		<jp>こっちだ！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Don't leave me!</objName>
+		<en>Don't leave me!</en>
+		<jp>置いてくな！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Thank you!</objName>
+		<en>Thank you!</en>
+		<jp>ありがとう！</jp>
+		<cn>谢谢！</cn>
+	</obj>
+	<obj>
+		<objName>Phew, that's close!</objName>
+		<en>Phew, that's close!</en>
+		<jp>危なかった！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Alright!</objName>
+		<en>Alright!</en>
+		<jp>わかった！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Reviving!</objName>
+		<en>Reviving!</en>
+		<jp>蘇生する！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>NOOOOO!</objName>
+		<en>NOOOOO!</en>
+		<jp>うわああ！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Reload failed!</objName>
+		<en>Reload failed!</en>
+		<jp>リロード失敗！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Reloading AP Bullet!</objName>
+		<en>Reloading AP Bullet!</en>
+		<jp>徹甲弾リロード！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Patching up!</objName>
+		<en>Patching up!</en>
+		<jp>応急手当！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Planting mine!</objName>
+		<en>Planting mine!</en>
+		<jp>地雷設置中！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Building Turret!</objName>
+		<en>Building Turret!</en>
+		<jp>タレット組立中！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Reloading Turret!</objName>
+		<en>Reloading Turret!</en>
+		<jp>タレットリロード！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Salvaging Turret!</objName>
+		<en>Salvaging Turret!</en>
+		<jp>タレット回収！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Retrieve equipments!</objName>
+		<en>Retrieve equipments!</en>
+		<jp>装備を回収！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>HEEEY!</objName>
+		<en>HEEEY!</en>
+		<jp>おおおーい！</jp>
+		<cn>嘿！</cn>
+	</obj>
+	<obj>
+		<objName>Come On!!!</objName>
+		<en>Come On!!!</en>
+		<jp>やってやる！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>I'm so full!</objName>
+		<en>I'm so full!</en>
+		<jp>満腹！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>That was great!</objName>
+		<en>That was great!</en>
+		<jp>よかった！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>*burp*</objName>
+		<en>*burp*</en>
+		<jp>げえぇっぷ</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Yummy!</objName>
+		<en>Yummy!</en>
+		<jp>おいしー！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>nom nom nom</objName>
+		<en>nom nom nom</en>
+		<jp>もぐもぐ…</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Let's see...</objName>
+		<en>Let's see...</en>
+		<jp>うーん…</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>What to eat?</objName>
+		<en>What to eat?</en>
+		<jp>食べ物は？</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>No food?</objName>
+		<en>No food?</en>
+		<jp>食べ物がない？</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Need food!</objName>
+		<en>Need food!</en>
+		<jp>お腹すいた！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Someone please make a sandwhich!</objName>
+		<en>Someone please make a sandwhich!</en>
+		<jp>誰かサンドウィッチを！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>So hungry!</objName>
+		<en>So hungry!</en>
+		<jp>空腹の限界…</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>I feel fresh!</objName>
+		<en>I feel fresh!</en>
+		<jp>すっきり！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>I'm up</objName>
+		<en>I'm up</en>
+		<jp>よく寝た</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>I'm ready</objName>
+		<en>I'm ready</en>
+		<jp>準備OK</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>So refreshed!</objName>
+		<en>So refreshed!</en>
+		<jp>ふう！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Ouuuch that hurts</objName>
+		<en>Ouuuch that hurts</en>
+		<jp>うう、痛い</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>What the??</objName>
+		<en>What the??</en>
+		<jp>えぇっ？</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Huh??</objName>
+		<en>Huh??</en>
+		<jp>んんっ？</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>Darn!</objName>
+		<en>Darn!</en>
+		<jp>くっそ！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>REVIVE</objName>
+		<en>REVIVE</en>
+		<jp>蘇生</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>DIED</objName>
+		<en>DIED</en>
+		<jp>死亡した</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>LOOT</objName>
+		<en>LOOT</en>
+		<jp>戦利品</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>AAAARGH I'm stunned!!</objName>
+		<en>AAAARGH I'm stunned!!</en>
+		<jp>ああああ！びっくり！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>MERCHANT</objName>
+		<en>&#xA;MERCHANT&#xA;</en>
+		<jp>&#xA;商人&#xA;</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>released!</objName>
+		<en>&#xA;released!</en>
+		<jp>解除！</jp>
+		<cn></cn>
+	</obj>
+	<obj>
+		<objName>detached!</objName>
+		<en>&#xA;detached!</en>
+		<jp>取り外し！</jp>
+		<cn></cn>
+	</obj>
+</chatBalloon>

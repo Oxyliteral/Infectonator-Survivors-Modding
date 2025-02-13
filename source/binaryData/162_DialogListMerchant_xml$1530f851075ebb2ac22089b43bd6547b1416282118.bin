@@ -1,0 +1,3924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- QUEST START -->
+
+<dialogs>
+	<obj>
+		<objName>merchantOpenShopDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Choose your item.</en>
+					<jp>アイテムを選ぶ</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="openShop"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantTalk1</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantOptionDialog">
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You see a man wearing a gas mask and a long coat. He seems to be a merchant of some sort.</en>
+					<jp>ガスマスクをつけて、ロングコートを着た男を見つけた。何かを売り歩いている商人のようだ。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Tough day, huh?"</en>
+					<jp>「お疲れかい？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Why don't you take a break and let's have a small...business talk."</en>
+					<jp>「少し休憩して…商売の話でもどうだい」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText><en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Perhaps, you might want to do something for me."</en>
+					<jp>「それとも、オレのために何かしてくれるってか？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantTalk2</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantOptionDialog">
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You see a man wearing a gas mask and a long coat. He seems to be a merchant of some sort.</en>
+					<jp>ガスマスクをつけて、ロングコートを着た男を見つけた。何かを売り歩いているようだ。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You looked like someone who needed help..."</en>
+					<jp>「困ってるんじゃないのかい…？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You know what? You scratch my back, I'll scratch your back."</en>
+					<jp>「こんなときはお互い様だ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantTalk3</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantOptionDialog">
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You see a man wearing a gas mask and a long coat. He seems to be a merchant of some sort.</en>
+					<jp>ガスマスクをつけて、ロングコートを着た男を見つけた。何かを売り歩いているようだ。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I set myself up here for trades, but I have something else for you."</en>
+					<jp>「ここで商売をしてるんだが、お前にはとっておきのものがあるぞ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I have some information that you might find interesting."</en>
+					<jp>「とある情報だ。知りたいだろ？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantTalk4</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantOptionDialog">
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You see a man wearing a gas mask and a long coat. He seems to be a merchant of some sort.</en>
+					<jp>ガスマスクをつけて、ロングコートを着た男を見つけた。何かを売り歩いているようだ。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Are you here to talk business or are you here to deal with some rats?"</en>
+					<jp>「商売の話かい？ひやかしならお断りだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantOptionDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So what is it gonna be?"</en>
+					<jp>「さあ、どうする？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>Shop</en>
+					<jp>購入</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Hear news</en>
+					<jp>情報を仕入れる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">introNewsA</link>
+					<link chance="1">introNewsB</link>
+					<link chance="1">introNewsC</link>
+					<link chance="1">introNewsD</link>
+					<link chance="1">introNewsE</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Forget it</en>
+					<jp>やめる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">introQuestCancelA</link>
+					<link chance="1">introQuestCancelB</link>
+					<link chance="1">introQuestCancelC</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>introNewsA</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I knew that all of this would happen years ago!"</en>
+					<jp>「もうずっと前から、こんなことになるだろうと思ってたんだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Goddamn governments and corporations feeding us with poison and lies!"</en>
+					<jp>「クソみたいな政府と大企業は、ずっとウソをついてオレたちに毒を与えてやがった！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"How do you think all of this happen? An act of God?! Hell no!"</en>
+					<jp>「この状況をどう思う？神の業？冗談じゃない！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We eat genetically modified food, meds filled with God knows what!"</en>
+					<jp>「遺伝子操作されたものを食べてさ、薬だって何が入っているか分かったもんじゃない！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's been a long time coming, we just ignored all the signs."</en>
+					<jp>「ずっと前からそうだったのに、その兆候を見て見ぬ振りしてたんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introNewsB</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Staying here for days, I realize that the zombies are increasing in number each new day."</en>
+					<jp>「ここに何日かいるがな、ゾンビの数は日に日に増えてやがる」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"They are getting tougher to kill too!"</en>
+					<jp>「それにどんどん強くなってる！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"The virus could be mutating. Infecting more people and turning them into new zombies."</en>
+					<jp>「ウイルスが変異してるのかもな。感染スピードを上げて、ゾンビを増やそうって魂胆だ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introNewsC</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"This whole zombie apocalypse is reminding me of a mobile game I used to play."</en>
+					<jp>「ゾンビ・アポカリプスだなんて、スマホのゲームアプリみたいだろ。やったことあるか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+				<en>"The game was called Infectonator! In it, you play as the zombies and your goal was to destroy the world!"</en>
+				<jp>「Infectonatorっていうんだけどさ。ゾンビになって世界を破滅させるゲームなんだよ！」</jp>
+				<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Man, I missed that game!"</en>
+					<jp>「ああ、またやりたいなあ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introNewsD</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You should pay attention to your SUPPLIES cache."</en>
+					<jp>「補給物資の残数には注意したほうがいいぜ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Dying of starvation is the worst that could happen to you!"</en>
+					<jp>「飢えて死ぬなんて一番つまんねえからな！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"If your supply is low, you can buy some from me!"</en>
+					<jp>「もし物資の残りが少ないなら、ここで買っていってもいいぞ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introNewsE</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Do you realize that there's a limited number of FUEL and SUPPLIES in this city?"</en>
+					<jp>「この街にある燃料と補給物資の数は限られてるって、知ってるか？」</jp>
+					<cn></cn>	
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Once you've searched and looted every building, that's it! No more new stuff."</en>
+					<jp>「全ての建物を調査して、残されているものを手に入れたら、それで終わりなんだよ！新しく『湧いて』きたりはしない」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hey, it's the apocalypse! There's no one to restock the store shelves, remember?"</en>
+					<jp>「なにしろアポカリプスだからな！在庫補充してくれるヤツなんざ、いないんだよ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So, you better watch your consumption."</en>
+					<jp>「だからな、使い方を考えたほうがいいぞ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- MERCHANT QUEST OPENING -->
+	
+	<obj>
+		<objName>merchantOpening1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I picked up a radio broadcast earlier. Apparently, there's a merchant of some sort in this location."</en>
+					<jp>「さっき、無線放送をキャッチしたんだ。ここには何か売り歩いている商人がいるらしい」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"A merchant?"</en>
+					<jp>「商人？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.8" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Yes, maybe he could help us. Try to talk to him."</en>
+					<jp>「そうだ。手助けをしてくれるかもしれない。見つけて話しかけてみて」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantOpening2</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take a look around, there should be a merchant in there somewhere."</en>
+					<jp>「周りを見てみて。どこかに商人がいるはずだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Are you sure?"</en>
+					<jp>「確かなのか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="0.8" fromY="0.5" toX="1" toY="0.5" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Yes, definitely! He may move from one room to another, but he should be in the area."</en>
+					<jp>「ああ、確かだ！部屋から部屋へと動いているかもしれないが、そのエリアにいるはずだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Find him and talk to him, maybe he could help us find parts!."</en>
+					<jp>「見つけて話しかけるんだ。部品探しの手助けをしてくれるかもしれない！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantOpening3</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="radio" texture="WalkieTalkie" posX="0.8" posY="0.5" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"There's a merchant in this area. He's been advertising himself on all frequencies."</en>
+					<jp>「このエリアには商人がいる。無線のあらゆる周波数を使って宣伝しているんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="radio" fromX="1" fromY="0.5" toX="0.8" toY="0.5" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Maybe he could help us find parts! Try to talk to him."</en>
+					<jp>「部品探しの手助けをしてくれるかもしれない！見つけて話しかけて」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Radio</en>
+					<jp>無線機</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Oh, and tell him to stop his radio ads! It's driving me nuts!"</en>
+					<jp>「それから、無線の宣伝を止めて、って伝えてくれる？聞き飽きたよ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- MERCHANT QUEST OPENING END -->
+	
+	<!-- MERCHANT QUEST TIMING BELT -->
+	
+	<obj>
+		<objName>merchantQuestTimingBeltDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestTimingBeltOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So, I hear you are looking for some spare parts...a TIMING BELT perhaps?"</en>
+					<jp>「予備の部品を探してるって聞いたんだが…タイミングベルトだったか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Let's cut the chit chat. What do you want for it in exchange?"</en>
+					<jp>「単刀直入にいこう。代わりに何が欲しい？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Straight to business...I like that!"</en>
+					<jp>「余計なおしゃべりはナシか…気に入った！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll give you the TIMING BELT, in exchange for a favor."</en>
+					<jp>「タイミングベルトは後で渡す。代わりに頼みを聞いてほしい」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"One of my men went out to retrieve a package, but I have not heard from him in a while."</en>
+					<jp>「手下が1人、荷物の回収に行ったんだが、それから連絡がないんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm afraid something bad has happened to him. I want you to look for him and retrieve the package."</en>
+					<jp>「何か悪いことが起こったのかもしれない。アイツを探して、荷物を回収してきてくれないか」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"What's in the package?"</en>
+					<jp>「荷物の中身は？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Nothing important, just something with sentimental value. Please do handle it with care."</en>
+					<jp>「重要なもんじゃないが、思い出の品なんだ。手荒に扱うんじゃないぞ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestTimingBeltDialogRepeat</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestTimingBeltDialogRepeat</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestTimingBeltOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll give you the TIMING BELT in exchange for a favor!"</en>
+					<jp>「タイミングベルトは後で渡す。でも頼みを聞いてもらうぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"All you need to do is look for my missing men and retrieve my package."</en>
+					<jp>「することは2つ。オレの手下を探すことと、荷物の回収だ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's very simple!"</en>
+					<jp>「カンタンだろ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestTimingBeltOptionDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So what is it gonna be?"</en>
+					<jp>「さあ、どうする？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Ok, we'll take the job</en>
+					<jp>わかった、頼みを聞こう</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestTimingBeltDialogOk</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Let me think about it</en>
+					<jp>少し考えてみる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestTimingBeltDialogWait</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestTimingBeltDialogOk</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ok, we'll do the job!"</en>
+					<jp>「わかった、頼みを聞こう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Superb!"</en>
+					<jp>「そうこなくっちゃ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's where my men was last reported. I'll mark it on your map!"</en>
+					<jp>「ここが、手下から通信があった最後の場所だ。マップに印をつけておくぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Find the package and come back here. Once I get my package, I'll give you the TIMING BELT."</en>
+					<jp>「荷物を回収したらここに戻ってきてくれ。荷物を渡してくれたら、タイミングベルトをやるよ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Oh, and one more thing...handle the package with care. It's very important to me."</en>
+					<jp>「おっとそれから…荷物は手荒に扱うんじゃないぞ。オレにとっては大事なものなんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">merchantQuestRetrievePackage</trigger>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestTimingBeltDialogReturn</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestTimingBeltDialogWait</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Let me think about it..."</en>
+					<jp>「少し考えさせてくれ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take your time...but not too long!"</en>
+					<jp>「ご自由にどうぞ。でも長くは待てないぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestTimingBeltDialogReturn</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Have you found my package yet?"</en>
+					<jp>「荷物は見つかったか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Here it is</en>
+					<jp>見つかった</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestTimingBeltDialogComplete</link>
+				</links>
+				<cost type="requireMaterials" quantity="1">Orange Package</cost>
+			</option>
+			<option>
+				<name>
+					<en>Not yet</en>
+					<jp>まだだ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestTimingBeltDialogNotComplete</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestTimingBeltDialogNotComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Not yet..."</en>
+					<jp>「まだだ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Well?! What are waiting for? Go find it!"</en>
+					<jp>「なんだよ！モタモタしてないで見つけてきてくれ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestTimingBeltDialogComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your package."</en>
+					<jp>「荷物はここだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You did it! I knew you can do it!"</en>
+					<jp>「お前ならやってくれると思ってたぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your TIMING BELT as promised!"</en>
+					<jp>「さあ、お約束のタイミングベルトだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Timing Belt">1</reward>
+				<trigger type="object" action="endQuest">merchantQuestTest</trigger>
+				<trigger type="object" action="changeInteractionDialog"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestTimingBeltDialogFoundNPC1</objName>
+		<init>
+			<portrait imageName="npc" texture="PortraitNPCDying2" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+				<en>Dying Man</en>
+					<jp>死にそうな男</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Who...who goes there!"</en>
+					<jp>「おい…そこにいるのは誰だ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="npc" fromX="0.5" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm here to retrieve The Merchant's package."</en>
+					<jp>「商人に頼まれて、荷物を回収に…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="npc" fromX="0.7" fromY="0.7" toX="0.5" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Dying Man</en>
+					<jp>死にそうな男</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I see...he sent you to finish me..."</en>
+					<jp>「ああ…俺にトドメを刺すんだな…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="npc" fromX="0.5" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"What? No! We are here ONLY for the package..."</en>
+					<jp>「えぇっ？いや、ただ荷物を回収しに…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="npc" fromX="0.7" fromY="0.7" toX="0.5" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Dying Man</en>
+					<jp>死にそうな男</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"No need to sugar coat it...here take it...I'm a gonner anyway..."</en>
+					<jp>「優しい嘘だな…荷物はこれだ。どのみち俺は死ぬ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="npc" fromX="0.5" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<reward type="material" name="Orange Package">1</reward>
+				<trigger type="object" action="endQuest">merchantQuestRetrievePackage</trigger>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Dying Man</en>
+					<jp>死にそうな男</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Finish...me...before..."</en>
+					<jp>「その前に…俺を殺せ…」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>The man drew his last breath</en>
+					<jp>男は息を引き取った</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>His body started twitching</en>
+					<jp>その体が痙攣し始める</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="provokeUnexpectedEvent">deadRisen</trigger>
+				<trigger type="object" action="setInteractable">0</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- MERCHANT QUEST TIMING BELT END -->
+	
+	<!-- MERCHANT QUEST WINDSHIELD -->
+	
+	<obj>
+		<objName>merchantQuestWindShieldDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestWindShieldOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ah, a customer! How can I help you?"</en>
+					<jp>「やあやあお客さん！何かお求め？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You don't happen to have a WINDSHIELD, do you?"</en>
+					<jp>「ひょっとして、フロントガラスとかあったり…？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You are in luck my friend! I happen to have exactly one bullet proof WINDSHIELD."</en>
+					<jp>「運がいいじゃないか！ちょうど、防弾のフロントガラスを持ってるぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll tell you what...I'll give it to you if you do me a favor."</en>
+					<jp>「こうしよう…オレの頼みを聞いてくれたら、渡してもいいぞ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"What's the favor?"</en>
+					<jp>「頼み…？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+				<en>"I need you to retrieve a package for me."</en>
+				<jp>「荷物を回収してきてほしいんだ」</jp>
+				<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestWindShieldDialogRepeat</trigger>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"One of my men went out carying something important, and I have not heard from him in a while."</en>
+					<jp>「手下が1人、荷物を運びに行ったんだが、それから連絡がないんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm afraid something bad has happened to him. I want you to look for him and retrieve the package."</en>
+					<jp>「何か悪いことが起こったのかもしれない。アイツを探して、荷物を回収してきてくれないか」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestWindShieldDialogRepeat</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestWindShieldOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"All you need to do is look for my missing men and retrieve my package."</en>
+					<jp>「することは2つ。オレの手下を探すことと、荷物の回収だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll give you the WINDSHIELD once you gave me my package back!"</en>
+					<jp>「荷物をここに持ってきてくれたら、フロントガラスは渡すぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText><en>"It's very simple!"</en>
+					<jp>「カンタンだろ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestWindShieldOptionDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So what is it gonna be?"</en>
+					<jp>「さあ、どうする？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Ok, we'll take the job</en>
+					<jp>わかった、頼みを聞こう</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestWindShieldDialogOk</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Let me think about it</en>
+					<jp>少し考えてみる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestWindShieldDialogWait</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestWindShieldDialogOk</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ok, we'll do the job!"</en>
+					<jp>「わかった、頼みを聞こう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Superb!"</en>
+					<jp>「いいねえ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's where my men was last reported. I'll mark it on your map!"</en>
+					<jp>「ここが、手下から通信があった最後の場所だ。マップに印をつけておくぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Find the package and come back here. Once I get my package, I'll give you the WINDSHIELD."</en>
+					<jp>「荷物を回収したらここに戻ってきてくれ。荷物を渡してくれたら、フロントガラスをやるよ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Oh, and one more thing...handle the package with care. It's very important to me."</en>
+					<jp>「おっとそれから…荷物は手荒に扱うんじゃないぞ。オレにとっては大事なものなんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">merchantQuestRetrievePackage</trigger>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestWindShieldDialogReturn</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestWindShieldDialogWait</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Let me think about it..."</en>
+					<jp>「少し考えさせてくれ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take your time...but not too long!"</en>
+					<jp>「ご自由にどうぞ。でも長くは待てないぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestWindShieldDialogReturn</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Have you found my package yet?"</en>
+					<jp>「荷物は見つかったか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Here it is</en>
+					<jp>見つかった</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestWindShieldDialogComplete</link>
+				</links>
+				<cost type="requireMaterials" quantity="1">Orange Package</cost>
+			</option>
+			<option>
+				<name>
+					<en>Not yet</en>
+					<jp>まだだ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestWindShieldDialogNotComplete</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestWindShieldDialogNotComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Not yet..."</en>
+					<jp>「まだだ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Well?! What are waiting for? Go find it!"</en>
+					<jp>「なんだよ！モタモタしてないで見つけてきてくれ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestWindShieldDialogComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your package."</en>
+					<jp>「荷物はここだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You did it! I knew you can do it!"</en>
+					<jp>「お前ならやってくれると思ってたぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your WINDSHIELD as promised!"</en>
+					<jp>「さあ、お約束のフロントガラスだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Protected Windshield">1</reward>
+				<trigger type="object" action="endQuest">merchantQuestTest</trigger>
+				<trigger type="object" action="changeInteractionDialog"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- MERCHANT QUEST WINDSHIELD END -->
+	
+	<!-- MERCHANT QUEST ALLOY WHEEL -->
+	
+	<obj>
+		<objName>merchantQuestAlloyWheelDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestAlloyWheelOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"What is it that you are looking for?"</en>
+					<jp>「お前が探してたもの、何だったっけな？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm looking for those ALLOY WHEELs thingy...you know, tire rims?"</en>
+					<jp>「アロイホイールとかいう…あの、タイヤにつける…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ah, rims...in my country we call them velgs."</en>
+					<jp>「あー、タイヤにつけるやつね。オレはリムって呼んでるけど」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll tell you what...I'll give it to you if you do me a favor."</en>
+					<jp>「こうしよう…オレの頼みを聞いてくれたら、渡してもいいぞ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"What's the favor?"</en>
+					<jp>「頼み…？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I need you to retrieve a package for me."</en>
+					<jp>「荷物を回収してきてほしいんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestAlloyWheelDialogRepeat</trigger>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"One of my men went out carying something important, and I have not heard from him in a while."</en>
+					<jp>「手下が1人、荷物を運びに行ったんだが、それから連絡がないんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm afraid something bad has happened to him. I want you to look for him and retrieve the package."</en>
+					<jp>「何か悪いことが起こったのかもしれない。アイツを探して、荷物を回収してきてくれないか」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlloyWheelDialogRepeat</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestAlloyWheelOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"All you need to do is look for my missing men and retrieve my package."</en>
+					<jp>「することは2つ。オレの手下を探すことと、荷物の回収だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll give you the ALLOY WHEELs once you gave me my package back!"</en>
+					<jp>「荷物をここに持ってきてくれたら、アロイホイールは渡すぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's very simple!"</en>
+					<jp>「カンタンだろ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlloyWheelOptionDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So what is it gonna be?"</en>
+					<jp>「さあ、どうする？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Ok, we'll take the job</en>
+					<jp>わかった、頼みを聞こう</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestAlloyWheelDialogOk</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Let me think about it</en>
+					<jp>少し考えてみる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestAlloyWheelDialogWait</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlloyWheelDialogOk</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ok, we'll do the job!"</en>
+					<jp>「わかった、頼みを聞こう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Superb!"</en>
+					<jp>「いいねえ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's where my men was last reported. I'll mark it on your map!"</en>
+					<jp>「ここが、手下から通信があった最後の場所だ。マップに印をつけておくぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Find the package and come back here. Once I get my package, I'll give you the ALLOY WHEELs."</en>
+					<jp>「荷物を回収したらここに戻ってきてくれ。荷物を渡してくれたら、アロイホイールをやるよ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Oh, and one more thing...handle the package with care. It's very important to me."</en>
+					<jp>「おっとそれから…荷物は手荒に扱うんじゃないぞ。オレにとっては大事なものなんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">merchantQuestRetrievePackage</trigger>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestAlloyWheelDialogReturn</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlloyWheelDialogWait</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Let me think about it..."</en>
+					<jp>「少し考えさせてくれ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take your time...but not too long!"</en>
+					<jp>「ご自由にどうぞ。でも長くは待てないぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlloyWheelDialogReturn</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+				<en>"Have you found my package yet?"</en>
+				<jp>「荷物は見つかったか？」</jp>
+				<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Here it is</en>
+					<jp>見つかった</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestAlloyWheelDialogComplete</link>
+				</links>
+				<cost type="requireMaterials" quantity="1">Orange Package</cost>
+			</option>
+			<option>
+				<name>
+					<en>Not yet</en>
+					<jp>まだだ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestAlloyWheelDialogNotComplete</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlloyWheelDialogNotComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Not yet..."</en>
+					<jp>「まだだ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Well?! What are waiting for? Go find it!"</en>
+					<jp>「なんだよ！モタモタしてないで見つけてきてくれ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlloyWheelDialogComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your package."</en>
+					<jp>「荷物はここだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You did it! I knew you can do it!"</en>
+					<jp>「お前ならやってくれると思ってたぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your ALLOY WHEELs, or as you prefer, tire rims...as promised!"</en>
+					<jp>「さあ、お約束のアロイホイールだ！タイヤにつけるやつだぜ」</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Alloy Wheel">1</reward>
+				<trigger type="object" action="endQuest">merchantQuestTest</trigger>
+				<trigger type="object" action="changeInteractionDialog"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- MERCHANT QUEST ALLOY WHEEL END -->
+	
+	<!-- MERCHANT QUEST ECU -->
+	
+	<obj>
+		<objName>merchantQuestECUDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestECUOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I hear you are looking for an Electronic Control Module."</en>
+					<jp>「電子制御モジュールを探してるって聞いたぞ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"How much do you want for it?"</en>
+					<jp>「いくらで売ってくれる？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's not for sale...but I'll give it to you in exchange for a favor."</en>
+					<jp>「非売品なんだ…でも頼みを聞いてくれたら、やらんこともないぞ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I need you to retrieve a package for me."</en>
+					<jp>「荷物を回収してきてほしいんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"A package?"</en>
+					<jp>「荷物？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You see...one of my men went out carying something important."</en>
+					<jp>「聞いてくれよ…手下が1人、大事な荷物を運びに行ったんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestECUDialogRepeat</trigger>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I have not heard from him in a while. I'm afraid something bad has happened to him."</en>
+					<jp>「でもソイツからしばらく連絡がない。何か悪いことが起こったのかもしれない」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"All you need to do is look for him and retrieve the package."</en>
+					<jp>「することは2つ。ヤツを探すことと、荷物の回収だ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestECUDialogRepeat</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestECUOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"All you need to do is look for my missing men and retrieve my package."</en>
+					<jp>「することは2つ。オレの手下を探すことと、荷物の回収だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll give you the ECU once you gave me my package back!"</en>
+					<jp>「荷物をここに持ってきてくれたら、電子制御モジュールは渡すぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's very simple!"</en>
+					<jp>「カンタンだろ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestECUOptionDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So what is it gonna be?"</en>
+					<jp>「さあ、どうする？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Ok, we'll take the job</en>
+					<jp>わかった、頼みを聞こう</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestECUDialogOk</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Let me think about it</en>
+					<jp>少し考えてみる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestECUDialogWait</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestECUDialogOk</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ok, we'll do the job!"</en>
+					<jp>「わかった、頼みを聞こう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Superb!"</en>
+					<jp>「いいねえ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's where my men was last reported. I'll mark it on your map!"</en>
+					<jp>「ここが、手下から通信があった最後の場所だ。マップに印をつけておくぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Find the package and come back here. Once I get my package, I'll give you the ECU."</en>
+					<jp>「荷物を回収したらここに戻ってきてくれ。荷物を渡してくれたら、電子制御モジュールをやるよ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Oh, and one more thing...handle the package with care. It's very important to me."</en>
+					<jp>「おっとそれから…荷物は手荒に扱うんじゃないぞ。オレにとっては大事なものなんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">merchantQuestRetrievePackage</trigger>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestECUDialogReturn</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestECUDialogWait</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Let me think about it..."</en>
+					<jp>「少し考えさせてくれ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take your time...but not too long!"</en>
+					<jp>「ご自由にどうぞ。でも長くは待てないぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestECUDialogReturn</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Have you found my package yet?"</en>
+					<jp>「荷物は見つかったか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Here it is</en>
+					<jp>見つかった</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestECUDialogComplete</link>
+				</links>
+				<cost type="requireMaterials" quantity="1">Orange Package</cost>
+			</option>
+			<option>
+				<name>
+					<en>Not yet</en>
+					<jp>まだだ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestECUDialogNotComplete</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestECUDialogNotComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Not yet..."</en>
+					<jp>「まだだ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Well?! What are waiting for? Go find it!"</en>
+					<jp>「なんだよ！モタモタしてないで見つけてきてくれ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestECUDialogComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your package."</en>
+					<jp>「荷物はここだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You did it! I knew you can do it!"</en>
+					<jp>「お前ならやってくれると思ってたぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your ECU...as promised!"</en>
+					<jp>「さあ、お約束の…電子制御モジュールだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Electronic Control Module">1</reward>
+				<trigger type="object" action="endQuest">merchantQuestTest</trigger>
+				<trigger type="object" action="changeInteractionDialog"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- MERCHANT QUEST ECU END -->
+	
+	<!-- MERCHANT QUEST ALTERNATOR -->
+	
+	<obj>
+		<objName>merchantQuestAlternatorDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestAlternatorOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hello there, what can I do for you?"</en>
+					<jp>「やあやあ、何かご用かな？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm looking for an ALTERNATOR, do you have one?"</en>
+					<jp>「オルタネーターを探してるんだけど、持ってたりする？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Yes, I do have one...but it's not for sale."</en>
+					<jp>「ああ、あるよ…でも非売品だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"However...I'm willing to trade it with something else."</en>
+					<jp>「けどな…交換してやってもいいぞ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"A trade? What is it that you want?"</en>
+					<jp>「交換？何と交換してくれる？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"At the moment, you don't have the thing that I wanted."</en>
+					<jp>「今は無理だな。お前は持ってない」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestAlternatorDialogRepeat</trigger>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Though, you can get it for me."</en>
+					<jp>「でも取ってくることはできるぞ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You see...one of my men went out carying something important."</en>
+					<jp>「聞いてくれよ…手下が1人、大事な荷物を運びに行ったんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I have not heard from him in a while. I'm afraid something bad has happened."</en>
+					<jp>「でもソイツからしばらく連絡がない。何か悪いことが起こったのかもしれない」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I want you to look for him and retrieve the package."</en>
+					<jp>「ヤツを探して、荷物を回収してきてくれないか」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlternatorDialogRepeat</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestAlternatorOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"All you need to do is look for my missing men and retrieve my package."</en>
+					<jp>「することは2つ。オレの手下を探すことと、荷物の回収だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll give you the ALTERNATOR once you gave me my package back!"</en>
+					<jp>「荷物をここに持ってきてくれたら、オルタネーターは渡すぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's very simple!"</en>
+					<jp>「カンタンだろ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlternatorOptionDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So what is it gonna be?"</en>
+					<jp>「さあ、どうする？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Ok, we'll take the job</en>
+					<jp>わかった、頼みを聞こう</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestAlternatorDialogOk</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Let me think about it</en>
+					<jp>少し考えてみる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestAlternatorDialogWait</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlternatorDialogOk</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ok, we'll do the job!"</en>
+					<jp>「わかった、頼みを聞こう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Superb!"</en>
+					<jp>「いいねえ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's where my men was last reported. I'll mark it on your map!"</en>
+					<jp>「ここが、手下から通信があった最後の場所だ。マップに印をつけておくぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Find the package and come back here. Once I get my package, I'll give you the ALTERNATOR."</en>
+					<jp>「荷物を回収したらここに戻ってきてくれ。荷物を渡してくれたら、オルタネーターをやるよ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Oh, and one more thing...handle the package with care. It's very important to me."</en>
+					<jp>「おっとそれから…荷物は手荒に扱うんじゃないぞ。オレにとっては大事なものなんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">merchantQuestRetrievePackage</trigger>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestAlternatorDialogReturn</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlternatorDialogWait</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Let me think about it..."</en>
+					<jp>「少し考えさせてくれ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take your time...but not too long!"</en>
+					<jp>「ご自由にどうぞ。でも長くは待てないぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlternatorDialogReturn</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Have you found my package yet?"</en>
+					<jp>「荷物は見つかったか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Here it is</en>
+					<jp>見つかった</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestAlternatorDialogComplete</link>
+				</links>
+				<cost type="requireMaterials" quantity="1">Orange Package</cost>
+			</option>
+			<option>
+				<name>
+					<en>Not yet</en>
+					<jp>まだだ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestAlternatorDialogNotComplete</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlternatorDialogNotComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Not yet..."</en>
+					<jp>「まだだ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Well?! What are waiting for? Go find it!"</en>
+					<jp>「なんだよ！モタモタしてないで見つけてきてくれ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestAlternatorDialogComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your package."</en>
+					<jp>「荷物はここだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You did it! I knew you can do it!"</en>
+					<jp>「お前ならやってくれると思ってたぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your ALTERNATOR...as promised!"</en>
+					<jp>「さあ、お約束の…オルタネーターだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Alternator">1</reward>
+				<trigger type="object" action="endQuest">merchantQuestTest</trigger>
+				<trigger type="object" action="changeInteractionDialog"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- MERCHANT QUEST ALTERNATOR END -->
+	
+	<!-- MERCHANT QUEST DETERGENT -->
+	
+	<obj>
+		<objName>merchantQuestDetergentDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestDetergentOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Hello there, what can I do for you?"</en>
+					<jp>「やあやあ、何かご用かな？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I need something to clean blood stains, something strong, something that could disinfect the zombie blood."</en>
+					<jp>「血の染みを消したい。何か強力な…ゾンビの血を消毒できるものが必要なんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I have a special coctail that can clean even the most hazardous zombie virus blood stains."</en>
+					<jp>「めちゃくちゃヤバいゾンビウイルス付きの血の染みをきれいにできる、特別配合のモノがあるぜ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I call it The Anti-Zombie DETERGENT."</en>
+					<jp>「抗ゾンビ洗浄剤って呼んでるんだけどさ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Okay...How much is it?"</en>
+					<jp>「いいね…いくら？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm willing to give this to you for free, if you are willing to do me a favor."</en>
+					<jp>「タダで譲ってもいいぜ。頼みを聞いてくれるならね」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestDetergentDialogRepeat</trigger>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You see...one of my men went out carying something important."</en>
+					<jp>「聞いてくれよ…手下が1人、大事な荷物を運びに行ったんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I have not heard from him in a while. I'm afraid something bad has happened."</en>
+					<jp>「でもソイツからしばらく連絡がない。何か悪いことが起こったのかもしれない」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I want you to look for him and retrieve the package."</en>
+					<jp>「ヤツを探して、荷物を回収してきてくれないか」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestDetergentDialogRepeat</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="merchantQuestDetergentOptionDialog">
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"All you need to do is look for my missing men and retrieve my package."</en>
+					<jp>「することは2つ。オレの手下を探すことと、荷物の回収だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll give you the DETERGENT once you gave me my package back!"</en>
+					<jp>「荷物をここに持ってきてくれたら、あの洗剤は渡すぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"It's very simple!"</en>
+					<jp>「カンタンだろ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestDetergentOptionDialog</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So what is it gonna be?"</en>
+					<jp>「さあ、どうする？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Ok, we'll take the job</en>
+					<jp>わかった、頼みを聞こう</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestDetergentDialogOk</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+			<option>
+				<name>
+					<en>Let me think about it</en>
+					<jp>少し考えてみる</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestDetergentDialogWait</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestDetergentDialogOk</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Ok, we'll do the job!"</en>
+					<jp>「わかった、頼みを聞こう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Superb!"</en>
+					<jp>「いいねえ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's where my men was last reported. I'll mark it on your map!"</en>
+					<jp>「ここが、手下から通信があった最後の場所だ。マップに印をつけておくぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Find the package and come back here. Once I get my package, I'll give you the DETERGENT."</en>
+					<jp>「荷物を回収したらここに戻ってきてくれ。荷物を渡してくれたら、あの洗剤をやるよ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Oh, and one more thing...handle the package with care. It's very important to me."</en>
+					<jp>「おっとそれから…荷物は手荒に扱うんじゃないぞ。オレにとっては大事なものなんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<trigger type="object" action="startQuest">merchantQuestRetrievePackage</trigger>
+				<trigger type="object" action="changeInteractionDialog">merchantQuestDetergentDialogReturn</trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestDetergentDialogWait</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Let me think about it..."</en>
+					<jp>「少し考えさせてくれ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take your time...but not too long!"</en>
+					<jp>「ご自由にどうぞ。でも長くは待てないぞ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestDetergentDialogReturn</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Have you found my package yet?"</en>
+					<jp>「荷物は見つかったか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		<options>
+			<option>
+				<name>
+					<en>I just want to shop.</en>
+					<jp>買い物したい</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantOpenShopDialog</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Here it is</en>
+					<jp>見つかった</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestDetergentDialogComplete</link>
+				</links>
+				<cost type="requireMaterials" quantity="1">Orange Package</cost>
+			</option>
+			<option>
+				<name>
+					<en>Not yet</en>
+					<jp>まだだ</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">merchantQuestDetergentDialogNotComplete</link>
+				</links>
+				<cost type="none">0</cost>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestDetergentDialogNotComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Not yet..."</en>
+					<jp>「まだだ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Well?! What are waiting for? Go find it!"</en>
+					<jp>「なんだよ！モタモタしてないで見つけてきてくれ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>merchantQuestDetergentDialogComplete</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your package."</en>
+					<jp>「荷物はここだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"You did it! I knew you can do it!"</en>
+					<jp>「お前ならやってくれると思ってたぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Here's your DETERGENT...as promised!"</en>
+					<jp>「さあ、お約束の…抗ゾンビ洗浄剤だ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<reward type="material" name="Anti-Zombie Detergent">1</reward>
+				<trigger type="object" action="endQuest">merchantQuestTest</trigger>
+				<trigger type="object" action="changeInteractionDialog"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- MERCHANT QUEST DETERGENT END -->
+	
+	<obj>
+		<objName>introQuestTakeA</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.8" posY="0.8" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So, what are you looking for?"</en>
+					<jp>「で、何が欲しいんだ？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"We are looking for some spare parts for a car."</en>
+					<jp>「車の部品を探している」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.8" fromY="0.8" toX="0.6" toY="0.8" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Of course, I have a job for you.&#xA;But please get back to me in a moment&#xA;until things are ready."</en>
+					<jp>「もちろん、仕事ならあるぜ。&#xA;でもしばらくしてから来てくれ。&#xA;準備が必要だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.8" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introQuestTakeB</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"So, you wanna go hunting?"</en>
+					<jp>「で、お宝探しする気分なのか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"I can't give you task at the moment.&#xA;But I'll tell you soon."</en>
+					<jp>「今は頼めることがないんだ。&#xA;もう少し待ってくれ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introQuestNone</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Sorry, nothing you can do at this time."</en>
+					<jp>「すまない、今は頼めることがないんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introQuestCancelA</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Well, I thought you need something."</en>
+					<jp>「そうか、何か探してるのかと思ったんだがな」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introQuestCancelB</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Okay, meet me if you need me again."</en>
+					<jp>「わかった、必要になったら戻ってきてくれ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>introQuestCancelC</objName>
+		<init>
+			<portrait imageName="merchant" texture="PortraitMerchant" posX="0.6" posY="0.8" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>Merchant</en>
+					<jp>商人</jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>"Take your time, buddy."</en>
+					<jp>「いいぜ、自分のタイミングってあるからな」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="merchant" fromX="0.6" fromY="0.8" toX="0.9" toY="0.8" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+</dialogs>
+
+<!-- QUEST END -->

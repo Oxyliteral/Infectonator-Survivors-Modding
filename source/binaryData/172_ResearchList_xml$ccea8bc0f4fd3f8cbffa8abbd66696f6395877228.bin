@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workshop>
+	
+	<obj>
+		<objName>craftMiniBattery</objName>
+		<screenName>
+			<en>CRAFT 9V BATTERIES</en>
+			<jp>9V電池の作成</jp>
+			<cn>制作9V电池</cn>
+		</screenName>
+		<iconThumb>IconResearch</iconThumb>
+		<desc>
+			<en>Convert car batteries into smaller-easier-to-use 9 volt batteries.</en>
+			<jp>クルマ用バッテリーを、9V電池に作り変えて使いやすくする。</jp>
+			<cn>把汽车电池转化为更小巧便携的9V电池。</cn>
+		</desc>
+		<completedDesc>
+			<en>New batteries available.</en>
+			<jp>バッテリーの作成が完了した。</jp>
+			<cn>有新的电池可用。</cn>
+		</completedDesc>
+		<workPoints>250</workPoints>
+		<searchPoints>250</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="ingredientMaterial" name="9V Battery">4</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Car Battery</reqItem>
+	</obj>
+	
+	<!-- Weapon Tier 0 START -->
+	<obj>
+		<objName>StudyBasicWeapons</objName>
+		<screenName>
+			<en>STUDY BASIC WEAPONS</en>
+			<jp>基本武器の研究</jp>
+			<cn>学习基础武器</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Learn how to identify and safely operate weapons. Unlocks basic weapon crafting.</en>
+			<jp>武器とその安全な取り扱いについて学ぶ。基本武器を作成できるようになる。</jp>
+			<cn>学习如何辨别和安全操作武器。解锁基础武器制作。</cn>
+		</desc>
+		<completedDesc>
+			<en>After extensive study, your survivors can now identify, operate and craft basic weapons.</en>
+			<jp>広範囲に及ぶ研究の結果、基本武器の安全な取り扱いと作成方法を学んだ。</jp>
+			<cn>通过大量学习，你的幸存者们现在能辨别、操作和制作基础武器了。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<postReq>StudyAdvanceWeapons1</postReq>
+		<postReq>CraftHandgun</postReq>
+		<postReq>CraftShotgun</postReq>
+		<postReq>CraftMelee</postReq>
+		<unlocked>1</unlocked>
+	</obj>
+	
+	<obj>
+		<objName>CraftHandgun</objName>
+		<screenName>
+			<en>CRAFT HANDGUN</en>
+			<jp>ハンドガンの作成</jp>
+			<cn>制作手枪</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Create a handgun pistol.</en>
+			<jp>ハンドガンを作成する。</jp>
+			<cn>创造一把手枪。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;a HANDGUN</en>
+			<jp>クラフトが完了した。&#xA;ハンドガンが完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;一把手枪</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftHandgun">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="3">Duct Tape</reqItem>
+		<reqItem num="10">Wood</reqItem>
+		<reqItem num="10">Metal</reqItem>
+		<reqItem num="1">Gun Grip</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>CraftShotgun</objName>
+		<screenName>
+			<en>CRAFT SHOTGUN</en>
+			<jp>ショットガンの作成</jp>
+			<cn>制作霰弹枪</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Create a shotgun.</en>
+			<jp>ショットガンを作成する。</jp>
+			<cn>创造一把霰弹枪。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;a SHOTGUN.</en>
+			<jp>クラフトが完了した。&#xA;ショットガンが完成した。</jp>
+			<cn>制作完成，你成功创造了一把...&#xA;一把霰弹枪</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftShotgun">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="15">Duct Tape</reqItem>
+		<reqItem num="10">Wood</reqItem>
+		<reqItem num="15">Metal</reqItem>
+		<reqItem num="1">Gun Barrel</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>CraftMelee</objName>
+		<screenName>
+			<en>CRAFT MELEE WEAPON</en>
+			<jp>近接武器の作成</jp>
+			<cn>制作近战武器</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Create a melee weapon.</en>
+			<jp>近接武器を作成する。</jp>
+			<cn>创造一把近战武器。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;a MELEE WEAPON.</en>
+			<jp>クラフトが完了した。&#xA;近接武器が完成した。</jp>
+			<cn>制作完成，你成功创造了一把...&#xA;一把近战武器</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftMelee">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="10">Duct Tape</reqItem>
+		<reqItem num="20">Wood</reqItem>
+		<reqItem num="10">Metal</reqItem>
+	</obj>
+	<!-- Weapon Tier 0 END -->
+	
+	<!-- Weapon Tier 1 START -->
+	<obj>
+		<objName>StudyAdvanceWeapons1</objName>
+		<screenName>
+			<en>STUDY ADVANCE WEAPONS I</en>
+			<jp>高度武器の研究1</jp>
+			<cn>学习高级武器1</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Learn how to identify and safely operate more advanced weapons. Unlocks Tier 1 weapons.</en>
+			<jp>武器とその安全な取り扱いについて学ぶ。レベル1武器を作成できるようになる。</jp>
+			<cn>学习如何辨别和安全操作更多高级武器。解锁级别1武器。</cn>
+		</desc>
+		<completedDesc>
+			<en>After extensive study, your survivors can now identify and operate more advanced weapons.&#xA;TIER 1 WEAPONS UNLOCKED.</en>
+			<jp>広範囲に及ぶ研究の結果、より高度な武器の安全な取り扱いと作成方法を学んだ。&#xA;レベル1武器がアンロックされた。</jp>
+			<cn>经过大量学习，你的幸存者们现在能辨别和操作更多高级武器了。&#xA;级别1武器解锁。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>StudyAdvanceWeapons2</postReq>
+		<postReq>CraftSMG</postReq>
+		<postReq>CraftRifle</postReq>
+		<reward type="unlockedWeaponTier">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Weapon Manual</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>CraftSMG</objName>
+		<screenName>
+			<en>CRAFT SUB-MACHINE GUN</en>
+			<jp>サブマシンガンの作成</jp>
+			<cn>制作冲锋枪</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Create a sub-machine gun.</en>
+			<jp>サブマシンガンを作成する。</jp>
+			<cn>创造一把冲锋枪。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;a SUB-MACHINE GUN.</en>
+			<jp>クラフトが完了した。&#xA;サブマシンガンが完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;一把冲锋枪</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftSMG">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Trigger System</reqItem>
+		<reqItem num="5">Wood</reqItem>
+		<reqItem num="20">Metal</reqItem>
+		<reqItem num="1">Gun Barrel</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>CraftRifle</objName>
+		<screenName>
+			<en>CRAFT RIFLE</en>
+			<jp>ライフルの作成</jp>
+			<cn>制作步枪</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Create a long range rifle.</en>
+			<jp>射程範囲の広いライフルを作成する。</jp>
+			<cn>创造一把远程步枪。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;a RIFLE.</en>
+			<jp>クラフトが完了した。&#xA;ライフルが完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;一把步枪</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftRifle">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Bolt Assembly</reqItem>
+		<reqItem num="20">Wood</reqItem>
+		<reqItem num="10">Metal</reqItem>
+		<reqItem num="1">Gun Barrel</reqItem>
+		<reqItem num="1">Trigger System</reqItem>
+	</obj>
+	<!-- Weapon Tier 1 END -->
+	
+	<!-- Weapon Tier 2 START -->
+	<obj>
+		<objName>StudyAdvanceWeapons2</objName>
+		<screenName>
+			<en>STUDY ADVANCE WEAPONS II</en>
+			<jp>高度武器の研究2</jp>
+			<cn>学习高级武器2</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Learn how to identify and safely operate more advanced weapons. Unlocks Tier 2 weapons.</en>
+			<jp>武器とその安全な取り扱いについて学ぶ。レベル2武器を作成できるようになる。</jp>
+			<cn>学习如何辨别和安全操作更多高级武器。解锁级别2武器。</cn>
+		</desc>
+		<completedDesc>
+			<en>After extensive study, your survivors can now identify and operate more advanced weapons.&#xA;TIER 2 WEAPONS UNLOCKED.</en>
+			<jp>広範囲に及ぶ研究の結果、より高度な武器の安全な取り扱いと作成方法を学んだ。&#xA;レベル2武器がアンロックされた。</jp>
+			<cn>经过大量学习，你的幸存者们现在能辨别和操作更多高级武器了。&#xA;级别2武器解锁。</cn>
+		</completedDesc>
+		<workPoints>1000</workPoints>
+		<searchPoints>1500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>StudyAdvanceWeapons3</postReq>
+		<postReq>CraftAssaultRifle</postReq>
+		<reward type="unlockedWeaponTier">2</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="2">Weapon Manual</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>CraftAssaultRifle</objName>
+		<screenName>
+			<en>CRAFT ASSAULT RIFLE</en>
+			<jp>アサルトライフルの作成</jp>
+			<cn>制作突击步枪</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Create an assault rifle.</en>
+			<jp>アサルトライフルを作成する。</jp>
+			<cn>创造一把突击步枪。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;an ASSAULT RIFLE.</en>
+			<jp>クラフトが完了した。&#xA;アサルトライフルが完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;一把突击步枪</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftAssaultRifle">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Bolt Assembly</reqItem>
+		<reqItem num="1">Handguard</reqItem>
+		<reqItem num="1">Stock</reqItem>
+		<reqItem num="1">Trigger System</reqItem>
+		<reqItem num="1">Gun Barrel</reqItem>
+		<reqItem num="1">Gun Grip</reqItem>
+	</obj>
+	<!-- Weapon Tier 2 END -->
+	
+	<!-- Weapon Tier 3 START -->
+	<obj>
+		<objName>StudyAdvanceWeapons3</objName>
+		<screenName>
+			<en>STUDY ADVANCE WEAPONS III</en>
+			<jp>高度な武器の研究3</jp>
+			<cn>学习高级武器3</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchWeapon</iconThumb>
+		<desc>
+			<en>Learn how to identify and safely operate weapons. Unlocks Tier 3 weapons.</en>
+			<jp>武器とその安全な取り扱いについて学ぶ。レベル3武器を作成できるようになる。</jp>
+			<cn>学习如何辨别和安全操作更多武器。解锁级别3武器。</cn>
+		</desc>
+		<completedDesc>
+			<en>After extensive study, your survivors can now identify and operate more advanced weapons.&#xA;TIER 3 WEAPONS UNLOCKED.</en>
+			<jp>広範囲に及ぶ研究の結果、より高度な武器の安全な取り扱いと作成方法を学んだ。&#xA;レベル3武器がアンロックされた。</jp>
+			<cn>经过大量学习，你的幸存者们现在能辨别和操作更多高级武器了。&#xA;级别3武器解锁。</cn>
+		</completedDesc>
+		<workPoints>1500</workPoints>
+		<searchPoints>2000</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="unlockedWeaponTier">3</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="3">Weapon Manual</reqItem>
+	</obj>
+	<!-- Weapon Tier 3 END -->
+	
+	<!-- Gear Tier 0 START -->
+	<obj>
+		<objName>StudyBasicGears</objName>
+		<screenName>
+			<en>STUDY BASIC GEARS</en>
+			<jp>基本ギアの研究</jp>
+			<cn>学习基础装备</cn>
+		</screenName>
+		<iconThumb>IconResearch</iconThumb>
+		<desc>
+			<en>Study the art of "Do It Yourself" crafting. May allow your team to create basic gear items.</en>
+			<jp>DIYでの作成について学ぶ。基本的なギアを作成できるようになる。</jp>
+			<cn>学习DIY制作技巧。能够让你的团队创造基础装备。</cn>
+		</desc>
+		<completedDesc>
+			<en>Your group has learn the basics of gear crafting.</en>
+			<jp>基本的なギアの作成方法を学んだ。</jp>
+			<cn>你的团队已经学会了基础的装备制作。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>StudyAdvanceGears1</postReq>
+		<postReq>CraftArmor</postReq>
+		<postReq>CraftMedic</postReq>
+		<unlocked>1</unlocked>
+	</obj>
+	
+	<obj>
+		<objName>CraftArmor</objName>
+		<screenName>
+			<en>CRAFT ARMOR</en>
+			<jp>アーマーの作成</jp>
+			<cn>制作装甲</cn>
+		</screenName>
+		<iconThumb>IconDIYArmor</iconThumb>
+		<desc>
+			<en>Create a homemade body armor.</en>
+			<jp>手作りのボディアーマーを作成する。</jp>
+			<cn>创造一件自制防弹衣。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;a BODY ARMOR</en>
+			<jp>クラフトが完了した。&#xA;近接武器が完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;一件防弹衣</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftArmor" name="DIY Armor">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="5">Duct Tape</reqItem>
+		<reqItem num="5">Wood</reqItem>
+		<reqItem num="40">Fabric</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>CraftMedic</objName>
+		<screenName>
+			<en>CRAFT MEDICAL KIT</en>
+			<jp>医療用キットの作成</jp>
+			<cn>制作医疗箱</cn>
+		</screenName>
+		<iconThumb>IconMedKit1</iconThumb>
+		<desc>
+			<en>Create a homemade medical kit.</en>
+			<jp>手作りの医療用キットを作成する。</jp>
+			<cn>创造一个自制医疗箱。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;a MEDICAL KIT</en>
+			<jp>クラフトが完了した。&#xA;近接武器が完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;一个医疗箱</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftMedic" name="First Aid">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="10">Duct Tape</reqItem>
+		<reqItem num="25">Fabric</reqItem>
+		<reqItem num="2">Alcohol</reqItem>
+	</obj>
+	<!-- Gear Tier 0 END -->
+	
+	<!-- Gear Tier 1 START -->
+	<obj>
+		<objName>StudyAdvanceGears1</objName>
+		<screenName>
+			<en>STUDY ADVANCE GEARS I</en>
+			<jp>高度ギアの研究1</jp>
+			<cn>学习高级装备1</cn>
+		</screenName>
+		<iconThumb>IconResearch</iconThumb>
+		<desc>
+			<en>Study more advanced gear crafting. May allow your team to create better gear items.</en>
+			<jp>高度なギアの作成について学ぶ。上級のギアを作成できるようになる。</jp>
+			<cn>学习更多高级装备制作。能够让你的团队创造更好的装备。</cn>
+		</desc>
+		<completedDesc>
+			<en>Your group has learn how to create more complex gear.</en>
+			<jp>より複雑なギアの作成方法を学んだ。</jp>
+			<cn>你的团队已经学会了如何创造更复杂的装备。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>StudyAdvanceGears2</postReq>
+		<postReq>CraftOptic</postReq>
+		<postReq>CraftBullet</postReq>
+		<unlocked>0</unlocked>
+		
+		<reward type="unlockedGearTier">1</reward>
+	</obj>
+	
+	<obj>
+		<objName>CraftOptic</objName>
+		<screenName>
+			<en>CRAFT SCOPE</en>
+			<jp>スコープの作成</jp>
+			<cn>制作瞄准镜</cn>
+		</screenName>
+		<iconThumb>IconScope1</iconThumb>
+		<desc>
+			<en>Create an optical sight attachment for your weapons.</en>
+			<jp>武器に取り付ける光学式照準機を作成する。</jp>
+			<cn>创造一个能附加在你武器上的光学瞄准镜。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;SCOPE</en>
+			<jp>クラフトが完了した。&#xA;スコープが完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;瞄准镜</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftScope" name="Reflex Sight">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="5">Duct Tape</reqItem>
+		<reqItem num="2">Lens</reqItem>
+		<reqItem num="5">Metal</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>CraftBullet</objName>
+		<screenName>
+			<en>CRAFT SPECIAL BULLETS</en>
+			<jp>特殊弾の作成</jp>
+			<cn>制作特殊子弹</cn>
+		</screenName>
+		<iconThumb>IconAPBullets</iconThumb>
+		<desc>
+			<en>Create special bullets.</en>
+			<jp>特殊弾を作成する。</jp>
+			<cn>创造特殊子弹。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;SPECIAL BULLETS</en>
+			<jp>クラフトが完了した。&#xA;特殊弾が完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;特殊子弹</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftBullet" name="AP Bullet">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="2">Gunpowder</reqItem>
+		<reqItem num="20">Metal</reqItem>
+	</obj>
+	<!-- Gear Tier 1 END -->
+	
+	<!-- Gear Tier 2 START -->
+	<obj>
+		<objName>StudyAdvanceGears2</objName>
+		<screenName>
+			<en>STUDY ADVANCE GEARS II</en>
+			<jp>高度ギアの研究2</jp>
+			<cn>学习高级装备2</cn>
+		</screenName>
+		<iconThumb>IconResearch</iconThumb>
+		<desc>
+			<en>Study more advanced gear crafting. May allow your team to create better gear items.</en>
+			<jp>高度なギアの作成について学ぶ。上級のギアを作成できるようになる。</jp>
+			<cn>学习更多高级装备制作。能够让你的团队创造更好的装备。</cn>
+		</desc>
+		<completedDesc>
+			<en>Your group has learn how to create more complex gear.</en>
+			<jp>より複雑なギアの作成方法を学んだ。</jp>
+			<cn>你的团队已经学会了如何创造更复杂的装备。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>CraftExplosive</postReq>
+		<unlocked>0</unlocked>
+		
+		<reward type="unlockedGearTier">2</reward>
+	</obj>
+	
+	<obj>
+		<objName>CraftExplosive</objName>
+		<screenName>
+			<en>CRAFT EXPLOSIVE</en>
+			<jp>爆発物の作成</jp>
+			<cn>制作炸药</cn>
+		</screenName>
+		<iconThumb>IconLandMineItem</iconThumb>
+		<desc>
+			<en>Create a landmine.</en>
+			<jp>地雷を作成する。</jp>
+			<cn>创造一枚地雷。</cn>
+		</desc>
+		<completedDesc>
+			<en>Crafting complete, you managed to create...&#xA;LANDMINE</en>
+			<jp>クラフトが完了した。&#xA;近接武器が完成した。</jp>
+			<cn>制作完成，你成功创造了...&#xA;地雷</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>1</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="craftExplosive" name="M15 Mine">1</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="2">Gunpowder</reqItem>
+		<reqItem num="10">Duct Tape</reqItem>
+		<reqItem num="40">Wood</reqItem>
+		<reqItem num="40">Metal</reqItem>
+	</obj>
+	<!-- Gear Tier 2 END -->
+	
+	<obj>
+		<objName>turretUpgrade1</objName>
+		<screenName>
+			<en>TURRET UPGRADE I</en>
+			<jp>タレットアップグレード1</jp>
+			<cn>炮塔升级1</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchTurret</iconThumb>
+		<desc>
+			<en>Try to increase turret ammo capacity.</en>
+			<jp>タレットの装弾数を増やす。</jp>
+			<cn>试着提升炮塔弹药容量。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to increase the turret ammo capacity.&#xA;TURRET +50 AMMO</en>
+			<jp>タレットの弾薬容量が増えた。&#xA;タレットの装弾数が50上昇した。</jp>
+			<cn>我们成功提升了炮塔弹药容量。&#xA;炮塔弹药容量+50</cn>
+		</completedDesc>
+		<workPoints>1000</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>turretUpgrade2</postReq>
+		<reward type="turretAmmo">50</reward>
+		<unlocked>1</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="10">Wood</reqItem>
+		<reqItem num="5">Duct Tape</reqItem>
+		<reqItem num="2">Car Battery</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>turretUpgrade2</objName>
+		<screenName>
+			<en>TURRET UPGRADE II</en>
+			<jp>タレットアップグレード2</jp>
+			<cn>炮塔升级2</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchTurret</iconThumb>
+		<desc>
+			<en>Try to increase turret attack damage.</en>
+			<jp>タレットの攻撃力を強化する。</jp>
+			<cn>试着提升炮塔伤害。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to increase the turret attack damage.&#xA;TURRET +20 DMG</en>
+			<jp>タレットの攻撃力を強化した。&#xA;タレットの攻撃力が20上昇した。</jp>
+			<cn>我们成功提升了炮塔伤害。&#xA;炮塔伤害+20</cn>
+		</completedDesc>
+		<workPoints>1500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>turretUpgrade3</postReq>
+		<reward type="turretAttack">20</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="1">Car Battery</reqItem>
+		<reqItem num="2">Gunpowder</reqItem>
+		<reqItem num="15">Metal</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>turretUpgrade3</objName>
+		<screenName>
+			<en>TURRET UPGRADE III</en>
+			<jp>タレットアップグレード3</jp>
+			<cn>炮塔升级3</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchTurret</iconThumb>
+		<desc>
+			<en>Try to increase turret ammo capacity.</en>
+			<jp>タレットの装弾数を増やす。</jp>
+			<cn>试着提升炮塔弹药容量。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to increase the turret ammo capacity.&#xA;TURRET +50 AMMO</en>
+			<jp>タレットの弾薬容量が増えた。&#xA;タレットの装弾数が50上昇した。</jp>
+			<cn>我们成功提升了炮塔弹药容量。&#xA;炮塔弹药容量+50</cn>
+		</completedDesc>
+		<workPoints>1000</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq>turretUpgrade4</postReq>
+		<reward type="turretAmmo">50</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="10">Metal</reqItem>
+		<reqItem num="2">Car Battery</reqItem>
+		<reqItem num="5">Gunpowder</reqItem>
+	</obj>
+	
+	<obj>
+		<objName>turretUpgrade4</objName>
+		<screenName>
+			<en>TURRET UPGRADE IV</en>
+			<jp>タレットアップグレード4</jp>
+			<cn>炮塔升级4</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchTurret</iconThumb>
+		<desc>
+			<en>Try to increase turret attack damage.</en>
+			<jp>タレットの攻撃力を強化する。</jp>
+			<cn>试着提升炮塔伤害。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to increase the turret attack damage.&#xA;TURRET +20 DMG</en>
+			<jp>タレットの攻撃力を強化した。&#xA;タレットの攻撃力が20上昇した。</jp>
+			<cn>我们成功提升了炮塔伤害。&#xA;炮塔伤害+20</cn>
+		</completedDesc>
+		<workPoints>1500</workPoints>
+		<searchPoints>1000</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<preReq></preReq>
+		<postReq></postReq>
+		<reward type="turretAttack">20</reward>
+		<unlocked>0</unlocked>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="5">Gun Barrel</reqItem>
+		<reqItem num="5">Gunpowder</reqItem>
+		<reqItem num="2">Trigger System</reqItem>
+	</obj>
+</workshop>

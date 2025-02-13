@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+	<obj>
+		<objName>Wood</objName>
+		<desc>
+			<en>A hard, fibrous structural tissue found in the stems and roots of trees and other woody plants. Used as both fuel and construction material.</en>
+			<jp>堅い繊維質組織でできており、木の幹や根から取れるほか、木質のその他の植物からも取れる。燃料や建築材料として使うことができる。</jp>
+			<cn>一种在树和其他木本植物的根茎中可以找到的硬质、纤维状结构组织。常被用作燃料和建筑材料。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>20</price>
+		<iconThumb>Icon-Parts-WoodBoard</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Metal</objName>
+		<desc>
+			<en>A hard, shiny material which has good electrical and thermal conductivity.</en>
+			<jp>硬く輝く物質で、電気や熱の伝導率が高い。</jp>
+			<cn>一种有着良好导电性和导热性的硬质发亮材料。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>50</price>
+		<iconThumb>Icon-Parts-MetalScrap</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Car Battery</objName>
+		<desc>
+			<en>A type of rechargeable battery that supplies electric energy to an automobile.</en>
+			<jp>充電して使用できるバッテリーで、車両に電気を供給する。</jp>
+			<cn>一种为汽车供电的可充电电池。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>300</price>
+		<iconThumb>Icon-Parts-CarBattery</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Duct Tape</objName>
+		<desc>
+			<en>Cloth- or scrim-backed pressure-sensitive tape coated with polyethylene.</en>
+			<jp>ポリエチレンでコーティングされた、布製の粘着テープ。</jp>
+			<cn>涂有聚乙烯的布质或棉麻压敏性胶带。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>100</price>
+		<iconThumb>Icon-Parts-DuctTape</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Fabric</objName>
+		<desc>
+			<en>A flexible woven material consisting of a network of natural or artificial fibers often referred to as thread or yarn.</en>
+			<jp>糸や毛糸と呼ばれる、天然または人工の繊維を織って作られた物質。</jp>
+			<cn>由纱、线等自然或人造纤维网组成的灵活编织材料。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>10</price>
+		<iconThumb>Icon-Parts-Fabric</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Bandages</objName>
+		<desc>
+			<en>Clean and sterile medical grade bandages.</en>
+			<jp>滅菌済みの清潔な医療用包帯。</jp>
+			<cn>干净无菌的医用级绷带。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>50</price>
+		<iconThumb>IconBandage</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Car Tire</objName>
+		<desc>
+			<en>A regular car tire, relatively new.</en>
+			<jp>普通のクルマ用タイヤ。新品のようだ。</jp>
+			<cn>一种常规的汽车轮胎，相当新。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>100</price>
+		<iconThumb>IconTire</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Spark Plug</objName>
+		<desc>
+			<en>A device for delivering electric current from an ignition system to the combustion chamber of a car engine.</en>
+			<jp>点火装置からクルマ用エンジンの燃焼室へ電流を送るための装置。</jp>
+			<cn>一种从点火系统向汽车发动机燃烧室输送电流的装置。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>50</price>
+		<iconThumb>IconSparkPlug</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Exhaust Pipe</objName>
+		<desc>
+			<en>A pipe used to guide exhaust gas away from the combustion chamber of a car engine.</en>
+			<jp>クルマ用エンジンの燃焼室から排気ガスを送り出すパイプ。</jp>
+			<cn>一根从汽车发动机燃烧室排放尾气的管子。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>50</price>
+		<iconThumb>IconExhaustPipe</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>E.Parts</objName>
+		<desc>
+			<en>Various electronic spare parts.</en>
+			<jp>さまざまな電子部品。</jp>
+			<cn>各种电子零配件。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>5</price>
+		<iconThumb>IconElectronicParts</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Alcohol</objName>
+		<desc>
+			<en>Medical grade alcohol, can be used for many things.</en>
+			<jp>医療用アルコールで、さまざまな用途に使える。</jp>
+			<cn>医用级的酒精，有许多用途。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>100</price>
+		<iconThumb>IconAlcohol</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Water</objName>
+		<desc>
+			<en>Bottled drinking water.</en>
+			<jp>ボトルに入った飲料水。</jp>
+			<cn>瓶装饮用水。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconWaterBottle</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Hooch</objName>
+		<desc>
+			<en>High-proof distilled spirits. Basically means it contains alcohol.</en>
+			<jp>度数の高い酒。平たく言えばアルコール。</jp>
+			<cn>高品质的蒸馏酒。基本上意味着它包含酒精。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>50</price>
+		<iconThumb>IconWine</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Rope</objName>
+		<desc>
+			<en>Rope... you know, that thing used to tie things together.</en>
+			<jp>ロープ…つまり、何かと何かを結びつけるものだ。</jp>
+			<cn>绳子。。就是你用来把东西绑在一起的东西。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>20</price>
+		<iconThumb>IconRope</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Cables</objName>
+		<desc>
+			<en>Copper based cables. Can be used to conduct electricity.</en>
+			<jp>銅ベースのケーブル。電気を伝導するのに使える。</jp>
+			<cn>铜基线缆。可用来导电。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>20</price>
+		<iconThumb>IconJumperCable</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Gun Barrel</objName>
+		<desc>
+			<en>A long rifled metal tube.</en>
+			<jp>中に溝のある金属製の長い筒。</jp>
+			<cn>一条长的膛线金属管。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconWpnBarrel</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Bolt Assembly</objName>
+		<desc>
+			<en>Various bolts used to assemble a rifle.</en>
+			<jp>ライフルの組み立てに使えるさまざまなボルト。</jp>
+			<cn>用来组装步枪的各种螺栓。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconWpnBoltAssembly</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Gun Grip</objName>
+		<desc>
+			<en>A hand grip from a gun.</en>
+			<jp>銃の部品で、手で握る部分。</jp>
+			<cn>一把枪的握把。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconWpnGrip</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Gunpowder</objName>
+		<desc>
+			<en>Explosive powder used in ammunition.</en>
+			<jp>弾薬に使用される爆発性の粉。</jp>
+			<cn>用于弹药的爆炸火药。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconGunpowder</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Handguard</objName>
+		<desc>
+			<en>Rifle foregrip.</en>
+			<jp>ライフル前部の手を添える部分。</jp>
+			<cn>步枪的前握把。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconWpnHandguard</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Stock</objName>
+		<desc>
+			<en>Firearm shoulder stock.</en>
+			<jp>銃器の肩に当てる部分。</jp>
+			<cn>枪炮的枪托。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconWpnStock</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Trigger System</objName>
+		<desc>
+			<en>Firearm trigger system.</en>
+			<jp>銃器の引き金の部分。</jp>
+			<cn>枪炮的触发系统。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconWpnTriggerSystem</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Lens</objName>
+		<desc>
+			<en>An optical lens.</en>
+			<jp>光学式レンズ。</jp>
+			<cn>一种光学透镜。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconLens1</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Pipes</objName>
+		<desc>
+			<en>Metal plumbing pipes.</en>
+			<jp>金属製の配管用パイプ。</jp>
+			<cn>金属探测管。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>200</price>
+		<iconThumb>IconPipes</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Bolt</objName>
+		<desc>
+			<en>A metal screw.</en>
+			<jp>金属製のネジ。</jp>
+			<cn>一种金属螺丝。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>10</price>
+		<iconThumb>IconBolt</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Spring</objName>
+		<desc>
+			<en>A heavy-duty helical spring designed for compression and tension.</en>
+			<jp>圧縮と伸張用の頑丈ならせん状のバネ。</jp>
+			<cn>耐用的螺旋弹簧，用于压缩和拉伸。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>50</price>
+		<iconThumb>IconSpring</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Motor Oil</objName>
+		<desc>
+			<en>Used for lubrication of internal combustion engines.</en>
+			<jp>内燃エンジンの潤滑に使用される。</jp>
+			<cn>用于内燃机的润滑。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>30</price>
+		<iconThumb>IconOil</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Zombie Finger</objName>
+		<desc>
+			<en>Fresh from those creatures.</en>
+			<jp>あの化け物からとれたもの。</jp>
+			<cn>刚从那些生物身上取下来的。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>5</price>
+		<iconThumb>IconOil</iconThumb>
+	</obj>
+	<obj>
+		<objName>Zombie Eyeball</objName>
+		<desc>
+			<en>Fresh from those creatures.</en>
+			<jp>あの化け物からとれたもの。</jp>
+			<cn>刚从那些生物身上取下来的。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>5</price>
+		<iconThumb>IconOil</iconThumb>
+	</obj>
+	<obj>
+		<objName>Zombie Brain</objName>
+		<desc>
+			<en>Fresh from those creatures.</en>
+			<jp>あの化け物からとれたもの。</jp>
+			<cn>刚从那些生物身上取下来的。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>5</price>
+		<iconThumb>IconOil</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>9V Battery</objName>
+		<desc>
+			<en>Provides electricity to small items.</en>
+			<jp>小型の機器に電力を供給する。</jp>
+			<cn>给小物件供电。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>10</price>
+		<iconThumb>IconBattery</iconThumb>
+	</obj>
+	
+	<!-- FOOD MATERIAL & INGREDIENT -->
+	<obj>
+		<objName>Vegetables</objName>
+		<desc>
+			<en>Various edible plants.</en>
+			<jp>さまざまな食用植物。</jp>
+			<cn>各种可食用植物。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>100</price>
+		<iconThumb>IconVeggies</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Fruits</objName>
+		<desc>
+			<en>Various edible fruits.</en>
+			<jp>さまざまな食用果実。</jp>
+			<cn>各种可食用水果。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>100</price>
+		<iconThumb>IconFruits</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Meat</objName>
+		<desc>
+			<en>Animal flesh.</en>
+			<jp>食用の肉。</jp>
+			<cn>动物鲜肉。</cn>
+		</desc>
+		<showInStore>1</showInStore>
+		<price>100</price>
+		<iconThumb>IconLargeMeat</iconThumb>
+	</obj>
+	
+	<!-- RESEARCH BOOKS -->
+	<obj>
+		<objName>Weapon Manual</objName>
+		<desc>
+			<en>A book about safe handling and maintaining weapons. Required for studying advance weapons.</en>
+			<jp>武器の安全な取り扱いとメンテナンスについて書かれた本。高度な武器の研究に必要。</jp>
+			<cn>介绍如何安全使用和维护武器的书。学习高级武器时需要。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>500</price>
+		<iconThumb>IconWeaponMag</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Gun Manual</objName>
+		<desc>
+			<en>A technical manual book for maintaining and operating guns. Contains graphic illustration.</en>
+			<jp>銃のメンテナンスと操作について書かれた技術書。イラストによる解説もある。</jp>
+			<cn>维修和操作枪械的技术手册。包含图注。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>500</price>
+		<iconThumb>IconJournalGreen</iconThumb>
+	</obj>
+	
+	<!-- QUEST ITEM -->
+	
+	<obj>
+		<objName>Orange Package</objName>
+		<desc>
+			<en>A mysterious orange box with a strange symbol on the side.</en>
+			<jp>得体の知れないオレンジ色の箱で、側面には謎の記号が描かれている。</jp>
+			<cn>一个侧面印有奇怪标志的神秘橘色盒子。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>0</price>
+		<iconThumb>IconBiohazardPackage</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>USB Drive</objName>
+		<desc>
+			<en>An encrypted USB Flash Disk. It may contain some secret information.</en>
+			<jp>暗号化されたUSBフラッシュメモリー。秘密の情報が入っているかもしれない。</jp>
+			<cn>一个加密过的U盘。它可能包含一些机密信息。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>0</price>
+		<iconThumb>IconUSBFlashDisk</iconThumb>
+	</obj>
+	
+	<!-- SPECIAL CAR PARTS ITEM -->
+	<obj>
+		<objName>Timing Belt</objName>
+		<desc>
+			<en>A strong belt used to synchronize a crankshaft and a camshaft on engine.</en>
+			<jp>頑丈なベルトで、エンジンのクランクシャフトとカムシャフトの回転を同期させる。</jp>
+			<cn>用于同步发动机的曲轴和凸轮轴的强韧皮带。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>250</price>
+		<iconThumb>IconTimingBelt</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Alternator</objName>
+		<desc>
+			<en>A device used to charge batteries and power electrical systems.</en>
+			<jp>バッテリーの充電や、電気系統の電源に使用される。</jp>
+			<cn>一件用来给电池充电和给都电力系统供电的设备。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>250</price>
+		<iconThumb>IconAlternator</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Alloy Wheel</objName>
+		<desc>
+			<en>A car wheel made from metal composite alloy.</en>
+			<jp>混合金属でできたクルマ用ホイール。</jp>
+			<cn>一种由金属复合合金制成的车轮。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>500</price>
+		<iconThumb>IconAlloyWheel</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Electronic Control Module</objName>
+		<desc>
+			<en>A computer unit used in car electronics management.</en>
+			<jp>クルマ用電子機器の管理に使用されるコンピューター。</jp>
+			<cn>在汽车电力管理中使用的计算机单元。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>1000</price>
+		<iconThumb>IconECU</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Protected Windshield</objName>
+		<desc>
+			<en>Windshield with reinforced glass for better protection.</en>
+			<jp>防御力を上げる、強化ガラスで出来たフロントガラス。</jp>
+			<cn>用钢化玻璃进行更好保护的挡风玻璃。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>750</price>
+		<iconThumb>IconWindshield</iconThumb>
+	</obj>
+	
+	<obj>
+		<objName>Anti-Zombie Detergent</objName>
+		<desc>
+			<en>Completely cleans your stuff from zombie-infected stains and dirt.</en>
+			<jp>ゾンビ感染した染みや汚れを完全に落とす洗剤。</jp>
+			<cn>彻底清洁你的物品上被僵尸感染的污渍和尘垢。</cn>
+		</desc>
+		<showInStore>0</showInStore>
+		<price>5000</price>
+		<iconThumb>IconAntiZombieDetergent</iconThumb>
+	</obj>
+</material>

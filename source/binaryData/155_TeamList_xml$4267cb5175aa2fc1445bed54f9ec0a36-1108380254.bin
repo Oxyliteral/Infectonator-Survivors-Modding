@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teams>
+	<obj>
+		<objName>team1</objName>
+		<screenName>
+			<en>The Survivors</en>
+			<jp>サバイバー</jp>
+			<cn>幸存者</cn>
+		</screenName>
+		<desc>
+			<en>A scientist, a worker, a cop, and a journalist must work together and find a way to survive.</en>
+			<jp>科学者、作業員、警官、ジャーナリストの4人がチームを組んで、生き延びる方法を探る。</jp>
+			<cn>一位科学家，一位工人，一位警察和一位记者必须团结协作并找到生存之路。</cn>
+		</desc>
+		<locked>0</locked>
+		<gemCost>0</gemCost>
+		<premium>0</premium>
+		<introScene>travel</introScene>
+		<member>Sydney</member>
+		<member>Cop</member>
+		<member>Worker</member>
+		<member>Scientist</member>
+	</obj>
+	
+	<obj>
+		<objName>team2</objName>
+		<screenName>
+			<en>The Good &amp; The Bad</en>
+			<jp>正義と悪の利害一致</jp>
+			<cn>好人＆坏人</cn>
+		</screenName>
+		<desc>
+			<en>When a regular prison transport turns ugly, a cop and a convicted criminal are forced to join forces.</en>
+			<jp>それはいつもの囚人輸送となるはずだった。ゾンビのうごめく街で警官と受刑者がタッグを組んで立ち向かう。</jp>
+			<cn>当一次监狱运输失败后，一位警察和一位罪犯必须团结协作。</cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium>0</premium>
+		<member>Thug</member>
+		<member>SWAT</member>
+	</obj>
+	
+	<obj>
+		<objName>teamFredPwn</objName>
+		<screenName>
+			<en>No Man Left Behind</en>
+			<jp>後には誰も残さない</jp>
+			<cn>不离不弃</cn>
+		</screenName>
+		<desc>
+			<en>The greatest gunmen get themselves in a bind...again! This time it's the apocalypse.</en>
+			<jp>最強のガンマンたちが帰ってきた！今度はアポカリプスだ。</jp>
+			<cn>最棒的枪手们再一次团结在了一起！这次是为了度过末日！</cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>1</gemCost>
+		<premium></premium>
+		<!-- <redirectURL>http://store.steampowered.com/app/269310/</redirectURL>
+		<redirectIcon>SteamIcon</redirectIcon>
+		<redirectText>GO TO STEAM</redirectText>
+		<redirectTitle>AVAILABLE ONLY ON STEAM</redirectTitle>
+		<redirectDesc>This special team is only available on Steam. Get it now!</redirectDesc> -->
+		<member>FreddieWong</member>
+		<member>Pwnisher</member>
+	</obj>
+	
+	<obj>
+		<objName>Left4Dead</objName>
+		<screenName>
+			<en>Left 4 Dead</en>
+			<jp>L4D</jp>
+			<cn>求生之路</cn>
+		</screenName>
+		<desc>
+			<en>Two weeks after the first infection, four immune survivors are fighting their way out of the city.</en>
+			<jp>一次感染から2週間後、抗体をもつ4人の生存者は街から脱出しようと戦っていた。</jp>
+			<cn>在首次感染爆发的两周后，四名获得免疫力的幸存者试图在城市中杀出一条血路。</cn>
+		</desc>
+		<locked>1</locked>
+		<gemCost>3</gemCost>
+		<premium>0</premium>
+		<!-- <redirectURL>http://store.steampowered.com/app/269310/</redirectURL>
+		<redirectIcon>SteamIcon</redirectIcon>
+		<redirectText>GO TO STEAM</redirectText>
+		<redirectTitle>AVAILABLE ONLY ON STEAM</redirectTitle>
+		<redirectDesc>This special team is only available on Steam. Get it now!</redirectDesc> -->
+		<member>Hero-Bill</member>
+		<member>Hero-Francis</member>
+		<member>Hero-Louis</member>
+		<member>Hero-Zoey</member>
+	</obj>
+</teams>

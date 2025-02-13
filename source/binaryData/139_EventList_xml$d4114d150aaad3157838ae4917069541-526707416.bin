@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<obj>
+		<objName>baseDefenseFailEvent</objName>
+		<dialog chance="1">baseDefenseFail1</dialog>
+	</obj>
+	<obj>
+		<objName>missionFailEvent</objName>
+		<dialog chance="1">missionFailDialog1</dialog>
+	</obj>
+
+	<obj>
+		<objName>cityWarningEvents</objName>
+		<dialog chance="1">fatigueWarning</dialog>
+	</obj>
+	
+	<obj>
+		<objName>cityImportantTargets</objName>
+		<dialog chance="1">importantCityTarget1</dialog>
+		<dialog chance="1">importantCityTarget2</dialog>
+		<dialog chance="1">importantCityTarget3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>cityRandomEvents</objName>
+		<dialog chance="3">defaultEvent</dialog>
+		<dialog chance="3">oldNewsPaper</dialog>
+		<dialog chance="3">abandonedCar</dialog>
+		<dialog chance="3">foundInjured</dialog>
+		<dialog chance="3">needBackup</dialog>
+		<dialog chance="3">monkeyMarkings</dialog>
+		<dialog chance="3">cakeMarkings</dialog>
+		<dialog chance="3">fireflyMarkings</dialog>
+		<dialog chance="3">dogOnTheRoad</dialog>
+		<dialog chance="3">anotherGroup</dialog>
+		<dialog chance="1">banditAmbush1</dialog>
+		<dialog chance="1">banditAmbush2</dialog>
+		<dialog chance="1">banditAmbush3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>cityEncounterEvents</objName>
+		<dialog chance="2">zombieAmbush1</dialog>
+		<dialog chance="2">zombieAmbush2</dialog>
+		<dialog chance="2">zombieAmbush3</dialog>
+		<dialog chance="2">zombieAmbush4</dialog>
+		<dialog chance="2">zombieAmbush5</dialog>
+		<dialog chance="2">zombieAmbush6</dialog>
+		<dialog chance="1">banditAmbush1</dialog>
+		<dialog chance="1">banditAmbush2</dialog>
+		<dialog chance="1">banditAmbush3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>cityNegativeEvents</objName>
+		<dialog chance="2">chasedByZombies</dialog>
+		<dialog chance="10">expeditionStress</dialog>
+		<dialog chance="4">expeditionHunger</dialog>
+		<dialog chance="1">banditAmbush1</dialog>
+		<dialog chance="1">banditAmbush2</dialog>
+		<dialog chance="1">banditAmbush3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>hqRandomEvents</objName>
+		<dialog chance="1" conditionName="listOfCharactersNotYetSpawned" conditionType=">=" conditionVal="2">survivorsAtTheGate</dialog>
+		<dialog chance="1">needBackup</dialog>
+		<dialog chance="1">fuelWasted</dialog>
+		<dialog chance="1">pestInfestation</dialog>
+		<dialog chance="1">rottingFoodSupplies</dialog>
+		<dialog chance="1">thiefsInTheNight</dialog>
+		<dialog chance="1">burntSupplies</dialog>
+		<dialog chance="1">flooded</dialog>
+		<dialog chance="1">fuelSpilled</dialog>
+	</obj>
+	
+	<obj>
+		<objName>recruitmentCallEvents</objName>
+		<dialog chance="1">radioRecruitment1</dialog>
+		<dialog chance="1">radioRecruitment2</dialog>
+		<dialog chance="1">radioRecruitment3</dialog>
+		<dialog chance="8">lowSignal</dialog>
+		<dialog chance="1">needBackup</dialog>
+	</obj>
+	
+	<obj>
+		<objName>newSurvivorEvent</objName>
+		<dialog chance="1" conditionName="listOfCharactersNotYetSpawned" conditionType=">=" conditionVal="2">survivorsAtTheGate</dialog>
+	</obj>
+	
+<!-- 	<obj> -->
+<!-- 		<objName>informationGatheringEvents</objName> -->
+<!-- 		<dialog chance="3">radioStatic1</dialog> -->
+<!-- 		<dialog chance="2">radioStatic2</dialog> -->
+<!-- 		<dialog chance="1">distressCall</dialog> -->
+<!-- 		<dialog chance="1">cityOverrun1</dialog> -->
+<!-- 		<dialog chance="1">cityOverrun2</dialog> -->
+<!-- 		<dialog chance="1">nationOverrun1</dialog> -->
+<!-- 		<dialog chance="1">scientistOnWork</dialog> -->
+<!-- 	</obj> -->
+	
+	<obj>
+		<objName>locateSupplyEvents</objName>
+		<dialog chance="1">supplyLocated</dialog>
+	</obj>
+	
+	<obj>
+		<objName>locateFuelEvents</objName>
+		<dialog chance="1">fuelLocated</dialog>
+	</obj>
+	
+	<obj>
+		<objName>openingDogRescueEvents</objName>
+		<dialog chance="1">openingDogRescue</dialog>
+	</obj>
+	
+	<obj>
+		<objName>openingSurvivorRescueEvents</objName>
+		<dialog chance="1">openingSurvivorRescue</dialog>
+	</obj>
+	
+	<obj>
+		<objName>openingObtainSupplyEvents</objName>
+		<dialog chance="1">openingObtainSupply</dialog>
+	</obj>
+	
+	<obj>
+		<objName>openingObtainFuelEvents</objName>
+		<dialog chance="1">openingObtainFuel</dialog>
+	</obj>
+	
+	<obj>
+		<objName>genericOpeningEvents</objName>
+		<dialog chance="1">genericOpening1</dialog>
+		<dialog chance="1">genericOpening2</dialog>
+		<dialog chance="1">genericOpening3</dialog>
+		<dialog chance="1">genericOpening4</dialog>
+		<dialog chance="1">genericOpening5</dialog>
+		<dialog chance="1">genericOpening6</dialog>
+		<dialog chance="1">genericOpening7</dialog>
+	</obj>
+	
+	<obj>
+		<objName>merchantOpeningEvents</objName>
+		<dialog chance="1">merchantOpening1</dialog>
+		<dialog chance="1">merchantOpening2</dialog>
+		<dialog chance="1">merchantOpening3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>merchantChatEvents</objName>
+		<dialog chance="1">merchantTalk1</dialog>
+		<dialog chance="1">merchantTalk2</dialog>
+		<dialog chance="1">merchantTalk3</dialog>
+		<dialog chance="1">merchantTalk4</dialog>
+	</obj>
+	
+	<obj>
+		<objName>rescueSurvivorApproachEvents</objName>
+		<dialog chance="1">approachSurvivor1</dialog>
+		<dialog chance="1">approachSurvivor2</dialog>
+		<dialog chance="1">approachSurvivor3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>rescueSurvivorFailEvents</objName>
+		<dialog chance="1">approachSurvivorFail1</dialog>
+		<dialog chance="1">approachSurvivorFail2</dialog>
+		<dialog chance="1">approachSurvivorFail3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>rescueSurvivorTalkEvents</objName>
+		<dialog chance="1">approachSurvivorTalk1</dialog>
+		<dialog chance="1">approachSurvivorTalk2</dialog>
+		<dialog chance="1">approachSurvivorTalk3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>velgMillitaryEvents</objName>
+		<dialog chance="1">velgMillitaryOpening</dialog>
+		<dialog chance="1">genericOpening2</dialog>
+		<dialog chance="1">genericOpening3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>velgPriestEvents</objName>
+		<dialog chance="1">genericOpening1</dialog>
+		<dialog chance="1">genericOpening2</dialog>
+		<dialog chance="1">genericOpening3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>velgUnfinishedBusiness1Events</objName>
+		<dialog chance="1">velgUnfinishedBusiness1Opening</dialog>
+	</obj>
+	<obj>
+		<objName>velgUnfinishedBusiness2Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	<obj>
+		<objName>velgUnfinishedBusiness3Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	<obj>
+		<objName>velgUnfinishedBusiness4Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>detergentScientistTwins1Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	<obj>
+		<objName>detergentScientistTwins2Events</objName>
+		<dialog chance="1">detergentScientistTwins2Opening</dialog>
+	</obj>
+	
+	<obj>
+		<objName>detergentScientistHungryEvents</objName>
+		<dialog chance="1">detergentScientistHungryOpening1</dialog>
+		<dialog chance="1">detergentScientistHungryOpening2</dialog>
+		<dialog chance="1">detergentScientistHungryOpening3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>detergentScientistAnnoying1Events</objName>
+		<dialog chance="1">detergentScientistHungryOpening1</dialog>
+		<dialog chance="1">detergentScientistHungryOpening2</dialog>
+		<dialog chance="1">detergentScientistHungryOpening3</dialog>
+	</obj>
+	
+	<obj>
+		<objName>tBeltGenerator1Events</objName>
+		<dialog chance="1">tBeltGenerator1Opening</dialog>
+	</obj>
+	<obj>
+		<objName>tBeltGenerator2Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>tBeltFriendship1Events</objName>
+		<dialog chance="1">tBeltFriendship1Opening</dialog>
+	</obj>
+	<obj>
+		<objName>tBeltFriendship2Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	
+	
+	<obj>
+		<objName>eCUMillitary1Events</objName>
+		<dialog chance="1">eCUMillitary1Opening</dialog>
+	</obj>
+	<obj>
+		<objName>eCUMillitary2Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	<obj>
+		<objName>eCUBanditEvents</objName>
+		<dialog chance="1">eCUBanditOpening</dialog>
+	</obj>
+	<obj>
+		<objName>eCUAgent1Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	<obj>
+		<objName>eCUAgent2Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	<obj>
+		<objName>eCUAgent3Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>alternatorScientistEvents</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>alternatorLoveStory1Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	<obj>
+		<objName>alternatorLoveStory2Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	
+	<obj>
+		<objName>alternatorParanoid1Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+	<obj>
+		<objName>alternatorParanoid2Events</objName>
+		<dialog chance="1">genericOpening1</dialog>
+	</obj>
+</events>

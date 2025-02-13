@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+
+	<obj>
+		<objName>GenericMeet1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Help!"</en>
+					<jp>「誰か！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Somebody please protect me!"</en>
+					<jp>「誰か助けて！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+
+	<!-- GENERIC RECRUIT -->
+	<obj>
+		<objName>GenericRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Thank you! I thought I was a goner!"</en>
+					<jp>「よかった！死んでしまうかと思った！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I was separated from my group, and next thing I know zeds were all over the place."</en>
+					<jp>「仲間とはぐれて、気づいたらゾンビに囲まれていたんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>GenericRecruit2</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Other survivors! Thank God!"</en>
+					<jp>「他にも生存者がいたとは！助かった」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"It's a relief to finally find another living person."</en>
+					<jp>「自分以外の生きている人間に会えてうれしいよ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>GenericRecruit3</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I've lost everything..."</en>
+					<jp>「何もかも失くした…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Please...take me with you! I have nowhere else to go."</en>
+					<jp>「仲間に入れてもらえない？もう行くところがない…」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- GENERIC RECRUIT END -->
+	
+	<!-- GENERIC KICKOUT -->
+	<obj>
+		<objName>GenericKickOut1</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I can't believe you want to kick me out!"</en>
+					<jp>「追い出そうとするなんて信じられない！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Why are you doing this?"</en>
+					<jp>「どうしてこんなことを？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+		
+		<options>
+			<option>
+				<name>
+					<en>Kick Out</en>
+					<jp>追い出す</jp>
+					<cn>Kick Out3</cn>
+				</name>
+				<links>
+					<link chance="1">confirmKickOut</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Cancel</en>
+					<jp>キャンセル</jp>
+					<cn>Cancel3</cn>
+				</name>
+				<links>
+					<link chance="1">cancelKickOut</link>
+				</links>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>confirmKickOut</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Fine! I'm leaving!"</en>
+					<jp>「もういい！出て行く！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="kickOutSurvivor"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>cancelKickOut</objName>
+		<init>
+			<blinds imageName="blinds" alpha="1" />
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Phew, I thought you are going to kick me out."</en>
+					<jp>「ああ、追い出されるかと思った」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- GENERIC KICKOUT END -->
+	
+	<!-- SYDNEY -->
+	
+	<obj>
+		<objName>SydneyRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Glad to see someone still breathing."</en>
+					<jp>「まだ生きている人がいたんだ。うれしい」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"You okay? Did you get hurt?"</en>
+					<jp>「大丈夫？ケガしてない？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Yeah, I can manage...this is not my first rodeo."</en>
+					<jp>「私は大丈夫…慣れてるから」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm a combat journalist, I've seen many wars in my line of work."</en>
+					<jp>「戦争ジャーナリストなの。この仕事でたくさんの戦いを見てきた」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I just can't believe that war would follow me home..."</en>
+					<jp>「でも、地元で戦いに巻き込まれるとは思わなかった…」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- SYDNEY END -->
+	
+	<!-- SCIENTIST -->
+	<obj>
+		<objName>ScientistRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Hiya, uhm, strangers, can you tell me where I am exactly?"</en>
+					<jp>「やあ、はじめまして。ここは座標値でいうとどのあたりかな？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"You are still in the city, don't worry you are safe for now. Are you some kind of a doctor?"</en>
+					<jp>「まだ街に人がいるとは。だがもう安全だ。医者か何かか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Ah, I'm sorry, my name is %TARGET-CHAR-FIRST-NAME% %TARGET-CHAR-LAST-NAME%. But, all my friends call me %TARGET-CHAR-NICK-NAME%."</en>
+					<jp>「ああ、いや、私の名前は%TARGET-CHAR-FIRST-NAME%・%TARGET-CHAR-LAST-NAME%。仲間からは%TARGET-CHAR-NICK-NAME%と呼ばれているがな」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"My team and I was sent by the CDC to collect data and take samples for our research."</en>
+					<jp>「CDCの依頼でここに来た。研究用サンプルを収集して、データを集めるためにな」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Our transport was attacked and I was knocked unconscious."</en>
+					<jp>「だが移動の途中で私のチームが攻撃され、私は意識を失っていたようだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"The moment I woke up, everyone was gone."</en>
+					<jp>「目を覚ますともう誰もいなかった」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- SCIENTIST END -->
+	
+	<!-- WORKER -->
+	<obj>
+		<objName>WorkerRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Stop right there! Move closer and I'll chop your head off!"</en>
+					<jp>「おい止まれ！それ以上近づくと首を叩き切る！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Whoa, take it easy! We are not infected! We are here to help."</en>
+					<jp>「ちょっと、落ち着いて。感染者じゃない。助けに来たんだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"What do you want from me?"</en>
+					<jp>「なんだと！何がねらいだ？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- WORKER END -->
+	
+	
+	<!-- COP -->
+	<obj>
+		<objName>CopRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Freeze! hold it right there!"</en>
+					<jp>「止まれ！その場を動くんじゃない！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Don't shoot! We are not infected!"</en>
+					<jp>「撃たないでくれ！感染者ではない！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Thank God, I could have killed you! What are you doing here?"</en>
+					<jp>「ああ、撃ってしまうところだった！ここで何をしている？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"The whole city is turning to hell, we are trying to find a way out!"</en>
+					<jp>「街中が地獄絵図だ。ここから脱出しようと思っている」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I can help you, I know a safe zone just outside the city."</en>
+					<jp>「私も力になれるぞ。街の外に安全地帯がある」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- COP END -->
+	
+	
+	<!-- CHEERLEADER -->
+	<obj>
+		<objName>CheerleaderRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Hey, what's going on? What is this all about? I met freaking mindless people on our sport ceremony in school, and they forced me to fight them back, until I saw them turned into green and ugly! My friends and I went seperate ways and my hostel is too far from here, so I don't where to go. I probably can't come back to my place either now."</en>
+					<jp>「ねー、どうしたっていうの？ヤバくない？学校でチアの大会があったんだけど、よくわかんない人タチがいてさ、戦わなくちゃいけなかったの！しかもその人タチ、ミドリ色になっちゃって！キモいんだけど！友ダチとは途中ではぐれるし、泊まってるトコは遠いし、もうドコに行ったらいいかわかんない。もしかしたらもう戻れないかも…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- CHEERLEADER END -->
+	
+	
+	<!-- NERD -->
+	<obj>
+		<objName>NerdRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Um, you guys are friendly, aren't you? Please, bear with me, I have nothing valuable, I just want to stay alive. I've lost my papers, books, I left them when I ran away. Ah what a foolish. But, I can help you, I read many gun firing technique books, I understand how to use guns."</en>
+					<jp>「ねえ、君たちはいい人だよね？ちょっと待って。あげられるものは何もないけど、僕だって死にたくないんだ。逃げてくるとき、レポートも教科書も失くしちゃった。あー、愚かな僕！でも、何か手伝えるかもしれない。武器の本を読むのは好きだし、銃の扱い方もわかるよ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- NERD END -->
+	
+	
+	<!-- HOBO -->
+	<obj>
+		<objName>HoboRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Aye, what's up? Good to see other survivors coming along this way. But don't you stand on my way. I try to live my life looking for as many food as possible so that I can enjoy my day. Huh, how can I enjoy my life now after all of this happened. And how did I end up here? Pff, whatever...In time like this, people surely abandoned marts and restaurants and I can grab whatever I like for free!"</en>
+					<jp>「やあやあやあ！他にも生き残ってるやつがいるとは。だが邪魔しないでくれ。オレはなるべく多く食べ物を集めようとしてるんだ。その方が人生楽しいだろ？あー、でもこんなことになって人生楽しんでる場合かな？どうしてこんなところまで来たのかもわからん…まあいいか。こんな時こそタダで食べ物を手に入れるチャンスだ。誰もいない市場とかレストランでな！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- HOBO END -->
+	
+	
+	<!-- RESEARCHER -->
+	<obj>
+		<objName>ResearcherRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Ah, survivors! Oh my, I was scared to death! I still am now! They never stop swarming around the area, and I can't go anywhere now! They are terrifying like hell! Luckily I bring my own anxiety relief drug, so I can stop panicking. But to think of it, when the chaos started, I saw many of my friends from pharmacy didn't get infected. Do you think certain medication substances could really suppress the infection? I don't know, it's just my two cents. Er, can we go now?"</en>
+					<jp>「よかった、生きてる人間だ！もう死ぬかと思った！いや、今も思ってるけど！ゾンビの群れに囲まれて、どこにも行けないんだ。死ぬほど怖いけど、安定剤持っててよかった…これでパニックにならずに済むぞ。あっ、薬といえば製薬会社の同僚はゾンビに感染しなかった奴も多かったな。薬に使う何かの物質が感染を抑えるなんてこと、あると思う？ま、今思いついたんだけど。じゃあ、行こうか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- RESEARCHER END -->
+	
+	
+	<!-- THUG -->
+	<obj>
+		<objName>ThugRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Ey, don't get close! I don't wanna go back to jail, you can find someone else. I'll shoot if you won't stay away. Back off!"</en>
+					<jp>「おい、近づくんじゃない！捕まえるなら他の奴にしてくれ。俺はもうムショに戻りたくない。そこから一歩でも近づいたら撃つからな。動くなよ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- THUG END -->
+	
+	
+	<!-- SWAT -->
+	<obj>
+		<objName>SWATRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Ah where you guys from? I was gone astray few hours back here. I lost the prisoner I was assigned to. He might probably be not far, but I'm not sure. He's a somewhat ruthless gangster, but when I spoke to him, he actually has the good side, a warm personality that most of people don't know about. But now, where should we head to? I'm afraid I'll be just crushing zombies now."</en>
+					<jp>「やあ君たちはどこから来たんだい？私はもうここで何時間も迷子なんだ。担当していた受刑者を見失ってしまってね。そう遠くまでは行っていないだろうが、わからないな。彼は非道なギャングのように見えるけど、話してみるとよい面もあると感じたよ。誰もが持っているわけじゃない温かい心が彼にはあるんだ。さあ、これからどうしよう？このままではゾンビの群れに突っ込むしかない」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- SWAT END -->
+	
+	
+	<!-- BOXER -->
+	<obj>
+		<objName>BoxerRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Buddy, how can you still survive? I can hardly win over those wild undead, they just keeping coming and coming. Hah, it's easy to slash them to death, but when will this end. Do you think the world is over now? No, I can't give up! Not when they interrupt my attempt to be world champion!"</en>
+					<jp>「よお、まだ生き残ってるヤツがいたのか！アンデッドのやつら、倒すことはできるがどんどん湧いてきやがる。そうだ、倒すのは簡単なんだ。わからないのはこれがいつ終わるかってことだ。もう世界が終わるってことなのか？いやいや、オレはあきらめない！世界チャンピオンになるまではな！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- BOXER END -->
+	
+	<!-- DETECTIVE -->
+	<obj>
+		<objName>DetectiveRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Wow, you made it alive. I've been through hell, I barely take my breath facing these creatures. I was currently doing investigation around cannibalism occured in this city. Can you imagine that? As time passed, I even found many occultism that might be linked to my case. Then the infection broke out. I hope I can find more clues and evidences that can prove my analysis."</en>
+					<jp>「おやおや、生存者さん。なんという状況なんでしょうね。あの化け物が視界に入るだけでも息が止まりそうです。最近はこの街で起きた人食い事件を調査していたんですよ。信じられないでしょう？調査を進めると、この件に関連して他にも不可思議なことが起こっていたことがわかったんです。そこへゾンビの大量発生ですよ。事件に関する手がかりと証拠を集めて、推理を証明できるといいのですが」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- DETECTIVE END -->
+	
+	<!-- OUTDOORSMAN -->
+	<obj>
+		<objName>OutdoorsmanRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Hey. I'm new here. What happen in this place? It's totally messed up. I just stepped in, and I was surprised with zombies coming towards me. They are even running at me! And I don't think it's possible to get out of this city. It's on my blacklist now. Man, I'll never come here again, ever."</en>
+					<jp>「やあ。ここへは始めて来たんだが、いったい何が起こったんだ？めちゃくちゃじゃないか。ちょっと調べてみようと思ったらゾンビに襲われた。走って追いかけてきたんだ！しかもこの街から出るのは難しそうだ。ヤバい街リスト入りだな。二度とここには来ないぞ。絶対にだ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- OUTDOORSMAN END -->
+	
+	<!-- HUNTER -->
+	<obj>
+		<objName>HunterRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm a hunter, and now I'm hunted, all over this place is freaking dangerous. Well, I'll just re-hunt them down. Kill, or get killed. That's all."</en>
+					<jp>「私は猟師なんだが、今は狩られる側になったらしい。このあたりはとても危険だ。まあ反撃するだけだが。狩るか狩られるか、それだけの話だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- HUNTER END -->
+	
+	<!-- FREDDIEW -->
+	<obj>
+		<objName>FreddieWRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I was editing my video with a lot of cool and amazing visual effects, where suddenly a zombie crashed into my room and began to vandalize me! Let's beat them!</en>
+					<jp>「動画の編集してたんだ。めちゃめちゃクールなエフェクトつけてさ。そしたらゾンビが！突然部屋に入ってきて襲いかかってきたんだ。ぶっ倒してやろうぜ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FREDDIEW END -->
+	
+	<!-- PAWNISHER -->
+	<obj>
+		<objName>PwnisherRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"It's hard to believe, you know, the last time I made a short film was about horde of zombies struck out of nowhere. Now it comes into reality! Save yourself! Run for your life!"</en>
+					<jp>「信じられるか？一番最近作った動画には、ゾンビの群れを出したんだ。現実になるとはな！俺に構うな、行くんだ！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- PAWNISHER END -->
+	
+	<!-- PEWDS -->
+	<obj>
+		<objName>PewdsRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"You know what? Everything feels surreal right now. It supposed to be just a game plot or something."</en>
+					<jp>「おいおいおいおい、シュールだな！これゲームだろ？現実とは思えねーーー」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- PEWDS END -->
+	
+	<!-- MARZIA -->
+	<obj>
+		<objName>MarziaRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- MARZIA END -->
+	
+	<!-- BILL -->
+	<obj>
+		<objName>BillRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"You call this a zombie apocalypse? It don't hold a candle to the great zombie attack of 1957."</en>
+					<jp>「これがゾンビアポカリプスだって？1957年の大ゾンビ来攻に比べれば何てことないな」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText><en>"..."</en>
+					<jp>「…」</jp>
+					<cn>"..."</cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Nah, I'm horseshittin' ya."</en>
+					<jp>「はは、冗談だ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"By the way, have you seen my team mates?"</en>
+					<jp>「ところで、俺のチームメイトを見なかったか？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- BILL END -->
+	
+	<!-- LOUIS -->
+	<obj>
+		<objName>LouisRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Last time we took a boat and went across the city, just to be stranded here."</en>
+					<jp>「この間ボートで出発してこの街を通りかかったんだ。そしたらここに座礁してしまって」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"By the way, have you seen any of my friends? There were four of us."</en>
+					<jp>「ところで、俺の仲間を見なかったか？4人で来たんだ」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- LOUIS END -->
+	
+	<!-- FRANCIS -->
+	<obj>
+		<objName>FrancisRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I hate zombies..."</en>
+					<jp>「ゾンビは嫌いだぜ…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"You know what I hate more than zombies?"</en>
+					<jp>「でもゾンビより嫌いなものがある。何だかわかるか？」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I hate being alone..."</en>
+					<jp>「独りになることさ…」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FRANCIS END -->
+	
+	<!-- ZOEY -->
+	<obj>
+		<objName>ZoeyRecruit1</objName>
+		<init>
+			<portrait imageName="character" texture="%TARGET-CHAR-PHOTO%" posX="0.8" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes next="meetSurvivorDialog">
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I'm looking for my friends."</en>
+					<jp>「仲間を探してるの」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="character" fromX="1" fromY="0.7" toX="0.8" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"There's an old guy, a biker, and a black guy."</en>
+					<jp>「おじいちゃんと、バイク乗りのおじさんと、黒人のサラリーマン」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Urgh, our road trips always end up facing more zombies, why this never end?!"</en>
+					<jp>「ああ、出かけたっていつも同じ！もっとたくさんのゾンビに会うだけなんだわ！」</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- ZOEY END -->
+	
+	
+	<obj>
+		<objName>meetSurvivorDialog</objName>
+		<init>
+			<portrait imageName="targetCharacter" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You meet a survivor. What do you want to do?</en>
+					<jp>生存者を発見しました。どうしますか？</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="targetCharacter" fromX="0.7" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+		</scenes>
+		
+		<options>
+			<option>
+				<name>
+					<en>Ask to join</en>
+					<jp>チームに入ってもらう</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">meetSurvivorJoinImmediately1</link>
+					<link chance="1">meetSurvivorJoinImmediately2</link>
+					<link chance="1">meetSurvivorJoinImmediately3</link>
+				</links>
+				<cost type="requireEmptySlotTeam">1</cost>
+			</option>
+			<option>
+				<name>
+					<en>Send to HQ</en>
+					<jp>HQに行ってもらう</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">meetSurvivorSendToBase1</link>
+					<link chance="1">meetSurvivorSendToBase2</link>
+					<link chance="1">meetSurvivorSendToBase3</link>
+				</links>
+			</option>
+			<option>
+				<name>
+					<en>Leave</en>
+					<jp>放っておく</jp>
+					<cn></cn>
+				</name>
+				<links>
+					<link chance="1">meetSurvivorLeave</link>
+				</links>
+			</option>
+		</options>
+	</obj>
+	
+	<obj>
+		<objName>meetSurvivorJoinImmediately1</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="targetCharacter" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Hey, why don't you join us?"</en>
+					<jp>「チームに入ってくれないか？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Sure, at least it's better than dying alone."</en>
+					<jp>「もちろん。一人で死ぬよりいい」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="targetCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="inviteRescuedSurvivorToMissionTeam"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>meetSurvivorJoinImmediately2</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="targetCharacter" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Our expedition team could use an extra hand. Why not join us?"</en>
+					<jp>「遠征チームに人手が増える。一緒に戦おう」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Okay, lead the way!"</en>
+					<jp>「オーケー。さあどこに行く？」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="targetCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="inviteRescuedSurvivorToMissionTeam"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>meetSurvivorJoinImmediately3</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="targetCharacter" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Come with us if you want to live..."</en>
+					<jp>「生きたければ一緒に来い…」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn></nameText>
+				<dialogText>
+					<en>"...Okay"</en>
+					<jp>「…わかった」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="targetCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="inviteRescuedSurvivorToMissionTeam"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>meetSurvivorSendToBase1</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="targetCharacter" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"We have a safe house just a few blocks away, why don't you go there. You'll be safe."</en>
+					<jp>「数ブロック先に隠れ家があるんだ。そこに行くといい。安全だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"Sure"</en>
+					<jp>「了解」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="targetCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You send the Survivor to HQ.</en>
+					<jp>生存者をHQに送った。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="targetCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="sendRescuedSurvivorToBase"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>meetSurvivorSendToBase2</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="targetCharacter" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"We've cleared a path, you should be able to reach our HQ safely. We have food and water there."</en>
+					<jp>「今通ってきた道なら安全だ。HQまで無事に辿り着けるだろう。HQなら食べ物も水もある」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"I'll go there now! Thank you for everything!"</en>
+					<jp>「すぐに行く！ありがとう！」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="targetCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText></nameText>
+				<dialogText>
+					<en>You send the Survivor to HQ.</en>
+					<jp>生存者をHQに送った。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="targetCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="sendRescuedSurvivorToBase"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>meetSurvivorSendToBase3</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" />
+			<portrait imageName="mainCharacter" texture="%MAIN-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+			<portrait imageName="targetCharacter" texture="%TARGET-CHAR-PHOTO%" posX="0.7" posY="0.7" scaleX="1" scaleY="1"/>
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en>%MAIN-CHAR-FULL-NAME%</en>
+					<jp>%MAIN-CHAR-FULL-NAME%</jp>
+					<cn>%MAIN-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"You can't stay here, it's too dangerous. We have a safe house just a few blocks away, you'll be safe there."</en>
+					<jp>「ここにいるのは危険だ。数ブロック先に隠れ家がある。安全だ」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en>%TARGET-CHAR-FULL-NAME%</en>
+					<jp>%TARGET-CHAR-FULL-NAME%</jp>
+					<cn>%TARGET-CHAR-FULL-NAME%</cn>
+				</nameText>
+				<dialogText>
+					<en>"You're right, I'll go there immediately."</en>
+					<jp>「わかった、すぐに行く」</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="mainCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<tween imageName="targetCharacter" fromX="1" fromY="0.7" toX="0.7" toY="0.7" alpha="1" scaleX="1" scaleY="1"/>
+			</scene>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You send the Survivor to HQ.</en>
+					<jp>生存者をHQに送った。</jp>
+					<cn></cn>
+				</dialogText>
+				<tween imageName="targetCharacter" fromX="0.7" fromY="0.7" toX="1" toY="0.7" alpha="0" scaleX="1" scaleY="1"/>
+				<trigger type="object" action="sendRescuedSurvivorToBase"></trigger>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>meetSurvivorLeave</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" /> 
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>You leave the Survivor alone.</en>
+					<jp>生存者を放っておくことにした。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	<!-- FAILED RECRUIT START-->
+	
+	<obj>
+		<objName>FailedRecruit1</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" /> 
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>We couldn't save the Survivor. Let them rest in peace.</en>
+					<jp>生存者を救えなかった。せめて安らかに眠ってくれるとよいが。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<obj>
+		<objName>FailedRecruit2</objName>
+		<init>
+			<blinds imageName="blinds" alpha=".75" /> 
+		</init>
+		<scenes>
+			<scene>
+				<nameText>
+					<en></en>
+					<jp></jp>
+					<cn></cn>
+				</nameText>
+				<dialogText>
+					<en>Too bad the Survivor died. Let's move on.</en>
+					<jp>残念なことに生存者は死んでしまった。先に進もう。</jp>
+					<cn></cn>
+				</dialogText>
+			</scene>
+		</scenes>
+	</obj>
+	
+	<!-- FAILED RECRUIT END-->
+	
+</dialogs>

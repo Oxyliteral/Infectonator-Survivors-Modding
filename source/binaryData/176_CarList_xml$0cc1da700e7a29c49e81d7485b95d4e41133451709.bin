@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+	<obj>
+		<objName>FixEngine</objName>
+		<screenName>
+			<en>FIX ENGINE</en>
+			<jp>エンジンの修理</jp>
+			<cn>修复引擎</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchFixCar</iconThumb>
+		<desc>
+			<en>We cannot start up the engine. Check it up, fix any damage and missing parts, and get it running.</en>
+			<jp>エンジンがかからない状態だ。状態を調べて修理し、動くようにしよう。</jp>
+			<cn>我们无法发动引擎。检查它、修复任何损伤、找到缺失零部件并让它运转。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed fix the car's engine. It may not be a permanent fix, but at least it's running.</en>
+			<jp>エンジンの修理が完了した。完全に直ったわけではないが、とりあえず動いている。</jp>
+			<cn>我们成功修复了汽车发动机。虽然不一定永久有效，但至少它能运转了。</cn>
+		</completedDesc>
+		<workPoints>500</workPoints>
+		<searchPoints>300</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<requireExit>1</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<!-- <reward type="unknown"></reward> -->
+		<unlocked>1</unlocked>
+		
+		<pos>3,-1</pos>
+		<pos>2,-2</pos>
+		<pos>2,1</pos>
+		<pos>3,0</pos>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="4">Spark Plug</reqItem>
+		<reqItem num="2">Motor Oil</reqItem>
+		<reqItem num="6">Metal</reqItem>
+		<reqItem num="1">Timing Belt</reqItem>
+		
+		<questMerchant dialog="merchantQuestTimingBeltDialog">merchantQuestTest</questMerchant>
+		
+		<quest>tBeltGenerator1</quest>
+		<quest>tBeltFriendship1</quest>
+	</obj>
+	
+	<obj>
+		<objName>RepairBody</objName>
+		<screenName>
+			<en>REPAIR BODY</en>
+			<jp>ボディの修理</jp>
+			<cn>修复车身</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchFixCar</iconThumb>
+		<desc>
+			<en>The body looks pretty much beaten up, we need to restore and toughen it up.</en>
+			<jp>外装がボコボコだ。乗れるように修理して、強化しよう。</jp>
+			<cn>车身看上去破旧不堪，我们需要修复并加固它。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to add more protection and durability to the car's body.</en>
+			<jp>車のボディに防護パーツを追加し、耐性が高まった。</jp>
+			<cn>我们成功为车身添加了更多保护和耐用性。</cn>
+		</completedDesc>
+		<workPoints>400</workPoints>
+		<searchPoints>200</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<requireExit>1</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<!-- <reward type="unknown"></reward> -->
+		<unlocked>1</unlocked>
+		
+		<pos>-3,0</pos>
+		<pos>0,1</pos>
+		<pos>2,1</pos>
+		<pos>0,-2</pos>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="5">Duct Tape</reqItem>
+		<reqItem num="15">Wood</reqItem>
+		<reqItem num="15">Metal</reqItem>
+		<reqItem num="1">Protected Windshield</reqItem>
+		
+		<questMerchant dialog="merchantQuestWindShieldDialog">merchantQuestTest</questMerchant>
+		
+		<quest>repairBodySimpleQuest</quest>
+	</obj>
+	
+	<obj>
+		<objName>FixWheel</objName>
+		<screenName>
+			<en>CHANGE TIRES</en>
+			<jp>タイヤの交換</jp>
+			<cn>更换轮胎</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchFixCar</iconThumb>
+		<desc>
+			<en>We cannot travel when the wheels are broken. Replace the tires and check the brakes.</en>
+			<jp>足回りが壊れていて走れない。タイヤを交換してブレーキをチェックしよう。</jp>
+			<cn>我们无法靠着破轮胎前进。更换轮胎并检查刹车。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to change the tires and tuned the breaking mechanism.</en>
+			<jp>タイヤの交換が完了した。さらにブレーキ機構を調整した。</jp>
+			<cn>我们成功更换了轮胎并调整了刹车系统。</cn>
+		</completedDesc>
+		<workPoints>600</workPoints>
+		<searchPoints>100</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<requireExit>1</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<!-- <reward type="unknown"></reward> -->
+		<unlocked>1</unlocked>
+		
+		<pos>-1,-2</pos>
+		<pos>-1,1</pos>
+		<pos>1,1</pos>
+		<pos>1,-2</pos>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="4">Car Tire</reqItem>
+		<reqItem num="4">Spring</reqItem>
+		<reqItem num="4">Bolt</reqItem>
+		<reqItem num="1">Alloy Wheel</reqItem>
+		
+		<questMerchant dialog="merchantQuestAlloyWheelDialog">merchantQuestTest</questMerchant>
+		
+		<quest>velgMillitary</quest>
+		<quest>velgPriest</quest>
+		<!-- <quest>velgUnfinishedBusiness1</quest>-->
+	</obj>
+	
+	<obj>
+		<objName>ChangeECU</objName>
+		<screenName>
+			<en>REPAIR ELECTRICAL</en>
+			<jp>電気系統の修理</jp>
+			<cn>修复电路</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchFixCar</iconThumb>
+		<desc>
+			<en>We need to replace some of the circuit breakers and wires.</en>
+			<jp>サーキットブレーカーやケーブルの交換が必要だ。</jp>
+			<cn>我们需要更换一些断路器和电线。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to replace the circuit breakers and wires. It may not be a permanent fix, but at least it can take us to the next nearest town.</en>
+			<jp>サーキットブレーカーとケーブルを交換した。完全に直ったわけではないが、とりあえず近くの町までは行けるだろう。</jp>
+			<cn>我们成功更换了断路器和电线。 虽然这不一定永久有效，但至少可以把我们带到最近的城市。</cn>
+		</completedDesc>
+		<workPoints>100</workPoints>
+		<searchPoints>800</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<requireExit>1</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<!-- <reward type="unknown"></reward> -->
+		<unlocked>1</unlocked>
+		
+		<pos>-3,0</pos>
+		<pos>3,-1</pos>
+		<pos>2,1</pos>
+		<pos>3,0</pos>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="5">E.Parts</reqItem>
+		<reqItem num="2">Cables</reqItem>
+		<reqItem num="5">Metal</reqItem>
+		<reqItem num="1">Electronic Control Module</reqItem>
+		
+		<questMerchant dialog="merchantQuestECUDialog">merchantQuestTest</questMerchant>
+		
+		<quest>eCUMillitary1</quest>
+		<quest>eCUAgent1</quest>
+		<!--<quest>eCUBandit</quest>-->
+	</obj>
+	
+	<obj>
+		<objName>ChangeBattery</objName>
+		<screenName>
+			<en>CHANGE BATTERY</en>
+			<jp>バッテリーの交換</jp>
+			<cn>更换电池</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchFixCar</iconThumb>
+		<desc>
+			<en>The car's battery is dead. We need to replace it with a new one and charge it.</en>
+			<jp>このバッテリーはもう使えない。新しいものと交換して充電しよう。</jp>
+			<cn>汽车电池已经坏了。我们需要换上一个新的并充好电。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to replace the battery.</en>
+			<jp>バッテリーの交換が完了した。</jp>
+			<cn>我们成功更换了电池。</cn>
+		</completedDesc>
+		<workPoints>100</workPoints>
+		<searchPoints>400</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<requireExit>1</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<!-- <reward type="unknown"></reward> -->
+		<unlocked>1</unlocked>
+		
+		<pos>3,-1</pos>
+		<pos>1,-2</pos>
+		<pos>2,1</pos>
+		<pos>3,0</pos>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="2">Car Battery</reqItem>
+		<reqItem num="2">Cables</reqItem>
+		<reqItem num="1">Alternator</reqItem>
+		
+		<questMerchant dialog="merchantQuestAlternatorDialog">merchantQuestTest</questMerchant>
+		
+		<quest>alternatorScientist</quest>
+		<quest>alternatorParanoid1</quest>
+		<!-- <quest>alternatorLoveStory1</quest>-->
+	</obj>
+	
+	<obj>
+		<objName>RepairInterior</objName>
+		<screenName>
+			<en>CLEAN INTERIOR</en>
+			<jp>車内の清掃</jp>
+			<cn>清洗内部</cn>
+		</screenName>
+		<iconThumb>Icon-ResearchFixCar</iconThumb>
+		<desc>
+			<en>The interior is very dirty, garbage, dried blood, and a lot of body parts. We need to clean it all up.</en>
+			<jp>車内は汚い。ゴミに血痕、それに臓器…？全部きれいにしなければ。</jp>
+			<cn>汽车内部非常脏乱，到处都是垃圾、干掉的血迹和残肢断臂。我们需要进行一次大扫除。</cn>
+		</desc>
+		<completedDesc>
+			<en>We managed to get the car cleaned. It's no longer a health hazard.</en>
+			<jp>車内の清掃が完了した。もう乗っても安全だ。</jp>
+			<cn>我们成功清洗了车辆。它不再危害健康了。</cn>
+		</completedDesc>
+		<workPoints>400</workPoints>
+		<searchPoints>500</searchPoints>
+		<repeat>0</repeat>
+		<supplyCost>5</supplyCost>
+		<requireExit>1</requireExit>
+		<preReq></preReq>
+		<postReq></postReq>
+		<!-- <reward type="unknown"></reward> -->
+		<unlocked>1</unlocked>
+		
+		<pos>-1,1</pos>
+		<pos>0,1</pos>
+		<pos>-1,-2</pos>
+		<pos>0,-2</pos>
+		
+		<!-- Required Materials, Max 6 item types -->
+		<reqItem num="20">Fabric</reqItem>
+		<reqItem num="5">Duct Tape</reqItem>
+		<reqItem num="5">Metal</reqItem>
+		<reqItem num="2">Alcohol</reqItem>
+		<reqItem num="1">Anti-Zombie Detergent</reqItem>
+		
+		<questMerchant dialog="merchantQuestDetergentDialog">merchantQuestTest</questMerchant>
+		
+		<quest>detergentScientistTwins1</quest>
+		<quest>detergentScientistHungry</quest>
+		<!--<quest>detergentScientistAnnoying1</quest>-->
+	</obj>
+</car>

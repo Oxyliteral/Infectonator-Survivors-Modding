@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<characters>
+
+	<!-- Drop Rates value
+			0 = 0.0%
+			1000 = 100.0%
+	 -->
+	 
+	<obj>
+		<objName>Default</objName>
+		<screenName>
+			<en>Common Zombie</en>
+			<jp>コモンゾンビ</jp>
+			<cn>普通僵尸</cn>
+		</screenName>
+		<desc>
+			<en>The common zombie is slow and relatively weak. Their body has already entered later stages of decay, signs of muscle atrophy are also present.</en>
+			<jp>コモンゾンビは動きが遅く弱い。その体は今にも朽ちそうで、筋肉の萎縮も見られる。</jp>
+			<cn>普通僵尸行动缓慢，相当弱。他们的身体已经严重腐烂，肌肉萎缩症状也开始出现。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>2</coinReward>
+		<maxHealth>15</maxHealth>
+		<atkDamage>15</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>128</viewRadius>
+		<speed>20</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateMaterials type="Fabric" qty="1">50</dropRateMaterials>
+		
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFace01</equip>
+		<equip part="body">ZombieBody01</equip>
+		<equip part="legs">ZombieLegs01</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieOfficeman</objName>
+		<screenName>
+			<en>OfficeMan Zombie</en>
+			<jp>サラリーマンゾンビ</jp>
+			<cn>员工僵尸</cn>
+		</screenName>
+		<desc>
+			<en>Just another zombified corporate office worker.</en>
+			<jp>ゾンビになったサラリーマン。</jp>
+			<cn>只是另一种僵尸化的公司办公人员。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>2</coinReward>
+		<maxHealth>15</maxHealth>
+		<atkDamage>15</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>128</viewRadius>
+		<speed>20</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateMaterials type="Fabric" qty="1">50</dropRateMaterials>
+		
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFace06</equip>
+		<equip part="body">ZombieBody06</equip>
+		<equip part="legs">ZombieLegs06</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior><!-- zombieDieGooSpread -->
+		<behavior state="dieCrit">zombieDie</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombiePumpkin</objName>
+		<screenName>
+			<en>PumpkinHead</en>
+			<jp>パンプキンヘッド</jp>
+			<cn>南瓜头</cn>
+		</screenName>
+		<desc>
+			<en>The common zombie is slow and relatively weak. Their body has already entered later stages of decay, signs of muscle atrophy are also present.</en>
+			<jp>コモンゾンビは動きが遅く弱い。その体は今にも朽ちそうで、筋肉の萎縮も見られる。</jp>
+			<cn>普通僵尸行动缓慢，相当弱。他们的身体已经严重腐烂，肌肉萎缩症状也开始出现。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>2</coinReward>
+		<maxHealth>15</maxHealth>
+		<atkDamage>15</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>128</viewRadius>
+		<speed>20</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateMaterials type="Fabric" qty="1">50</dropRateMaterials>
+		
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFacePumpkin</equip>
+		<equip part="body">ZombieBody03</equip>
+		<equip part="legs">ZombieLegs01</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieCrawler</objName>
+		<screenName>
+			<en>Crawler</en>
+			<jp>ハイハイゾンビ</jp>
+			<cn>爬行者</cn>
+		</screenName>
+		<desc>
+			<en>Zombies that have lost their legs can still crawl and find you.</en>
+			<jp>ゾンビは足を失っても地を這ってやって来る。</jp>
+			<cn>失去双腿的僵尸仍然可以爬行并找到你。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>1</coinReward>
+		<maxHealth>5</maxHealth>
+		<atkDamage>15</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>96</viewRadius>
+		<speed>10</speed>
+		<idle>250</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceCrawler</equip>
+		<equip part="body">ZombieBodyCrawler</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieCop</objName>
+		<screenName>
+			<en>Cop Zombie</en>
+			<jp>ポリスゾンビ</jp>
+			<cn>警察僵尸</cn>
+		</screenName>
+		<desc>
+			<en>This zombie was once a cop. They are slightly stronger than the common zombie.</en>
+			<jp>ゾンビになった警官。コモンゾンビよりも少し強い。</jp>
+			<cn>这种僵尸曾经是警察。他们比普通僵尸略微强壮一些。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>3</expReward>
+		<coinReward>3</coinReward>
+		<maxHealth>30</maxHealth>
+		<atkDamage>17</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>128</viewRadius>
+		<speed>25</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFace02</equip>
+		<equip part="body">ZombieBody02</equip>
+		<equip part="legs">ZombieLegs02</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieArmy</objName>
+		<screenName>
+			<en>Soldier Zombie</en>
+			<jp>ソルジャーゾンビ</jp>
+			<cn>士兵僵尸</cn>
+		</screenName>
+		<desc>
+			<en>Soldiers are trained to endure in harsh environments. Obviously, when they turn into zombies they are stronger and more aggresive.</en>
+			<jp>兵士は過酷な環境にも耐えられるよう訓練されている。ゾンビになった場合も、屈強で攻撃的なところが現れている。</jp>
+			<cn>士兵们接受训练以忍受艰苦的环境。显然，当他们变成僵尸，会更强壮且更具侵略性。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>5</expReward>
+		<coinReward>5</coinReward>
+		<maxHealth>50</maxHealth>
+		<atkDamage>20</atkDamage>
+		<atkDelay>250</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>128</viewRadius>
+		<speed>30</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFace03</equip>
+		<equip part="body">ZombieBody03</equip>
+		<equip part="legs">ZombieLegs03</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieWorker</objName>
+		<screenName>
+			<en>Worker Zombie</en>
+			<jp>ワーカーゾンビ</jp>
+			<cn>工人僵尸</cn>
+		</screenName>
+		<desc>
+			<en>Worker Zombies can run really fast because most of their muscle tissue are still intact due to their protective wear.</en>
+			<jp>ワーカーゾンビの動きはとても速い。仕事で鍛えられた筋肉が、頑丈な作業着で守られているからだ。</jp>
+			<cn>工人僵尸跑得非常快，因为在防护装备的保护下，他们的大部分肌肉组织仍未受损伤。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>3</coinReward>
+		<maxHealth>20</maxHealth>
+		<atkDamage>15</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>64</viewRadius>
+		<speed>40</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<dropRateMaterials type="Metal" qty="1">200</dropRateMaterials>
+		<dropRateMaterials type="Wood" qty="1">200</dropRateMaterials>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFace04</equip>
+		<equip part="body">ZombieBody04</equip>
+		<equip part="legs">ZombieLegs04</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieFatFemale</objName>
+		<screenName>
+			<en>Bloated Female Zombie</en>
+			<jp>マシュマロゾンビ（女）</jp>
+			<cn>浮肿女僵尸</cn>
+		</screenName>
+		<desc>
+			<en>These bloated zombies were not necessarily the result of obesity. Decaying tissue will often produce gas, these gas will collect inside the body making them look bloated. However, these zombies have a thicker layer of skin due to an unknown mutation.</en>
+			<jp>このゾンビがこんなに膨らんでいるのは、肥満のせいではない。くさった組織がガスを発生させるため、そのガスが体内に溜まり体を膨らませているのだ。さらに、未知の変異により皮膚が厚い。</jp>
+			<cn>这些浮肿的僵尸并不一定是因为肥胖。腐败的组织经常会产生气体，这些气体在体内聚集就会使身体浮肿。但是，由于某种未知的变异，这些僵尸的皮肤更厚。</cn>
+		</desc>
+		<scale>1.1</scale>
+		<expReward>2</expReward>
+		<coinReward>8</coinReward>
+		<maxHealth>100</maxHealth>
+		<atkDamage>20</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>96</viewRadius>
+		<speed>15</speed>
+		<idle>250</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceFat02</equip>
+		<equip part="body">ZombieBodyFat02</equip>
+		<equip part="legs">ZombieLegsFat01</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDieGooSpread</behavior>
+		<behavior state="dieCrit">zombieDieGooSpread</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieFatMale</objName>
+		<screenName>
+			<en>Bloated Male Zombie</en>
+			<jp>マシュマロゾンビ（男）</jp>
+			<cn>浮肿男僵尸</cn>
+		</screenName>
+		<desc>
+			<en>These bloated zombies were not necessarily the result of obesity. Decaying tissue will often produce gas, these gas will collect inside the body making them look bloated. However, these zombies have a thicker layer of skin due to an unknown mutation.</en>
+			<jp>このゾンビがこんなに膨らんでいるのは、肥満のせいではない。くさった組織がガスを発生させるため、そのガスが体内に溜まり体を膨らませているのだ。さらに、未知の変異により皮膚が厚い。</jp>
+			<cn>这些浮肿的僵尸并不一定是因为肥胖。腐败的组织经常会产生气体，这些气体在体内聚集就会使身体浮肿。但是，由于某种未知的变异，这些僵尸的皮肤更厚。</cn>
+		</desc>
+		<scale>1.2</scale>
+		<expReward>4</expReward>
+		<coinReward>12</coinReward>
+		<maxHealth>160</maxHealth>
+		<atkDamage>25</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>96</viewRadius>
+		<speed>10</speed>
+		<idle>250</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceFat01</equip>
+		<equip part="body">ZombieBodyFat01</equip>
+		<equip part="legs">ZombieLegsFat01</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDieGooSpread</behavior>
+		<behavior state="dieCrit">zombieDieGooSpread</behavior> <!-- playerDieBurst -->
+	</obj>
+	
+	<obj>
+		<objName>ZombieMama</objName>
+		<screenName>
+			<en>Mama</en>
+			<jp>ママゾンビ</jp>
+			<cn>怀孕女僵尸</cn>
+		</screenName>
+		<desc>
+			<en>This scary looking and fast running zombie is nicknamed 'Mama' due to its bloated belly resembles the look of a pregnant woman. This zombie type is quite hard to kill.</en>
+			<jp>このゾンビは見た目も恐ろしいし、足が速い。膨らんだお腹が妊婦のように見えることから「ママ」と呼ばれている。倒すのがとても難しいゾンビだ。</jp>
+			<cn>这种看上去很恐怖并且跑得非常快的僵尸被称作“妈妈”，因为他们浮肿的肚子看起来特别像怀孕的女人。这类僵尸特别难消灭。</cn>
+		</desc>
+		<scale>1.25</scale>
+		<expReward>20</expReward>
+		<coinReward>20</coinReward>
+		<maxHealth>500</maxHealth>
+		<atkDamage>30</atkDamage>
+		<atkDelay>250</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>160</viewRadius>
+		<speed>30</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceMama</equip>
+		<equip part="body">ZombieBodyMama</equip>
+		<equip part="legs">ZombieLegsMama</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieBruteBiker</objName>
+		<screenName>
+			<en>Zombie Brute Biker</en>
+			<jp>バイカーゾンビ</jp>
+			<cn>残暴车手僵尸</cn>
+		</screenName>
+		<desc>
+			<en>This is one tough son of a gun! Although their movement is a bit slow, they have increased strength and stamina.</en>
+			<jp>油断ならないタフなゾンビだ！動きは少し遅いが、力とスタミナが強化されている。</jp>
+			<cn>这货真是皮糙肉厚！虽然他们行动有些慢，但他们的力量和体力都有所提升。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>20</expReward>
+		<coinReward>20</coinReward>
+		<maxHealth>250</maxHealth>
+		<atkDamage>35</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>160</viewRadius>
+		<speed>20</speed>
+		<idle>250</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceBrute01</equip>
+		<equip part="body">ZombieBodyBrute01</equip>
+		<equip part="legs">ZombieLegsBrute01</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	<!-- Start Zombie Christmas -->
+	<obj>
+		<objName>DefaultXmas</objName>
+		<screenName>
+			<en>Zombie Xmas</en>
+			<jp>クリスマスゾンビ</jp>
+			<cn>圣诞节僵尸</cn>
+		</screenName>
+		<desc>
+			<en>The common zombie is slow and relatively weak. Their body has already entered later stages of decay, signs of muscle atrophy are also present.</en>
+			<jp>コモンゾンビは動きが遅く弱い。その体は今にも朽ちそうで、筋肉の萎縮も見られる。</jp>
+			<cn>普通僵尸行动缓慢，相当弱。他们的身体已经严重腐烂，肌肉萎缩症状也开始出现。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>2</expReward>
+		<coinReward>2</coinReward>
+		<maxHealth>15</maxHealth>
+		<atkDamage>15</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>112</viewRadius>
+		<speed>20</speed>
+		<idle>250</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFace01Xmas</equip>
+		<equip part="body">ZombieBody01</equip>
+		<equip part="legs">ZombieLegs01</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieFatXmas</objName>
+		<screenName>
+			<en>Zombie Santa</en>
+			<jp>サンタゾンビ</jp>
+			<cn>圣诞老人僵尸</cn>
+		</screenName>
+		<desc>
+			<en>These bloated zombies were not necessarily the result of obesity. Decaying tissue will often produce gas, these gas will collect inside the body making them look bloated. However, these zombies have a thicker layer of skin due to an unknown mutation.</en>
+			<jp>このゾンビがこんなに膨らんでいるのは、肥満のせいではない。くさった組織がガスを発生させるため、そのガスが体内に溜まり体を膨らませているのだ。さらに、未知の変異により皮膚が厚い。</jp>
+			<cn>这些浮肿的僵尸并不一定是因为肥胖。腐败的组织经常会产生气体，这些气体在体内聚集就会使身体浮肿。但是，由于某种未知的变异，这些僵尸的皮肤更厚。</cn>
+		</desc>
+		<scale>1.25</scale>
+		<expReward>4</expReward>
+		<coinReward>12</coinReward>
+		<maxHealth>160</maxHealth>
+		<atkDamage>25</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>96</viewRadius>
+		<speed>10</speed>
+		<idle>250</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceFat01Xmas</equip>
+		<equip part="body">ZombieBodyFat01</equip>
+		<equip part="legs">ZombieLegsFat01Xmas</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDieGooSpread</behavior>
+		<behavior state="dieCrit">zombieDieGooSpread</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieBruteXmas</objName>
+		<screenName>
+			<en>Zombie Brute Santa</en>
+			<jp>サンタゾンビ（強）</jp>
+			<cn>残暴圣诞老人僵尸</cn>
+		</screenName>
+		<desc>
+			<en>Instead of having muscle atrophy, this zombie develops more muscle mass that enhances their strength and stamina.</en>
+			<jp>このゾンビの筋肉は萎縮するどころか、量を増して力とスタミナを高めている。</jp>
+			<cn>这类僵尸不仅没有出现肌肉萎缩，还长出了更多肌肉，增强了力量和耐力</cn>
+		</desc>
+		<scale>1.25</scale>
+		<expReward>20</expReward>
+		<coinReward>25</coinReward>
+		<maxHealth>500</maxHealth>
+		<atkDamage>35</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>48</atkRange>
+		<viewRadius>160</viewRadius>
+		<speed>25</speed>
+		<idle>250</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceBrute01Xmas</equip>
+		<equip part="body">ZombieBodyBrute01Xmas</equip>
+		<equip part="legs">ZombieLegsBrute01</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<!-- End Zombie Christmas -->
+	<obj>
+		<objName>ZombiePunkScreamer</objName>
+		<screenName>
+			<en>Zombie Screamer</en>
+			<jp>スクリームゾンビ</jp>
+			<cn>尖叫僵尸</cn>
+		</screenName>
+		<desc>
+			<en>Shockingly heavy metal!</en>
+			<jp>ヘビメタゾンビだ！！！</jp>
+			<cn>恐怖的重金属！</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>10</expReward>
+		<coinReward>16</coinReward>
+		<maxHealth>250</maxHealth>
+		<atkDamage>20</atkDamage>
+		<atkDelay>4000</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>256</viewRadius>
+		<speed>25</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFacePunkS01</equip>
+		<equip part="body">ZombieBodyPunkS01</equip>
+		<equip part="legs">ZombieLegsPunkS01</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieStun</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieHazmat</objName>
+		<screenName>
+			<en>Zombie Hazmat</en>
+			<jp>キケンブツゾンビ</jp>
+			<cn>自爆僵尸</cn>
+		</screenName>
+		<desc>
+			<en>This zombie carries a hazardous material tank that could explode when hit.</en>
+			<jp>危険物の入ったタンクを背負ったゾンビ。攻撃すると爆発するかもしれない。</jp>
+			<cn>这种僵尸会携带一个装着危险材料的罐子，受到伤害就会爆炸。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>10</expReward>
+		<coinReward>8</coinReward>
+		<maxHealth>100</maxHealth>
+		<atkDamage>20</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>256</viewRadius>
+		<speed>25</speed>
+		<idle>100</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceHazmat</equip>
+		<equip part="body">ZombieBodyHazmat</equip>
+		<equip part="legs">ZombieLegsHazmat</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDieExplode</behavior>
+		<behavior state="dieCrit">zombieDieExplode</behavior>
+	</obj>
+	
+	<obj>
+		<objName>ZombieBruteSoldier</objName>
+		<screenName>
+			<en>Zombie Brute Soldier</en>
+			<jp>ソルジャーゾンビ（強）</jp>
+			<cn>残暴士兵僵尸</cn>
+		</screenName>
+		<desc>
+			<en>This is one tough son of a gun! Although their movement is a bit slow, they have increased strength and stamina.</en>
+			<jp>油断ならないタフなゾンビだ！動きは少し遅いが、力とスタミナが強化されている。</jp>
+			<cn>这货真是皮糙肉厚！虽然他们行动有些慢，但他们的力量和体力都有所提升。</cn>
+		</desc>
+		<scale>1</scale>
+		<expReward>20</expReward>
+		<coinReward>20</coinReward>
+		<maxHealth>250</maxHealth>
+		<atkDamage>35</atkDamage>
+		<atkDelay>500</atkDelay>
+		<atkRange>32</atkRange>
+		<viewRadius>160</viewRadius>
+		<speed>20</speed>
+		<idle>250</idle>
+		
+		<dropRateCoin>1000</dropRateCoin>
+		<!-- 
+		<dropRateSupply>0</dropRateSupply>
+		<dropRateFuel>0</dropRateFuel>
+		<dropRateWeapon>0</dropRateWeapon>
+		<dropRateMaterials type="Car Battery" qty="1">0</dropRateMaterials>
+		-->
+		
+		<equip part="head">ZombieFaceBrute02</equip>
+		<equip part="body">ZombieBodyBrute02</equip>
+		<equip part="legs">ZombieLegsBrute02</equip>
+		
+		<behavior state="idle">zombieIdle</behavior>
+		<behavior state="move">zombieMove</behavior>
+		<behavior state="attack">zombieAttack</behavior>
+		<behavior state="die">zombieDie</behavior>
+		<behavior state="dieCrit">playerDieBurst</behavior>
+	</obj>
+</characters>

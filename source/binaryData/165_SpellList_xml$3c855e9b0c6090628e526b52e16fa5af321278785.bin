@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+	<obj>
+		<objName>AirStrike</objName>
+		<screenName>
+			<en>Mortar Strike</en>
+			<jp>迫撃砲</jp>
+			<cn>迫击炮轰炸</cn>
+		</screenName>
+		<desc>
+			<en>Mortar strike support</en>
+			<jp>迫撃砲による攻撃支援</jp>
+			<cn>迫击炮轰炸支持</cn>
+		</desc>
+		<iconThumb>mortar</iconThumb>
+		<spellType>Fall</spellType> // Fill with "Fall", "Explode"
+		<radius>72</radius>
+		<speed>1000</speed> // If spellType == "Explode", speed will be ignored
+		<damage>200</damage>
+		<cooldown>10000</cooldown> // in miliseconds
+		<bulletName>Mortar</bulletName>
+		<numOfBullets>3</numOfBullets> // default = 1
+		<bulletDelay>300</bulletDelay>
+		<bulletDeviation>32</bulletDeviation>
+	</obj>
+	<obj>
+		<objName>Grenade</objName>
+		<screenName>
+			<en>Grenade</en>
+			<jp>グレネード</jp>
+			<cn>手榴弹</cn>
+		</screenName>
+		<desc>
+			<en>Throw high-explosive grenades</en>
+			<jp>爆発するグレネードを投げる</jp>
+			<cn>投掷高爆手雷</cn>
+		</desc>
+		<iconThumb>mortar</iconThumb>
+		<spellType>Explode</spellType> // Fill with "Fall", "Explode"
+		<radius>48</radius>
+		<speed>25</speed> // If spellType == "Explode", speed will be ignored
+		<damage>10</damage>
+		<cooldown>0</cooldown> // in seconds
+		<bulletName>Mortar</bulletName>
+		<numOfBullets>1</numOfBullets> // default = 1
+	</obj>
+</spells>

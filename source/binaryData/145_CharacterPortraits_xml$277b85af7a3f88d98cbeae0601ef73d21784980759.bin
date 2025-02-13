@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:57f4160d613a9ec253cc6dd2f795e816:9f7b0f60f083f1d12fb2d772cb5f06aa:a858f806f7bea376805646df925d9cae$ -->
+<TextureAtlas imagePath="CharacterPortraits.png" width="2048" height="2048">
+    <SubTexture name="Backpack" x="1853" y="988" width="182" height="245" frameX="-9" frameY="-9" frameWidth="199" frameHeight="259"/>
+    <SubTexture name="FamilyPortrait" x="189" y="1895" width="143" height="128" frameX="-3" frameY="-51" frameWidth="147" frameHeight="259"/>
+    <SubTexture name="FitnessMagz" x="969" y="1802" width="182" height="225" frameX="-14" frameY="-20" frameWidth="200" frameHeight="259"/>
+    <SubTexture name="GadgetMagz" x="1153" y="1802" width="182" height="225" frameX="-14" frameY="-20" frameWidth="200" frameHeight="259"/>
+    <SubTexture name="GossipMagz" x="1521" y="1802" width="182" height="224" frameX="-14" frameY="-20" frameWidth="200" frameHeight="259"/>
+    <SubTexture name="Newspaper" x="2" y="1895" width="185" height="128"/>
+    <SubTexture name="Paper" x="1893" y="598" width="138" height="162" frameX="-7" frameY="-48" frameWidth="147" frameHeight="259"/>
+    <SubTexture name="Paper2" x="1705" y="1802" width="126" height="181" frameX="-10" frameY="-35" frameWidth="147" frameHeight="259"/>
+    <SubTexture name="PortraitBill" x="2" y="1167" width="325" height="362"/>
+    <SubTexture name="PortraitBlueHat" x="656" y="1163" width="309" height="362"/>
+    <SubTexture name="PortraitBoxer" x="967" y="1163" width="308" height="362"/>
+    <SubTexture name="PortraitBraid" x="1512" y="1439" width="223" height="361"/>
+    <SubTexture name="PortraitCheer" x="1033" y="730" width="281" height="362"/>
+    <SubTexture name="PortraitCop" x="709" y="2" width="328" height="362"/>
+    <SubTexture name="PortraitDetective" x="652" y="1531" width="315" height="362"/>
+    <SubTexture name="PortraitFrancis" x="329" y="1531" width="321" height="362"/>
+    <SubTexture name="PortraitFWong" x="1316" y="1033" width="241" height="362"/>
+    <SubTexture name="PortraitHobo" x="372" y="2" width="335" height="362"/>
+    <SubTexture name="PortraitHunter" x="2" y="435" width="354" height="366"/>
+    <SubTexture name="PortraitLouis" x="1039" y="2" width="284" height="362"/>
+    <SubTexture name="PortraitMarzia" x="1559" y="1075" width="236" height="362"/>
+    <SubTexture name="PortraitMerchant" x="2" y="803" width="399" height="362"/>
+    <SubTexture name="PortraitMohawk" x="2" y="2" width="368" height="431"/>
+    <SubTexture name="PortraitNerd" x="1595" y="366" width="296" height="348"/>
+    <SubTexture name="PortraitNPCDying1" x="2" y="1531" width="325" height="362"/>
+    <SubTexture name="PortraitNPCDying2" x="329" y="1167" width="325" height="362"/>
+    <SubTexture name="PortraitPincang" x="1313" y="366" width="280" height="362"/>
+    <SubTexture name="PortraitPoods" x="722" y="799" width="309" height="362"/>
+    <SubTexture name="PortraitPwnisher" x="1325" y="2" width="267" height="362"/>
+    <SubTexture name="PortraitRedHat" x="1277" y="1397" width="233" height="361"/>
+    <SubTexture name="PortraitScientist" x="1595" y="716" width="256" height="357" frameX="0" frameY="-5" frameWidth="256" frameHeight="362"/>
+    <SubTexture name="PortraitShiro" x="1316" y="730" width="252" height="301" frameX="0" frameY="-61" frameWidth="252" frameHeight="362"/>
+    <SubTexture name="PortraitSWAT" x="726" y="366" width="292" height="362"/>
+    <SubTexture name="PortraitSWAT2" x="1020" y="366" width="291" height="362"/>
+    <SubTexture name="PortraitSydney" x="1797" y="1235" width="236" height="362"/>
+    <SubTexture name="PortraitThug" x="1594" y="2" width="256" height="362"/>
+    <SubTexture name="PortraitWorker" x="403" y="799" width="317" height="362"/>
+    <SubTexture name="PortraitWrestler" x="358" y="435" width="366" height="362"/>
+    <SubTexture name="PortraitZoey" x="1852" y="2" width="193" height="362"/>
+    <SubTexture name="ReONcomics" x="1337" y="1802" width="182" height="225" frameX="-14" frameY="-20" frameWidth="200" frameHeight="259"/>
+    <SubTexture name="SurvivalMagz" x="1853" y="762" width="183" height="224" frameX="-13" frameY="-20" frameWidth="200" frameHeight="259"/>
+    <SubTexture name="WalkieTalkie" x="1893" y="366" width="139" height="230" frameX="-3" frameY="-11" frameWidth="147" frameHeight="259"/>
+</TextureAtlas>
