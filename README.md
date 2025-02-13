@@ -28,26 +28,47 @@ Stamina : 20
 For reference, here is a character list (based of character descriptions):
 
 Sydney - Journalist
+
 Scientist - Search
+
 Worker - Construction
+
 Cop - Firearms
+
 Cheerleader - Agile
+
 Nerd - Runs fast when threatened
+
 Hobo - Fights for food
+
 Hero-Bill - L4D
+
 Hero-Francis - L4D
+
 Hero-Louis - L4D
+
 Hero-Zoey - L4D
+
 Researcher - Pharmaceuticals
+
 Thug - Gangsta
+
 SWAT - Special Weapons and Tactics unit
+
 Boxer - Mean left hook
+
 Detective - Investigator
+
 Outdoorsman - Ordinary
+
 Hunter - Attends open hunting season
+
 FreddieWong - Youtube Gunmen #1
+
 Pwnisher - Youtube Gunmen #2
+
 Pewdiepie - King of Brofists
+
 CutiePie - Queen of Marzipans
 
 Ranged Accuracy Formula:
