@@ -76,19 +76,27 @@ if(Math.random() * 100 > aim)
 {
 isMiss = true;
 }
+
 Aim directly translates to your hit percentage, so 100 aim is 100%, 0 aim is 0%, and 50 aim is 50% to hit.
+
 Ranged Crit Formula:
 if(Math.random() * 1000 < criticalChance)
 {
 crit = true;
 }
+
 dmg = atkDamage * (crit == true ? 2 : 1);
+
 Ranged crits deal 2x damage, and operate off of the weapon's crit chance. Most weapons have a default 100 criticalChance, which translates to 10%.
+
 Melee Crit Formula:
 if(Math.random() * 1000 < criticalChance * (melee / 100))
 {
 crit = true;
 }
+
 dmg = atkDamage * (crit == true ? 3 : 1) * (melee / 100);
+
 dmg = dmg + extraDmg;
+
 Melee dmg is affected by them melee stat, directly translating to damage. 90 Melee means 90% melee damage, for example. Melee crits deal 3x damage, and operate on the weapon's crit chance, same as above, but is also affected by the user's melee stat. Extra damage is not affected by crits.
